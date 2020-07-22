@@ -1,10 +1,10 @@
 ---
 title: Illi litore
 tags: tag1, tag2
-category: Design
+category: Blog
 excerpt: Anxius nec ibimus utque illa circa video est fuit labores alas.
 created: 2019-12-24
-image: ./images/steven-wong-LcemoNqHIxY-unsplash.jpg
+image: ../images/steven-wong-LcemoNqHIxY-unsplash.jpg
 image_caption: Photo by Steven Wong on Unsplash
 author: author3
 ---

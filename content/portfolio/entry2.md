@@ -1,10 +1,10 @@
 ---
 title: Dederis faciem
 tags: tag1, tag2, tag3
-category: Business
+category: Portfolio
 excerpt: Qua opes egentes cur, et trunca carpserat tulitquemuneris foedumque patriumque pisces vices!
 created: 2019-02-05
-image: ./images/lukasz-szmigiel-jFCViYFYcus-unsplash.jpg
+image: ../images/lukasz-szmigiel-jFCViYFYcus-unsplash.jpg
 image_caption: Photo by Luasz Szmigiel on Unsplash
 author: author1
 ---

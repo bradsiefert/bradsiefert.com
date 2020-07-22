@@ -1,10 +1,10 @@
 ---
 title: Monendo decimo referunt supremum
 tags: tag5, tag6
-category: Digital
+category: Portfolio
 excerpt: Mariti Panthoides este, sequuntur iusserat silva et non puerum. Venit vox peto!
 created: 2019-06-28
-image: ./images/qingbao-meng-01_igFr7hd4-unsplash.jpg
+image: ../images/qingbao-meng-01_igFr7hd4-unsplash.jpg
 image_caption: Photo by Qingbao Meng on Unsplash
 author: author2
 ---

@@ -1,10 +1,10 @@
 ---
 title: Non domum corripuit loquax est geminos hanc
 tags: tag6, tag7, tag8
-category: Digital
+category: Blog
 excerpt: Lorem markdownum insurgere noverat, cum est frangitur pestis nefas, iaculis ut moliri! Pallas omnis. 
 created: 2019-08-02
-image: ./images/sadanand-lowanshi-6AnDyJ10_iQ-unsplash.jpg
+image: ../images/sadanand-lowanshi-6AnDyJ10_iQ-unsplash.jpg
 image_caption: Photo by Sadanand Lowanshi on Unsplash
 author: author2
 ---

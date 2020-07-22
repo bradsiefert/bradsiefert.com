@@ -1,10 +1,10 @@
 ---
-title: Cunctas non toxea inpatiens in virorum surdaeque
+title: Siri Cunctas non toxea inpatiens in virorum surdaeque
 tags: tag1, tag2, tag3
-category: Health
+category: Siri Shortcuts
 excerpt: Saepe Horamque Typhoea in denique, vivere semina manu quodque hic quia et iam natis.
 created: 2019-09-03
-image: ./images/sergio-souza-mvb51ThjvRA-unsplash.jpg
+image: ../images/sergio-souza-mvb51ThjvRA-unsplash.jpg
 image_caption: Photo by Sergio Souza on Unsplash
 author: author3
 ---

@@ -1,10 +1,10 @@
 ---
 title: Aera exspatiantur impete inplumes plebe capillos est
 tags: tag5, tag6, tag7
-category: Digital
+category: Blog
 excerpt: Est ille semper crimen inanes uterque sternitur Syrtis, est.
 created: 2019-11-11
-image: ./images/stephan-cassara-KnAIsBuitGg-unsplash.jpg
+image: ../images/stephan-cassara-KnAIsBuitGg-unsplash.jpg
 image_caption: Photo by Stephan Cassara on Unsplash
 author: author3
 ---

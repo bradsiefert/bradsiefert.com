@@ -1,10 +1,10 @@
 ---
 title: Suos novi data gente edaci custodia canes
 tags: tag6, tag7, tag8
-category: Digital
+category: Blog
 excerpt: Lorem markdownum ipso iam capillis aether ceperat castra ille pectus.
 created: 2019-07-29
-image: ./images/riccardo-chiarini-2VDa8bnLM8c-unsplash.jpg
+image: ../images/riccardo-chiarini-2VDa8bnLM8c-unsplash.jpg
 image_caption: Photo by Riccardo Chiarini on Unsplash
 author: author2
 ---
