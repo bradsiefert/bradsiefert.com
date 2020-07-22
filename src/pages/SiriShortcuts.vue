@@ -8,7 +8,7 @@
         <div class="posts flex flex-wrap -mx-2">
           <div
             class="w-full md:w-1/3 mb-8 px-2"
-            v-for="entry in $page.allBlog.edges"
+            v-for="entry in $page.allSiriShortcuts.edges"
             :key="entry.node.id"
           >
             <article class="article-card bg-white overflow-hidden rounded-lg shadow-lg flex-1">
@@ -18,9 +18,9 @@
               >
                 <ul class="absolute bottom-0 left-0 flex p-8 z-10">
                   <li class="mr-2">
-                    <span
+                    <!-- <span
                       class="inline-block bg-pink-500 px-4 py-2 text-white text-xs font-bold rounded"
-                    >{{ entry.node.category.title }}</span>
+                    >{{ entry.node.category.title }}</span> -->
                   </li>
                 </ul>
                 <figure>
@@ -37,12 +37,13 @@
                     class="block text-purple-900 hover:text-pink-500"
                     :to="entry.node.path"
                   >{{ entry.node.title }}</g-link>
-                  <h5>Time to read: {{ entry.node.timeToRead }}</h5>
+                  <h5>Time to read: {{ entry.node.timeToRead }} minutes</h5>
                 </h1>
                 <div class="text-sm text-gray-600 md:flex mb-4">
                   <p class="author">Brad</p>
                   <p class="hidden md:block px-2">—</p>
                   <time :datetime="entry.node.datetime">{{ entry.node.humanTime }}</time>
+                  <!-- <p><strong>Category:</strong> {{ entry.node.category.title }}</p> -->
                 </div>
               </div>
             </article>
@@ -56,28 +57,23 @@
 <script>
 export default {
   metaInfo: {
-    title: "Blog"
+    title: "Siri Shortcuts"
   }
 };
 </script>
 
 <page-query>
   query {
-    allBlog {
+    allSiriShortcuts {
       edges {
         node {
+          id
           title
           path
-          category {
-            title
-          }
           timeToRead
           image(width:780)
           humanTime : created(format:"Do MMMM YYYY")
           datetime : created(format:"ddd MMM DD YYYY hh:mm:ss zZ")
-          category {
-            title
-          }
         }
       }
     }

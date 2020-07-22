@@ -16,6 +16,7 @@ module.exports = {
       options: {
       }
     },
+
     {
       use: '@gridsome/source-filesystem',
       options: {
@@ -32,20 +33,45 @@ module.exports = {
           }
         }
       }
-    }
+    },
+
+    {
+      use: '@gridsome/source-filesystem',
+      options: {
+        typeName: 'Portfolio',
+        path: './content/portfolio/**/*.md',
+      }
+    },
+    
+    {
+      use: '@gridsome/source-filesystem',
+      options: {
+        typeName: 'SiriShortcuts',
+        path: './content/siri-shortcuts/**/*.md',
+      }
+    },
   ],
+
   templates: {
     Blog: [{
       path: '/blog/:title',
-      component: './src/templates/BlogEntry.vue'
+      component: './src/templates/BlogPost.vue'
     }],
     Category: [{
       path: '/category/:title',
-      component: './src/templates/Category.vue'
+      component: './src/templates/CategoryList.vue'
     }],
     Tag: [{
       path: '/tag/:title',
-      component: './src/templates/Tag.vue'
+      component: './src/templates/TagList.vue'
+    }],
+    SiriShortcuts: [{
+      path: '/siri-shortcuts/:title',
+      component: './src/templates/SiriShortcutsPost.vue'
+    }],
+    Portfolio: [{
+      path: '/portfolio/:title',
+      component: './src/templates/PortfolioPost.vue'
     }]
   }
 }

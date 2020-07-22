@@ -68,9 +68,6 @@
         path
       }
     }
-
-
-    
   }
 </page-query>
 

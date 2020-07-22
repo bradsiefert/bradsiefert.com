@@ -1,7 +1,9 @@
 <template>
   <Layout>
     <section id="container-centre" class="column centre flex-1">
-      <h1 class="page-title text-3xl md:text-center md:text-5xl mb-16 lg:mb-24 lg:text-6xl">Blog</h1>
+      <h1 class="page-title text-3xl md:text-center md:text-5xl mb-16 lg:mb-24 lg:text-6xl">
+        Blog
+      </h1>
       <div class="px-2">
         <div class="posts flex flex-wrap -mx-2">
           <div
@@ -41,6 +43,7 @@
                   <p class="author">Brad</p>
                   <p class="hidden md:block px-2">—</p>
                   <time :datetime="entry.node.datetime">{{ entry.node.humanTime }}</time>
+                  <p><strong>Category:</strong> {{ entry.node.category.title }}</p>
                 </div>
               </div>
             </article>
