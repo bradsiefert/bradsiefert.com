@@ -16,7 +16,6 @@ module.exports = {
       options: {
       }
     },
-
     {
       use: '@gridsome/source-filesystem',
       options: {
@@ -34,7 +33,6 @@ module.exports = {
         }
       }
     },
-
     {
       use: '@gridsome/source-filesystem',
       options: {
@@ -42,14 +40,13 @@ module.exports = {
         path: './content/portfolio/**/*.md',
       }
     },
-    
     {
       use: '@gridsome/source-filesystem',
       options: {
         typeName: 'SiriShortcuts',
         path: './content/siri-shortcuts/**/*.md',
       }
-    },
+    }
   ],
 
   templates: {
@@ -59,11 +56,11 @@ module.exports = {
     }],
     Category: [{
       path: '/category/:title',
-      component: './src/templates/CategoryList.vue'
+      component: './src/templates/Category.vue'
     }],
     Tag: [{
       path: '/tag/:title',
-      component: './src/templates/TagList.vue'
+      component: './src/templates/Tag.vue'
     }],
     SiriShortcuts: [{
       path: '/siri-shortcuts/:title',

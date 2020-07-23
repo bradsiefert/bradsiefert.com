@@ -26,7 +26,6 @@
 
 <page-query>
   query($id: ID!) {
-    
 
     category(id: $id) {
       title

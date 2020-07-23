@@ -7,10 +7,7 @@
           v-html="$page.siriShortcuts.title"
         ></h1>
         <div class="text-sm md:text-base text-gray-600 flex justify-center">
-          <p class="author">Brad</p>
-          <p class="px-2">—</p>
           <time :datetime="$page.siriShortcuts.datetime">{{ $page.siriShortcuts.humanTime }}</time>
-          <p class="px-2">—</p>
         </div>
         <figure class="mt-10 md:mt-20">
           <g-image :alt="$page.siriShortcuts.image_caption" :src="$page.siriShortcuts.image" />
@@ -21,24 +18,20 @@
       </div>
 
       <div class="content post md:px-16">
-
         <!-- <p v-html="$page.siriShortcuts.excerpt"></p> -->
-
         <div v-html="$page.siriShortcuts.content"></div>
       </div>
 
-      
     </section>
   </Layout>
 </template>
 
-
 <page-query>
   query($id: ID!) {
-  siriShortcuts(id: $id) {
+    siriShortcuts(id: $id) {
       title
       path
-      image(width:1200)
+      image(width:768)
       image_caption
       excerpt
       content

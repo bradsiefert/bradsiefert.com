@@ -1,9 +1,7 @@
 <template>
   <Layout>
     <section id="container-centre" class="column centre flex-1">
-      <h1 class="page-title text-3xl md:text-center md:text-5xl mb-16 lg:mb-24 lg:text-6xl">
-        Blog
-      </h1>
+      <h1 class="page-title text-3xl md:text-center md:text-5xl mb-16 lg:mb-24 lg:text-6xl">Blog</h1>
       <div class="px-2">
         <div class="posts flex flex-wrap -mx-2">
           <div
@@ -32,18 +30,16 @@
                 </figure>
               </g-link>
               <div class="p-8">
-                <h1 class="text-2xl mb-6">
+                <h2 class="text-2xl mb-6">
                   <g-link
                     class="block text-purple-900 hover:text-pink-500"
                     :to="entry.node.path"
                   >{{ entry.node.title }}</g-link>
-                  <h5>Time to read: {{ entry.node.timeToRead }}</h5>
-                </h1>
+                </h2>
                 <div class="text-sm text-gray-600 md:flex mb-4">
-                  <p class="author">Brad</p>
+                  <!-- <p class="author">{{ entry.node.author.name }}</p> -->
                   <p class="hidden md:block px-2">—</p>
                   <time :datetime="entry.node.datetime">{{ entry.node.humanTime }}</time>
-                  <p><strong>Category:</strong> {{ entry.node.category.title }}</p>
                 </div>
               </div>
             </article>
@@ -64,15 +60,13 @@ export default {
 
 <page-query>
   query {
+    
     allBlog {
+      
       edges {
         node {
           title
           path
-          category {
-            title
-          }
-          timeToRead
           image(width:780)
           humanTime : created(format:"Do MMMM YYYY")
           datetime : created(format:"ddd MMM DD YYYY hh:mm:ss zZ")
