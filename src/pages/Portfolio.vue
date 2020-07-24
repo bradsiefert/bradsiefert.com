@@ -56,7 +56,7 @@ export default {
         node {
           title
           path
-          cover_image(width:768)
+          cover_image
         }
       }
     }
