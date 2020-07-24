@@ -1,57 +1,38 @@
 <template>
-  <div class="app">
+  <div>
     <header>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light mb-4">
-        <div class="container">
-          <div class="navbar-brand">
-            <g-link class="nav-link" to="/">{{ $static.metadata.siteName }}</g-link>
-          </div>
+      <Navbar />
 
-          <button 
-            class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-expanded="false"
-            @click="showNav = !showNav" 
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
+      <!-- <div class="landing-hero">
 
-          <div class="navbar-collapse collapse justify-content-stretch" id="navbar" :class="{ 'show': showNav } ">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item">
-                <g-link class="nav-link" to="/portfolio">Design Portfolio</g-link>
-              </li>
-              <li class="nav-item">
-                <g-link class="nav-link" to="/siri-shortcuts">Siri Shortcuts</g-link>
-              </li>
-              <li class="nav-item">
-                <g-link class="nav-link" to="/about">About</g-link>
-              </li>
-              <li class="nav-item">
-                <g-link class="nav-link" to="/blog">Blog</g-link>
-              </li>
-              <li class="nav-item">
-                <g-link class="nav-link" to="/contact">Contact</g-link>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </header>
-    
-    <transition name="fade" appear>
-      <main>
         <div class="container">
           <div class="row">
-            <div class="col">
-              <slot/>
+            <div class="col-lg-12 mt-96 mb-160">
+              <h1 class="display-1">
+                Hi, I'm Brad, I’m a UX/UI <span class="landing-badge">designer <div class="badge badge-primary">My Day Job
+                </div></span> and <span class="landing-badge">photographer <div class="badge badge-success">
+                  My Passion</div></span> based in Chicago, IL
+              </h1>
+              <a href="https://www.brad.si/efert/portfolio/" class="btn btn-outline btn-primary btn-lg mb-16 mr-lg-2">
+                Design Work
+              </a>
+              <a target="_blank" href="https://bradleysiefert.com" class="btn btn-outline btn-success btn-lg mb-16">
+                Photo Work
+              </a>
             </div>
           </div>
         </div>
-      </main>
-    </transition>
-    
-    <footer class="bg-light py-2 mt-4 text-center">
-      &copy; {{ new Date().getFullYear() }} {{ $static.metadata.siteName }}
-    </footer>
+      </div> -->
+    </header>
+
+
+    <main>
+      <transition name="fade" appear>
+        <slot/>
+      </transition>
+    </main>
+
+    <Footer />
   </div>
 </template>
 
@@ -64,10 +45,13 @@ query {
 </static-query>
 
 <script>
+import Navbar from '@/components/Navbar.vue'
+import Footer from '@/components/Footer.vue'
+
 export default {
-  data: () => ({
-    showNav: false, // This is to make the navbar open/close on mobile.
-  })
+  components: {
+    Navbar, Footer
+  }
 }
 </script>
 
