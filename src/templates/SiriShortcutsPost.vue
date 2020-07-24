@@ -33,10 +33,7 @@
       path
       date (format: "D. MMMM YYYY")
       timeToRead
-      description
       content
-      cover_image (width: 860)
-
       humanTime : date(format:"Do MMMM YYYY")
       datetime : date(format:"ddd MMM DD YYYY hh:mm:ss zZ")
     }

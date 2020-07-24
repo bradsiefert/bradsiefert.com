@@ -26,8 +26,6 @@
 
 <page-query>
   query($id: ID!) {
-    
-    
     tag(id: $id) {
       title
       belongsTo {
@@ -44,7 +42,6 @@
         }
       }
     }
-    
   }
 </page-query>
 
