@@ -1,68 +1,83 @@
 <template>
   <Layout>
-    <section id="container-centre" class="column centre flex-1">
-      <h1 class="page-title">Contact Us</h1>
-      <div class="content">
-        <p>Tell us how great we are in the form below.</p>
-        <form class="form">
-          <div class="row required">
-            <label for="name">Name</label>
-            <input
-              class="input"
-              id="name"
-              type="text"
-              name="name"
-              autocomplete="name"
-              required
-              aria-required="true"
-            />
+    <div class="container skinny-contain">
+      <div class="row">
+        <div class="col">
+          <div class="breadcrumb">
+            <div class="breadcrumb-item"><a title="Link back to home" href="/">Home</a></div>
+            <div class="breadcrumb-item">{{ $metaInfo.title }}</div>
           </div>
-          <div class="row required">
-            <label for="email">Email</label>
-            <input
-              class="input"
-              id="email"
-              type="text"
-              name="email"
-              autocorrect="off"
-              autocapitalize="off"
-              autocomplete="email"
-              required
-              aria-required="true"
-            />
-          </div>
-          <div class="row required">
-            <label for="phone">Phone</label>
-            <input
-              class="input"
-              id="phone"
-              type="text"
-              name="phone"
-              autocomplete="tel"
-              required
-              aria-required="true"
-            />
-          </div>
-          <div class="row">
-            <label for="message">Message</label>
-            <textarea class="textarea" id="message" name="message"></textarea>
-          </div>&nbsp;
-          <div class="row">
-            <button
-              class="inline-block rounded py-4 px-6 text-white font-bold bg-pink-500 hover:bg-pink-600"
-              type="submit"
-            >Send message!</button>
-          </div>
-        </form>
+          
+          <h1 class="mb-16">Say Hello</h1>
+          <form 
+            name="brad.si Contact Form"
+            method="post"
+            action="/success/"
+            data-netlify="true"
+            data-netlify-honeypot="bot-field"
+          >
+            <div class="mb-24">
+              <h5>
+                <label for="your-name">Name</label>
+              </h5>
+              <input 
+                type="text" 
+                name="your-name" 
+                value="" 
+                class="form-control" 
+                aria-required="true" 
+                aria-invalid="false" 
+                placeholder="Your Name" 
+              />
+            </div>
+
+            <div class="mb-24">
+              <h5>
+                <label for="your-email">Email</label>
+              </h5>
+              <input 
+                type="email" 
+                name="your-email" 
+                value="" 
+                class="form-control" 
+                aria-required="true" 
+                aria-invalid="false" 
+                placeholder="name@email.com" 
+              />
+            </div>
+
+            <div class="mb-24">
+              <h5>
+                <label for="your-message">Message</label>
+              </h5>
+              <textarea 
+                type="text" 
+                name="your-message" 
+                value="" 
+                class="form-control" 
+                aria-required="true" 
+                aria-invalid="false" 
+                placeholder="" 
+              />
+              </textarea>
+            </div>
+
+            <div class="mb-24">
+              <input type="submit" value="Send Message ☑️" class="btn btn-primary">
+            </div>
+          </form>
+        </div>
       </div>
-    </section>
+    </div>
   </Layout>
 </template>
 
 <script>
 export default {
-  metaInfo: {
-    title: "Contact"
+  metaInfo() {
+    return {
+      title: 'Contact'
+    };
   }
 };
 </script>
