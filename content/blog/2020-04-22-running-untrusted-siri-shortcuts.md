@@ -1,0 +1,40 @@
+---
+category: Blog
+title: "Running Untrusted Siri Shortcuts"
+date: 2020-04-22
+cover_image: ../images/blog-untrustedshortcuts1.png
+tags: Shortcuts, iOS
+description: Subtitle&#x3a; I want to download this Siri Shortcut but I can't add it because it says it's "Untrusted" and I don't know how to make it run. Help!...
+canonical_url: false
+series: false
+published: true
+---
+
+_**Subtitle: I want to download this Siri Shortcut but I can't add it because it says it's "Untrusted" and I don't know how to make it run. Help!**_
+
+Siri Shortcuts are Apple’s way automate things you do on your iPhone or iPad. They’re a powerful way to accomplish a variety of tasks with less friction. If you’d like to run a shortcut someone else made there are a couple of steps that you’ll need to do first. These steps aren’t obvious, but only take a few steps to complete.
+
+[Apple calls](https://support.apple.com/guide/shortcuts/enable-shared-shortcuts-apdfeb05586f/ios) any shortcut you haven't created an "Untrusted Shortcut". Before you can run an untrusted shortcut you need to first run a shortcut on your own then flip a switch to allow for untrusted shortcuts. Here's the list for what to do:
+
+## Allowing Untrusted Shortcuts
+
+![iPhones running iOS 13 showing the flow to enable untrusted shortcuts.](../images/blog-untrustedshortcuts2.png)
+
+1. Open the Shortcuts app on your iPhone or iPad and tap the bottom tab for "Gallery."
+2. Select a shortcut that you'd like to add. Tap on the shortcut to reveal it's actions and then tap "Add Shortcut." Go through any additional setup if necessary. I suggest adding the "Browse Top News" shortcut. It's simple and won't require any setup.
+3. Once the shortcut is added, tap back to the "My Shortcuts" tab. Tap and run the shortcut you added. Be sure the shortcut completely finishes running without any errors.
+4. Dismiss the Shortcuts app and open the Settings app. Scroll to "Shortcuts" and tap to reveal it's settings.
+5. The heading "Sharing Security" should be visible with an option to "Allow Untrusted Shortcuts". Turn it on. If this option still isn’t available, try running another shortcut or try restarting your device (I’ve heard of this happen a couple of times ☹️).
+
+![The Shortcuts app Gallery screen showing the flow to add the "Browse Top News" shortcut to your library](../images/blog-untrustedshortcuts1.png)
+
+You may be wondering if enabling this setting is a serious security risk—I don't think so. It's a good idea to look through the actions of any shortcut that you download, but it's unlikely it's a major security risk by enabling untrusted shortcuts. Use common sense security measures like not inputting passwords, banking info, or other private info into an untrusted shortcut, and you shouldn't have any issues.
+
+Once you've flipped that setting, you'll be able to run any and all Shortcuts that other people have made. Yay! There are thousands of shortcuts that people have made to automate tasks big and small. Hopefully you'll find or make shortcuts that will make your technology life better.
+
+## Where to go now…
+
+- [Shortcuts that I've Created! 🥳](https://www.brad.si/efert/siri-shortcuts/)
+- [Routine Hub](https://routinehub.co)
+- [ShareShortcuts](https://shareshortcuts.com)
+- [Matthew Cassinelli's Shortcuts Gallery](https://www.matthewcassinelli.com/siri-shortcuts/)
