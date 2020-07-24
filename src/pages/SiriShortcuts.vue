@@ -1,7 +1,7 @@
 <template>
   <Layout>
     <section id="container-centre" class="column centre flex-1">
-      <h1 class="page-title text-3xl md:text-center md:text-5xl mb-16 lg:mb-24 lg:text-6xl">
+      <h1 class="page-title text-3xl md:text-center md:text-5xl lg:text-6xl">
         Siri Shortcuts
       </h1>
       <div class="px-2">
@@ -16,12 +16,6 @@
                 class="featured-image-link block relative overflow-hidden"
                 :to="entry.node.path"
               >
-                <figure>
-                  <!-- <g-image
-                    class="block loaded"
-                    :src="entry.node.cover_image"
-                  /> -->
-                </figure>
               </g-link>
               <div class="p-8">
                 <h1 class="text-2xl mb-6">
@@ -57,7 +51,6 @@ export default {
         node {
           title
           path
-          cover_image(width:780)
           humanTime : date(format:"Do MMMM YYYY")
           datetime : date(format:"ddd MMM DD YYYY hh:mm:ss zZ")
         }
