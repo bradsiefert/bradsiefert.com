@@ -31,12 +31,14 @@
     siriShortcuts(id: $id) {
       title
       path
-      image(width:768)
-      image_caption
-      excerpt
+      date (format: "D. MMMM YYYY")
+      timeToRead
+      description
       content
-      humanTime : created(format:"Do MMMM YYYY")
-      datetime : created(format:"ddd MMM DD YYYY hh:mm:ss zZ")
+      cover_image (width: 860)
+
+      humanTime : date(format:"Do MMMM YYYY")
+      datetime : date(format:"ddd MMM DD YYYY hh:mm:ss zZ")
     }
   }
 </page-query>

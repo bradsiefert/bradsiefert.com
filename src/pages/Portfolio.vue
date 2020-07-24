@@ -18,11 +18,10 @@
               >
 
                 <figure>
-                  <g-image
+                  <!-- <g-image
                     class="block loaded"
-                    :alt="entry.node.image_caption"
-                    :src="entry.node.image"
-                  />
+                    :src="entry.node.cover_image"
+                  /> -->
                 </figure>
               </g-link>
               <div class="p-8">
@@ -30,8 +29,7 @@
                   <g-link
                     class="block text-purple-900 hover:text-pink-500"
                     :to="entry.node.path"
-                  >{{ entry.node.title }}</g-link> -->
-                  <h5>Time to read: {{ entry.node.timeToRead }}</h5>
+                  >{{ entry.node.title }}</g-link>
                 </h1>
                 <div class="text-sm text-gray-600 md:flex mb-4">
                   <p class="hidden md:block px-2">—</p>
@@ -56,15 +54,14 @@ export default {
 
 <page-query>
   query {
-    allPortfolio {
+    allPortfolio {  
       edges {
         node {
           title
           path
-          timeToRead
-          image(width:780)
-          humanTime : created(format:"Do MMMM YYYY")
-          datetime : created(format:"ddd MMM DD YYYY hh:mm:ss zZ")
+          cover_image(width:780)
+          humanTime : date(format:"Do MMMM YYYY")
+          datetime : date(format:"ddd MMM DD YYYY hh:mm:ss zZ")
         }
       }
     }

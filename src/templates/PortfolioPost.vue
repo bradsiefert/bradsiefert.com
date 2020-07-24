@@ -27,7 +27,7 @@
         <div v-html="$page.portfolio.content"></div>
       </div>
 
-      
+
     </section>
   </Layout>
 </template>
@@ -38,12 +38,11 @@
   portfolio(id: $id) {
       title
       path
-      image(width:1200)
-      image_caption
+      cover_image (width: 860)
       excerpt
       content
-      humanTime : created(format:"Do MMMM YYYY")
-      datetime : created(format:"ddd MMM DD YYYY hh:mm:ss zZ")
+      humanTime : date(format:"Do MMMM YYYY")
+      datetime : date(format:"ddd MMM DD YYYY hh:mm:ss zZ")
     }
   }
 </page-query>
