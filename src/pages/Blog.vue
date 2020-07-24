@@ -15,7 +15,7 @@
                 :to="entry.node.path"
               >
                 <figure>
-                  <g-image class="block loaded" :src="entry.node.cover_image" />
+                  <g-image class="img-fluid" :src="entry.node.cover_image" :alt="entry.node.title"/>
                 </figure>
               </g-link>
               <div class="p-8">

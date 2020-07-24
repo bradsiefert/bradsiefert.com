@@ -1,7 +1,7 @@
 <template>
   <Layout>
     <section id="container-centre" class="column centre flex-1">
-      <h1 class="page-title text-3xl md:text-center md:text-5xl mb-16 lg:mb-24 lg:text-6xl">
+      <h1 class="page-title text-3xl md:text-center md:text-5xl lg:text-6xl">
         Design Portfolio
       </h1>
       <div class="px-2">
@@ -19,7 +19,8 @@
 
                 <figure>
                   <!-- <g-image
-                    class="block loaded"
+                    class="img-fluid"
+                    :alt="entry.node.title"
                     :src="entry.node.cover_image"
                   /> -->
                 </figure>
@@ -31,10 +32,6 @@
                     :to="entry.node.path"
                   >{{ entry.node.title }}</g-link>
                 </h1>
-                <div class="text-sm text-gray-600 md:flex mb-4">
-                  <p class="hidden md:block px-2">—</p>
-                  <time :datetime="entry.node.datetime">{{ entry.node.humanTime }}</time>
-                </div>
               </div>
             </article>
           </div>
@@ -59,9 +56,7 @@ export default {
         node {
           title
           path
-          cover_image(width:780)
-          humanTime : date(format:"Do MMMM YYYY")
-          datetime : date(format:"ddd MMM DD YYYY hh:mm:ss zZ")
+          cover_image(width:768)
         }
       }
     }
