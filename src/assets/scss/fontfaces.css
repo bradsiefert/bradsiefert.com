@@ -1,0 +1,95 @@
+@font-face {
+  font-family: 'SFM';
+  src: url("fonts/SFM-Regular.eot"), url("fonts/SFM-Regular.eot?#iefix") format("embedded-opentype"), url("fonts/SFM-Regular.woff2") format("woff2"), url("fonts/SFM-Regular.woff") format("woff"), url("fonts/SFM-Regular.ttf") format("truetype"), url("fonts/SFM-Regular.svg#SFM-Regular") format("svg");
+  font-weight: 500;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'SFM';
+  src: url("fonts/SFM-Semibold.eot"), url("fonts/SFM-Semibold.eot?#iefix") format("embedded-opentype"), url("fonts/SFM-Semibold.woff2") format("woff2"), url("fonts/SFM-Semibold.woff") format("woff"), url("fonts/SFM-Semibold.ttf") format("truetype"), url("fonts/SFM-Semibold.svg#SFM-Semibold") format("svg");
+  font-weight: 600;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'C';
+  src: url("fonts/C-Black.eot");
+  src: url("fonts/C-Black.eot?#iefix") format("embedded-opentype"), url("fonts/C-Black.woff2") format("woff2"), url("fonts/C-Black.woff") format("woff"), url("fonts/C-Black.ttf") format("truetype"), url("fonts/C-Black.svg#C-Black") format("svg");
+  font-weight: 900;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'C';
+  src: url("fonts/C-BoldItalic.eot");
+  src: url("fonts/C-BoldItalic.eot?#iefix") format("embedded-opentype"), url("fonts/C-BoldItalic.woff2") format("woff2"), url("fonts/C-BoldItalic.woff") format("woff"), url("fonts/C-BoldItalic.ttf") format("truetype"), url("fonts/C-BoldItalic.svg#C-BoldItalic") format("svg");
+  font-weight: bold;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'C';
+  src: url("fonts/C-Medium.eot");
+  src: url("fonts/C-Medium.eot?#iefix") format("embedded-opentype"), url("fonts/C-Medium.woff2") format("woff2"), url("fonts/C-Medium.woff") format("woff"), url("fonts/C-Medium.ttf") format("truetype"), url("fonts/C-Medium.svg#C-Medium") format("svg");
+  font-weight: 500;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'C';
+  src: url("fonts/C-MediumItalic.eot");
+  src: url("fonts/C-MediumItalic.eot?#iefix") format("embedded-opentype"), url("fonts/C-MediumItalic.woff2") format("woff2"), url("fonts/C-MediumItalic.woff") format("woff"), url("fonts/C-MediumItalic.ttf") format("truetype"), url("fonts/C-MediumItalic.svg#C-MediumItalic") format("svg");
+  font-weight: 500;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'C';
+  src: url("fonts/C-BlackItalic.eot");
+  src: url("fonts/C-BlackItalic.eot?#iefix") format("embedded-opentype"), url("fonts/C-BlackItalic.woff2") format("woff2"), url("fonts/C-BlackItalic.woff") format("woff"), url("fonts/C-BlackItalic.ttf") format("truetype"), url("fonts/C-BlackItalic.svg#C-BlackItalic") format("svg");
+  font-weight: 900;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'C';
+  src: url("fonts/C-Regular.eot");
+  src: url("fonts/C-Regular.eot?#iefix") format("embedded-opentype"), url("fonts/C-Regular.woff2") format("woff2"), url("fonts/C-Regular.woff") format("woff"), url("fonts/C-Regular.ttf") format("truetype"), url("fonts/C-Regular.svg#C-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'C';
+  src: url("fonts/C-Thin.eot");
+  src: url("fonts/C-Thin.eot?#iefix") format("embedded-opentype"), url("fonts/C-Thin.woff2") format("woff2"), url("fonts/C-Thin.woff") format("woff"), url("fonts/C-Thin.ttf") format("truetype"), url("fonts/C-Thin.svg#C-Thin") format("svg");
+  font-weight: 100;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'C';
+  src: url("fonts/C-Bold.eot");
+  src: url("fonts/C-Bold.eot?#iefix") format("embedded-opentype"), url("fonts/C-Bold.woff2") format("woff2"), url("fonts/C-Bold.woff") format("woff"), url("fonts/C-Bold.ttf") format("truetype"), url("fonts/C-Bold.svg#C-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'C';
+  src: url("fonts/C-RegularItalic.eot");
+  src: url("fonts/C-RegularItalic.eot?#iefix") format("embedded-opentype"), url("fonts/C-RegularItalic.woff2") format("woff2"), url("fonts/C-RegularItalic.woff") format("woff"), url("fonts/C-RegularItalic.ttf") format("truetype"), url("fonts/C-RegularItalic.svg#C-RegularItalic") format("svg");
+  font-weight: normal;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'C';
+  src: url("fonts/C-ThinItalic.eot");
+  src: url("fonts/C-ThinItalic.eot?#iefix") format("embedded-opentype"), url("fonts/C-ThinItalic.woff2") format("woff2"), url("fonts/C-ThinItalic.woff") format("woff"), url("fonts/C-ThinItalic.ttf") format("truetype"), url("fonts/C-ThinItalic.svg#C-ThinItalic") format("svg");
+  font-weight: 100;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'C';
+  src: url("fonts/C-Light.eot");
+  src: url("fonts/C-Light.eot?#iefix") format("embedded-opentype"), url("fonts/C-Light.woff2") format("woff2"), url("fonts/C-Light.woff") format("woff"), url("fonts/C-Light.ttf") format("truetype"), url("fonts/C-Light.svg#C-Light") format("svg");
+  font-weight: 300;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'C';
+  src: url("fonts/C-LightItalic.eot");
+  src: url("fonts/C-LightItalic.eot?#iefix") format("embedded-opentype"), url("fonts/C-LightItalic.woff2") format("woff2"), url("fonts/C-LightItalic.woff") format("woff"), url("fonts/C-LightItalic.ttf") format("truetype"), url("fonts/C-LightItalic.svg#C-LightItalic") format("svg");
+  font-weight: 300;
+  font-style: italic; }
