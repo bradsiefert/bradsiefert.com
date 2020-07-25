@@ -3,6 +3,7 @@
 @import "~bootstrap";
 
 /* ---------- Global --------- */
+
 // All this is to make the footer sticky to the bottom.
 html, body, #app { height: 100%; }
 body, #app { display: flex; flex-direction: column; }
@@ -346,7 +347,7 @@ pre {
 
 /* ---------- Landing Page --------- */
 .landing-hero {
-  background-image: url('/images/hero-bg3.jpg');
+  background-image: url("../images/hero-bg3.jpg");
   background-size: cover;
   background-position: center 20%;
 }
