@@ -2,7 +2,9 @@
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container">
       <div class="navbar-brand">
-        <g-link to="/"><img src="images/logo.svg" alt="Logo for Brad Siefert"></g-link>
+        <g-link to="/">
+          <g-image src="~/assets/images/logo.svg" alt="Logo for Brad Siefert"/>
+        </g-link>
       </div>
 
       <button 

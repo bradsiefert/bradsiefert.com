@@ -79,14 +79,14 @@
               </small>
             </p>
 
-            <a target="_blank" class="btn btn-primary mb-32" href="files/Brad-Siefert-Resume.pdf">
+            <g-link target="_blank" class="btn btn-primary mb-32" href="files/Brad-Siefert-Resume.pdf">
               Download Resume
-            </a>
+            </g-link>
           </article>
         </div>
 
         <div class="col-md-5 col-lg-4">
-          <img class="img-fluid" src="images/photo-bradsiefert.jpg" alt="Photo of Brad Siefert">
+          <g-image class="img-fluid" src="~/assets/images/photo-bradsiefert.jpg" alt="Photo of Brad Siefert" />
         </div>
 
       </div>

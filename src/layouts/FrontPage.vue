@@ -29,10 +29,10 @@
         <div class="row">
           <div class="col-sm-12">
             <a target="_blank" href="https://earlybird.co">
-              <img class="mb-32" src="images/logo-earlybird.svg" alt="Logo for Earlybird Software">
+              <g-image class="mb-32" src="~/assets/images/logo-earlybird.svg" alt="Logo for Earlybird Software" />
             </a>
             <div class="display-2 mb-32">
-              For the past <span id="dateDisplay"></span> I’ve been the Product Designer at Earlybird
+              For the past <span id="dateDisplay">{{ moment([2013, 8, 17]).fromNow(true) }}</span> I’ve been the Product Designer at Earlybird
             </div>
             <div class="display-3 mb-32">
               We develop elegant custom data solutions for companies to help them make sense of their data. I’ve been able
@@ -49,7 +49,7 @@
       <div class="container">
         <div class="row">
           <div class="col-sm-12">
-            <img class="mb-16" style="width: 104px;" src="images/logo-spartz.png" alt="Spartz Media Logo">
+            <g-image class="mb-16" style="width: 104px;" src="~/assets/images/logo-spartz.png" alt="Spartz Media Logo" />
             <div class="display-3 mb-32">
               Previously, I was a designer at Spartz Media (now <a target="_blank" href="https://dose.com/">Dose</a>) where
               we created  viral content websites and apps. I helped create logos, web design and helped out with front-end
@@ -75,6 +75,7 @@ query {
 <script>
 import Navbar from '@/components/Navbar.vue'
 import Footer from '@/components/Footer.vue'
+import moment from 'moment';
 
 export default {
   components: {

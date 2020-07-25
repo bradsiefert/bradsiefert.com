@@ -19,32 +19,32 @@
           <ul class="list-inline">
             <li class="list-inline-item">
               <a target="_blank" title="Link to Brad's Dribbble" href="https://dribbble.com/bksiefert">
-                <img src="images/icon-dribbble.svg" alt="Icon for Dribbble">
+                <g-image src="~/assets/images/icon-dribbble.svg" alt="Icon for Dribbble" />
               </a>
             </li>
             <li class="list-inline-item">
               <a target="_blank" title="Link to Brad's Github" href="https://github.com/bradsiefert">
-                <img src="images/icon-github.svg" alt="Icon for Github">
+                <g-image src="~/assets/images/icon-github.svg" alt="Icon for Github" />
               </a>
             </li>
             <li class="list-inline-item">
               <a target="_blank" title="Link to Brad's LinkedIn" href="https://www.linkedin.com/in/bradsiefert/">
-                <img src="images/icon-linkedin.svg" alt="Icon for LinkedIn">
+                <g-image src="~/assets/images/icon-linkedin.svg" alt="Icon for LinkedIn" />
               </a>
             </li>
             <li class="list-inline-item">
               <a target="_blank" title="Link to Brad's Twitter" href="https://twitter.com/bksiefert">
-                <img src="images/icon-twitter.svg" alt="Icon for Twitter">
+                <g-image src="~/assets/images/icon-twitter.svg" alt="Icon for Twitter" />
               </a>
             </li>
             <li class="list-inline-item">
               <a target="_blank" title="Link to Brad's Instagram" href="https://www.instagram.com/bradsiefert/">
-                <img src="images/icon-instagram.svg" alt="Icon for Instagram">
+                <g-image src="~/assets/images/icon-instagram.svg" alt="Icon for Instagram" />
               </a>
             </li>
             <li class="list-inline-item">
               <a target="_blank" title="Link to Brad's Letterboxd" href="https://letterboxd.com/bradsiefert/">
-                <img src="images/icon-letterboxd.svg" alt="Icon for Letterboxd">
+                <g-image src="~/assets/images/icon-letterboxd.svg" alt="Icon for Letterboxd" />
               </a>
             </li>
           </ul>
