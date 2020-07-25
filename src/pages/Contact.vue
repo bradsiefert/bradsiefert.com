@@ -63,7 +63,7 @@
             </div>
 
             <div class="mb-24">
-              <input type="submit" value="Send Message ☑️" class="btn btn-primary">
+              <button type="submit" class="btn btn-primary">Send Message ☑️</button>
             </div>
           </form>
         </div>
