@@ -1,40 +1,55 @@
 <template>
   <Layout>
-    <section id="container-centre" class="column centre flex-1">
-      <h1 class="page-title text-3xl md:text-center md:text-5xl lg:mb-24 lg:text-6xl">Blog</h1>
-      <div class="px-2">
-        <div class="posts flex flex-wrap">
-          <div
-            class="w-full mb-2 px-2"
-            v-for="entry in $page.allBlog.edges"
-            :key="entry.node.id"
-          >
-            <article class="article-card bg-white overflow-hidden rounded-lg shadow-lg flex-1">
-              <g-link
-                class="featured-image-link block relative overflow-hidden"
-                :to="entry.node.path"
-              >
+    <div class="container skinny-contain">
+      <div class="row justify-content-center">
+        <div class="col-lg-12">
+          <div class="row">
+            <div class="col">
+              <div class="breadcrumb">
+                <div class="breadcrumb-item"><a title="Link back to home" href="/">Home</a></div>
+                <div class="breadcrumb-item">{{ $metaInfo.title }}</div>
+              </div>
+            </div>
+          </div>
+
+      <div class="float-right">
+        <small><strong><a href="https://www.brad.si/efert/category/blog/feed/">RSS Feed</a></strong></small>
+      </div>
+      <h1>Blog</h1>
+      <p>A blog about design, photography, productivity, and other things I can't stop thinking about.</p>
+
+      <div v-for="entry in $page.allBlog.edges" :key="entry.node.id">
+        <div class="box">
+          <div class="posts flex flex-wrap">
+            <article>
+              <g-link :to="entry.node.path">
                 <figure>
                   <g-image class="img-fluid" :src="entry.node.cover_image" :alt="entry.node.title"/>
                 </figure>
               </g-link>
-              <div class="p-8">
-                <h2 class="text-2xl mb-6">
-                  <g-link
-                    class="block"
-                    :to="entry.node.path"
-                  >{{ entry.node.title }}</g-link>
-                </h2>
-                <div class="text-sm text-gray-600 md:flex mb-4">
-                  <time :datetime="entry.node.datetime">{{ entry.node.humanTime }}</time>
-                  <p><strong>Category: </strong>{{ entry.node.category.title }}</p>
-                </div>
-              </div>
+
+              <p class="blog-time mt-16">
+                <time :datetime="entry.node.datetime">{{ entry.node.humanTime }}</time>
+              </p>
+
+              <g-link :to="entry.node.path">
+                <h2>{{ entry.node.title }}</h2>
+              </g-link>
+              
+              <p>{{ entry.node.description }}</p>
+
+              <g-link class="btn btn-primary btn-sm" :to="entry.node.path">
+                Read Post
+              </g-link>
+
             </article>
           </div>
         </div>
       </div>
-    </section>
+
+    </div>
+  </div>
+</div>
   </Layout>
 </template>
 
@@ -42,6 +57,11 @@
 export default {
   metaInfo: {
     title: "Blog"
+  },
+  metaInfo() {
+    return {
+      title: 'Blog'
+    };
   }
 };
 </script>
@@ -53,8 +73,9 @@ export default {
         node {
           title
           path
-          cover_image(width:512)
-          humanTime : date(format:"Do MMMM YYYY")
+          description
+          cover_image(width:960)
+          humanTime : date(format:"MMMM Do YYYY")
           datetime : date(format:"ddd MMM DD YYYY hh:mm:ss zZ")
           category {
             title
