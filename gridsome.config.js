@@ -21,16 +21,6 @@ module.exports = {
       options: {
         typeName: 'Blog',
         path: './content/blog/**/*.md',
-        refs: {
-          tags: {
-            typeName: 'Tag',
-            create: true
-          },
-          category: {
-            typeName: 'Category',
-            create: true
-          }
-        }
       }
     },
     {
@@ -53,14 +43,6 @@ module.exports = {
     Blog: [{
       path: '/blog/:title',
       component: './src/templates/BlogPost.vue'
-    }],
-    Category: [{
-      path: '/category/:title',
-      component: './src/templates/Category.vue'
-    }],
-    Tag: [{
-      path: '/tag/:title',
-      component: './src/templates/Tag.vue'
     }],
     SiriShortcuts: [{
       path: '/siri-shortcuts/:title',
