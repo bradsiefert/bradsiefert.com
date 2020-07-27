@@ -56,12 +56,9 @@
 
 <script>
 export default {
-  metaInfo: {
-    title: "Blog"
-  },
   metaInfo() {
     return {
-      title: 'Blog'
+      title: "Blog"
     };
   }
 };
@@ -78,9 +75,6 @@ export default {
           cover_image(width:960)
           humanTime : date(format:"YYYY/MM/DD")
           datetime : date(format:"ddd MMM DD YYYY hh:mm:ss zZ")
-          category {
-            title
-          }
         }
       }
     }

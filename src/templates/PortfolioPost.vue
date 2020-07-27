@@ -1,31 +1,25 @@
 <template>
   <Layout>
-    <section id="container-centre" class="column centre flex-1">
-      <div class="post-header">
-        <h1
-          class="page-title text-3xl md:text-center md:text-5xl lg:text-6xl"
-          v-html="$page.portfolio.title"
-        ></h1>
-        <div class="text-sm md:text-base text-gray-600 flex justify-center">
-          <time :datetime="$page.portfolio.datetime">{{ $page.portfolio.humanTime }}</time>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 portfolio-post">
+
+          <div class="breadcrumb">
+            <div class="breadcrumb-item"><a title="Link back to home" href="/">Home</a></div>
+            <div class="breadcrumb-item">{{ $metaInfo.title }}</div>
+          </div>
+
+          <article>
+            <h4>Design Portfolio Piece:</h4>
+            <h2 v-html="$page.portfolio.title"></h2>
+
+            <div v-html="$page.portfolio.content"></div>
+            <div class="divider"></div>
+          </article>
         </div>
-        <!-- <figure class="mt-10 md:mt-20">
-          <g-image :alt="$page.portfolio.image_caption" :src="$page.portfolio.image" />
-          <figcaption
-            class="text-center text-sm italic text-gray-600 mt-4"
-          >{{ $page.portfolio.image_caption }}</figcaption>
-        </figure> -->
+
       </div>
-
-      <div class="content post md:px-16">
-
-        <!-- <p v-html="$page.portfolio.excerpt"></p> -->
-
-        <div v-html="$page.portfolio.content"></div>
-      </div>
-
-
-    </section>
+    </div>
   </Layout>
 </template>
 
@@ -46,7 +40,8 @@
 export default {
   metaInfo() {
     return {
-      title: this.$page.portfolio.title
+      title: this.$page.portfolio.title, 
+      postTitle: 'Design Portfolio'
     };
   }
 };

@@ -4,28 +4,24 @@
       <div class="row">
         <div class="col-lg-12 blog-post">
 
-          <div class="row">
-            <div class="col">
-              <div class="breadcrumb">
-                <div class="breadcrumb-item">
-                  <g-link title="Link back to home" to="/">Home</g-link>
-                </div>
-                <div class="breadcrumb-item">
-                  <g-link title="Link back to Siri Shortcuts posts" to="/siri-shortcuts/">
-                    {{ $metaInfo.postTitle }}
-                  </g-link>
-                </div>
-                <div class="breadcrumb-item">
-                  {{ this.$page.siriShortcuts.title }}
-                </div>
-              </div>
+          <div class="breadcrumb">
+            <div class="breadcrumb-item">
+              <g-link title="Link back to home" to="/">Home</g-link>
+            </div>
+            <div class="breadcrumb-item">
+              <g-link title="Link back to Siri Shortcuts posts" to="/siri-shortcuts/">
+                {{ $metaInfo.postTitle }}
+              </g-link>
+            </div>
+            <div class="breadcrumb-item">
+              {{ this.$page.siriShortcuts.title }}
             </div>
           </div>
 
           <article>
             <ul class="list-inline">
               <li class="list-inline-item blog-time">
-                <time :datetime="$page.siriShortcuts.datetime">{{ $page.siriShortcuts.humanTime }}</time>
+                <time>{{ $page.siriShortcuts.humanTime }}</time>
               </li>
             </ul>
 
@@ -45,12 +41,9 @@
   query($id: ID!) {
     siriShortcuts(id: $id) {
       title
-      path
-      date (format: "D. MMMM YYYY")
       timeToRead
       content
       humanTime : date(format:"Do MMMM YYYY")
-      datetime : date(format:"ddd MMM DD YYYY hh:mm:ss zZ")
     }
   }
 </page-query>

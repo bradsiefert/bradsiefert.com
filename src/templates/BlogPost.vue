@@ -4,21 +4,17 @@
       <div class="row">
         <div class="col-lg-12 blog-post">
 
-          <div class="row">
-            <div class="col">
-              <div class="breadcrumb">
-                <div class="breadcrumb-item">
-                  <g-link title="Link back to home" to="/">Home</g-link>
-                </div>
-                <div class="breadcrumb-item">
-                  <g-link title="Link back to Blog posts" to="/">
-                    {{ $metaInfo.postTitle }}
-                  </g-link>
-                </div>
-                <div class="breadcrumb-item">
-                  {{ this.$page.blog.title }}
-                </div>
-              </div>
+          <div class="breadcrumb">
+            <div class="breadcrumb-item">
+              <g-link title="Link back to home" to="/">Home</g-link>
+            </div>
+            <div class="breadcrumb-item">
+              <g-link title="Link back to Blog posts" to="/">
+                {{ $metaInfo.postTitle }}
+              </g-link>
+            </div>
+            <div class="breadcrumb-item">
+              {{ this.$page.blog.title }}
             </div>
           </div>
 
@@ -51,9 +47,7 @@
       title
       content
       timeToRead
-      cover_image(width:960)
       humanTime : date(format:"YYYY MMMM Do")
-      datetime : date(format:"ddd MMM DD YYYY hh:mm:ss zZ")
     }
   }
 </page-query>
