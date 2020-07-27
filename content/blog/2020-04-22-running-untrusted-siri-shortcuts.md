@@ -4,7 +4,7 @@ title: "Running Untrusted Siri Shortcuts"
 date: 2020-04-22
 cover_image: ../images/blog-untrustedshortcuts1.png
 tags: Shortcuts, iOS
-description: Subtitle&#x3a; I want to download this Siri Shortcut but I can't add it because it says it's "Untrusted" and I don't know how to make it run. Help!...
+description: I want to download this Siri Shortcut but I can't add it because it says it's "Untrusted" and I don't know how to make it run. Help!...
 canonical_url: false
 series: false
 published: true
@@ -26,7 +26,7 @@ Siri Shortcuts are Apple’s way automate things you do on your iPhone or iPad. 
 4. Dismiss the Shortcuts app and open the Settings app. Scroll to "Shortcuts" and tap to reveal it's settings.
 5. The heading "Sharing Security" should be visible with an option to "Allow Untrusted Shortcuts". Turn it on. If this option still isn’t available, try running another shortcut or try restarting your device (I’ve heard of this happen a couple of times ☹️).
 
-![The Shortcuts app Gallery screen showing the flow to add the "Browse Top News" shortcut to your library](../images/blog-untrustedshortcuts1.png)
+![The Shortcuts app Gallery screen showing the flow to add the "Browse Top News" shortcut to your library](../images/blog-untrustedshortcuts1.png "img-fluid")
 
 You may be wondering if enabling this setting is a serious security risk—I don't think so. It's a good idea to look through the actions of any shortcut that you download, but it's unlikely it's a major security risk by enabling untrusted shortcuts. Use common sense security measures like not inputting passwords, banking info, or other private info into an untrusted shortcut, and you shouldn't have any issues.
 

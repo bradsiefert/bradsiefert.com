@@ -9,4 +9,4 @@ This shortcut takes multiple images, resizes them so they are the same size, and
 
 ![Three combined photos side by side. Family photos of a baby, mom, and dad.](../images/sirishortcuts-combineimages2.jpg)
 
-[Download Shortcut](https://www.icloud.com/shortcuts/0d3f8993973642fea9bc9a8ebb72ff30)
+<a class="btn btn-primary" href="https://www.icloud.com/shortcuts/0d3f8993973642fea9bc9a8ebb72ff30" target="_blank" rel="nofollow noopener noreferrer">Download Shortcut</a>

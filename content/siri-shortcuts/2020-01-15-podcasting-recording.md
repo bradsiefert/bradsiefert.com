@@ -7,4 +7,4 @@ This shortcut is specifically for (but not limited to) someone who is using iOS 
 
 This info came from Ferrite's support page: [https://www.wooji-juice.com/products/ferrite/support#7](https://www.wooji-juice.com/products/ferrite/support#7)
 
-[Download Shortcut](https://www.icloud.com/shortcuts/13e65129e953478ba900587c9caa3d10)
+<a class="btn btn-primary" href="https://www.icloud.com/shortcuts/13e65129e953478ba900587c9caa3d10" target="_blank" rel="nofollow noopener noreferrer">Download Shortcut</a>
