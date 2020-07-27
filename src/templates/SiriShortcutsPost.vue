@@ -1,28 +1,43 @@
 <template>
   <Layout>
-    <section id="container-centre" class="column centre flex-1">
-      <div class="post-header mb-12 md:mb-20">
-        <h1
-          class="page-title text-3xl md:text-center md:text-5xl lg:text-6xl"
-          v-html="$page.siriShortcuts.title"
-        ></h1>
-        <div class="text-sm md:text-base text-gray-600 flex justify-center">
-          <time :datetime="$page.siriShortcuts.datetime">{{ $page.siriShortcuts.humanTime }}</time>
+    <div class="container skinny-contain">
+      <div class="row">
+        <div class="col-lg-12 blog-post">
+
+          <div class="row">
+            <div class="col">
+              <div class="breadcrumb">
+                <div class="breadcrumb-item">
+                  <g-link title="Link back to home" to="/">Home</g-link>
+                </div>
+                <div class="breadcrumb-item">
+                  <g-link title="Link back to Siri Shortcuts posts" to="/siri-shortcuts/">
+                    {{ $metaInfo.postTitle }}
+                  </g-link>
+                </div>
+                <div class="breadcrumb-item">
+                  {{ this.$page.siriShortcuts.title }}
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <article>
+            <ul class="list-inline">
+              <li class="list-inline-item blog-time">
+                <time :datetime="$page.siriShortcuts.datetime">{{ $page.siriShortcuts.humanTime }}</time>
+              </li>
+            </ul>
+
+            <h1 v-html="$page.siriShortcuts.title"></h1>
+            <div v-html="$page.siriShortcuts.content"></div>
+          </article>
+
+          <div class="divider mt-32"></div>
+          <!-- <div class="divider"></div> -->
         </div>
-        <figure class="mt-10 md:mt-20">
-          <g-image :alt="$page.siriShortcuts.image_caption" :src="$page.siriShortcuts.image" />
-          <figcaption
-            class="text-center text-sm italic text-gray-600 mt-4"
-          >{{ $page.siriShortcuts.image_caption }}</figcaption>
-        </figure>
       </div>
-
-      <div class="content post md:px-16">
-        <!-- <p v-html="$page.siriShortcuts.excerpt"></p> -->
-        <div v-html="$page.siriShortcuts.content"></div>
-      </div>
-
-    </section>
+    </div>
   </Layout>
 </template>
 
@@ -44,7 +59,8 @@
 export default {
   metaInfo() {
     return {
-      title: this.$page.siriShortcuts.title
+      title: this.$page.siriShortcuts.title,
+      postTitle: 'Siri Shortcuts'
     };
   }
 };

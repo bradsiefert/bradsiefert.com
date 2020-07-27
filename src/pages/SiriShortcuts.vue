@@ -1,45 +1,70 @@
 <template>
   <Layout>
-    <section id="container-centre" class="column centre flex-1">
-      <h1 class="page-title text-3xl md:text-center md:text-5xl lg:text-6xl">
-        Siri Shortcuts
-      </h1>
-      <div class="px-2">
-        <div class="posts flex flex-wrap -mx-2">
-          <div
-            class="w-full md:w-1/3 mb-8 px-2"
-            v-for="entry in $page.allSiriShortcuts.edges"
-            :key="entry.node.id"
-          >
-            <article class="article-card bg-white overflow-hidden rounded-lg shadow-lg flex-1">
-              <g-link
-                class="featured-image-link block relative overflow-hidden"
-                :to="entry.node.path"
-              >
-              </g-link>
-              <div class="p-8">
-                <h1 class="text-2xl mb-6">
-                  <g-link
-                    class="block text-purple-900 hover:text-pink-500"
-                    :to="entry.node.path"
-                  >{{ entry.node.title }}</g-link>
-                </h1>
-                <div class="text-sm text-gray-600 md:flex mb-4">
-                  <time :datetime="entry.node.datetime">{{ entry.node.humanTime }}</time>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+
+          <div class="row">
+            <div class="col">
+              <div class="breadcrumb">
+                <div class="breadcrumb-item">
+                  <g-link title="Link back to home" to="/">Home</g-link>
+                </div>
+                <div class="breadcrumb-item">
+                  {{ $metaInfo.postTitle }}
                 </div>
               </div>
-            </article>
+            </div>
           </div>
+
+          <h1>Siri Shortcuts</h1>
+          <p class="lead">
+            Shortcuts have become my favorite development platform. Shortcuts are small programs that you can run on your 
+            iOS devices to accomplish a variety of tasks. I’m especially proud of making these and I hope you find 
+            them useful. For a full list of all of my public shortcuts, the button below links to a database with links 
+            to all of them.
+          </p>
+          
+          <p class="lead">
+            If you've never ran a shortcut before I wrote <g-link to="/blog/running-untrusted-siri-shortcuts/">a blog post on </g-link> on how to run an 
+            "Untrusted Shortcut".
+          </p>
+
+          <div class="row">
+            <div class="col-lg-6 col-xl-4">
+              <a class="btn btn-primary btn-block mb-32" href="/siri-shortcuts-public/">
+                View All My Public Shortcuts
+              </a>
+            </div>
+          </div>
+          
+          <div class="row">
+            <div class="col-lg-6 col-xl-4" v-for="entry in $page.allSiriShortcuts.edges" :key="entry.node.id">
+              <g-link :to="entry.node.path">
+                <div class="box shortcuts">
+                  <div class="d-flex flex-column" style="height: 208px;">
+                    <div class="blog-time">{{ entry.node.humanTime }}</div>
+                    <div class="mt-auto"><h3 class="mb-0">{{ entry.node.title }}</h3></div>
+                  </div>
+                </div>
+              </g-link>
+            </div>
+          </div>
+
         </div>
       </div>
-    </section>
+    </div>
+
   </Layout>
 </template>
 
 <script>
 export default {
-  metaInfo: {
-    title: "Siri Shortcuts"
+  metaInfo() {
+    return {
+      title: 'Siri Shortcuts',
+      postTitle: 'Siri Shortcuts'
+    };
   }
 };
 </script>
@@ -51,7 +76,7 @@ export default {
         node {
           title
           path
-          humanTime : date(format:"Do MMMM YYYY")
+          humanTime : date(format:"YYYY/MM/DD")
           datetime : date(format:"ddd MMM DD YYYY hh:mm:ss zZ")
         }
       }
