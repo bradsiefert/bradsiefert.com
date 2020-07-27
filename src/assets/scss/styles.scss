@@ -290,11 +290,11 @@ pre {
 }
 
 .btn-outline.btn-primary {
-  color: $primary;
+  color: $primary !important;
 }
 
 .btn-outline.btn-success {
-  color: $success;
+  color: $success !important;
 }
 
 .btn-highlight {
@@ -516,6 +516,8 @@ pre {
 .blog-post img {
   margin-top: 1rem;
   margin-bottom: 1rem;
+  max-width: 100%;
+  height: auto;
 }
 
 .blog-post figure {
@@ -639,6 +641,10 @@ textarea.form-control {
   .box.shortcuts:hover {
     border: 1px solid #2AC9FF;
     color: #2AC9FF;
+  }
+  
+  .btn, .box .btn {
+    color: $black !important;
   }
 }
 
