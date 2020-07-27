@@ -12,7 +12,7 @@
       </div>
 
       <div class="row about">
-        <div class="col-md-7 col-lg-8">
+        <div class="col-lg-7 col-xl-8">
           <article>
             <h2 class="h1">I promise this won’t be in the third person.</h2>
             <p>
@@ -37,7 +37,7 @@
 
             <p>
               Each year I take around 50,000 photos. I want to learn two languages in the next couple of years: Spanish 
-              and JavaScript. I drink <em>way</em> too much Diet Coke—but I’m working on it.
+              and JavaScript. I drink <em>a bit</em> too much Diet Coke—but I’m working on it.
             </p>
 
             <p>
@@ -79,13 +79,13 @@
               </small>
             </p>
 
-            <g-link target="_blank" class="btn btn-primary mb-32" href="files/Brad-Siefert-Resume.pdf">
+            <a target="_blank" class="btn btn-primary mb-32" href="files/Brad-Siefert-Resume.pdf">
               Download Resume
-            </g-link>
+            </a>
           </article>
         </div>
 
-        <div class="col-md-5 col-lg-4">
+        <div class="col-lg-5 col-xl-4">
           <g-image class="img-fluid" src="~/assets/images/photo-bradsiefert.jpg" alt="Photo of Brad Siefert" />
         </div>
 
