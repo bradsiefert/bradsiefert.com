@@ -7,6 +7,7 @@
 module.exports = {
   siteName: 'brad.si + gridsome',
   siteDescription: "brad's website.",
+  siteUrl: 'https://brad.si',
   pathPrefix: '/efert',
   titleTemplate: `Brad Siefert / %s`,
   icon: 'src/favicon.png',
