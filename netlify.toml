@@ -1,0 +1,7 @@
+[build]
+  publish = "efert/dist"
+  command = "gridsome build"
+
+[[redirects]]
+  from = "/*"
+  to = "/efert/"
