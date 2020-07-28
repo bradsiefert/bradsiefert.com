@@ -9,7 +9,7 @@
               <g-link title="Link back to home" to="/">Home</g-link>
             </div>
             <div class="breadcrumb-item">
-              <g-link title="Link back to Blog posts" to="/">
+              <g-link title="Link back to Blog posts" to="/blog">
                 {{ $metaInfo.postTitle }}
               </g-link>
             </div>

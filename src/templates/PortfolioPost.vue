@@ -5,8 +5,17 @@
         <div class="col-lg-12 portfolio-post">
 
           <div class="breadcrumb">
-            <div class="breadcrumb-item"><a title="Link back to home" href="/">Home</a></div>
-            <div class="breadcrumb-item">{{ $metaInfo.title }}</div>
+            <div class="breadcrumb-item">
+              <g-link title="Link back to home" to="/">Home</g-link>
+            </div>
+            <div class="breadcrumb-item">
+              <g-link title="Link back to Blog posts" to="/portfolio">
+                {{ $metaInfo.postTitle }}
+              </g-link>
+            </div>
+            <div class="breadcrumb-item">
+              {{ this.$page.portfolio.title }}
+            </div>
           </div>
 
           <article>
