@@ -1,0 +1,15 @@
+---
+title: "Shortcuts Directory"
+date:  2020-06-30
+cover_image: ../images/portfolio-shortcutsdirectory-logo.jpg
+---
+
+I recently launched a pet project called Shortcuts Directory. It's a site where I've curated collections of the best links about Apple's Shortcuts app. With the design of the site, I wanted to play with the colors in Siri, but not in a contrived way. I think they sit alongside each other very nicely. I haven't worked with purple and pinks very much in my designs and I'm pretty happy with how this came out. For the logo, I wanted to use a monospaced font for the logo to play on the programming nature of the Shortcuts app, but didn't want to use Apple's SF Mono. I chose Input Mono and I'm thrilled with the results.
+
+I love Shortcuts, I think its one of the most exciting no-code platforms right now, but I'm worried that people don't know where to start when it comes to creating their own shortcuts. If you're interesting in creating your own shortcuts or automations for your Apple devices, check it out! I hope it connects you with the resources to make all kinds of shortcuts that make your life better.
+
+<a class="btn btn-primary mb-32" target="_blank" href="https://shortcuts.directory">Live Site</a>
+
+![Shortcuts Directory logo](../images/portfolio-shortcutsdirectory-logo.jpg)
+![Screenshot of Shortcuts Directory website #1](../images/portfolio-shortcutsdirectory-site.jpg)
+![Screenshot of Shortcuts Directory website #1](../images/portfolio-shortcutsdirectory-site2.jpg)
