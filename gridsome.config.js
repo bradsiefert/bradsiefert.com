@@ -14,8 +14,6 @@ module.exports = {
   plugins: [
     {
       use: '@gridsome/plugin-sitemap',
-      options: {
-      }
     },
     {
       use: '@gridsome/source-filesystem',
