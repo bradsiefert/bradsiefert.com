@@ -26,8 +26,8 @@
           </p>
           
           <p class="lead">
-            If you've never ran a shortcut before I wrote <g-link to="/blog/running-untrusted-siri-shortcuts/">a blog post on </g-link> on how to run an 
-            "Untrusted Shortcut".
+            If you've never ran a shortcut before I wrote <g-link to="/blog/running-untrusted-siri-shortcuts/">a blog post on </g-link> 
+            on how to run your first shortcut.
           </p>
 
           <div class="row">
@@ -38,10 +38,10 @@
             </div>
           </div>
           
-          <div class="row">
+          <div class="row g-16">
             <div class="col-lg-6 col-xl-4" v-for="entry in $page.allSiriShortcuts.edges" :key="entry.node.id">
               <g-link :to="entry.node.path">
-                <div class="box shortcuts">
+                <div class="box shortcuts mb-0">
                   <div class="d-flex flex-column" style="height: 208px;">
                     <div class="blog-time">{{ entry.node.humanTime }}</div>
                     <div class="mt-auto"><h3 class="mb-0">{{ entry.node.title }}</h3></div>

@@ -8,7 +8,7 @@
           <div class="row">
             <div class="col-lg-12 mt-96 mb-160">
               <h1 class="display-1">
-                Hi, I'm Brad, I’m a UX/UI <span class="landing-badge">designer <div class="badge bg-primary">My Day Job
+                Hi, I'm Brad, I’m a UI/UX <span class="landing-badge">designer <div class="badge bg-primary">My Day Job
                 </div></span> and <span class="landing-badge">photographer <div class="badge bg-success">
                   My Passion</div></span> based in Chicago, IL
               </h1>

@@ -13,11 +13,12 @@
             </div>
           </div>
 
-          <div class="float-right">
+          <!-- <div class="float-right">
             <small><strong><a href="https://www.brad.si/efert/category/blog/feed/">RSS Feed</a></strong></small>
-          </div>
+          </div> -->
+
           <h1>Blog</h1>
-          <p>A blog about design, photography, productivity, and other things I can't stop thinking about.</p>
+          <p>A blog about design, development, productivity, and other things I can't stop thinking about.</p>
 
           <div v-for="entry in $page.allBlog.edges" :key="entry.node.id">
             <div class="box">

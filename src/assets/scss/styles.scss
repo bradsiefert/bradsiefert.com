@@ -112,9 +112,9 @@ footer .list-inline-item:not(:last-child) {
 
 /* ---------- Typography --------- */
 .text-right-then-left   { text-align: right;	}
-@media (max-width: 767px) { .text-right-then-left   { text-align: left;   } }
+@media (max-width: 992px) { .text-right-then-left   { text-align: left;   } }
 .text-right-then-center   { text-align: right;	}
-@media (max-width: 767px) { .text-right-then-center   { text-align: center; } }
+@media (max-width: 992px) { .text-right-then-center   { text-align: center; } }
 
 .about p {
   font-size: 1.25rem;

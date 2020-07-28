@@ -19,13 +19,13 @@
 
           <h1>Design Portfolio</h1>
           <p class="lead">
-            Some of my design and front-end work that I'm proud to show off.
+            Some of my design and front-end development work I'm proud to show off.
           </p>
 
-          <div class="row no-gutters mb-32">
+          <div class="row g-16 mb-32">
             <div class="col-sm-4" v-for="entry in $page.allPortfolio.edges" :key="entry.node.id">
               <g-link :to="entry.node.path">
-                <g-image class="img-fluid" :src="entry.node.cover_image" :alt="entry.node.title"/>
+                <g-image class="img-fluid rounded-lg" :src="entry.node.cover_image" :alt="entry.node.title"/>
               </g-link>
             </div>
           </div>
