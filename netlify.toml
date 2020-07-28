@@ -1,3 +1,3 @@
 [build]
   publish = "efert"
-  command = "mkdir -p efert && gridsome build && cp -R dist/* efert"
+  command = "mkdir -p public/efert && gridsome build && cp -R dist/* public/efert"
