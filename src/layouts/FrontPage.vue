@@ -32,12 +32,13 @@
               <g-image class="mb-32" src="~/assets/images/logo-earlybird.svg" alt="Logo for Earlybird Software" />
             </a>
             <div class="display-2 mb-32">
-              For the past <span id="dateDisplay">{{ moment([2013, 8, 17]).fromNow(true) }}</span> I’ve been the Product Designer at Earlybird
+              For the past <span id="dateDisplay">{{ moment([2013, 8, 17]).fromNow(true) }}</span> I’ve been the 
+              Product Designer at Earlybird
             </div>
             <div class="display-3 mb-32">
-              We develop elegant custom data solutions for companies to help them make sense of their data. I’ve been able
-              to design web and mobile app front-ends, create data reporting dashboards, and help provide branding ideation
-              for startups and medium sized companies.
+              We develop elegant custom data solutions for companies to help them make sense of their data. I’ve been 
+              able to design web and mobile app front-ends, create data reporting dashboards, and help provide branding 
+              ideation for startups and medium sized companies.
             </div>
             <a class="btn btn-highlight btn-lg" target="_blank" href="https://earlybird.co">Learn More</a>
           </div>
@@ -51,9 +52,9 @@
           <div class="col-sm-12">
             <g-image class="mb-16" style="width: 104px;" src="~/assets/images/logo-spartz.png" alt="Spartz Media Logo" />
             <div class="display-3 mb-32">
-              Previously, I was a designer at Spartz Media (now <a target="_blank" href="https://dose.com/">Dose</a>) where
-              we created  viral content websites and apps. I helped create logos, web design and helped out with front-end
-              development for their suite of meme websites.
+              Previously, I was a designer at Spartz Media (now <a target="_blank" href="https://dose.com/">Dose</a>) 
+              where we created  viral content websites and apps. I helped create logos, web design and helped out with 
+              front-end development for their suite of meme websites.
             </div>
           </div>
         </div>

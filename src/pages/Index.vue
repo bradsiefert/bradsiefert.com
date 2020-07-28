@@ -13,7 +13,7 @@ export default {
     FrontPage
   },
   metaInfo: {
-    title: 'Hello, world!'
+    title: 'Home'
   }
 }
 </script>

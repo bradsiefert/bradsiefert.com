@@ -5,8 +5,8 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-  siteName: 'brad.si + gridsome',
-  siteDescription: "brad's website.",
+  siteName: 'Brad Siefert / Designer & Photographer',
+  siteDescription: "Personal design portfolio and blog of Chicago based UI/UX Designer Brad Siefert.",
   siteUrl: 'https://brad.si',
   pathPrefix: '/efert',
   titleTemplate: `Brad Siefert / %s`,
@@ -37,7 +37,6 @@ module.exports = {
       }
     }
   ],
-
   templates: {
     Blog: [{
       path: '/blog/:title',
