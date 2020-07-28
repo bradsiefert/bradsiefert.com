@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <div class="container">
+    <div class="container skinny-contain">
       <div class="row">
         <div class="col-lg-12 portfolio-post">
 
@@ -39,6 +39,7 @@
       title
       path
       content
+      cover_image
       humanTime : date(format:"Do MMMM YYYY")
       datetime : date(format:"ddd MMM DD YYYY hh:mm:ss zZ")
     }
@@ -50,7 +51,25 @@ export default {
   metaInfo() {
     return {
       title: this.$page.portfolio.title, 
-      postTitle: 'Design Portfolio'
+      postTitle: 'Design Portfolio',
+      meta: [
+        {
+          property: 'og:title',
+          content: this.$page.portfolio.title
+        },
+        {
+          name: "twitter:card",
+          content: this.$page.portfolio.cover_image ? "summary_large_image" : "summary",
+        },
+        {
+          name: "twitter:creator",
+          content: "@bksiefert"
+        },
+        {
+          property: "og:image",
+          content: this.$page.portfolio.cover_image || ""
+        }
+      ]
     };
   }
 };

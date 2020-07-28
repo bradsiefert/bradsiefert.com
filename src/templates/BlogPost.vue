@@ -46,6 +46,8 @@
     blog(id: $id) {
       title
       content
+      description
+      cover_image(width:960)
       timeToRead
       humanTime : date(format:"YYYY MMMM Do")
     }
@@ -57,8 +59,34 @@ export default {
   metaInfo() {
     return {
       title: this.$page.blog.title,
-      postTitle: 'Blog'
+      postTitle: 'Blog',
+      meta: [
+        {
+          name: 'description',
+          content: this.$page.blog.description
+        },
+        {
+          property: 'og:title',
+          content: this.$page.blog.title
+        },
+        {
+          name: "twitter:card",
+          content: this.$page.blog.cover_image ? "summary_large_image" : "summary",
+        },
+        {
+          name: "twitter:creator",
+          content: "@bksiefert"
+        },
+        {
+          property: "og:description",
+          cotent: this.$page.blog.description
+        },
+        {
+          property: "og:image",
+          content: this.$page.blog.cover_image || ""
+        }
+      ]
     };
-  }
+  },
 };
 </script>
