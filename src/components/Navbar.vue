@@ -23,10 +23,10 @@
             <g-link class="nav-link" to="/siri-shortcuts">Siri Shortcuts</g-link>
           </li>
           <li class="nav-item">
-            <g-link class="nav-link" to="/about">About</g-link>
+            <g-link class="nav-link" to="/blog">Blog</g-link>
           </li>
           <li class="nav-item">
-            <g-link class="nav-link" to="/blog">Blog</g-link>
+            <g-link class="nav-link" to="/about">About</g-link>
           </li>
           <li class="nav-item">
             <g-link class="nav-link" to="/contact">Contact</g-link>
