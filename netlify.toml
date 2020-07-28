@@ -1,7 +1,7 @@
 [build]
-  publish = "efert/dist"
-  command = "gridsome build"
+  publish = "efert"
+  command = "mkdir -p efert && gridsome build && cp -R dist/* efert"
 
 [[redirects]]
   from = "/*"
-  to = "/efert/"
+  to = "/efert"
