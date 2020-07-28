@@ -8,5 +8,5 @@ Trace Genomics is doing for crops what 23andme is doing for human genetics. They
 
 <a class="btn btn-primary mb-32" target="_blank" href="https://tracegenomics.com">Live Site</a>
 
-![Screenshot of the Trace Genomics website](../images/portfolio-trace1.png)
-![Screenshot of the Trace Genomics website](../images/portfolio-trace2.png)
+![Screenshot of the Trace Genomics website](../images/portfolio-trace1.jpg)
+![Screenshot of the Trace Genomics website](../images/portfolio-trace2.jpg)
