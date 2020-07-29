@@ -1,5 +1,6 @@
 ---
 category: Blog
+path: "initial-commit"
 title: "Initial Commit"
 date: 2018-12-03
 cover_image: ../images/blog-transparent.png

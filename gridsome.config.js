@@ -39,7 +39,7 @@ module.exports = {
   ],
   templates: {
     Blog: [{
-      path: '/blog/:title',
+      path: '/blog/:path',
       component: './src/templates/BlogPost.vue'
     }],
     SiriShortcuts: [{

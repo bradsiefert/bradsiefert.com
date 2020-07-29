@@ -1,5 +1,6 @@
 ---
 category: Blog
+path: "quick-and-easy-two-factor-authentication-codes-on-your-wrist-with-authy"
 title: "Quick and easy two-factor authentication codes on your wrist with Authy"
 date: 2019-07-17
 cover_image: ../images/blog-authy2fa.png

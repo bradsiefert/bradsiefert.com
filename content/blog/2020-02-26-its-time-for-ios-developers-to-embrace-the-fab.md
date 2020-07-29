@@ -1,10 +1,11 @@
 ---
 category: Blog
+path: "its-time-for-ios-developers-top-embrace-the-fab"
 title: "It's Time for iOS Developers to Embrace the FAB"
 date: 2020-02-26
 cover_image: ../images/blog-fab1.png
 tags: iOS, Apple, FAB, UI
-description: I’ve always found Apple’s iOS User Interface ethos a bit odd. When you read Apple’s iOS Human Interface Guidelines, it feels sparse. The HIG is supposed to be...
+description: "I’ve always found Apple’s iOS User Interface ethos a bit odd. When you read Apple’s iOS Human Interface Guidelines, it feels sparse. The HIG is supposed to be..."
 canonical_url: false
 series: false
 published: true

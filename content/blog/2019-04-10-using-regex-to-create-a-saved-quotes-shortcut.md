@@ -1,5 +1,6 @@
 ---
 category: Blog
+path: "using-regex-to-create-a-saved-quotes-shortcut"
 title: "Using RegEx to create a \"Saved Quotes\" Shortcut"
 date: 2019-04-10
 cover_image: ../images/blog-podcast-quote1.png

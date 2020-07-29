@@ -1,5 +1,6 @@
 ---
 category: Blog
+path: "connect-guests-to-your-wifi-with-a-qr-code"
 title: "Connect Guests to Your Wifi with a QR Code"
 date: 2019-08-16
 cover_image: ../images/blog-wifi-qr-code1.jpg

@@ -1,5 +1,6 @@
 ---
 category: Blog
+path: "running-untrusted-siri-shortcuts/"
 title: "Running Untrusted Siri Shortcuts"
 date: 2020-04-22
 cover_image: ../images/blog-untrustedshortcuts1.png

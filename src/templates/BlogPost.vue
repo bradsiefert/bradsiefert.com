@@ -1,7 +1,5 @@
 <template>
   <Layout>
-
-
     <div class="container skinny-contain">
       <div class="row">
         <div class="col-lg-12 blog-post">
