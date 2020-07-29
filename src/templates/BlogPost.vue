@@ -19,6 +19,8 @@
           </div>
 
           <article>
+            <g-image class="img-fluid" :src="$page.blog.cover_image"/>
+
             <ul class="list-inline">
               <li class="list-inline-item blog-time">
                 <time :datetime="$page.blog.datetime">{{ $page.blog.humanTime }}</time>
@@ -45,9 +47,10 @@
   query($id: ID!) {
     blog(id: $id) {
       title
+      path
       content
       description
-      cover_image(width:960)
+      cover_image
       timeToRead
       humanTime : date(format:"YYYY MMMM Do")
     }
@@ -58,33 +61,21 @@
 export default {
   metaInfo() {
     return {
-      title: this.$page.blog.title,
+      title: `Blog / ${this.$page.blog.title}`,
       postTitle: 'Blog',
       meta: [
-        {
-          name: 'description',
-          content: this.$page.blog.description
-        },
-        {
-          property: 'og:title',
-          content: this.$page.blog.title
-        },
-        {
-          name: "twitter:card",
-          content: this.$page.blog.cover_image ? "summary_large_image" : "summary",
-        },
-        {
-          name: "twitter:creator",
-          content: "@bksiefert"
-        },
-        {
-          property: "og:description",
-          cotent: this.$page.blog.description
-        },
-        {
-          property: "og:image",
-          content: this.$page.blog.cover_image || ""
-        }
+        { property: "og:type", content: 'article' },
+        { property: "og:title", content: this.$page.blog.title },
+        { property: "og:description", content: this.$page.blog.description },
+        { property: "og:url", content: this.$page.blog.path },
+        { property: "og:image", content: this.$page.blog.cover_image || "" },
+
+        { name: "twitter:card", content: "summary_large_image" },
+        { name: "twitter:title", content: this.$page.blog.title },
+        { name: "twitter:description", content: this.$page.blog.description },
+        { name: "twitter:site", content: "@bksiefert" },
+        { name: "twitter:creator", content: "@bksiefert" },
+        { name: "twitter:image", content: this.$page.blog.cover_image || "" }
       ]
     };
   },

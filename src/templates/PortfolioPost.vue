@@ -50,7 +50,7 @@
 export default {
   metaInfo() {
     return {
-      title: this.$page.portfolio.title, 
+      title: `Design Portfolio / ${this.$page.portfolio.title}`,
       postTitle: 'Design Portfolio',
       meta: [
         {
@@ -67,7 +67,7 @@ export default {
         },
         {
           property: "og:image",
-          content: this.$page.portfolio.cover_image || ""
+          content: this.$page.portfolio.cover_image
         }
       ]
     };

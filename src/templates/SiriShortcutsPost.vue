@@ -52,7 +52,7 @@
 export default {
   metaInfo() {
     return {
-      title: this.$page.siriShortcuts.title,
+      title: `Siri Shortcuts / ${this.$page.siriShortcuts.title}`,
       postTitle: 'Siri Shortcuts'
     };
   }
