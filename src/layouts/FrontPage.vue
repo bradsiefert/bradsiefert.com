@@ -15,7 +15,12 @@
               <g-link to="/portfolio/" class="btn btn-outline btn-primary btn-lg mb-16 mr-md-16">
                 Design Work
               </g-link>
-              <a target="_blank" href="https://bradleysiefert.com" class="btn btn-outline btn-success btn-lg mb-16">
+              <a 
+                target="_blank" rel="noopener" 
+                href="https://bradleysiefert.com" 
+                class="btn btn-outline btn-success btn-lg mb-16"
+                title="Link to checkout my photography work" 
+              >
                 Photo Work
               </a>
             </div>
@@ -28,7 +33,12 @@
       <div class="container">
         <div class="row">
           <div class="col-sm-12">
-            <a target="_blank" href="https://earlybird.co">
+            <a 
+              target="_blank" 
+              rel="noopener"
+              href="https://earlybird.co"
+              title="Link to learn more about Earlybird Software" 
+            >
               <g-image class="mb-32" src="~/assets/images/logo-earlybird.svg" alt="Logo for Earlybird Software" />
             </a>
             <div class="display-2 mb-32">
@@ -40,7 +50,15 @@
               able to design web and mobile app front-ends, create data reporting dashboards, and help provide branding 
               ideation for startups and medium sized companies.
             </div>
-            <a class="btn btn-highlight btn-lg" target="_blank" href="https://earlybird.co">Learn More</a>
+            <a 
+              class="btn btn-highlight btn-lg" 
+              target="_blank" 
+              rel="noopener"
+              href="https://earlybird.co"
+              title="Link to learn more about Earlybird Software" 
+            >
+              Learn More
+            </a>
           </div>
         </div>
       </div>
@@ -52,7 +70,8 @@
           <div class="col-sm-12">
             <g-image class="mb-16" style="width: 104px;" src="~/assets/images/logo-spartz.png" alt="Spartz Media Logo" />
             <div class="display-3 mb-32">
-              Previously, I was a designer at Spartz Media (now <a target="_blank" href="https://dose.com/">Dose</a>) 
+              Previously, I was a designer at Spartz Media (now 
+              <a rel="noopener" target="_blank" title="Link to the Dose website" href="https://dose.com/">Dose</a>) 
               where we created  viral content websites and apps. I helped create logos, web design and helped out with 
               front-end development for their suite of meme websites.
             </div>

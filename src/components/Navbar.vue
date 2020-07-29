@@ -8,7 +8,8 @@
       </div>
 
       <button 
-        class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-expanded="false"
+        class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" 
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
         @click="showNav = !showNav" 
       >
         <span class="navbar-toggler-icon"></span>
@@ -17,19 +18,19 @@
       <div class="navbar-collapse collapse justify-content-stretch" id="navbar" :class="{ 'show': showNav } ">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <g-link class="nav-link" to="/portfolio">Design Portfolio</g-link>
+            <g-link class="nav-link" rel="noopener" to="/portfolio">Design Portfolio</g-link>
           </li>
           <li class="nav-item">
-            <g-link class="nav-link" to="/siri-shortcuts">Siri Shortcuts</g-link>
+            <g-link class="nav-link" rel="noopener" to="/siri-shortcuts">Siri Shortcuts</g-link>
           </li>
           <li class="nav-item">
-            <g-link class="nav-link" to="/blog">Blog</g-link>
+            <g-link class="nav-link" rel="noopener" to="/blog">Blog</g-link>
           </li>
           <li class="nav-item">
-            <g-link class="nav-link" to="/about">About</g-link>
+            <g-link class="nav-link" rel="noopener" to="/about">About</g-link>
           </li>
           <li class="nav-item">
-            <g-link class="nav-link" to="/contact">Contact</g-link>
+            <g-link class="nav-link" rel="noopener" to="/contact">Contact</g-link>
           </li>
         </ul>
       </div>
