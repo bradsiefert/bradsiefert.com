@@ -53,7 +53,19 @@ export default {
   metaInfo() {
     return {
       title: `Siri Shortcuts / ${this.$page.siriShortcuts.title}`,
-      postTitle: 'Siri Shortcuts'
+      postTitle: 'Siri Shortcuts',
+      meta: [
+        { property: "og:type", content: 'article' },
+        { property: "og:title", content: this.$page.siriShortcuts.title },
+        { property: "og:url", content: `${this.$page.metadata.siteUrl}${this.$page.siriShortcuts.path}` },
+        { property: "og:image", content: "https://www.brad.si/efert/assets/static/src/assets/images/sharing.jpg" },
+
+        { name: "twitter:card", content: "summary_large_image" },
+        { name: "twitter:title", content: this.$page.siriShortcuts.title },
+        { name: "twitter:site", content: "@bksiefert" },
+        { name: "twitter:creator", content: "@bksiefert" },
+        { name: "twitter:image", content: "https://www.brad.si/efert/assets/static/src/assets/images/sharing.jpg" }
+      ]
     };
   }
 };

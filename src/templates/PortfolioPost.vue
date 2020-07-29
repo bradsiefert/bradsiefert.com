@@ -53,22 +53,16 @@ export default {
       title: `Design Portfolio / ${this.$page.portfolio.title}`,
       postTitle: 'Design Portfolio',
       meta: [
-        {
-          property: 'og:title',
-          content: this.$page.portfolio.title
-        },
-        {
-          name: "twitter:card",
-          content: this.$page.portfolio.cover_image ? "summary_large_image" : "summary",
-        },
-        {
-          name: "twitter:creator",
-          content: "@bksiefert"
-        },
-        {
-          property: "og:image",
-          content: this.$page.portfolio.cover_image
-        }
+        { property: "og:type", content: 'article' },
+        { property: "og:title", content: this.$page.portfolio.title },
+        { property: "og:url", content: `${this.$page.metadata.siteUrl}${this.$page.portfolio.path}` },
+        { property: "og:image", content: `${this.$page.metadata.siteUrl}${this.$page.portfolio.cover_image.src || ""}` },
+
+        { name: "twitter:card", content: "summary_large_image" },
+        { name: "twitter:title", content: this.$page.portfolio.title },
+        { name: "twitter:site", content: "@bksiefert" },
+        { name: "twitter:creator", content: "@bksiefert" },
+        { name: "twitter:image", content: `${this.$page.metadata.siteUrl}${this.$page.portfolio.cover_image.src || ""}` }
       ]
     };
   }

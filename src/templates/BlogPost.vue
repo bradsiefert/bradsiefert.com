@@ -69,7 +69,7 @@ export default {
         { property: "og:type", content: 'article' },
         { property: "og:title", content: this.$page.blog.title },
         { property: "og:description", content: this.$page.blog.description },
-        { property: "og:url", content: this.$page.blog.path },
+        { property: "og:url", content: `${this.$page.metadata.siteUrl}${this.$page.blog.path}` },
         { property: "og:image", content: `${this.$page.metadata.siteUrl}${this.$page.blog.cover_image.src || ""}` },
 
         { name: "twitter:card", content: "summary_large_image" },
