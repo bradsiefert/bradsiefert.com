@@ -12,9 +12,9 @@
                 </div></span> and <span class="landing-badge">photographer <div class="badge bg-success">
                   My Passion</div></span> based in Chicago, IL
               </h1>
-              <a href="https://www.brad.si/efert/portfolio/" class="btn btn-outline btn-primary btn-lg mb-16 mr-md-16">
+              <g-link to="/portfolio/" class="btn btn-outline btn-primary btn-lg mb-16 mr-md-16">
                 Design Work
-              </a>
+              </g-link>
               <a target="_blank" href="https://bradleysiefert.com" class="btn btn-outline btn-success btn-lg mb-16">
                 Photo Work
               </a>
@@ -84,6 +84,25 @@ export default {
   },
   data: () => ({
     showNav: false, // This is to make the navbar open/close on mobile.
-  })
+  }),
+  metaInfo() {
+    return {
+      title: 'Home',
+      meta: [
+        { property: "og:type", content: 'article' },
+        { property: "og:title", content: "Brad Siefert / Designer & Photographer" },
+        { property: "og:description", content: "Personal design portfolio and blog of Chicago based UI/UX Designer Brad Siefert." },
+        { property: "og:url", content: "https://brad.si/efert" },
+        { property: "og:image", content: "https://www.brad.si/efert/assets/static/src/assets/images/sharing.jpg" },
+
+        { name: "twitter:card", content: "summary_large_image" },
+        { name: "twitter:title", content: "Brad Siefert / Designer & Photographer" },
+        { name: "twitter:description", content: "Personal design portfolio and blog of Chicago based UI/UX Designer Brad Siefert." },
+        { name: "twitter:site", content: "@bksiefert" },
+        { name: "twitter:creator", content: "@bksiefert" },
+        { name: "twitter:image", content: "https://www.brad.si/efert/assets/static/src/assets/images/sharing.jpg" }
+      ]
+    };
+  },
 }
 </script>

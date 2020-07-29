@@ -1,7 +1,5 @@
 <template>
   <FrontPage>
-    index page
-
   </FrontPage>
 </template>
 
@@ -11,9 +9,6 @@ import FrontPage from '~/layouts/FrontPage.vue'
 export default {
   components: {
     FrontPage
-  },
-  metaInfo: {
-    title: 'Home'
   }
 }
 </script>
