@@ -23,7 +23,7 @@
           </p>
 
           <div class="row g-16 mb-32">
-            <div class="col-sm-4" v-for="entry in $page.allPortfolio.edges" :key="entry.node.id">
+            <div class="col-md-4" v-for="entry in $page.allPortfolio.edges" :key="entry.node.id">
               <g-link :to="entry.node.path">
                 <g-image class="img-fluid rounded-lg" :src="entry.node.cover_image" :alt="entry.node.title"/>
               </g-link>
@@ -60,4 +60,3 @@ export default {
     }
   }
 </page-query>
-

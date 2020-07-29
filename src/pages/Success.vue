@@ -13,18 +13,15 @@
       <div class="row">
         <div class="col">
           <g-image 
-            class="img-fluid mb-16" 
+            class="img-fluid mb-16"
             width="320"
-            src="~/assets/images/clueless-my-bad.gif" 
+            src="~/assets/images/brad-pitt-thats-cool-small.gif" 
             alt="Gif from the movie Clueless of Cher saying My bad!" 
           />
-          <h1>404 Error: Page Not Found</h1>
+          <h1>Message Sent!</h1>
           <p>
-            I'm sorry about this. If you'd let me know about this on 
-            <a target="_blank" href="https://twitter.com/bksiefert">Twitter</a>, I'd appreciate it. <br>
-            Have a good day!
+            Thanks for reaching out. I'll do my best to get back with you shortly. 🙏🏻
           </p>
-
         </div>
       </div>
     </div>
@@ -35,7 +32,7 @@
 export default {
   metaInfo() {
     return {
-      title: '404 Error',
+      title: 'Message Sent!',
     };
   }
 }
