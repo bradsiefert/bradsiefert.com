@@ -12,7 +12,7 @@
           <form 
             name="brad.si Contact Form"
             method="post"
-            action="/efert/success/"
+            action="/efert/success"
             data-netlify="true"
             data-netlify-honeypot="bot-field"
           >
@@ -78,6 +78,11 @@ export default {
     return {
       title: 'Contact'
     };
+  },
+  data() {
+    return {
+      formData: {},
+    }
   }
 };
 </script>
