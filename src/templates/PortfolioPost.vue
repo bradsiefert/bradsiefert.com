@@ -43,6 +43,9 @@
       humanTime : date(format:"Do MMMM YYYY")
       datetime : date(format:"ddd MMM DD YYYY hh:mm:ss zZ")
     }
+    metadata {
+      siteUrl
+    }
   }
 </page-query>
 
