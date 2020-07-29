@@ -1,5 +1,7 @@
 <template>
   <Layout>
+
+
     <div class="container skinny-contain">
       <div class="row">
         <div class="col-lg-12 blog-post">
@@ -19,8 +21,6 @@
           </div>
 
           <article>
-            <g-image class="img-fluid" :src="$page.blog.cover_image"/>
-
             <ul class="list-inline">
               <li class="list-inline-item blog-time">
                 <time :datetime="$page.blog.datetime">{{ $page.blog.humanTime }}</time>
@@ -42,7 +42,6 @@
   </Layout>
 </template>
 
-
 <page-query>
   query($id: ID!) {
     blog(id: $id) {
@@ -53,6 +52,9 @@
       cover_image
       timeToRead
       humanTime : date(format:"YYYY MMMM Do")
+    }
+    metadata {
+      siteUrl
     }
   }
 </page-query>
@@ -68,14 +70,14 @@ export default {
         { property: "og:title", content: this.$page.blog.title },
         { property: "og:description", content: this.$page.blog.description },
         { property: "og:url", content: this.$page.blog.path },
-        { property: "og:image", content: this.$page.blog.cover_image || "" },
+        { property: "og:image", content: `${this.$page.metadata.siteUrl}${this.$page.blog.cover_image.src || ""}` },
 
         { name: "twitter:card", content: "summary_large_image" },
         { name: "twitter:title", content: this.$page.blog.title },
         { name: "twitter:description", content: this.$page.blog.description },
         { name: "twitter:site", content: "@bksiefert" },
         { name: "twitter:creator", content: "@bksiefert" },
-        { name: "twitter:image", content: this.$page.blog.cover_image || "" }
+        { name: "twitter:image", content: `${this.$page.metadata.siteUrl}${this.$page.blog.cover_image.src || ""}` }
       ]
     };
   },
