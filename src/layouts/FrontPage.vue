@@ -55,9 +55,9 @@
               target="_blank" 
               rel="noopener"
               href="https://earlybird.co"
-              title="Link to learn more about Earlybird Software" 
+              title="Link Earlybird Software's website" 
             >
-              Learn More
+              Learn more about Earlybird
             </a>
           </div>
         </div>

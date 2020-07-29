@@ -17,9 +17,9 @@
             data-netlify-honeypot="bot-field"
           >
             <div class="mb-24">
-              <h5>
+              <h3 class="">
                 <label for="your-name">Name</label>
-              </h5>
+              </h3>
               <input 
                 type="text" 
                 name="your-name" 
@@ -32,9 +32,9 @@
             </div>
 
             <div class="mb-24">
-              <h5>
+              <h3 class="">
                 <label for="your-email">Email</label>
-              </h5>
+              </h3>
               <input 
                 type="email" 
                 name="your-email" 
@@ -47,9 +47,9 @@
             </div>
 
             <div class="mb-24">
-              <h5>
+              <h3 class="">
                 <label for="your-message">Message</label>
-              </h5>
+              </h3>
               <textarea 
                 type="text" 
                 name="your-message" 

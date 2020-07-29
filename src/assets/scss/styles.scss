@@ -167,22 +167,22 @@ h2, .h2 {
 h3, .h3 {
   font-family: "C";
   font-weight: 700;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   letter-spacing: 0;
   line-height: 2rem;
 }
 
 h4, .h4 {
-  font-size: .8125rem;
+  font-family: "SFM";
   font-weight: 600;
   color: $primary;
-  letter-spacing: 1.5px;
-  line-height: 1.25rem;
+  font-size: .875rem;
+  letter-spacing: 0.2px;
   text-transform: uppercase;
+  line-height: 1.125rem;
 }
 
 h5, .h5 {
-  font-family: "SFM";
   font-weight: 600;
   color: $primary;
   font-size: .875rem;

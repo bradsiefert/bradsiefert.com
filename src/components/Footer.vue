@@ -3,7 +3,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg">
-          <h5>Quick Bio</h5>
+          <h4>Quick Bio</h4>
           <p>
             I'm a Chicago based UI/UX designer and photographer experienced in web, mobile & print.
           </p>
@@ -15,7 +15,7 @@
         </div>
 
         <div class="offset-lg-1 col-lg mb-16">
-          <h5>Social</h5>
+          <h4>Social</h4>
           <ul class="list-inline">
             <li class="list-inline-item">
               <a 
@@ -81,7 +81,7 @@
         </div>
 
         <div class="col-lg text-right-then-left">
-          <h5>Credits</h5>
+          <h4>Credits</h4>
           <p>
             Forever grateful to <a target="_blank" rel="noopener" title="Link to Gridsome" href="http://fkorf.com">Fkorf</a>
             & <a target="_blank" rel="noopener" title="Link to Gridsome" href="http://kro.ski">Kroski</a><br>
