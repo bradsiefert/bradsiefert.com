@@ -339,7 +339,7 @@ pre {
 
 /* ---------- Landing Page --------- */
 .landing-hero {
-  background-image: url("../images/hero-bg3.jpg");
+  background-image: url("../images/hero-bg.jpg");
   background-size: cover;
   background-position: center 20%;
 }
@@ -448,9 +448,13 @@ pre {
 }
 
 /* ---------- Blog --------- */
-.skinny-contain {
-  max-width: 768px;
+
+@media (min-width: 768px) {
+  .skinny-contain {
+    max-width: 768px;
+  }
 }
+
 
 .box {
   border: 1px solid $gray-200;
