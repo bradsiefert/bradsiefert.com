@@ -7,16 +7,19 @@
 // All this is to make the footer sticky to the bottom.
 html, body, #app { height: 100%; }
 body, #app { display: flex; flex-direction: column; }
-main { flex: 1 0 auto; margin-bottom: 8rem;}
+main { flex: 1 0 auto; }
 footer { flex-shrink: 0; }
+
+// html { background-color: $primary; }
 
 body {
   background-color: $white;
   display: flex;
   flex-direction: column;
-  font-family: "C";
   font-size: 1rem;
-  color: $gray-900;
+  font-family: 'Benton Sans';
+  font-weight: 500;
+  color: $black;
   letter-spacing: -0.1px;
 }
 
@@ -29,6 +32,7 @@ a:active {
   top: 2px;
 }
 
+// Responsive Text
 @include media-breakpoint-up(xs) {
   html {
     font-size: 1.15rem;
@@ -41,65 +45,117 @@ a:active {
   }
 }
 
-@include media-breakpoint-up(lg) {
+@include media-breakpoint-up(md) {
   html {
     font-size: 1rem;
   }
 }
 
-/* ---------- Navbar --------- */
+// Navbar
 .navbar {
-  min-height: 128px;
-  padding: 2rem 0;
-  background-image: linear-gradient(-180deg, #020202 0%, #121212 100%);
-  background-color: #121212;
-  margin-bottom: 1rem;
+  background: #FFFFFF;
+  border: 1px solid #EAEAEA;
+  box-shadow: 0 0 32px 0 rgba(0,0,0,0.08);
+  color: $black;
+
+  padding-left: 1.5rem;
+  padding-right: 0.5rem;
+  border-radius: 0;
 }
 
-.landing-hero > .navbar {
-  background-color: transparent !important;
-  background-image: linear-gradient(-180deg, rgba(0, 0, 0, 0.64) 0%, rgba(0, 0, 0, 0) 100%);
+.navbar-brand {
+  font-family: "Tiempos Text";
+  font-weight: 700;
+  font-size: 1.125rem;
+  padding-top: 8px;
   margin-bottom: 0;
 }
 
+.navbar-brand a {
+  color: $black;
+}
+
 .navbar .navbar-nav .nav-link {
-  padding-left: 1rem;
-  padding-right: 1rem;
-  letter-spacing: 0.2px;
-  font-family: "SFM";
-  font-weight: 500;
-  font-size: .875rem;
-  color: #FFFFFF;
-  letter-spacing: 0;
   text-align: center;
+  padding: 0.5rem 0;
+  font-size: 1rem;
 }
 
-.navbar-toggler:focus {
-  box-shadow: 0 0 0 0;
+.navbar-collapse {
+  margin-top: 1rem;
 }
 
-@media (max-width: 1023px) {
+@media (min-width: 1024px) {
+  .navbar {
+    position: absolute;
+    top: 64px;
+    left: 0;
+    min-width: 176px;
+    min-height: 256px;
+    padding: 2rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0 12px 12px 0;
+  }
+
+  .navbar .navbar-nav {
+    flex-direction: column;
+  }
+
+  .navbar .navbar-nav .nav-link {
+    padding: 0 0 2px;
+    text-align: left;
+  }
+
+  #navbar > ul.navbar-nav > li:last-of-type > a.nav-link {
+    padding: 0;
+  }
+
+  .navbar-brand {
+    font-size: 1.25rem;
+    line-height: 1.2;
+    padding-bottom: .5rem;
+    margin-right: 4px;
+    padding-top: 4px;
+  }
+
   .navbar-collapse {
-    margin-top: 1rem;
+    margin-top: 0;
   }
 }
 
 /* ---------- Footer --------- */
 footer {
-  // background-color: #121212;
-  min-height: 256px;
-  padding-top: 3rem;
-  padding-bottom: 4rem;
-  background-image: linear-gradient(-180deg, #020202 0%, #121212 100%);
-  font-family: "C";
+  min-height: 160px;
+  padding-top: 1.5rem;
+  padding-bottom: 2rem;
   font-size: .875rem;
-  color: #FFFFFF;
+  color: $black;
   letter-spacing: 0;
   line-height: 1.4;
+  border-top: 1px solid $gray-200;
 }
 
-footer .list-inline-item:not(:last-child) {
-  margin-right: 0.25rem;
+footer h5,
+footer .h5 {
+  margin-bottom: .25rem;
+}
+
+.footer-nav a,
+.footer-social a {
+  color: $black;
+}
+
+.footer-social {
+  font-size: 1.5rem;
+}
+
+.footer-nav .list-inline-item:not(:last-child) {
+  margin-right: .75rem;
+}
+
+.footer-social .list-inline-item:not(:last-child) {
+  margin-right: .5rem;
 }
 
 /* ---------- Typography --------- */
@@ -118,12 +174,10 @@ footer .list-inline-item:not(:last-child) {
 }
 
 .display-1 {
-  font-family: "C";
-  font-weight: 700;
-  font-size: 3.25rem;
-  color: #FFFFFF;
-  letter-spacing: -0.2px;
-  line-height: 4rem;
+  font-weight: bold;
+  font-size: 2.5rem;
+  letter-spacing: -0.1px;
+  line-height: 1.3;
   margin-bottom: 1rem;
 }
 
@@ -157,7 +211,6 @@ h1, .h1 {
 }
 
 h2, .h2 {
-  font-family: "C";
   font-weight: 700;
   font-size: 1.75rem;
   letter-spacing: 0;
@@ -165,7 +218,6 @@ h2, .h2 {
 }
 
 h3, .h3 {
-  font-family: "C";
   font-weight: 700;
   font-size: 1.25rem;
   letter-spacing: 0;
@@ -173,7 +225,6 @@ h3, .h3 {
 }
 
 h4, .h4 {
-  font-family: "SFM";
   font-weight: 600;
   color: $primary;
   font-size: .875rem;
@@ -183,16 +234,17 @@ h4, .h4 {
 }
 
 h5, .h5 {
-  font-weight: 600;
+  font-weight: 700;
   color: $primary;
-  font-size: .875rem;
-  letter-spacing: 0.2px;
+  font-size: 0.75rem;
+  font-size: 12px;
+  color: #00BEFF;
+  letter-spacing: 0.5px;
   text-transform: uppercase;
   line-height: 1.125rem;
 }
 
 h6, .h6 {
-  font-family: "C";
   font-weight: 700;
   font-size: .875rem;
   letter-spacing: -0.1px;
@@ -215,7 +267,6 @@ small, .small {
 }
 
 .text-italic {
-  font-family: "C";
   font-weight: 500;
   font-style: italic;
 }
@@ -248,15 +299,11 @@ pre {
 
 /* ---------- Buttons --------- */
 .btn {
-  font-family: "SFM";
   font-weight: 700;
-  font-size: .875rem;
-  line-height: .875rem;
-  letter-spacing: 0;
-  text-align: center;
-  padding: 12px 1.5rem;
-  border-radius: 4px;
-  color: $white;
+  font-size: 0.9375rem;
+  line-height: 0.9375rem;
+  padding: 13px 2rem 10px;
+  font-family: "Tiempos Text";
 }
 
 .btn-xs {
@@ -307,7 +354,6 @@ pre {
 .breadcrumb {
   background: transparent;
   text-transform: uppercase;
-  font-family: "SFM";
   font-size: 12px;
   letter-spacing: 0.4px;
   border-radius: 0;
@@ -326,7 +372,6 @@ pre {
 
 /* ---------- Badges --------- */
 .badge {
-  font-family: "SFM";
   font-weight: 600;
   font-size: .5625rem;
   color: #333333;
@@ -339,9 +384,8 @@ pre {
 
 /* ---------- Landing Page --------- */
 .landing-hero {
-  background-image: url("../images/hero-bg.jpg");
-  background-size: cover;
-  background-position: center 20%;
+  margin-top: 8rem;
+  font-family: "Tiempos Text";
 }
 
 .landing-badge {
@@ -349,91 +393,6 @@ pre {
   display: inline-block;
   padding-right: 96px;
   position: relative;
-}
-
-.landing-badge > .badge {
-  position: absolute;
-  top: 28px;
-  right: 4px;
-}
-
-.landing-hero .btn {
-  min-width: 192px;
-}
-
-.landing-hero .display-1 {
-  font-size: 3.5rem;
-  line-height: 1.33;
-}
-
-.resume-earlybird {
-  background: #0775ED;
-  padding-top: 6rem;
-  padding-bottom: 8rem;
-}
-
-.resume-earlybird .display-3 {
-  font-family: 'SFM';
-  font-size: 1.5rem;
-  line-height: 1.4;
-}
-
-.resume-spartz {
-  background-image: radial-gradient(circle at top center, #444 0%, #121212 100%);
-  padding-top: 4rem;
-  padding-bottom: 6rem;
-}
-
-@media (min-width: 1200px) {
-  .landing-hero .display-1 {
-    max-width: 960px;
-  }
-}
-
-@media (max-width: 768px) {
-  .landing-hero .display-1 {
-    font-size: 2.5rem;
-    line-height: 1.33;
-  }
-  
-  .landing-hero .btn {
-    min-width: 100%;
-  }
-  
-  .landing-badge > .badge {
-    position: absolute;
-    top: 16px;
-    right: 8px;
-  }
-}
-
-@media (max-width: 512px) {
-  .landing-badge > .badge {
-    position: absolute;
-    top: 12px;
-    right: 0;
-  }
-
-  .landing-hero .display-1 {
-    font-size: 2rem;
-  }
-
-  .resume-spartz .display-2,
-  .resume-earlybird .display-2 {
-    font-size: 2.25rem;
-  }
-
-  .resume-spartz .display-3,
-  .resume-earlybird .display-3 {
-    font-size: 1.4rem;
-    line-height: 1.25;
-  }
-  
-  .resume-earlybird, 
-  .resume-spartz {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-  }
 }
 
 /* ---------- Company Page --------- */
@@ -449,17 +408,34 @@ pre {
 
 /* ---------- Blog --------- */
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
   .skinny-contain {
-    max-width: 768px;
+    max-width: 800px;
   }
+}
+
+@media (max-width: 1200px) {
+  .skinny-contain {
+    max-width: 672px;
+  }
+
+  // .navbar {
+  //   top: 16px;
+  // }
+  // 
+  // .landing-hero {
+  //   margin-top: 256px;
+  // }
+}
+
+@media (max-width: 1024px) {
+
 }
 
 
 .box {
   border: 1px solid $gray-200;
   padding: 2rem;
-  font-family: "SFM";
   font-size: .875rem;
   letter-spacing: 0;
   line-height: 1.5;
@@ -484,7 +460,6 @@ pre {
 
 .blog-time {
   font-size: .75rem;
-  font-family: "SFM";
 }
 
 .blog-post {
@@ -542,7 +517,6 @@ figcaption {
 
 .form-control,
 .form-control:focus {
-  font-family: "SFM";
   font-size: .875rem;
   height: 48px;
   background-color: transparent;
@@ -569,7 +543,6 @@ textarea.form-control {
   border-radius: .25rem;
   margin-bottom: 1rem;
   color: $white;
-  font-family: "SFM";
   font-weight: 600;
   background-color: $primary;
   margin-bottom: 1rem;
@@ -594,72 +567,55 @@ textarea.form-control {
 
 /* ---------- Dark Mode Styles --------- */
 
-@media (prefers-color-scheme: dark) {
-  body {
-    color: $white;
-    background-color: $gray-900;
-  }
-
-  .breadcrumb {
-    border-top: 1px solid $gray-800 !important;
-    border-bottom: 1px solid $gray-800 !important;
-  }
-
-  .box a {
-    color: $white !important;
-  }
-
-  .box, .form-control {
-    border: 1px solid $gray-800;
-  }
-
-  .form-control,
-  .form-control:focus,
-  .form-control::placeholder {
-    color: $white;
-  }
-
-  .divider {
-    border-bottom: 1px solid $gray-800 !important;
-  }
-
-  .portfolio-post img {
-    border: none !important;
-  }
-
-  blockquote, pre {
-    background-color: $black !important;
-  }
-  
-  .box.shortcuts {
-    background-color: #161616;
-    border: 1px solid $gray-800;
-    color: $white;
-  }
-
-  .box.shortcuts:hover {
-    border: 1px solid #2AC9FF;
-    color: #2AC9FF;
-  }
-  
-  .btn, .box .btn {
-    color: $black !important;
-  }
-}
-
-// Contact Form 7 Styling Fixes
-
-.grecaptcha-badge {
-  visibility: hidden !important;
-}
-
-.wpcf7-response-output {
-  border: none !important;
-  padding: .5rem 1rem !important;
-  margin: 1.5rem 0 1.5rem !important;
-  border-radius: 0.5rem;
-}
-
-.wpcf7-validation-errors, .wpcf7-acceptance-missing {
-  border: 1px solid #f00 !important;
-}
+// @media (prefers-color-scheme: dark) {
+//   body {
+//     color: $white;
+//     background-color: $gray-900;
+//   }
+// 
+//   .breadcrumb {
+//     border-top: 1px solid $gray-800 !important;
+//     border-bottom: 1px solid $gray-800 !important;
+//   }
+// 
+//   .box a {
+//     color: $white !important;
+//   }
+// 
+//   .box, .form-control {
+//     border: 1px solid $gray-800;
+//   }
+// 
+//   .form-control,
+//   .form-control:focus,
+//   .form-control::placeholder {
+//     color: $white;
+//   }
+// 
+//   .divider {
+//     border-bottom: 1px solid $gray-800 !important;
+//   }
+// 
+//   .portfolio-post img {
+//     border: none !important;
+//   }
+// 
+//   blockquote, pre {
+//     background-color: $black !important;
+//   }
+// 
+//   .box.shortcuts {
+//     background-color: #161616;
+//     border: 1px solid $gray-800;
+//     color: $white;
+//   }
+// 
+//   .box.shortcuts:hover {
+//     border: 1px solid #2AC9FF;
+//     color: #2AC9FF;
+//   }
+// 
+//   .btn, .box .btn {
+//     color: $black !important;
+//   }
+// }
