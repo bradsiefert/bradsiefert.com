@@ -1,22 +1,32 @@
 <template>
   <footer>
-    <div class="container">
+    <div class="container skinny-contain">
       <div class="row">
-        <div class="col-lg">
-          <h4>Quick Bio</h4>
-          <p>
-            I'm a Chicago based UI/UX designer and photographer experienced in web, mobile & print.
-          </p>
 
-          <p>I'm not currently accepting freelance work, but you can contact the Sales team at
-            <a target="_blank" rel="noopener" title="Link to Earlybird Software" href="https://earlybird.co">Earlybird</a> 
-            if you're interested in working with me on a project.
-          </p>
+        <div class="col-md-7 col-lg-8">
+          <h5>Navigation</h5>
+          <ul class="list-inline footer-nav">
+            <li class="list-inline-item">
+              <g-link rel="noopener" to="/portfolio">Design Portfolio</g-link>
+            </li>
+            <li class="list-inline-item">
+              <g-link rel="noopener" to="/siri-shortcuts">Siri Shortcuts</g-link>
+            </li>
+            <li class="list-inline-item">
+              <g-link rel="noopener" to="/blog">Blog</g-link>
+            </li>
+            <li class="list-inline-item">
+              <g-link rel="noopener" to="/about">About</g-link>
+            </li>
+            <li class="list-inline-item">
+              <g-link rel="noopener" to="/contact">Contact</g-link>
+            </li>
+          </ul>
         </div>
 
-        <div class="offset-lg-1 col-lg mb-16">
-          <h4>Social</h4>
-          <ul class="list-inline">
+        <div class="col-md-5 col-lg-4">
+          <h5>Social</h5>
+          <ul class="list-inline footer-social mb-4">
             <li class="list-inline-item">
               <a 
                 target="_blank"
@@ -24,37 +34,7 @@
                 title="Link to Brad's Dribbble" 
                 href="https://dribbble.com/bksiefert"
               >
-                <g-image src="~/assets/images/icon-dribbble.svg" alt="Icon for Dribbble" />
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a 
-                target="_blank"
-                rel="noopener" 
-                title="Link to Brad's Github" 
-                href="https://github.com/bradsiefert"
-              >
-                <g-image src="~/assets/images/icon-github.svg" alt="Icon for Github" />
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a 
-                target="_blank"
-                rel="noopener" 
-                title="Link to Brad's LinkedIn" 
-                href="https://www.linkedin.com/in/bradsiefert/"
-              >
-                <g-image src="~/assets/images/icon-linkedin.svg" alt="Icon for LinkedIn" />
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a 
-                target="_blank"
-                rel="noopener" 
-                title="Link to Brad's Twitter" 
-                href="https://twitter.com/bksiefert"
-              >
-                <g-image src="~/assets/images/icon-twitter.svg" alt="Icon for Twitter" />
+                <font-awesome :icon="['fab', 'dribbble']"/>
               </a>
             </li>
             <li class="list-inline-item">
@@ -64,7 +44,37 @@
                 title="Link to Brad's Instagram" 
                 href="https://www.instagram.com/bradsiefert/"
               >
-                <g-image src="~/assets/images/icon-instagram.svg" alt="Icon for Instagram" />
+                <font-awesome :icon="['fab', 'instagram']"/>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a 
+                target="_blank"
+                rel="noopener" 
+                title="Link to Brad's Github" 
+                href="https://github.com/bradsiefert"
+              >
+                <font-awesome :icon="['fab', 'github']"/>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a 
+                target="_blank"
+                rel="noopener" 
+                title="Link to Brad's LinkedIn" 
+                href="https://www.linkedin.com/in/bradsiefert/"
+              >
+                <font-awesome :icon="['fab', 'linkedin']"/>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a 
+                target="_blank"
+                rel="noopener" 
+                title="Link to Brad's Twitter" 
+                href="https://twitter.com/bksiefert"
+              >
+                <font-awesome :icon="['fab', 'twitter']"/>
               </a>
             </li>
             <li class="list-inline-item">
@@ -72,25 +82,32 @@
                 target="_blank"
                 rel="noopener" 
                 title="Link to Brad's Letterboxd" 
-                href="https://letterboxd.com/bradsiefert/"
+                href=""
               >
-                <g-image src="~/assets/images/icon-letterboxd.svg" alt="Icon for Letterboxd" />
+                <font-awesome :icon="['fab', 'product-hunt']"/>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a 
+                target="_blank"
+                rel="noopener" 
+                title="Link to Brad's Letterboxd" 
+                href=""
+              >
+                <font-awesome :icon="['fab', 'medium']"/>
               </a>
             </li>
           </ul>
         </div>
 
-        <div class="col-lg text-right-then-left">
-          <h4>Credits</h4>
-          <p>
+        <div class="col-12">
+          <h5>Credits</h5>
+          <p class="mb-0">
             Forever grateful to <a target="_blank" rel="noopener" title="Link to Gridsome" href="http://fkorf.com">Fkorf</a>
-            & <a target="_blank" rel="noopener" title="Link to Gridsome" href="http://kro.ski">Kroski</a><br>
+            & <a target="_blank" rel="noopener" title="Link to Gridsome" href="http://kro.ski">Kroski</a>
             Powered by <a target="_blank" rel="noopener" title="Link to Gridsome" href="https://gridsome.org">Gridsome</a>, 
             <a target="_blank" rel="noopener" title="Link to Bootstrap" href="https://getbootstrap.com">Bootstrap</a>,
             <a target="_blank" rel="noopener" title="Link to Netlify" href="https://getbootstrap.com">Netlify</a>.
-          </p>
-
-          <p>
             Images & thoughts &copy; {{ new Date().getFullYear() }} Brad Siefert.
           </p>
         </div>

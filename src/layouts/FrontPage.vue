@@ -1,35 +1,50 @@
 <template>
   <div>
     <header>
-      <div class="landing-hero">
-        <Navbar />
+      <Navbar />
+    </header>
+    
+    <main>
+      <div class="container skinny-contain landing-hero">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="text-center mb-16">
+              <g-image 
+                src="~/assets/images/avatar.jpg" 
+                style="width: 64px;" 
+                class="rounded-circle"
+                alt="Avatar for Brad Siefert">
+              </g-image>
+            </div>
 
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-12 mt-96 mb-160">
-              <h1 class="display-1">
-                Hi, I'm Brad, I’m a UI/UX <span class="landing-badge">designer <div class="badge bg-primary">My Day Job
-                </div></span> and <span class="landing-badge">photographer <div class="badge bg-success">
-                  My Passion</div></span> based in Chicago, IL
-              </h1>
-              <g-link to="/portfolio/" class="btn btn-outline btn-primary btn-lg mb-16 mr-md-16">
+            <h1 class="display-1">
+              Hi, I’m Brad and I’m a UI/UX Designer from Chicago.<br /><br />
+
+              I love code and #nocode.<br />
+              I’m a Siri Shortcuts enthusiast.<br /> 
+              Each year I take around 50k+ photos.<br />
+            </h1>
+
+            <div class="text-center">
+              <g-link to="/portfolio/" class="btn btn-outline-dark rounded-pill mb-16 mr-sm-16">
                 Design Work
               </g-link>
               <a 
                 target="_blank" rel="noopener" 
                 href="https://bradleysiefert.com" 
-                class="btn btn-outline btn-success btn-lg mb-16"
+                class="btn btn-outline-dark rounded-pill mb-16"
                 title="Link to checkout my photography work" 
               >
                 Photo Work
               </a>
             </div>
+
           </div>
         </div>
       </div>
-    </header>
+    </main>
 
-    <div class="resume-earlybird">
+    <!-- <div class="resume-earlybird">
       <div class="container">
         <div class="row">
           <div class="col-sm-12">
@@ -62,9 +77,9 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
 
-    <div class="resume-spartz">
+    <!-- <div class="resume-spartz">
       <div class="container">
         <div class="row">
           <div class="col-sm-12">
@@ -78,7 +93,8 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
+
 
     <Footer />
   </div>
