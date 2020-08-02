@@ -62,7 +62,8 @@ $theme-colors: map-merge(
 );
 
 // Site Specific Variables Updates
-$navbar-light-color:                $white;
+$navbar-light-brand-color:          $black;
+$navbar-light-color:                $black;
 $navbar-light-hover-color:          $primary;
 $navbar-light-active-color:         $primary;
 $navbar-light-disabled-color:       rgba($gray-800, .3);

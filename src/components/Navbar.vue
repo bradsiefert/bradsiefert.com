@@ -1,24 +1,26 @@
 <template>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container">
-      <div class="navbar-brand">
+  <nav class="navbar navbar-expand-lg navbar-light">
+      <h1 class="navbar-brand">
         <g-link to="/">
-          <g-image src="~/assets/images/logo.svg" alt="Logo for Brad Siefert"/>
+          Brad Siefert
         </g-link>
-      </div>
+      </h1>
 
       <button 
         class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" 
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
-        @click="showNav = !showNav" 
+        @click="showNav = !showNav"
       >
         <span class="navbar-toggler-icon"></span>
       </button>
 
       <div class="navbar-collapse collapse justify-content-stretch" id="navbar" :class="{ 'show': showNav } ">
-        <ul class="navbar-nav ml-auto">
+        <ul class="navbar-nav">
           <li class="nav-item">
             <g-link class="nav-link" rel="noopener" to="/portfolio">Design Portfolio</g-link>
+          </li>
+          <li class="nav-item">
+            <g-link class="nav-link" rel="noopener" to="https://bradleysiefert.com">Photography</g-link>
           </li>
           <li class="nav-item">
             <g-link class="nav-link" rel="noopener" to="/siri-shortcuts">Siri Shortcuts</g-link>
@@ -34,7 +36,7 @@
           </li>
         </ul>
       </div>
-    </div>
+
   </nav>
 </template>
 
