@@ -17,6 +17,9 @@
     "tinypng-cli": "0.0.7"
   },
   "devDependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.30",
+    "@fortawesome/free-brands-svg-icons": "^5.14.0",
+    "@fortawesome/vue-fontawesome": "^0.1.10",
     "node-sass": "^4.14.1",
     "sass-loader": "^8.0.2"
   }
