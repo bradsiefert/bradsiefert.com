@@ -38,6 +38,22 @@
                 Photo Work
               </a>
             </div>
+            
+            <hr>
+            <div class="row">
+              <div class="col">
+                <h3>Currently</h3>
+              </div>
+            </div>
+            
+            <div class="row">
+              <div class="col-sm-4">
+                <g-image src=""></g-image>
+              </div>
+              <div class="col-sm-8">
+
+              </div>
+            </div>
 
           </div>
         </div>
