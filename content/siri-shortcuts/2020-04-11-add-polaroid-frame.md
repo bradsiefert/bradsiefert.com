@@ -9,6 +9,6 @@ This is my favorite shortcut I've made. I love analog photography so I set out t
 
 ![A collage of digital polaroid photos created by this shortcut](../images/sirishortcuts-polaroid.png)
 
-<a class="btn btn-primary" href="https://www.icloud.com/shortcuts/3a3e49de00cd4e31a118457f3605bdc4" target="_blank" rel="nofollow noopener noreferrer">Download Shortcut</a>
+<a class="btn btn-outline-dark" href="https://www.icloud.com/shortcuts/3a3e49de00cd4e31a118457f3605bdc4" target="_blank" rel="nofollow noopener noreferrer">Download Shortcut</a>
 
-<a class="btn btn-primary" href="https://www.icloud.com/shortcuts/4aeb4c724bdb42d9b0e23c4c11fbd1bb" target="_blank" rel="nofollow noopener noreferrer">Download Shortcut with Manual Crop (Requires [Toolbox Pro]</a>
+<a class="btn btn-outline-dark" href="https://www.icloud.com/shortcuts/4aeb4c724bdb42d9b0e23c4c11fbd1bb" target="_blank" rel="nofollow noopener noreferrer">Download Shortcut with Manual Crop (Requires [Toolbox Pro]</a>

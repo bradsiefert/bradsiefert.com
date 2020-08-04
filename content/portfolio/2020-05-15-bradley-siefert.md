@@ -10,7 +10,7 @@ It seemed odd to create a photography portfolio before I completed my own design
 
 Sometimes the most simple designs are the most difficult to come though however. This was for sure the case for this project. At face value, the site looks straight forward, but actually uses a ton of media queries to make the site responsive the way I wanted. Quite a bit of work, but something I'm very proud I did.
 
-<a class="btn btn-primary mb-32" target="_blank" href="https://bradleysiefert.com">Live Site</a>
+<a class="btn btn-outline-dark mb-32" target="_blank" href="https://bradleysiefert.com">Live Site</a>
 
 ![Screenshot of the portrait portfolio in light mode](../images/portfolio-bradleysiefert-light1.jpg)
 ![Screenshot of the places portfolio in light mode](../images/portfolio-bradleysiefert-light2.jpg)

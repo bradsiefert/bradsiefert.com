@@ -12,4 +12,4 @@ The default size is 1200px, but you can easily change it to whatever you'd like.
 
 ![Photo of a bar in Detroit, Michigan](../images/sirishortcuts-resizeimage.jpg)
 
-<a class="btn btn-primary" href="https://www.icloud.com/shortcuts/3a3e49de00cd4e31a118457f3605bdc4" target="_blank" rel="nofollow noopener noreferrer">Download Shortcut</a>
+<a class="btn btn-outline-dark" href="https://www.icloud.com/shortcuts/3a3e49de00cd4e31a118457f3605bdc4" target="_blank" rel="nofollow noopener noreferrer">Download Shortcut</a>

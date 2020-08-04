@@ -8,7 +8,7 @@ The ELCA (Evangelical Lutheran Church of America) is the largest Lutheran denomi
 
 This project was for the triennial 'Youth Gathering' which brings together nearly 40,000 Lutheran youth from all over the country for a week of teaching, music and service. The Youth Gathering is a really big deal in the life of the denomination and the site is a really important part of disseminating information to an incredible amount of people. Students, parents, youth leaders, church members, etc all had a stake at some point in what was happening on the site, and it was important to quickly and easily provide that information without barriers.
 
-<a class="btn btn-primary mb-32" target="_blank" href="https://www.elca.org/YouthGathering">Live Site</a>
+<a class="btn btn-outline-dark mb-32" target="_blank" href="https://www.elca.org/YouthGathering">Live Site</a>
 
 ![Screenshot of the website](../images/portfolio-elcayg1.jpg)
 

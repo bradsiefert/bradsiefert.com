@@ -8,7 +8,7 @@ cover_image: ../images/portfolio-10years-featured.jpg
 
 This site is built using [VueJS](https://vuejs.org/), a javascript framework that helped make it easier to flip through the site like a book. Check it out to see some of my favorite images from my first decade of photography.
 
-<a class="btn btn-primary mb-32" target="_blank" href="https://10years.bradleysiefert.com">Live Site</a>
+<a class="btn btn-outline-dark mb-32" target="_blank" href="https://10years.bradleysiefert.com">Live Site</a>
 
 ![Screenshot of the 10 Years photo website](../images/portfolio-10years1.jpg)
 ![Screenshot of the 10 Years photo website](../images/portfolio-10years2.jpg)
