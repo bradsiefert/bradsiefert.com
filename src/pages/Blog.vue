@@ -32,7 +32,7 @@
                   <p>{{ entry.node.description }}</p>
 
                   <g-link class="btn btn-outline-dark" :to="entry.node.path">
-                    Read Post
+                    Read Post &nbsp;➡️
                   </g-link>
 
                 </article>

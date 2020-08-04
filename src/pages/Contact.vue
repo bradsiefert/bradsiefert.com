@@ -60,7 +60,7 @@
             </div>
 
             <div class="mb-24">
-              <button type="submit" class="btn btn-outline-dark">Send Message&nbsp; ✅</button>
+              <button type="submit" class="btn btn-outline-dark">Send Message&nbsp; 📤</button>
             </div>
           </form>
         </div>
