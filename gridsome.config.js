@@ -8,7 +8,6 @@ module.exports = {
   siteName: 'Brad Siefert / Designer & Photographer',
   siteDescription: "Personal design portfolio and blog of Chicago based UI/UX Designer Brad Siefert.",
   siteUrl: 'https://brad.si',
-  pathPrefix: '/efert',
   titleTemplate: `Brad Siefert / %s`,
   icon: 'src/favicon.png',
   plugins: [
