@@ -1,8 +1,5 @@
 [build]
-  publish = "public"
-  command = "mkdir -p public/efert && gridsome build && cp -R dist/* public/efert"
+  publish = "dist"
+  command = "gridsome build"
 
-[[redirects]]
-from = "/"
-to = "/efert"
 
