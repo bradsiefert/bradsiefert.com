@@ -8,17 +8,17 @@
     <div class="container skinny-contain landing-hero">
       <div class="row">
         <div class="col-lg-12">
-          <div class="text-center mb-16">
+          <div class="text-center mb-24">
             <g-image 
               src="~/assets/images/avatar.jpg" 
-              style="width: 64px;" 
+              style="width: 80px;" 
               class="rounded-circle"
               alt="Avatar for Brad Siefert">
             </g-image>
           </div>
 
           <h1 class="display-1">
-            Hi, I’m Brad and I’m a UI/UX Designer from Chicago.<br /><br />
+            Hi, 👋🏻 I’m Brad and I’m a UI/UX Designer from Chicago, IL.<br /><br />
 
             I love code and #nocode.<br />
             I’m a Siri Shortcuts enthusiast.<br /> 
@@ -58,10 +58,10 @@
                 <div class="col-md-8">
                   <h2>UI/UX Designer @ Earlybird Software</h2>
                   <p class="mb-64">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In faucibus justo sed pulvinar 
-                    hendrerit. Vivamus interdum sapien sapien, sit amet tempus justo lacinia ut. Pellentesque 
-                    habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean blandit 
-                    ipsum sit amet neque varius, eget condimentum.
+                    Since 2013, I've been the UI/UX Designer at Earlybird, a cloud computing agency focused on building 
+                    smarter business operations. I've helped design and build web and mobile apps that support internal 
+                    processes and customer dashboards. I create the flows, designs, and develop the web front-ends for 
+                    our products.
                   </p>
                 </div>
               </div>
@@ -85,10 +85,10 @@
                 <div class="col-md-8">
                   <h2>Board Member @ Open Arms Ministry</h2>
                   <p class="mb-64">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In faucibus justo sed pulvinar 
-                    hendrerit. Vivamus interdum sapien sapien, sit amet tempus justo lacinia ut. Pellentesque 
-                    habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean blandit 
-                    ipsum sit amet neque varius, eget condimentum.
+                    Since 2018, I've been on the board of a homelessness non-profit, Open Arms, focused on improving 
+                    our internal systems and IT. It's been a great opportunity to learn how to blend code and no-code 
+                    solutions to create more effective operations. I'm honored to have been given the responsibility to 
+                    help support these men and women in with my technical skills and gifts. 
                   </p>
                 </div>
               </div>
@@ -157,7 +157,7 @@ export default {
   }),
   metaInfo() {
     return {
-      title: 'Home',
+      title: 'UI/UX Designer',
       meta: [
         { property: "og:type", content: 'article' },
         { property: "og:title", content: "Brad Siefert / Designer & Photographer" },

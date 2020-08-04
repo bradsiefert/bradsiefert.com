@@ -81,8 +81,8 @@
               <a 
                 target="_blank"
                 rel="noopener" 
-                title="Link to Brad's Letterboxd" 
-                href=""
+                title="Link to Brad's Product Hunt" 
+                href="https://www.producthunt.com/@dim7chord"
               >
                 <font-awesome :icon="['fab', 'product-hunt']"/>
               </a>
@@ -91,8 +91,8 @@
               <a 
                 target="_blank"
                 rel="noopener" 
-                title="Link to Brad's Letterboxd" 
-                href=""
+                title="Link to Brad's Medium" 
+                href="https://medium.com/@bradsiefert"
               >
                 <font-awesome :icon="['fab', 'medium']"/>
               </a>
@@ -107,7 +107,7 @@
             & <a target="_blank" rel="noopener" title="Link to Gridsome" href="http://kro.ski">Kroski</a>
             Powered by <a target="_blank" rel="noopener" title="Link to Gridsome" href="https://gridsome.org">Gridsome</a>, 
             <a target="_blank" rel="noopener" title="Link to Bootstrap" href="https://getbootstrap.com">Bootstrap</a>,
-            <a target="_blank" rel="noopener" title="Link to Netlify" href="https://getbootstrap.com">Netlify</a>.
+            <a target="_blank" rel="noopener" title="Link to Netlify" href="https://netlify.com">Netlify</a>.
             Images & thoughts &copy; {{ new Date().getFullYear() }} Brad Siefert.
           </p>
         </div>

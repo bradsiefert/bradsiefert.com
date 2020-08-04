@@ -1,7 +1,7 @@
 <template>
   <Layout>
 
-    <div class="container slim-contain">
+    <div class="container wide-contain">
       <div class="row">
         
         <div class="col-lg-12 gx-32">
@@ -38,10 +38,10 @@
                 rel="noopener"
               >Open Arms</a>, 
               focused on improving our internal systems and IT. It's been a great opportunity to learn how to 
-              blend code and nocode solutions to create more effective operations.
+              blend code and no-code solutions to create more effective operations.
             </p>
 
-            <p class="mb-48">
+            <p class="mb-32">
               Each year I take around 50,000 photos. I want to learn two languages in the next couple of years: Spanish 
               and JavaScript. I drink <em>a bit</em> too much Diet Coke—but I’m working on it.
             </p>
@@ -87,7 +87,7 @@
                   title="Link to Makerpad" 
                   href="https://www.makerpad.co"
                 >
-                  Nocode tools
+                  No-code tools
                 </a>&nbsp;&nbsp; 
                 <a 
                   target="_blank" 
@@ -133,15 +133,15 @@
                   target="_blank" 
                   rel="noopener" 
                   title="Link to The Ringer"
-                  href="https://podcasts.apple.com/us/podcast/the-ringer-nba-show/id1109271715"
+                  href="https://atp.fm/"
                 >
-                  NBA podcasts
+                  Tech podcasts
                 </a>&nbsp;&nbsp;
               </small>
             </p>
 
             <a target="_blank" class="btn btn-outline-dark mb-32" href="files/Brad-Siefert-Resume.pdf">
-              Download Resume
+              Download Resume &nbsp;📂
             </a>
           </article>
         </div>
