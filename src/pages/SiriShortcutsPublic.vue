@@ -1,23 +1,10 @@
 <template>
   <Layout>
-    <div class="container">
+    <div class="container wide-contain">
       <div class="row">
         <div class="col-lg-12">
 
-          <div class="row">
-            <div class="col">
-              <div class="breadcrumb">
-                <div class="breadcrumb-item">
-                  <g-link title="Link back to home" to="/">Home</g-link>
-                </div>
-                <div class="breadcrumb-item">
-                  {{ $metaInfo.postTitle }}
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <h1>Public Shortcuts List</h1>
+          <h1>Public Siri Shortcuts List</h1>
           <p class="lead">
             This is a list of all of my public shortcuts in an <a href="https://airtable.com">Airtable</a> database. 
             I’m especially proud of many of these and I hope you will find them useful. To add the Shortcut, tap the 

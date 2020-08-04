@@ -1,16 +1,17 @@
+// Importin'
 @import "variables.scss";
 @import "fontfaces.css";
 @import "~bootstrap";
 
-/* ---------- Global --------- */
+// Global
 
 // All this is to make the footer sticky to the bottom.
-html, body, #app { height: 100%; }
-body, #app { display: flex; flex-direction: column; }
+html, #app { height: 100%; }
+#app { display: flex; flex-direction: column; }
 main { flex: 1 0 auto; }
 footer { flex-shrink: 0; }
 
-// html { background-color: $primary; }
+html { background-color: $primary; }
 
 body {
   background-color: $white;
@@ -23,8 +24,10 @@ body {
   letter-spacing: -0.1px;
 }
 
-a {
-  text-decoration: none;
+@media (min-width: 1024px) {
+  main {
+    padding-top: 6rem;
+  }
 }
 
 a:active {
@@ -51,126 +54,58 @@ a:active {
   }
 }
 
-// Navbar
-.navbar {
-  background: #FFFFFF;
-  border: 1px solid #EAEAEA;
-  box-shadow: 0 0 32px 0 rgba(0,0,0,0.08);
-  color: $black;
-
-  padding-left: 1.5rem;
-  padding-right: 0.5rem;
-  border-radius: 0;
-}
-
-.navbar-brand {
-  font-family: "Tiempos Text";
-  font-weight: 700;
-  font-size: 1.125rem;
-  padding-top: 8px;
-  margin-bottom: 0;
-}
-
-.navbar-brand a {
-  color: $black;
-}
-
-.navbar .navbar-nav .nav-link {
-  text-align: center;
-  padding: 0.5rem 0;
-  font-size: 1rem;
-}
-
-.navbar-collapse {
-  margin-top: 1rem;
-}
-
-@media (min-width: 1024px) {
-  .navbar {
-    position: absolute;
-    top: 64px;
-    left: 0;
-    min-width: 176px;
-    min-height: 256px;
-    padding: 2rem 1.5rem;
-    display: flex;
-    flex-direction: column;
-    border-radius: 0 12px 12px 0;
-  }
-
-  .navbar .navbar-nav {
-    flex-direction: column;
-  }
-
-  .navbar .navbar-nav .nav-link {
-    padding: 0 0 2px;
-    text-align: left;
-  }
-
-  #navbar > ul.navbar-nav > li:last-of-type > a.nav-link {
-    padding: 0;
-  }
-
-  .navbar-brand {
-    font-size: 1.25rem;
-    line-height: 1.2;
-    padding-bottom: .5rem;
-    margin-right: 4px;
-    padding-top: 4px;
-  }
-
-  .navbar-collapse {
-    margin-top: 0;
+// Layout
+@media (max-width: 1599px) {
+  .wide-contain {
+    max-width: 1024px;
   }
 }
 
-/* ---------- Footer --------- */
-footer {
-  min-height: 160px;
-  padding-top: 1.5rem;
-  padding-bottom: 2rem;
-  font-size: .875rem;
-  color: $black;
-  letter-spacing: 0;
-  line-height: 1.4;
-  border-top: 1px solid $gray-200;
+@media (min-width: 1199px) {
+  .slim-contain {
+    max-width: 992px;
+  }
 }
 
-footer h5,
-footer .h5 {
-  margin-bottom: .25rem;
+@media (max-width: 1399px) {
+  .slim-contain,
+  .wide-contain {
+    max-width: 800px;
+  }
 }
 
-.footer-nav a,
-.footer-social a {
-  color: $black;
+@media (min-width: 1199px) {
+  .skinny-contain {
+    max-width: 800px;
+  }
 }
 
-.footer-social {
-  font-size: 1.5rem;
+@media (max-width: 1199px) {
+  .skinny-contain,
+  .slim-contain,
+  .wide-contain {
+    max-width: 672px;
+  }
 }
 
-.footer-nav .list-inline-item:not(:last-child) {
-  margin-right: .75rem;
-}
-
-.footer-social .list-inline-item:not(:last-child) {
-  margin-right: .25rem;
-}
-
-/* ---------- Typography --------- */
+// Typography
 .text-right-then-left   { text-align: right;	}
 @media (max-width: 992px) { .text-right-then-left   { text-align: left;   } }
 .text-right-then-center   { text-align: right;	}
 @media (max-width: 992px) { .text-right-then-center   { text-align: center; } }
 
-.about p {
-  font-size: 1.25rem;
+.lead {
+  line-height: 1.5;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.lead p {
   margin-bottom: 1.5rem;
 }
 
-.lead {
-  font-weight: 400;
+.small {
+  font-weight: inherit;
 }
 
 .display-1 {
@@ -205,7 +140,8 @@ footer .h5 {
 }
 
 h1, .h1 {
-  font-weight: 600;
+  font-family: "Tiempos Text";
+  font-weight: 700;
   font-size: 2rem;
   letter-spacing: 0;
 }
@@ -213,30 +149,27 @@ h1, .h1 {
 h2, .h2 {
   font-weight: 700;
   font-size: 1.75rem;
-  letter-spacing: 0;
-  line-height: 2.5rem;
+  letter-spacing: -0.1px;
+  line-height: 1.4;
 }
 
 h3, .h3 {
+  font-family: "Tiempos Text";
   font-weight: 700;
   font-size: 1.25rem;
-  letter-spacing: 0;
-  line-height: 2rem;
+  font-style: italic;
 }
 
 h4, .h4 {
-  font-weight: 600;
-  color: $primary;
-  font-size: .875rem;
-  letter-spacing: 0.2px;
-  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.1rem;
   line-height: 1.125rem;
 }
 
 h5, .h5 {
   font-weight: 700;
   color: $primary;
-  font-size: 0.75rem;
+  font-size: .875rem;
   font-size: 12px;
   color: #00BEFF;
   letter-spacing: 0.5px;
@@ -246,7 +179,7 @@ h5, .h5 {
 
 h6, .h6 {
   font-weight: 700;
-  font-size: .875rem;
+  font-size: .75rem;
   letter-spacing: -0.1px;
   line-height: 1.125rem;
   margin-bottom: .25rem;
@@ -274,8 +207,9 @@ small, .small {
 blockquote {
   margin: 1rem 0 1.5rem;
   background-color: $gray-100;
-  padding: 1.25rem 2rem .5rem;
+  padding: 1.5rem 2rem .5rem !important;
   font-style: italic;
+  font-family: "Tiempos Text";
 }
 
 blockquote {
@@ -284,6 +218,7 @@ blockquote {
   }
 
   p:last-of-type {
+    font-family: "Benton Sans";
     font-style: normal;
     font-weight: 500;
     font-size: .875rem;
@@ -297,13 +232,25 @@ pre {
   padding: 1rem;
 }
 
+.hero hr {
+  margin: 4rem auto 2rem;
+}
+
 /* ---------- Buttons --------- */
 .btn {
   font-weight: 700;
   font-size: 0.9375rem;
   line-height: 0.9375rem;
   padding: 13px 2rem 10px;
+  letter-spacing: 0.2px;
   font-family: "Tiempos Text";
+  border-radius: 96px;
+}
+
+@media (max-width: 512px) {
+  .btn {
+    width: 100%;
+  }
 }
 
 .btn-xs {
@@ -314,8 +261,9 @@ pre {
 
 .btn-sm {
   font-size: .8125rem;
+  line-height: .8125rem;
   font-weight: 700;
-  padding: 8px 1.5rem 7px;
+  padding: 9px 1.5rem 8px;
 }
 
 .btn-lg {
@@ -323,45 +271,18 @@ pre {
   padding: 16px 2rem;
 }
 
-.btn-outline,
-.btn-outline:hover {
-  background-color: transparent;
-}
-
-.btn-outline.btn-primary {
-  color: $primary !important;
-}
-
-.btn-outline.btn-success {
-  color: $success !important;
-}
-
-.btn-highlight {
-  color: $gray-900;
-}
-
-.btn-secondary {
-  color: $gray-800;
-  background-color: $gray-200;
-  border-color: $gray-200;
-}
-
-.btn-link {
-  color: $link-color;
-}
-
-/* ---------- Breadcrumbs --------- */
+// Breadcrumbs
 .breadcrumb {
   background: transparent;
-  text-transform: uppercase;
-  font-size: 12px;
-  letter-spacing: 0.4px;
+  color: $gray-600;
+  font-size: 0.75rem;
+  line-height: 0.75rem;
+  letter-spacing: 0.2px;
   border-radius: 0;
   border-top: 1px solid $gray-200;
   border-bottom: 1px solid $gray-200;
-  padding: .5rem 1rem;
-  margin-bottom: 2rem;
-  padding-left: 0;
+  padding: 10px 1rem 10px 0;
+  margin-bottom: 3rem;
 }
 
 .divider {
@@ -370,77 +291,12 @@ pre {
   margin-bottom: 1rem;
 }
 
-/* ---------- Badges --------- */
-.badge {
-  font-weight: 600;
-  font-size: .5625rem;
-  color: #333333;
-  letter-spacing: 0.2px;
-  text-align: center;
-  text-transform: uppercase;
-  padding: 4px 8px 4px;
-  border-radius: .2rem;
-}
-
-/* ---------- Landing Page --------- */
-.landing-hero {
-  margin-top: 8rem;
-  font-family: "Tiempos Text";
-}
-
-.landing-badge {
-  word-break: keep-all;
-  display: inline-block;
-  padding-right: 96px;
-  position: relative;
-}
-
-// Landing Page
-.hero {
-  background: $primary;
-  min-height: 16rem;
-  display: flex;
-  align-items: center;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-  margin-bottom: 4rem;
-}
-
-.hero hr {
-  margin: 4rem auto 2rem;
-}
-
-/* ---------- Blog --------- */
-
-@media (min-width: 1200px) {
-  .skinny-contain {
-    max-width: 800px;
-  }
-}
-
-@media (max-width: 1200px) {
-  .skinny-contain {
-    max-width: 672px;
-  }
-
-  // .navbar {
-  //   top: 16px;
-  // }
-  // 
-  // .landing-hero {
-  //   margin-top: 256px;
-  // }
-}
-
-@media (max-width: 1024px) {
-
-}
-
+// Blog
 
 .box {
   border: 1px solid $gray-200;
   padding: 2rem;
-  font-size: .875rem;
+  font-size: 0.9375rem;
   letter-spacing: 0;
   line-height: 1.5;
   margin-bottom: 2rem;
@@ -448,61 +304,66 @@ pre {
   border-radius: 0.5rem;
 }
 
-.box h3 a {
+.box a:not(.btn) {
   color: $gray-900;
-}
-
-.box h3 a:hover {
-  color: $link-color;
 }
 
 @media (max-width: 767px) {
   .box {
-    padding: 2rem;
+    padding: 1.5rem;
   }
 }
 
-.blog-time {
-  font-size: .75rem;
+.blog-details {
+  font-size: 0.8125rem;
 }
 
 .blog-post {
   font-size: 1.25rem;
+  font-weight: normal;
   line-height: 1.5;
+  letter-spacing: 0;
 }
 
-.blog-post p {
-  margin-bottom: 1.5rem;
+.blog-post {
+  p {
+
+    margin-bottom: 1.5rem;
+  }
+
+  h1 {
+    margin-top: 2rem;
+  }
+
+  h2 {
+    margin-top: 3rem;
+    font-size: 1.5rem;
+  }
+
+  h3 {
+    margin-top: 2rem;
+  }
+
+  img {
+    margin-top: .5rem;
+    margin-bottom: 1rem;
+    max-width: 100%;
+    height: auto;
+  }
+
+  figure {
+    margin-bottom: 2rem;
+  }
+
+  figcaption {
+    font-size: .9125rem;
+    color: #777;
+    text-align: center;
+  }
 }
 
-.blog-post h1 {
-  margin-top: 2rem;
-  margin-bottom: 1.5rem;
-}
-
-.blog-post h2 {
-  margin-top: 3rem;
-}
-
-.blog-post h3 {
-  margin-top: 2rem;
-}
-
-.blog-post img {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  max-width: 100%;
-  height: auto;
-}
-
-.blog-post figure {
-  margin-bottom: 2rem;
-}
-
-figcaption {
-  font-size: .9125rem;
-  color: #777;
-  text-align: center;
+.portfolio img {
+  border: 1px solid $gray-200;
 }
 
 .portfolio-post p {
@@ -514,7 +375,6 @@ figcaption {
   border: 1px solid $gray-100;
   max-width: 100%;
   height: auto;
-
 }
 
 /* ---------- Contact Page --------- */
@@ -536,25 +396,9 @@ textarea.form-control {
   font-weight: 600;
 }
 
-.wpcf7 .screen-reader-response {
-  display: none;
-}
-
-.wpcf7-mail-sent-ok {
-  font-size: .8125rem;
-  line-height: 1.6;
-  padding: 6px 16px;
-  border-radius: .25rem;
-  margin-bottom: 1rem;
-  color: $white;
-  font-weight: 600;
-  background-color: $primary;
-  margin-bottom: 1rem;
-}
-
 /* ---------- Siri Shortcuts Page --------- */
 .box.shortcuts {
-  background-color: #fcfcfc;
+  background-color: $white;
   border: 1px solid $gray-400;
   border-radius: 0.5rem;
   min-height: 256px;
@@ -569,57 +413,6 @@ textarea.form-control {
   text-decoration-color: #2AC9FF;
 }
 
-/* ---------- Dark Mode Styles --------- */
-
-// @media (prefers-color-scheme: dark) {
-//   body {
-//     color: $white;
-//     background-color: $gray-900;
-//   }
-// 
-//   .breadcrumb {
-//     border-top: 1px solid $gray-800 !important;
-//     border-bottom: 1px solid $gray-800 !important;
-//   }
-// 
-//   .box a {
-//     color: $white !important;
-//   }
-// 
-//   .box, .form-control {
-//     border: 1px solid $gray-800;
-//   }
-// 
-//   .form-control,
-//   .form-control:focus,
-//   .form-control::placeholder {
-//     color: $white;
-//   }
-// 
-//   .divider {
-//     border-bottom: 1px solid $gray-800 !important;
-//   }
-// 
-//   .portfolio-post img {
-//     border: none !important;
-//   }
-// 
-//   blockquote, pre {
-//     background-color: $black !important;
-//   }
-// 
-//   .box.shortcuts {
-//     background-color: #161616;
-//     border: 1px solid $gray-800;
-//     color: $white;
-//   }
-// 
-//   .box.shortcuts:hover {
-//     border: 1px solid #2AC9FF;
-//     color: #2AC9FF;
-//   }
-// 
-//   .btn, .box .btn {
-//     color: $black !important;
-//   }
-// }
+.box.shortcuts h3 {
+  font-style: normal;
+}

@@ -19,13 +19,14 @@
           </div>
 
           <article>
+            <h1 v-html="$page.siriShortcuts.title"></h1>
+
             <ul class="list-inline">
-              <li class="list-inline-item blog-time">
+              <li class="list-inline-item blog-details">
                 <time>{{ $page.siriShortcuts.humanTime }}</time>
               </li>
             </ul>
 
-            <h1 v-html="$page.siriShortcuts.title"></h1>
             <div v-html="$page.siriShortcuts.content"></div>
           </article>
 

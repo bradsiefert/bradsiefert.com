@@ -94,8 +94,7 @@
     font-style: normal;
 }
 
-// TiemposText
-
+// Tiempos Text
 @font-face {
     font-family: 'Tiempos Text';
     src: url('../fonts/TiemposText-Regular.eot');
@@ -106,6 +105,18 @@
         url('../fonts/TiemposText-Regular.svg#BentonSans-Regular') format('svg');
     font-weight: 500;
     font-style: normal;
+}
+
+@font-face {
+    font-family: 'Tiempos Text';
+    src: url('../fonts/TiemposText-RegularItalic.eot');
+    src: url('../fonts/TiemposText-RegularItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/TiemposText-RegularItalic.woff2') format('woff2'),
+        url('../fonts/TiemposText-RegularItalic.woff') format('woff'),
+        url('../fonts/TiemposText-RegularItalic.ttf') format('truetype'),
+        url('../fonts/TiemposText-RegularItalic.svg#BentonSans-Regular') format('svg');
+    font-weight: 500;
+    font-style: italic;
 }
 
 @font-face {
@@ -122,6 +133,18 @@
 
 @font-face {
     font-family: 'Tiempos Text';
+    src: url('../fonts/TiemposText-MediumItalic.eot');
+    src: url('../fonts/TiemposText-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/TiemposText-MediumItalic.woff2') format('woff2'),
+        url('../fonts/TiemposText-MediumItalic.woff') format('woff'),
+        url('../fonts/TiemposText-MediumItalic.ttf') format('truetype'),
+        url('../fonts/TiemposText-MediumItalic.svg#BentonSans-Medium') format('svg');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Tiempos Text';
     src: url('../fonts/TiemposText-Semibold.eot');
     src: url('../fonts/TiemposText-Semibold.eot?#iefix') format('embedded-opentype'),
         url('../fonts/TiemposText-Semibold.woff2') format('woff2'),
@@ -130,6 +153,18 @@
         url('../fonts/TiemposText-Semibold.svg#BentonSans-Black') format('svg');
     font-weight: 700;
     font-style: normal;
+}
+
+@font-face {
+    font-family: 'Tiempos Text';
+    src: url('../fonts/TiemposText-SemiboldItalic.eot');
+    src: url('../fonts/TiemposText-SemiboldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/TiemposText-SemiboldItalic.woff2') format('woff2'),
+        url('../fonts/TiemposText-SemiboldItalic.woff') format('woff'),
+        url('../fonts/TiemposText-SemiboldItalic.ttf') format('truetype'),
+        url('../fonts/TiemposText-SemiboldItalic.svg#BentonSans-Black') format('svg');
+    font-weight: 700;
+    font-style: italic;
 }
 
 @font-face {
@@ -144,5 +179,14 @@
     font-style: normal;
 }
 
-
-
+@font-face {
+    font-family: 'Tiempos Text';
+    src: url('../fonts/TiemposText-BoldItalic.eot');
+    src: url('../fonts/TiemposText-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/TiemposText-BoldItalic.woff2') format('woff2'),
+        url('../fonts/TiemposText-BoldItalic.woff') format('woff'),
+        url('../fonts/TiemposText-BoldItalic.ttf') format('truetype'),
+        url('../fonts/TiemposText-BoldItalic.svg#BentonSans-Bold') format('svg');
+    font-weight: bold;
+    font-style: italic;
+}

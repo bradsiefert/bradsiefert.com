@@ -1,128 +1,147 @@
 <template>
-  <div>
-    <header>
-      <Navbar />
-    </header>
-    
-    <main>
-      <div class="container skinny-contain landing-hero">
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="text-center mb-16">
-              <g-image 
-                src="~/assets/images/avatar.jpg" 
-                style="width: 64px;" 
-                class="rounded-circle"
-                alt="Avatar for Brad Siefert">
-              </g-image>
-            </div>
+<div>
+  <header>
+    <Navbar />
+  </header>
 
-            <h1 class="display-1">
-              Hi, I’m Brad and I’m a UI/UX Designer from Chicago.<br /><br />
-
-              I love code and #nocode.<br />
-              I’m a Siri Shortcuts enthusiast.<br /> 
-              Each year I take around 50k+ photos.<br />
-            </h1>
-
-            <div class="text-center">
-              <g-link to="/portfolio/" class="btn btn-outline-dark rounded-pill mb-16 mr-sm-16">
-                Design Work
-              </g-link>
-              <a 
-                target="_blank" rel="noopener" 
-                href="https://bradleysiefert.com" 
-                class="btn btn-outline-dark rounded-pill mb-16"
-                title="Link to checkout my photography work" 
-              >
-                Photo Work
-              </a>
-            </div>
-            
-            <hr>
-            <div class="row">
-              <div class="col">
-                <h3>Currently</h3>
-              </div>
-            </div>
-            
-            <div class="row">
-              <div class="col-sm-4">
-                <g-image src=""></g-image>
-              </div>
-              <div class="col-sm-8">
-
-              </div>
-            </div>
-
+  <main>
+    <div class="container skinny-contain landing-hero">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="text-center mb-16">
+            <g-image 
+              src="~/assets/images/avatar.jpg" 
+              style="width: 64px;" 
+              class="rounded-circle"
+              alt="Avatar for Brad Siefert">
+            </g-image>
           </div>
-        </div>
-      </div>
-    </main>
 
-    <!-- <div class="resume-earlybird">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
+          <h1 class="display-1">
+            Hi, I’m Brad and I’m a UI/UX Designer from Chicago.<br /><br />
+
+            I love code and #nocode.<br />
+            I’m a Siri Shortcuts enthusiast.<br /> 
+            Each year I take around 50k+ photos.<br />
+          </h1>
+
+          <div class="text-center my-48">
+            <g-link 
+              to="/portfolio/" 
+              class="btn btn-outline-dark rounded-pill mb-16 mr-md-16">
+              Design Work
+            </g-link>
             <a 
-              target="_blank" 
-              rel="noopener"
-              href="https://earlybird.co"
-              title="Link to learn more about Earlybird Software" 
+              target="_blank" rel="noopener" 
+              href="https://bradleysiefert.com" 
+              class="btn btn-outline-dark rounded-pill mb-16"
+              title="Link to checkout my photography work" 
             >
-              <g-image class="mb-32" src="~/assets/images/logo-earlybird.svg" alt="Logo for Earlybird Software" />
-            </a>
-            <div class="display-2 mb-32">
-              For the past <span id="dateDisplay">{{ moment([2013, 8, 17]).fromNow(true) }}</span> I’ve been the 
-              Product Designer at Earlybird
-            </div>
-            <div class="display-3 mb-32">
-              We develop elegant custom data solutions for companies to help them make sense of their data. I’ve been 
-              able to design web and mobile app front-ends, create data reporting dashboards, and help provide branding 
-              ideation for startups and medium sized companies.
-            </div>
-            <a 
-              class="btn btn-highlight btn-lg" 
-              target="_blank" 
-              rel="noopener"
-              href="https://earlybird.co"
-              title="Link Earlybird Software's website" 
-            >
-              Learn more about Earlybird
+              Photo Work
             </a>
           </div>
-        </div>
-      </div>
-    </div> -->
 
-    <!-- <div class="resume-spartz">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <g-image class="mb-16" style="width: 104px;" src="~/assets/images/logo-spartz.png" alt="Spartz Media Logo" />
-            <div class="display-3 mb-32">
-              Previously, I was a designer at Spartz Media (now 
-              <a rel="noopener" target="_blank" title="Link to the Dose website" href="https://dose.com/">Dose</a>) 
-              where we created  viral content websites and apps. I helped create logos, web design and helped out with 
-              front-end development for their suite of meme websites.
+          <hr class="mb-32">
+          <div class="row">
+            <div class="col">
+              <h3 class="mb-32">Currently</h3>
+              <div class="row">
+                <div class="col-md-4">
+                  <a href="https://earlybird.co" title="Link to Earlybird Software" rel="nofollow">
+                    <g-image
+                      class="img-fluid mb-24"
+                      src="~/assets/images/earlybird-logo.svg" 
+                      alt="Logo for Earlybird Software">
+                    </g-image>
+                  </a>
+                </div>
+                <div class="col-md-8">
+                  <h2>UI/UX Designer @ Earlybird Software</h2>
+                  <p class="mb-64">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In faucibus justo sed pulvinar 
+                    hendrerit. Vivamus interdum sapien sapien, sit amet tempus justo lacinia ut. Pellentesque 
+                    habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean blandit 
+                    ipsum sit amet neque varius, eget condimentum.
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
+          
+          <hr class="mb-32">
+          <div class="row">
+            <div class="col">
+              <h3 class="mb-32">Volunteering</h3>
+              <div class="row">
+                <div class="col-md-4">
+                  <a href="https://openarmsministry.org" title="Link to Open Arms Ministry" rel="nofollow">
+                    <g-image
+                      class="img-fluid mb-24"
+                      src="~/assets/images/oam-logo.svg" 
+                      alt="Logo for Open Arms Ministry">
+                    </g-image>
+                  </a>
+                </div>
+                <div class="col-md-8">
+                  <h2>Board Member @ Open Arms Ministry</h2>
+                  <p class="mb-64">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In faucibus justo sed pulvinar 
+                    hendrerit. Vivamus interdum sapien sapien, sit amet tempus justo lacinia ut. Pellentesque 
+                    habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean blandit 
+                    ipsum sit amet neque varius, eget condimentum.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <hr class="mb-32">
+          <div class="row">
+            <div class="col">
+              <div class="row">
+                <div class="col-md-4">
+                  <h3 class="mb-32">Previously</h3>
+                </div>
+                <div class="col-md-8">
+
+                  <div class="row">
+                    <div class="col-4 text-left">
+                      <g-image
+                        class="img-fluid mb-24"
+                        src="~/assets/images/colorjar.svg" 
+                        alt="Logo for Open Arms Ministry">
+                      </g-image>
+                    </div>
+                    <div class="col-4 text-center">
+                      <g-image
+                        class="img-fluid mb-24"
+                        src="~/assets/images/dose.svg" 
+                        alt="Logo for Open Arms Ministry">
+                      </g-image>
+                    </div>
+                    <div class="col-4 text-right">
+                      <g-image
+                        class="img-fluid mb-24 text-right-then-center"
+                        style="width: 80px;"
+                        src="~/assets/images/forbes.png" 
+                        alt="Logo for Open Arms Ministry">
+                      </g-image>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
-    </div> -->
+    </div>
+  </main>
 
-
-    <Footer />
-  </div>
+  <Footer />
+</div>
 </template>
-
-<static-query>
-query {
-  metadata {
-    siteName
-  }
-}
-</static-query>
 
 <script>
 import Navbar from '@/components/Navbar.vue'
@@ -157,3 +176,46 @@ export default {
   },
 }
 </script>
+
+<style lang="scss">
+@import "@/assets/scss/variables.scss";
+
+// Landing Page
+.landing-hero {
+  font-family: "Tiempos Text";
+}
+
+.landing-hero p {
+  font-family: "Benton Sans";
+  font-weight: normal;
+}
+
+.landing-hero h2 {
+  font-size: 1.25rem;
+  letter-spacing: 0;
+}
+
+.landing-hero h3 {
+  font-size: 1rem;
+}
+
+.landing-hero .btn {
+  min-width: 12rem;
+}
+
+@media (max-width: 1024px) {
+  .landing-hero {
+    margin-top: 2rem;
+  }
+
+  .landing-hero .btn {
+    width: 100%;
+  }
+}
+
+@media (max-width: 512px) {
+  .landing-hero .display-1 {
+    font-size: 1.75rem;
+  }
+}
+</style>

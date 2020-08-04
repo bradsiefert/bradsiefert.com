@@ -19,8 +19,8 @@
           </div>
 
           <article>
-            <h4>Design Portfolio Piece:</h4>
-            <h2 v-html="$page.portfolio.title"></h2>
+            <h5 class="mb-16">Design Portfolio Piece:</h5>
+            <h2 class="h1 mb-24" v-html="$page.portfolio.title"></h2>
 
             <div v-html="$page.portfolio.content"></div>
             <div class="divider"></div>

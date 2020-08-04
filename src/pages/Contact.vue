@@ -3,12 +3,9 @@
     <div class="container skinny-contain">
       <div class="row">
         <div class="col">
-          <div class="breadcrumb">
-            <div class="breadcrumb-item"><a title="Link back to home" href="/">Home</a></div>
-            <div class="breadcrumb-item">{{ $metaInfo.title }}</div>
-          </div>
-          
-          <h1 class="mb-16">Say Hello</h1>
+          <h1>Say Hello</h1>
+          <p class="mb-32">Please reach out and I'll do my best to get back to you asap.</p>
+
           <form 
             name="brad.si Contact Form"
             method="post"
@@ -63,7 +60,7 @@
             </div>
 
             <div class="mb-24">
-              <button type="submit" class="btn btn-primary">Send Message ☑️</button>
+              <button type="submit" class="btn btn-outline-dark">Send Message&nbsp; ✅</button>
             </div>
           </form>
         </div>

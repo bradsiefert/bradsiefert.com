@@ -4,15 +4,6 @@
       <div class="row justify-content-center">
         <div class="col-lg-12">
 
-          <div class="row">
-            <div class="col">
-              <div class="breadcrumb">
-                <div class="breadcrumb-item"><a title="Link back to home" href="/">Home</a></div>
-                <div class="breadcrumb-item">{{ $metaInfo.title }}</div>
-              </div>
-            </div>
-          </div>
-
           <!-- <div class="float-right">
             <small><strong><a href="https://www.brad.si/efert/category/blog/feed/">RSS Feed</a></strong></small>
           </div> -->
@@ -30,17 +21,17 @@
                     </figure>
                   </g-link>
 
-                  <p class="blog-time mt-16">
+                  <p class="blog-details">
                     <time :datetime="entry.node.datetime">{{ entry.node.humanTime }}</time>
                   </p>
 
                   <g-link :to="entry.node.path">
-                    <h2>{{ entry.node.title }}</h2>
+                    <h2 class="h1">{{ entry.node.title }}</h2>
                   </g-link>
 
                   <p>{{ entry.node.description }}</p>
 
-                  <g-link class="btn btn-primary btn-sm" :to="entry.node.path">
+                  <g-link class="btn btn-outline-dark" :to="entry.node.path">
                     Read Post
                   </g-link>
 
@@ -74,7 +65,7 @@ export default {
           path
           description
           cover_image(width:960)
-          humanTime : date(format:"YYYY/MM/DD")
+          humanTime : date(format:"YYYY-MM-DD")
           datetime : date(format:"ddd MMM DD YYYY hh:mm:ss zZ")
         }
       }

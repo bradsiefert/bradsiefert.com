@@ -19,16 +19,16 @@
           </div>
 
           <article>
-            <ul class="list-inline">
-              <li class="list-inline-item blog-time">
+            <h1 v-html="$page.blog.title"></h1>
+            <ul class="list-inline mb-32">
+              <li class="list-inline-item blog-details">
                 <time :datetime="$page.blog.datetime">{{ $page.blog.humanTime }}</time>
               </li>
-              <li class="list-inline-item blog-time pl-16">
+              <li class="list-inline-item blog-details pl-16">
                 {{ $page.blog.timeToRead }} min read
               </li>
             </ul>
 
-            <h1 v-html="$page.blog.title"></h1>
             <div v-html="$page.blog.content"></div>
           </article>
 
