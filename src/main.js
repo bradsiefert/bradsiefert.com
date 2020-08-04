@@ -25,3 +25,5 @@ export default function (Vue, { router, head, isClient }) {
   // Use Moment.Js library inside our project
   Vue.prototype.moment = moment
 }
+
+// 2020-08-04 Test Commit
