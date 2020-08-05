@@ -88,7 +88,7 @@
                     Since 2018, I've been on the board of a homelessness non-profit, Open Arms, focused on improving 
                     our internal systems and IT. It's been a great opportunity to learn how to blend code and no-code 
                     solutions to create more effective operations. I'm honored to have been given the responsibility to 
-                    help support these men and women in with my technical skills and gifts. 
+                    help support the community with my technical skills and gifts. 
                   </p>
                 </div>
               </div>
