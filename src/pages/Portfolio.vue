@@ -8,11 +8,25 @@
           <p>
             Some of my design and front-end development work I'm proud to show off.
           </p>
+          
+          <g-link to="/highbeam-design-system">
+            <g-image 
+              class="img-fluid rounded-lg" 
+              src="@/assets/images/highbeam-case-study.jpg"
+              style="border: 1px solid #eeeeee;"
+              quality="100"
+            />
+          </g-link>
 
-          <div class="row g-16 mt-16 mb-32">
+          <div class="row g-16 mt-4 mb-32">
             <div class="col-md-6 col-xl-4" v-for="entry in $page.allPortfolio.edges" :key="entry.node.id">
               <g-link class="portfolio" :to="entry.node.path">
-                <g-image class="img-fluid rounded-lg" :src="entry.node.cover_image" :alt="entry.node.title"/>
+                <g-image 
+                  class="img-fluid rounded-lg" 
+                  :src="entry.node.cover_image" 
+                  :alt="entry.node.title"
+                  quality="88"
+                />
               </g-link>
             </div>
           </div>

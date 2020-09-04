@@ -33,7 +33,6 @@
           </article>
 
           <div class="divider mt-32"></div>
-          <!-- <div class="divider"></div> -->
         </div>
       </div>
     </div>
