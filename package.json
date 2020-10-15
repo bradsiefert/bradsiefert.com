@@ -13,7 +13,6 @@
     "bootstrap": "^5.0.0-alpha1",
     "gridsome": "^0.7.19",
     "gridsome-source-static-meta": "^1.0.1",
-    "moment": "^2.27.0",
     "tinypng-cli": "0.0.7"
   },
   "devDependencies": {
