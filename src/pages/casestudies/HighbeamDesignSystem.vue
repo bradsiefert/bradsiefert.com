@@ -14,7 +14,7 @@
               </g-link>
             </div>
             <div class="breadcrumb-item">
-              Highbeam Design System Case Study
+              Case Study: Highbeam Design System
             </div>
           </div>
 
