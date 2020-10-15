@@ -4,7 +4,7 @@
       <div class="row">
 
         <div class="col-md-8 col-lg-7">
-          <h5>Navigation</h5>
+          <h4 class="h5">Navigation</h4>
           <ul class="list-inline footer-nav">
             <li class="list-inline-item">
               <g-link rel="noopener" to="/portfolio">Design Portfolio</g-link>
@@ -25,7 +25,7 @@
         </div>
 
         <div class="col-md-4 col-lg-5">
-          <h5>Social</h5>
+          <h4 class="h5">Social</h4>
           <ul class="list-inline footer-social mb-md-4">
             <li class="list-inline-item">
               <a 
@@ -101,7 +101,7 @@
         </div>
 
         <div class="col-12">
-          <h5>Credits</h5>
+          <h4 class="h5">Credits</h4>
           <p class="mb-0">
             Forever grateful to <a target="_blank" rel="noopener" title="Link to Gridsome" href="http://fkorf.com">Fkorf</a>
             & <a target="_blank" rel="noopener" title="Link to Gridsome" href="http://kro.ski">Kroski</a>
@@ -137,7 +137,7 @@ export default {
     border-top: 1px solid $gray-200;
   }
 
-  footer h5,
+  footer h4,
   footer .h5 {
     margin-bottom: .25rem;
   }

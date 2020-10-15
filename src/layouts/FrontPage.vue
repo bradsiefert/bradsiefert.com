@@ -44,7 +44,7 @@
           <hr class="mb-32">
           <div class="row">
             <div class="col">
-              <h3 class="mb-32">Currently</h3>
+              <h2 class="h3 font-size-500 mb-32">Currently</h2>
               <div class="row">
                 <div class="col-md-4">
                   <a href="https://earlybird.co" title="Link to Earlybird Software" rel="nofollow">
@@ -71,7 +71,7 @@
           <hr class="mb-32">
           <div class="row">
             <div class="col">
-              <h3 class="mb-32">Volunteering</h3>
+              <h2 class="h3 font-size-500 mb-32">Volunteering</h2>
               <div class="row">
                 <div class="col-md-4">
                   <a href="https://openarmsministry.org" title="Link to Open Arms Ministry" rel="nofollow">
@@ -100,7 +100,7 @@
             <div class="col">
               <div class="row">
                 <div class="col-md-4">
-                  <h3 class="mb-32">Previously</h3>
+                  <h2 class="h3 font-size-500 mb-32">Previously</h2>
                 </div>
                 <div class="col-md-8">
 
@@ -193,10 +193,6 @@ export default {
 .landing-hero h2 {
   font-size: 1.25rem;
   letter-spacing: 0;
-}
-
-.landing-hero h3 {
-  font-size: 1rem;
 }
 
 .landing-hero .btn {
