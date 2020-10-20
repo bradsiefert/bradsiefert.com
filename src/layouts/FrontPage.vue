@@ -11,7 +11,7 @@
           <div class="text-center mb-24">
             <g-image 
               src="~/assets/images/avatar.jpg" 
-              style="width: 80px;" 
+              style="width: 128px;" 
               class="rounded-circle"
               alt="Avatar for Brad Siefert">
             </g-image>
