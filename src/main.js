@@ -5,8 +5,6 @@ import '~/assets/scss/styles.scss'
 import DefaultLayout from '~/layouts/Default.vue'
 import FrontPage from '~/layouts/FrontPage.vue'
 
-import moment from 'moment';
-
 // Adding FontAwesome
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import { config, library } from '@fortawesome/fontawesome-svg-core'
