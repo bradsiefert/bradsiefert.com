@@ -103,8 +103,8 @@
         <div class="col-12">
           <h4 class="h5">Credits</h4>
           <p class="mb-0">
-            Forever grateful to <a target="_blank" rel="noopener" title="Link to Gridsome" href="http://fkorf.com">Fkorf</a>
-            & <a target="_blank" rel="noopener" title="Link to Gridsome" href="http://kro.ski">Kroski</a>
+            Forever grateful to <a target="_blank" rel="noopener" title="Link to Frank's twitter" href="https://twitter.com/omgfrank">Fkorf</a>
+            & <a target="_blank" rel="noopener" title="Link to Kris Kroski's website" href="http://kro.ski">Kroski</a>
             Powered by <a target="_blank" rel="noopener" title="Link to Gridsome" href="https://gridsome.org">Gridsome</a>, 
             <a target="_blank" rel="noopener" title="Link to Bootstrap" href="https://getbootstrap.com">Bootstrap</a>,
             <a target="_blank" rel="noopener" title="Link to Netlify" href="https://netlify.com">Netlify</a>.
