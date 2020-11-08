@@ -7,25 +7,25 @@
           <h1>Design Portfolio</h1>
           <p>Some of my design and front-end development work I'm proud to show off.</p>
           
-          <h2 class="h3 mt-32">Case Study</h2>
+          <h2 class="h3 mt-32">Case Studies</h2>
           <g-link to="/casestudies/highbeam-design-system">
             <g-image 
               class="img-fluid rounded-lg mb-16" 
-              src="@/assets/images/highbeam-case-study.jpg"
+              src="@/assets/images/case-study-highbeam.jpg"
               style="border: 1px solid #eeeeee;"
               quality="100"
             />
           </g-link>
-          
-          <!-- <g-link to="/casestudies/ux-methodology">
+
+          <g-link to="/casestudies/ux-methodology">
             <g-image 
               class="img-fluid rounded-lg" 
-              src="@/assets/images/highbeam-case-study.jpg"
+              src="@/assets/images/case-study-ux-methodology.jpg"
               style="border: 1px solid #eeeeee;"
               quality="100"
             />
-          </g-link> -->
-          
+          </g-link>
+
           <div class="row g-16 mt-4 mb-32">
             <h2 class="h3 mt-32 mb-0">Select UI/UX Work</h2>
             <div class="col-md-6 col-xl-4" v-for="entry in $page.allPortfolio.edges" :key="entry.node.id">
