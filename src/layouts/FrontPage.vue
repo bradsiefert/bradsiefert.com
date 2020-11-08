@@ -25,11 +25,11 @@
             Each year I take around 50k+ photos.<br />
           </h1>
 
-          <div class="text-center my-48">
+          <div class="text-center my-40">
             <g-link 
               to="/portfolio/" 
               class="btn btn-outline-dark rounded-pill mb-16 mr-md-16">
-              Design Work
+              View Design Work &nbsp;🎨
             </g-link>
             <a 
               target="_blank" rel="noopener" 
@@ -37,7 +37,7 @@
               class="btn btn-outline-dark rounded-pill mb-16"
               title="Link to checkout my photography work" 
             >
-              Photo Work
+              See Photo Projects &nbsp;📸
             </a>
           </div>
 

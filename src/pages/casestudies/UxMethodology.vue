@@ -105,7 +105,7 @@
             
             <p>
               This is just one designer's UX methodology. If this is helpful for you in anyway, I'd be thrilled 
-              if you let me know.
+              if <g-link to="/contact">you let me know</g-link>.
             </p>
 
           </article>
