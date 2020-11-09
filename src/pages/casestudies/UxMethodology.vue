@@ -122,7 +122,7 @@
 export default {
   metaInfo() {
     return {
-      title: 'Highbeam Design System'
+      title: 'UX Methodology'
     };
   }
 };
