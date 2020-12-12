@@ -94,7 +94,7 @@
 
               <div class="mt-auto">
                 <div class="d-grid g-2 d-sm-flex">
-                  <a target="_blank" class="btn btn-outline-dark btn-sm my-1 mr-sm-3" href="files/10-Years-of-Photos-(2007-2017)-Brad-Siefert.pdf">
+                  <a target="_blank" class="btn btn-outline-dark btn-sm my-1 mr-sm-3" href="https://www.icloud.com/iclouddrive/0uzI0Zqd87HQUkg5GlitLypOg#10-Years-of-Photos-(2007-2017)-Brad-Siefert">
                     Download PDF &nbsp;⬇️
                   </a>
                 </div>
