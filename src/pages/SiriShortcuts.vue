@@ -17,11 +17,11 @@
             on how to run your first shortcut.
           </p>
 
-          <a class="btn btn-outline-dark mb-32" href="/siri-shortcuts-public/">
+          <a class="btn btn-outline-dark mb-5" href="/siri-shortcuts-public/">
             View All My Public Shortcuts
           </a>
           
-          <div class="row g-16">
+          <div class="row g-3">
             <div class="col-lg-6 col-xl-4" v-for="entry in $page.allSiriShortcuts.edges" :key="entry.node.id">
               <g-link :to="entry.node.path">
                 <div class="box shortcuts mb-0">

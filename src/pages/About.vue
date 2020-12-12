@@ -4,12 +4,12 @@
     <div class="container wide-contain">
       <div class="row">
         
-        <div class="col-lg-12 gx-32">
+        <div class="col-lg-12 gx-5">
           <h1>Bio</h1>
           <p class="small">I promise this won’t be in the third person. 😉</p>
         </div>
 
-        <div class="col-lg-8 gx-32">
+        <div class="col-lg-8 gx-5">
           <article class="lead">
             <p>
               Hi, I'm Brad, and I'm a UI/UX designer experienced in designing web apps, mobile apps, 
@@ -41,13 +41,13 @@
               blend code and no-code solutions to create more effective operations.
             </p>
 
-            <p class="mb-32">
+            <p class="mb-5">
               Each year I take around 50,000 photos. I want to learn two languages in the next couple of years: Spanish 
               and JavaScript. I drink <em>a bit</em> too much Diet Coke—but I’m working on it.
             </p>
             
             <h3 class="h4">Currently I'm obsessed with:</h3>
-            <p class="mb-32">
+            <p class="mb-5">
               <small>
                 <a 
                   target="_blank" 
@@ -140,7 +140,7 @@
               </small>
             </p>
 
-            <a target="_blank" class="btn btn-outline-dark mb-32" href="files/Brad-Siefert-Resume.pdf">
+            <a target="_blank" class="btn btn-outline-dark mb-5" href="files/Brad-Siefert-Resume.pdf">
               Download Resume &nbsp;📂
             </a>
           </article>

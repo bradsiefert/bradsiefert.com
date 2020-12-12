@@ -7,10 +7,13 @@
           <h4 class="h5">Navigation</h4>
           <ul class="list-inline footer-nav">
             <li class="list-inline-item">
-              <g-link rel="noopener" to="/portfolio">Design Portfolio</g-link>
+              <g-link rel="noopener" to="/portfolio">Portfolio</g-link>
             </li>
             <li class="list-inline-item">
               <g-link rel="noopener" to="/siri-shortcuts">Siri Shortcuts</g-link>
+            </li>
+            <li class="list-inline-item">
+              <g-link rel="noopener" to="/downloads">Downloads</g-link>
             </li>
             <li class="list-inline-item">
               <g-link rel="noopener" to="/blog">Blog</g-link>
@@ -26,7 +29,7 @@
 
         <div class="col-md-4 col-lg-5">
           <h4 class="h5">Social</h4>
-          <ul class="list-inline footer-social mb-md-4">
+          <ul class="list-inline footer-social mb-md-2">
             <li class="list-inline-item">
               <a 
                 target="_blank"

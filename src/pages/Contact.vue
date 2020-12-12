@@ -4,7 +4,7 @@
       <div class="row">
         <div class="col">
           <h1>Say Hello</h1>
-          <p class="mb-32">Please reach out and I'll do my best to get back to you asap.</p>
+          <p class="mb-5">Please reach out and I'll do my best to get back to you asap.</p>
 
           <form
             name="brad.si Contact Form"
@@ -22,7 +22,7 @@
               </label>
             </p>
 
-            <div class="mb-24">
+            <div class="mb-4">
               <h3>
                 <label for="name">Name</label>
               </h3>
@@ -39,7 +39,7 @@
               />
             </div>
 
-            <div class="mb-24">
+            <div class="mb-4">
               <h3>
                 <label for="email">Email</label>
               </h3>
@@ -55,7 +55,7 @@
               />
             </div>
 
-            <div class="mb-24">
+            <div class="mb-4">
               <h3>
                 <label for="message">Message</label>
               </h3>
@@ -72,7 +72,7 @@
               </textarea>
             </div>
 
-            <div class="mb-24">
+            <div class="mb-4">
               <button type="submit" class="btn btn-outline-dark">Send Message&nbsp; 📤</button>
             </div>
           </form>

@@ -20,11 +20,11 @@
 
           <article>
             <h1 v-html="$page.blog.title"></h1>
-            <ul class="list-inline mb-32">
+            <ul class="list-inline mb-5">
               <li class="list-inline-item blog-details">
                 <time :datetime="$page.blog.datetime">{{ $page.blog.humanTime }}</time>
               </li>
-              <li class="list-inline-item blog-details pl-16">
+              <li class="list-inline-item blog-details pl-3">
                 {{ $page.blog.timeToRead }} min read
               </li>
             </ul>
@@ -32,7 +32,7 @@
             <div v-html="$page.blog.content"></div>
           </article>
 
-          <div class="divider mt-32"></div>
+          <div class="divider mt-5"></div>
         </div>
       </div>
     </div>

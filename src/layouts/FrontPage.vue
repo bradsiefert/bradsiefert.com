@@ -8,7 +8,7 @@
     <div class="container skinny-contain landing-hero">
       <div class="row">
         <div class="col-lg-12">
-          <div class="text-center mb-24">
+          <div class="text-center mb-5">
             <g-image 
               src="~/assets/images/avatar.jpg" 
               style="width: 128px;" 
@@ -25,31 +25,31 @@
             Each year I take around 50k+ photos.<br />
           </h1>
 
-          <div class="text-center my-40">
+          <div class="text-center my-6">
             <g-link 
               to="/portfolio/" 
-              class="btn btn-outline-dark rounded-pill mb-16 mr-md-16">
+              class="btn btn-outline-dark rounded-pill mb-3 mr-md-3">
               View Design Work &nbsp;🎨
             </g-link>
             <a 
               target="_blank" rel="noopener" 
               href="https://bradleysiefert.com" 
-              class="btn btn-outline-dark rounded-pill mb-16"
+              class="btn btn-outline-dark rounded-pill mb-3"
               title="Link to checkout my photography work" 
             >
               See Photo Projects &nbsp;📸
             </a>
           </div>
 
-          <hr class="mb-32">
+          <hr class="mb-5">
           <div class="row">
             <div class="col">
-              <h2 class="h3 font-size-500 mb-32">Currently</h2>
+              <h2 class="h3 font-size-500 mb-5">Currently</h2>
               <div class="row">
                 <div class="col-md-4">
                   <a href="https://earlybird.co" title="Link to Earlybird Software" rel="nofollow">
                     <g-image
-                      class="img-fluid mb-24"
+                      class="img-fluid mb-2"
                       src="~/assets/images/earlybird-logo.svg" 
                       alt="Logo for Earlybird Software">
                     </g-image>
@@ -57,7 +57,7 @@
                 </div>
                 <div class="col-md-8">
                   <h2>UI/UX Designer @ Earlybird Software</h2>
-                  <p class="mb-64">
+                  <p class="mb-7">
                     Since 2013, I've been the UI/UX Designer at Earlybird, a cloud computing agency focused on building 
                     smarter business operations. I've helped design and build web and mobile apps that support internal 
                     processes and customer dashboards. I create the flows, designs, and develop the web front-ends for 
@@ -68,15 +68,15 @@
             </div>
           </div>
           
-          <hr class="mb-32">
+          <hr class="mb-5">
           <div class="row">
             <div class="col">
-              <h2 class="h3 font-size-500 mb-32">Volunteering</h2>
+              <h2 class="h3 font-size-500 mb-5">Volunteering</h2>
               <div class="row">
                 <div class="col-md-4">
                   <a href="https://openarmsministry.org" title="Link to Open Arms Ministry" rel="nofollow">
                     <g-image
-                      class="img-fluid mb-24"
+                      class="img-fluid mb-2"
                       src="~/assets/images/oam-logo.svg" 
                       alt="Logo for Open Arms Ministry">
                     </g-image>
@@ -84,7 +84,7 @@
                 </div>
                 <div class="col-md-8">
                   <h2>Board Member @ Open Arms Ministry</h2>
-                  <p class="mb-64">
+                  <p class="mb-7">
                     Since 2018, I've been on the board of a homelessness non-profit, Open Arms, focused on improving 
                     our internal systems and IT. It's been a great opportunity to learn how to blend code and no-code 
                     solutions to create more effective operations. I'm honored to have been given the responsibility to 
@@ -95,33 +95,33 @@
             </div>
           </div>
           
-          <hr class="mb-32">
+          <hr class="mb-5">
           <div class="row">
             <div class="col">
               <div class="row">
                 <div class="col-md-4">
-                  <h2 class="h3 font-size-500 mb-32">Previously</h2>
+                  <h2 class="h3 font-size-500 mb-5">Previously</h2>
                 </div>
                 <div class="col-md-8">
 
                   <div class="row">
                     <div class="col-4 text-left">
                       <g-image
-                        class="img-fluid mb-24"
+                        class="img-fluid mb-2"
                         src="~/assets/images/colorjar.svg" 
                         alt="Logo for Open Arms Ministry">
                       </g-image>
                     </div>
                     <div class="col-4 text-center">
                       <g-image
-                        class="img-fluid mb-24"
+                        class="img-fluid mb-2"
                         src="~/assets/images/dose.svg" 
                         alt="Logo for Open Arms Ministry">
                       </g-image>
                     </div>
                     <div class="col-4 text-right">
                       <g-image
-                        class="img-fluid mb-24 text-right-then-center"
+                        class="img-fluid mb-2 text-right-then-center"
                         style="width: 80px;"
                         src="~/assets/images/forbes.png" 
                         alt="Logo for Open Arms Ministry">

@@ -30,7 +30,7 @@
             <div v-html="$page.siriShortcuts.content"></div>
           </article>
 
-          <div class="divider mt-32"></div>
+          <div class="divider mt-5"></div>
           <!-- <div class="divider"></div> -->
         </div>
       </div>

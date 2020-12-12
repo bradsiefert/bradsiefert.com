@@ -13,7 +13,7 @@
       <div class="row">
         <div class="col">
           <g-image 
-            class="img-fluid mb-16"
+            class="img-fluid mb-3"
             width="320"
             src="~/assets/images/brad-pitt-thats-cool-small.gif" 
             alt="Gif from the movie Clueless of Cher saying My bad!" 
