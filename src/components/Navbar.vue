@@ -26,6 +26,9 @@
           <g-link class="nav-link" rel="noopener" to="/siri-shortcuts">Siri Shortcuts</g-link>
         </li>
         <li class="nav-item">
+          <g-link class="nav-link" rel="noopener" to="/downloads">Downloads</g-link>
+        </li>
+        <li class="nav-item">
           <g-link class="nav-link" rel="noopener" to="/blog">Blog</g-link>
         </li>
         <li class="nav-item">

@@ -255,14 +255,14 @@ pre {
 .btn-xs {
   font-size: .6875rem;
   font-weight: 700;
-  padding: 4px 1rem 3px;
+  padding: 5px 1rem 2px;
 }
 
 .btn-sm {
   font-size: .8125rem;
   line-height: .8125rem;
   font-weight: 700;
-  padding: 9px 1.5rem 8px;
+  padding: 10px 1.5rem 7px;
 }
 
 .btn-lg {
@@ -292,7 +292,6 @@ pre {
 }
 
 // Blog
-
 .box {
   border: 1px solid $gray-200;
   padding: 2rem;
@@ -415,4 +414,9 @@ textarea.form-control {
 
 .box.shortcuts h3 {
   font-style: normal;
+}
+
+// Downloads
+.downloads .box {
+  margin-bottom: 0;
 }
