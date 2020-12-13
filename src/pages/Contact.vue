@@ -69,11 +69,10 @@
                 aria-invalid="false" 
                 placeholder="" 
               />
-              </textarea>
             </div>
 
             <div class="mb-4">
-              <button type="submit" class="btn btn-outline-dark">Send Message&nbsp; 📤</button>
+              <button type="submit" class="btn btn-outline-dark btn-lg">Send Message&nbsp; 📤</button>
             </div>
           </form>
 

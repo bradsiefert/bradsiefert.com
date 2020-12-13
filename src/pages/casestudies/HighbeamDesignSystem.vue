@@ -35,7 +35,7 @@
               be a better starting place for my firm and others.
             </p>
 
-            <g-link class="btn btn-primary btn-lg mb-32" to="https://highbeamdesignsystem.netlify.app">
+            <g-link class="btn btn-primary btn-lg mb-4" to="https://highbeamdesignsystem.netlify.app">
               Live Site &nbsp;➡️
             </g-link>
 

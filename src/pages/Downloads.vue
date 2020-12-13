@@ -20,7 +20,7 @@
 
               <div class="mt-auto">
                 <div class="d-grid g-2 d-sm-flex">
-                  <a target="_blank" class="btn btn-outline-dark btn-sm my-1 mr-sm-3" href="https://github.com/bradsiefert/gridsome-starter-neumorphic">
+                  <a target="_blank" class="btn btn-outline-dark btn-sm my-1 me-sm-3" href="https://github.com/bradsiefert/gridsome-starter-neumorphic">
                     Clone from Github &nbsp;➡️
                   </a>
                 </div>
@@ -42,11 +42,11 @@
 
               <div class="mt-auto">
                 <div class="d-grid g-2 d-sm-flex">
-                  <a target="_blank" class="btn btn-outline-dark btn-sm my-1 mr-sm-3" href="files/Resume-Template.pdf">
+                  <a target="_blank" class="btn btn-outline-dark btn-sm my-1 me-sm-3" href="files/Resume-Template.pdf">
                     Sample Resume &nbsp;⬇️
                   </a>
                   
-                  <a target="_blank" class="btn btn-outline-dark btn-sm my-1 mr-sm-3" href="files/Resume-Template.sketch">
+                  <a target="_blank" class="btn btn-outline-dark btn-sm my-1 me-sm-3" href="files/Resume-Template.sketch">
                     Sketch file &nbsp;⬇️
                   </a>
                 </div>
@@ -68,7 +68,7 @@
 
               <div class="mt-auto">
                 <div class="d-grid g-2 d-sm-flex">
-                  <a target="_blank" class="btn btn-outline-dark btn-sm my-1 mr-sm-3" href="files/Enneagram Triads & Stances.pdf">
+                  <a target="_blank" class="btn btn-outline-dark btn-sm my-1 me-sm-3" href="files/Enneagram Triads & Stances.pdf">
                     Download PDF &nbsp;⬇️
                   </a>
                   
@@ -94,7 +94,7 @@
 
               <div class="mt-auto">
                 <div class="d-grid g-2 d-sm-flex">
-                  <a target="_blank" class="btn btn-outline-dark btn-sm my-1 mr-sm-3" href="https://www.icloud.com/iclouddrive/0uzI0Zqd87HQUkg5GlitLypOg#10-Years-of-Photos-(2007-2017)-Brad-Siefert">
+                  <a target="_blank" class="btn btn-outline-dark btn-sm my-1 me-sm-3" href="https://www.icloud.com/iclouddrive/0uzI0Zqd87HQUkg5GlitLypOg#10-Years-of-Photos-(2007-2017)-Brad-Siefert">
                     Download PDF &nbsp;⬇️
                   </a>
                 </div>

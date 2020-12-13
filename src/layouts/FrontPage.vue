@@ -28,7 +28,7 @@
           <div class="text-center my-6">
             <g-link 
               to="/portfolio/" 
-              class="btn btn-outline-dark rounded-pill mb-3 mr-md-3">
+              class="btn btn-outline-dark rounded-pill mb-3 me-md-3">
               View Design Work &nbsp;🎨
             </g-link>
             <a 
@@ -49,7 +49,7 @@
                 <div class="col-md-4">
                   <a href="https://earlybird.co" title="Link to Earlybird Software" rel="nofollow">
                     <g-image
-                      class="img-fluid mb-2"
+                      class="img-fluid mb-3"
                       src="~/assets/images/earlybird-logo.svg" 
                       alt="Logo for Earlybird Software">
                     </g-image>
@@ -58,10 +58,7 @@
                 <div class="col-md-8">
                   <h2>UI/UX Designer @ Earlybird Software</h2>
                   <p class="mb-7">
-                    Since 2013, I've been the UI/UX Designer at Earlybird, a cloud computing agency focused on building 
-                    smarter business operations. I've helped design and build web and mobile apps that support internal 
-                    processes and customer dashboards. I create the flows, designs, and develop the web front-ends for 
-                    our products.
+                    Since 2013, I've been the UI/UX Designer at Earlybird, a cloud computing agency focused on building smarter business operations. I've helped design and build web and mobile apps that support internal processes and customer dashboards. I create the flows, designs, and develop the web front-ends for our products.
                   </p>
                 </div>
               </div>
@@ -76,7 +73,7 @@
                 <div class="col-md-4">
                   <a href="https://openarmsministry.org" title="Link to Open Arms Ministry" rel="nofollow">
                     <g-image
-                      class="img-fluid mb-2"
+                      class="img-fluid mb-3"
                       src="~/assets/images/oam-logo.svg" 
                       alt="Logo for Open Arms Ministry">
                     </g-image>
@@ -85,10 +82,7 @@
                 <div class="col-md-8">
                   <h2>Board Member @ Open Arms Ministry</h2>
                   <p class="mb-7">
-                    Since 2018, I've been on the board of a homelessness non-profit, Open Arms, focused on improving 
-                    our internal systems and IT. It's been a great opportunity to learn how to blend code and no-code 
-                    solutions to create more effective operations. I'm honored to have been given the responsibility to 
-                    help support the community with my technical skills and gifts. 
+                    Since 2018, I've been on the board of a homelessness non-profit, Open Arms, focused on improving our internal systems and IT. It's been a great opportunity to learn how to blend code and no-code solutions to create more effective operations. I'm honored to have been given the responsibility to help support the community with my technical skills and gifts. 
                   </p>
                 </div>
               </div>

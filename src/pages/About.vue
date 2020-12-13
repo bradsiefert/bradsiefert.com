@@ -140,7 +140,7 @@
               </small>
             </p>
 
-            <a target="_blank" class="btn btn-outline-dark mb-5" href="files/Brad-Siefert-Resume.pdf">
+            <a target="_blank" class="btn btn-outline-dark btn-lg mb-5" href="files/Brad-Siefert-Resume.pdf">
               Download Resume &nbsp;📂
             </a>
           </article>
