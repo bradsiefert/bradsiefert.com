@@ -2,12 +2,11 @@
 
 @media (prefers-color-scheme: dark) {
   body {
-    color: $white;
-    background-color: #161616;
+    color: $white !important;
+    background-color: #000 !important;
   }
 
-  .navbar-brand a,
-  .navbar .navbar-nav .nav-link {
+  .navbar-brand a, .navbar .navbar-nav .nav-link {
     color: $white !important;
   }
 
@@ -19,28 +18,47 @@
     border-top-color: $gray-800 !important;
   }
 
-  .footer-nav a,
-  .footer-social a {
+  .footer-nav a, .footer-social a {
     color: $white !important;
   }
 
   .navbar {
-    background-image: radial-gradient(50% 0%, #2A2A2A 0%, #161616 100%) !important;
+    background-image: linear-gradient(90deg, #202020 0%, #161616 100%) !important;
     box-shadow: 0 0 32px 0 rgba(0,0,0,0.64) !important;
-    border-radius: 0 12px 12px 0 !important;
     border: none !important;
-
-    // background-image: radial-gradient(50% 0%, #2A2A2A 50%, #161616 100%);
-    // box-shadow: 0 0 32px 0 rgba(0,0,0,0.64);
-    // border-radius: 0 12px 12px 0;
+  }
+  
+  @media (max-width: 992px) {
+    .navbar {
+      background-image: linear-gradient(0deg, #202020 0%, #161616 100%) !important;
+    }
+  }
+  
+  .navbar-light .navbar-toggler {
+    color: #fff;
+  }
+  
+  .navbar-light .navbar-toggler-icon {
+    filter: invert(1);
+  }
+  
+  @media (min-width: 992px) {
+    .navbar {
+      border-radius: 0 12px 12px 0 !important;
+    }
   }
 
   .breadcrumb {
     border-top: 1px solid $gray-800 !important;
     border-bottom: 1px solid $gray-800 !important;
+    color: $gray-500 !important;
+  }
+  
+  .box {
+    border: 1px solid $gray-800 !important;
   }
 
-  .box a {
+  .box a:not(.btn) {
     color: $white !important;
   }
 
@@ -48,9 +66,7 @@
     border: 1px solid $gray-800;
   }
 
-  .form-control,
-  .form-control:focus,
-  .form-control::placeholder {
+  .form-control, .form-control:focus, .form-control::placeholder {
     color: $white;
   }
 
@@ -67,17 +83,32 @@
   }
 
   .box.shortcuts {
-    background-color: #161616;
-    border: 1px solid $gray-800;
-    color: $white;
+    background-color: #161616 !important;
+    border: 1px solid $gray-800 !important;
+    color: $white !important;
   }
 
   .box.shortcuts:hover {
-    border: 1px solid #2AC9FF;
-    color: #2AC9FF;
+    border: 1px solid #2AC9FF !important;
+    color: #2AC9FF !important;
   }
+  
+  .btn-outline-dark {
+    color: $white;
+    border-color: $white;
+  }
+  
+  .btn-outline-dark:hover {
+    color: $black;
+    border-color: $white;
+    background-color: $white;
+  }
+}
 
-  .btn, .box .btn {
-    color: $black !important;
-  }
+.jobs img {
+  filter: invert(1);
+}
+
+.portfolio img {
+  border: none !important;
 }

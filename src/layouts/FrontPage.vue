@@ -90,7 +90,7 @@
           </div>
           
           <hr class="mb-5">
-          <div class="row">
+          <div class="row jobs">
             <div class="col">
               <div class="row">
                 <div class="col-md-4">
