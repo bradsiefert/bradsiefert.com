@@ -99,26 +99,26 @@
                 <div class="col-md-8">
 
                   <div class="row">
-                    <div class="col-4 text-left">
+                    <div class="col-4 text-start">
                       <g-image
-                        class="img-fluid mb-2"
+                        class="img-fluid mb-4"
                         src="~/assets/images/colorjar.svg" 
-                        alt="Logo for Open Arms Ministry">
+                        alt="Logo for ColorJar">
                       </g-image>
                     </div>
                     <div class="col-4 text-center">
                       <g-image
-                        class="img-fluid mb-2"
+                        class="img-fluid mb-4"
                         src="~/assets/images/dose.svg" 
-                        alt="Logo for Open Arms Ministry">
+                        alt="Logo for Dose aka Spartz">
                       </g-image>
                     </div>
-                    <div class="col-4 text-right">
+                    <div class="col-4 text-end">
                       <g-image
-                        class="img-fluid mb-2 text-right-then-center"
+                        class="img-fluid mb-4"
                         style="width: 80px;"
                         src="~/assets/images/forbes.png" 
-                        alt="Logo for Open Arms Ministry">
+                        alt="Logo for Forbes">
                       </g-image>
                     </div>
                   </div>
