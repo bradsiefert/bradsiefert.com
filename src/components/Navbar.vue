@@ -117,7 +117,7 @@ export default {
     line-height: 1.2;
     padding-bottom: .5rem;
     margin-right: 4px;
-    padding-top: 4px;
+    padding-top: 8px;
   }
 
   .navbar-collapse {
@@ -125,10 +125,17 @@ export default {
   }
 }
 
-@media (min-width: 1024px) and (max-width: 1200px) {
+@media (min-width: 1025px) and (max-width: 1200px) {
   .navbar {
     min-width: 176px;
     padding: 2rem 1.5rem;
+  }
+}
+
+@media (min-width: 1023px) and (max-width: 1025px) {
+  .navbar {
+    min-width: 160px;
+    padding: 1.5rem 1rem;
   }
 }
 
@@ -136,6 +143,16 @@ export default {
   .navbar {
     padding: 24px 16px 24px 24px;
     margin-bottom: 2rem;
+  }
+  
+  .navbar-brand {
+    font-size: 1.75rem;
+    padding-top: 14px;
+  }
+  
+  .navbar .navbar-nav .nav-link {
+    padding: 0.5rem 0;
+    font-size: 1.125rem;
   }
 }
 </style>

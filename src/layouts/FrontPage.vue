@@ -7,7 +7,7 @@
   <main>
     <div class="container skinny-contain landing-hero">
       <div class="row">
-        <div class="col-lg-12">
+        <div class="col-sm-12">
           <div class="text-center mb-5">
             <g-image 
               src="~/assets/images/avatar.jpg" 
@@ -205,7 +205,7 @@ export default {
 
 @media (max-width: 512px) {
   .landing-hero .display-1 {
-    font-size: 1.75rem;
+    font-size: 1.8rem;
   }
 }
 </style>
