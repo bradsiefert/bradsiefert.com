@@ -34,6 +34,21 @@
     }
   }
   
+  .navbar {
+    background-color: $black !important;
+    box-shadow: 0 0 32px 0 rgba(0,0,0,0.64) !important;
+    border: 1px solid $gray-800 !important;
+    border-left: none !important;
+  }
+  
+  .navbar-brand a, .navbar .navbar-nav .nav-link {
+    color: $white !important;
+  }
+  
+  .navbar .navbar-nav .nav-link:hover {
+    color: $primary !important;
+  }
+  
   .navbar-light .navbar-toggler-icon {
     filter: invert(1);
   }
@@ -83,28 +98,28 @@
     color: #2AC9FF !important;
   }
   
-  // .btn-outline-dark {
-  //   color: $white !important;
-  //   border-color: $white !important;
-  // }
-  // 
-  // .btn-outline-dark:hover {
-  //   color: $black !important;
-  //   border-color: $white !important;
-  //   background-color: $white !important;
-  // }
-  
   .btn-outline-dark {
+    color: $white !important;
+    border-color: $white !important;
+  }
+  
+  .btn-outline-dark:hover {
     color: $black !important;
     border-color: $white !important;
     background-color: $white !important;
   }
   
-  .btn-outline-dark:hover {
-    color: $white !important;
-    border-color: $white !important;
-    background-color: $black !important;
-  }
+  // .btn-outline-dark {
+  //   color: $black !important;
+  //   border-color: $white !important;
+  //   background-color: $white !important;
+  // }
+  // 
+  // .btn-outline-dark:hover {
+  //   color: $white !important;
+  //   border-color: $white !important;
+  //   background-color: $black !important;
+  // }
 }
 
 .jobs img {
