@@ -41,6 +41,7 @@
     border-left: none !important;
   }
   
+  
   .navbar-brand a, .navbar .navbar-nav .nav-link {
     color: $white !important;
   }
@@ -53,6 +54,30 @@
     filter: invert(1);
   }
 
+  .search-bar .form-control,
+  .search-bar .form-control:focus,
+  .search-bar-results {
+    background-color: $black !important;
+    box-shadow: 0 0 32px 0 rgba(0,0,0,0.64) !important;
+    border: 1px solid $gray-800 !important;
+    color: $white !important;
+  }
+  
+  .results-wrap {
+    border-bottom: 1px solid $gray-700 !important;
+  }
+  
+  .results-wrap:hover,
+  .results-wrap:hover a {
+    background-color: $blue-500 !important;
+    color: $black !important;
+  }
+  
+  .search-bar-results a,
+  .search-bar p {
+    color: $white !important;
+  }
+  
   .breadcrumb {
     border-top: 1px solid $gray-800 !important;
     border-bottom: 1px solid $gray-800 !important;

@@ -4,6 +4,7 @@
 import '~/assets/scss/styles.scss'
 import DefaultLayout from '~/layouts/Default.vue'
 import FrontPage from '~/layouts/FrontPage.vue'
+import VueFuse from 'vue-fuse'
 
 // Adding FontAwesome
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
@@ -14,11 +15,11 @@ config.autoAddCss = true;
 library.add(faGithub, faTwitter, faDribbble, faInstagram, faLinkedin, faProductHunt, faMedium)
 
 export default function (Vue, { router, head, isClient }) {
+  Vue.use(VueFuse)
+  
   // Set default layout as a global component
   Vue.component('Layout', DefaultLayout)
 
   // Import FontAwesome
   Vue.component('font-awesome', FontAwesomeIcon)
 }
-
-// 2020-08-04 Test Commit
