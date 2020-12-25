@@ -277,7 +277,7 @@ pre {
   background: transparent;
   color: $black;
   font-size: 0.75rem;
-  line-height: 0.75rem;
+  line-height: 1.5;
   letter-spacing: 0.1px;
   border-radius: 0;
   border-top: 1px solid $gray-200;
@@ -290,84 +290,6 @@ pre {
   border-bottom: 1px solid $gray-200;
   margin-top: 1rem;
   margin-bottom: 1rem;
-}
-
-// Search Bar
-.search-bar {
-  position: fixed;
-  top: 32px;
-  right: 32px;
-}
-
-@media (max-width: 1024px) {
-  .search-bar {
-    display: none;
-  }
-}
-
-.search-bar .form-control,
-.search-bar .form-control:focus,
-.search-bar-results {
-  width: 160px;
-  border-radius: 1rem !important;
-  height: 32px;
-  font-size: $font-size-300;
-  color: $black;
-  font-weight: 500;
-  opacity: 1;
-  z-index: 99;
-}
-
-.search-bar-results {
-  z-index: 100;
-  height: auto;
-  min-width: 320px;
-  position: fixed;
-  top: 68px;
-  right: 32px;
-}
-
-.search-bar-results a {
-  color: $black;
-}
-
-.results-wrap {
-  padding: 1rem;
-  border-bottom: 1px solid $gray-200;
-}
-
-.results-wrap:last-of-type {
-  border-bottom: none;
-}
-
-.results-wrap:hover {
-  background-color: $blue-100;
-}
-
-.results-wrap:hover:last-of-type {
-  border-bottom-left-radius: 1rem;
-  border-bottom-right-radius: 1rem;
-}
-
-.results-wrap:hover:first-of-type {
-  border-top-left-radius: 1rem;
-  border-top-right-radius: 1rem;
-}
-
-.results-head {
-  font-size: $font-size-500;
-  font-family: "Tiempos Text";
-  font-weight: 700;
-  margin-bottom: 0;
-  line-height: 1.25;
-}
-
-.results-description {
-  font-size: $font-size-100;
-  margin-bottom: 0;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
 }
 
 // Blog
