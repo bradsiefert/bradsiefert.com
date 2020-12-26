@@ -38,10 +38,10 @@
           <g-link class="nav-link" rel="noopener" to="/contact">Contact</g-link>
         </li>
       </ul>
-      <form class="d-none d-sm-block d-md-none">
+      <!-- <form class="d-none d-sm-block d-md-none">
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
         <button class="btn btn-outline-success" type="submit">Search</button>
-      </form>
+      </form> -->
     </div>
   </nav>
 </template>
