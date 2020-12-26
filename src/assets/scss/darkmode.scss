@@ -1,5 +1,4 @@
 /* ---------- Dark Mode Styles --------- */
-
 @media (prefers-color-scheme: dark) {
   body {
     color: $white !important;
@@ -78,6 +77,10 @@
     color: $white !important;
   }
   
+  .results-wrap:last-of-type {
+    border-bottom: none !important;
+  }
+  
   .breadcrumb {
     border-top: 1px solid $gray-800 !important;
     border-bottom: 1px solid $gray-800 !important;
@@ -133,18 +136,6 @@
     border-color: $white !important;
     background-color: $white !important;
   }
-  
-  // .btn-outline-dark {
-  //   color: $black !important;
-  //   border-color: $white !important;
-  //   background-color: $white !important;
-  // }
-  // 
-  // .btn-outline-dark:hover {
-  //   color: $white !important;
-  //   border-color: $white !important;
-  //   background-color: $black !important;
-  // }
 }
 
 .jobs img {
