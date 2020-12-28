@@ -60,6 +60,14 @@
                 <a 
                   target="_blank" 
                   rel="noopener" 
+                  title="Link to the Jamstack" 
+                  href="https://jamstack.org/"
+                >
+                  Jamstack
+                </a>&nbsp;&nbsp; 
+                <a 
+                  target="_blank" 
+                  rel="noopener" 
                   title="Link to Apple's Shortcuts app" 
                   href="https://apps.apple.com/us/app/shortcuts/id1462947752"
                 >

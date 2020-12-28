@@ -20,7 +20,7 @@
           <g-link class="nav-link" rel="noopener" to="/portfolio">Design Portfolio</g-link>
         </li>
         <li class="nav-item">
-          <g-link class="nav-link" rel="noopener" to="https://bradleysiefert.com">Photography</g-link>
+          <g-link class="nav-link" rel="noopener" to="https://photos.bradsiefert.com">Photography</g-link>
         </li>
         <li class="nav-item">
           <g-link class="nav-link" rel="noopener" to="/siri-shortcuts">Siri Shortcuts</g-link>
@@ -38,10 +38,6 @@
           <g-link class="nav-link" rel="noopener" to="/contact">Contact</g-link>
         </li>
       </ul>
-      <!-- <form class="d-none d-sm-block d-md-none">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
-      </form> -->
     </div>
   </nav>
 </template>
