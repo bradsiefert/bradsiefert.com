@@ -1,4 +1,5 @@
 ---
+category: Siri Shortcuts
 title: "Days old & Days left 🚨"
 date: "2020-01-15"
 ---

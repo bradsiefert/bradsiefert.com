@@ -1,4 +1,5 @@
 ---
+category: Portfolio
 title: "Proposal Flyer"
 date: 2018-11-01
 cover_image: ../images/portfolio-proposal-featured.jpg

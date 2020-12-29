@@ -1,4 +1,5 @@
 ---
+category: Siri Shortcuts
 title: "Text Snippet — Date ⌨️"
 date: "2020-01-15"
 ---

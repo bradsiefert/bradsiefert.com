@@ -1,4 +1,5 @@
 ---
+category: Siri Shortcuts
 title: "Add Polaroid Frame 📷"
 date: "2020-04-11"
 ---

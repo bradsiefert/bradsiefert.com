@@ -1,4 +1,5 @@
 ---
+category: Portfolio
 title: "Food Progress"
 date:  2020-06-03
 cover_image: ../images/portfolio-FoodProgress1.jpg

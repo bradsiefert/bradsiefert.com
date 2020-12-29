@@ -1,4 +1,5 @@
 ---
+category: Portfolio
 title: "Trace Genomics"
 date: 2018-12-03
 cover_image: ../images/portfolio-tracegenomics-featured.jpg

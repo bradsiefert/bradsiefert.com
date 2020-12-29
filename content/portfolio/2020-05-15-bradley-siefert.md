@@ -1,4 +1,5 @@
 ---
+category: Portfolio
 title: "bradleysiefert.com"
 date: 2020-05-15
 cover_image: ../images/portfolio-bradleysiefert-featured.jpg

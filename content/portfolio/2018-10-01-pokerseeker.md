@@ -1,4 +1,5 @@
 ---
+category: Portfolio
 title: "Pokerseeker"
 date: 2018-10-01
 cover_image: ../images/portfolio-pokerseeker-featured.jpg

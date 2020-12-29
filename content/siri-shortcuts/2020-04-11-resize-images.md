@@ -1,4 +1,5 @@
 ---
+category: Siri Shortcuts
 title: "Resize Images 📷"
 date: "2020-04-11"
 ---

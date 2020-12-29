@@ -1,4 +1,5 @@
 ---
+category: Siri Shortcuts
 title: "Podcasting Recording 📱"
 date: "2020-01-15"
 ---

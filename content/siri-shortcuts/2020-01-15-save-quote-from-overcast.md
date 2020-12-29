@@ -1,4 +1,5 @@
 ---
+category: Siri Shortcuts
 title: "Save Quote from Overcast Podcast 📱"
 date: "2020-01-15"
 ---

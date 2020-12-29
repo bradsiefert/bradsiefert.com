@@ -1,4 +1,5 @@
 ---
+category: Portfolio
 title: "Local Market"
 date:  2020-06-02
 cover_image: ../images/portfolio-LocalMarket1.jpg

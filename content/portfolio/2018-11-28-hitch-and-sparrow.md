@@ -1,4 +1,5 @@
 ---
+category: Portfolio
 title: "Hitch & Sparrow Wedding Co."
 date: 2018-11-27
 cover_image: ../images/portfolio-hitchandsparrow-featured.jpg

@@ -1,4 +1,5 @@
 ---
+category: Siri Shortcuts
 title: "Save App Icon 📁"
 date: "2020-01-15"
 ---

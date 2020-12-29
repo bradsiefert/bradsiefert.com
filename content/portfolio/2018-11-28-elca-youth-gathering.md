@@ -1,4 +1,5 @@
 ---
+category: Portfolio
 title: "ELCA Youth Gathering"
 date: 2018-11-28
 cover_image: ../images/portfolio-elca-featured.png

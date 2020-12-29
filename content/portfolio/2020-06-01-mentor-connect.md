@@ -1,4 +1,5 @@
 ---
+category: Portfolio
 title: "Mentor Connect"
 date:  2020-06-01
 cover_image: ../images/portfolio-MentorConnect1.jpg

@@ -1,4 +1,5 @@
 ---
+category: Portfolio
 title: "Shortcuts Directory"
 date:  2020-06-30
 cover_image: ../images/portfolio-shortcutsdirectory-logo.jpg

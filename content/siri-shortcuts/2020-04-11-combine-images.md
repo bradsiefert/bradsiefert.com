@@ -1,4 +1,5 @@
 ---
+category: Siri Shortcuts
 title: "Combine Images 📷"
 date: "2020-04-11"
 ---

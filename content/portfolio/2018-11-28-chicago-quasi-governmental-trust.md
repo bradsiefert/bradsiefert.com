@@ -1,4 +1,5 @@
 ---
+category: Portfolio
 title: "Chicago Quasi-Governmental Trust"
 date: 2018-11-15
 cover_image: ../images/portfolio-cit.jpg

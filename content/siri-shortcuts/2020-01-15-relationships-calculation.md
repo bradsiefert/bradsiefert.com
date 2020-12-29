@@ -1,4 +1,5 @@
 ---
+category: Siri Shortcuts
 title: "Relationships Calculation 👨🏼‍🤝‍👨🏻"
 date: "2020-01-15"
 ---

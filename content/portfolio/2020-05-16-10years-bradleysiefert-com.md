@@ -1,4 +1,5 @@
 ---
+category: Portfolio
 title: "10years.bradleysiefert.com"
 date: 2020-05-16
 cover_image: ../images/portfolio-10years-featured.jpg
