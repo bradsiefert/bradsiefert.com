@@ -25,7 +25,7 @@
     </div>
     
     <div v-if="query.length > 1 && searchResultsVisible" class="search-bar-results">
-      <div class="results-wrap" v-for="(post, index) in searchResults" :key="index">
+      <div class="results-wrap clearfix" v-for="(post, index) in searchResults" :key="index">
         <a 
           :href="post.item.path" 
           @mousedown.prevent="searchResultsVisible = true"
@@ -34,6 +34,9 @@
           <div class="results-head">
             {{ post.item.title }}
           </div>
+          <p class="float-start font-size-100 gray-500 mb-0 me-1">
+            <span class="small"><strong>{{ post.item.category }}</strong></span>
+          </p>
           <p class="results-description">
             {{ post.item.description }}
           </p>
@@ -70,15 +73,15 @@ export default {
         distance: 500,
         maxPatternLength: 32,
         minMatchCharLength: 1,
-        keys: ['title', 'description']
+        keys: ['title', 'description', 'category']
       }
     }
   },
   created() {
-    axios.get('/searchresults.json')
-      .then(response => {
-        this.posts = response.data
-      })
+    axios.get('/search.json')
+    .then(response => {
+      this.posts = response.data
+    })
   },
   methods: {
     reset() {
@@ -134,8 +137,8 @@ export default {
   position: fixed;
   top: 68px;
   right: 32px;
-  // max-height: 288px;
-  // overflow-y: auto;
+  max-height: 320px;
+  overflow-y: auto;
 }
 
 .search-bar-results a {
@@ -177,7 +180,7 @@ export default {
   font-size: $font-size-500;
   font-family: "Tiempos Text";
   font-weight: 700;
-  margin-bottom: 0;
+  margin-bottom: 0.125rem;
   line-height: 1.25;
 }
 
