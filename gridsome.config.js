@@ -34,44 +34,7 @@ module.exports = {
         typeName: 'SiriShortcuts',
         path: './content/siri-shortcuts/**/*.md',
       }
-    },
-    // {
-    //   use: 'gridsome-plugin-query2file',
-    //   options: [
-    //     {
-    //       query: `
-    //         query {
-    //           allPortfolio {  
-    //             edges {
-    //               node {
-    //                 title
-    //                 path
-    //               }
-    //             }
-    //           }
-    //           allBlog {
-    //             edges {
-    //               node {
-    //                 title
-    //                 path
-    //                 description
-    //               }
-    //             }
-    //           }
-    //           allSiriShortcuts {
-    //             edges {
-    //               node {
-    //                 title
-    //                 path
-    //               }
-    //             }
-    //           }
-    //         }
-    //       `,
-    //       outfile: './static/search.json'
-    //     }
-    //   ]
-    // }
+    }
   ],
   templates: {
     Blog: [{
