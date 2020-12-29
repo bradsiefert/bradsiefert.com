@@ -29,13 +29,15 @@
   
             <div class="text-center my-6">
               <g-link 
+                target="_new"
                 to="/portfolio/" 
                 class="btn btn-outline-dark rounded-pill mb-3 me-md-3">
                 View Design Work &nbsp;🎨
               </g-link>
               <a 
-                target="_blank" rel="noopener" 
-                href="https://bradleysiefert.com" 
+                target="_new"
+                rel="noopener" 
+                href="https://photos.bradsiefert.com" 
                 class="btn btn-outline-dark rounded-pill mb-3"
                 title="Link to checkout my photography work" 
               >

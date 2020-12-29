@@ -13,7 +13,7 @@
               <p class="blog-details">2020-08-11</p>
               <div class="mt-auto"><h2 class="mb-2">Gridsome Neumorphic Starter</h2></div>
               <p class="font-size-300">
-                Are you enjoying the website you are currently viewing? Would you like to make this site your own? Well I made it into a starter for the static site generator <a href="https://gridsome.org/">Gridsome</a>, which is what powers the site. Instructions to install are at my Github.
+                Are you enjoying the website you are currently viewing? Would you like to make this site your own? Well I made it into a starter for the static site generator <a target="_new" href="https://gridsome.org/">Gridsome</a>, which is what powers the site. Instructions to install are at my Github.
               </p>
                                 
               <p class="font-size-100 font-monospace"><strong>FILE TYPE:</strong> Git repo</p>
