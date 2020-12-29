@@ -24,12 +24,19 @@
     border-left: none !important;
   }
   
-  .navbar-brand a, .navbar .navbar-nav .nav-link {
+  .navbar-brand a, .navbar .navbar-nav .nav-link,
+  .navbar-brand a, .navbar .navbar-nav .dropdown-item {
     color: $white !important;
   }
   
-  .navbar .navbar-nav .nav-link:hover {
+  .navbar .navbar-nav .nav-link:hover,
+  .navbar .navbar-nav .dropdown-menu a.dropdown-item:hover {
     color: $primary !important;
+  }
+  
+  .navbar .bg-dark {
+    color: $black !important;
+    background-color: $white !important;
   }
   
   @media (max-width: 1023px) {    
