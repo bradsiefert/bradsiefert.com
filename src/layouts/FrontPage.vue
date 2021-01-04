@@ -22,7 +22,7 @@
             <h1 class="display-1">
               Hi, 👋🏻 &nbsp;I’m Brad and I’m a UI/UX Designer from Chicago, IL.<br /><br />
   
-              I love code and #nocode.<br />
+              I love front-end development.<br />
               I’m a Siri Shortcuts enthusiast.<br /> 
               Each year I take around 50k+ photos.<br />
             </h1>
