@@ -22,9 +22,9 @@
             <h1 class="display-1">
               Hi, 👋🏻 &nbsp;I’m Brad and I’m a UI/UX Designer from Chicago, IL.<br /><br />
   
-              I love front-end development.<br />
-              I’m a Siri Shortcuts enthusiast.<br /> 
-              Each year I take around 50k+ photos.<br />
+              I love <a target="_new" rel="noopener" href="https://jamstack.org/">front-end development</a>.<br />
+              I’m a <a target="_new" rel="noopener" href="https://shortcuts.directory/">Siri Shortcuts enthusiast</a>.<br /> 
+              Each year I take around <a target="_new" rel="noopener" href="https://photos.bradsiefert.com">50k+ photos</a>.<br />
             </h1>
   
             <div class="text-center my-6">
