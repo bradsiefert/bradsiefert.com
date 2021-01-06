@@ -146,12 +146,12 @@
     border-color: $white !important;
     background-color: $white !important;
   }
-}
-
-.jobs img {
-  filter: invert(1);
-}
-
-.portfolio img {
-  border: none !important;
+  
+  .jobs img {
+    filter: invert(1) !important;
+  }
+  
+  .portfolio img {
+    border: none !important;
+  }
 }
