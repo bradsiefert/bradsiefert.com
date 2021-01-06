@@ -105,13 +105,16 @@
 
         <div class="col-12">
           <h4 class="h5">Credits</h4>
-          <p class="mb-0">
+          <p class="mb-1">
             Forever grateful to <a target="_blank" rel="noopener" title="Link to Frank's twitter" href="https://twitter.com/omgfrank">Fkorf</a>
-            & <a target="_blank" rel="noopener" title="Link to Kris Kroski's website" href="http://kro.ski">Kroski</a>
+            & <a target="_blank" rel="noopener" title="Link to Kris Kroski's website" href="http://kro.ski">Kroski</a>.
             Powered by <a target="_blank" rel="noopener" title="Link to Gridsome" href="https://gridsome.org">Gridsome</a>, 
             <a target="_blank" rel="noopener" title="Link to Bootstrap" href="https://getbootstrap.com">Bootstrap</a>,
             <a target="_blank" rel="noopener" title="Link to Netlify" href="https://netlify.com">Netlify</a>.
-            Images & thoughts &copy; {{ new Date().getFullYear() }} Brad Siefert.
+          </p>
+          
+          <p class="mb-0">
+            <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="vertical-align: top; margin-top: 2px; margin-right: 2px;" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a> Creative Commons Attribution-NonCommercial-ShareAlike 4.0 license
           </p>
         </div>
       </div>
@@ -131,7 +134,7 @@ export default {
   /* ---------- Footer --------- */
   footer {
     margin-top: 128px;
-    min-height: 160px;
+    min-height: 192px;
     padding-top: 1.5rem;
     padding-bottom: 2rem;
     font-size: .875rem;
