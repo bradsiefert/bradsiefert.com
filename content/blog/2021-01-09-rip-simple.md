@@ -13,7 +13,7 @@ published: true
 
 ![Rest in Peace Simple. You were the best designed Bank EVER.](../images/blog-rip-simple1.png)
 
-I got news today that my bank, Simple, would be shutting down their service. Simple Bank is the design-forward, startup bank inside of BBVA Compass, a large international financial services company headquartered in Bilbao, Spain. It looks like Simple users will eventually be rolled into BBVA's system, although Simple's apps and website will work for the time being. Simple's design is gorgeous. It's user experience is wonderful. Their mobile app is one the best in banking and their web app even supports features like dark mode. These features matter to me because I'm a designer. They endlessly please me. They make me a happy and loyal customer because it shows that they care to spend time working on features that modern mobile and desktop users want to use. 
+I got news today that my bank, Simple, would be shutting down their service. Simple Bank is the design-forward, startup bank inside of BBVA Compass, a large international financial services company headquartered in Bilbao, Spain. It looks like Simple users will eventually be rolled into BBVA's system, although Simple's apps and website will work for the time being. Simple's design is gorgeous. Its user experience is wonderful. Their mobile app is one the best in banking and their web app even supports features like dark mode. These features matter to me because I'm a designer. They endlessly please me. They make me a happy and loyal customer because it shows that they care to spend time working on features that modern mobile and desktop users want to use. 
 
 ![A few of Simple's iOS app screens](../images/blog-rip-simple2.png)
 
