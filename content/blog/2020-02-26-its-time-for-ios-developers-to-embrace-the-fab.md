@@ -14,10 +14,12 @@ published: true
 I’ve always found Apple’s iOS User Interface ethos a bit odd. When you read Apple’s iOS [Human Interface Guidelines](https://developer.apple.com/design/human-interface-guidelines/ios/overview/themes/), it feels sparse. The HIG is supposed to be the complete documentation for designers and developers to ensure the quality of the apps on Apple’s platforms, but it ignores many common UI elements. Elements like hamburger menus, side panels, cards, or floating action buttons, aren’t discouraged or even mentioned. Many apps use these UI elements, and it seems that [Apple doesn’t like it](https://twitter.com/themikestern/status/997531721208807424?s=21), but won’t reject the app for their use. It pains me to say that Google’s [Material Design documentation](https://material.io/components/buttons-floating-action-button/#) is superior to Apple’s HIG documentation in nearly every way. It’s much more complete and offers many more examples for how UI elements should be used. That said, I find Android apps to be at best, lightly designed carbon copies and at worst, boring, listless, barely designed apps that are far from enjoyable to use.
 
 ![One of Google's Material Design guidelines for using FABs.](../images/blog-fab3.jpg)
+<figcaption>One of Google's Material Design guidelines for using FABs.</figcaption>
 
 The first time that I noticed a floating action button (also known as a FAB) was in the very influential, but long discontinued [Path app](https://en.wikipedia.org/wiki/Path_(social_network)). The app had this very clever, small FAB in the bottom left of the app that when tapped delightfully animated and allowed you to choose which kind of content you wanted to add to the social network. I was certain this was going to be the UI that nearly all designers and developers would be adopting in the coming years. [I was very wrong](https://thenextweb.com/dd/2011/12/04/look-out-tab-bar-get-ready-for-paths-sharing-ui-to-be-everywhere/). I don't think I saw a popular implementation of them again until Google's Material Design which debuted in 2014. It dawned on me recently though that many of my favorite apps have begun to rely on this design pattern.
 
 ![Now discontinued social app Path.](../images/blog-fab4.jpg)
+<figcaption>Now discontinued social app Path.</figcaption>
 
 Whenever you see several people solving the same problem in a similar kind of way it's important to decide whether it's a trend or a solution with real substance. I don't think that FABs are a trend. They're a very reliable, solid user interface element that many apps should consider using.
 
@@ -32,8 +34,10 @@ The main way that I've found that FABs are used is for adding content to an app.
 In most cases, tapping the button reveals a view to add your content, but it's also used to have that tap reveal secondary options for adding content. The Path app implemented this functionality so well. [RIP Path](https://path.com/goodbye). In Things 3, you can drag the FAB (called the [Magic Plus](https://culturedcode.com/things/whats-new/)) to create a new task or project in varies places around the app. I use this constantly. It's much more satisfying than having to tap through a list or table to organize a task or project. In the Twitter app, 3D touching or long pressing reveals the ability to add text, image, or a gif to start a tweet. This is similar to the way that iOS does it's contextual menus in springboard. It feels like a natural next step.
 
 ![Things 3's "Magic Plus" allows you to create a new todo item or new project.](../images/blog-fab1.png)
+<figcaption>Things 3's "Magic Plus" allows you to create a new todo item or new project.</figcaption>
 
 ![Twitter's tweet FAB allows text, image, and GIF options.](../images/blog-fab2.png)
+<figcaption>Twitter's tweet FAB allows text, image, and GIF options.</figcaption>
 
 ### Finger Reachability
 

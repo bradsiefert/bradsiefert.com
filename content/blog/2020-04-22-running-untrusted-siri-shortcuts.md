@@ -20,6 +20,7 @@ Siri Shortcuts are Apple’s way automate things you do on your iPhone or iPad. 
 ## Allowing Untrusted Shortcuts
 
 ![iPhones running iOS 13 showing the flow to enable untrusted shortcuts.](../images/blog-untrustedshortcuts2.png)
+<figcaption>iPhones running iOS 13 showing the flow to enable untrusted shortcuts.</figcaption>
 
 1. Open the Shortcuts app on your iPhone or iPad and tap the bottom tab for "Gallery."
 2. Select a shortcut that you'd like to add. Tap on the shortcut to reveal it's actions and then tap "Add Shortcut." Go through any additional setup if necessary. I suggest adding the "Browse Top News" shortcut. It's simple and won't require any setup.
@@ -28,6 +29,7 @@ Siri Shortcuts are Apple’s way automate things you do on your iPhone or iPad. 
 5. The heading "Sharing Security" should be visible with an option to "Allow Untrusted Shortcuts". Turn it on. If this option still isn’t available, try running another shortcut or try restarting your device (I’ve heard of this happen a couple of times ☹️).
 
 ![The Shortcuts app Gallery screen showing the flow to add the "Browse Top News" shortcut to your library](../images/blog-untrustedshortcuts1.png "img-fluid")
+<figcaption>The Shortcuts app Gallery screen showing the flow to add the "Browse Top News" shortcut to your library</figcaption>
 
 You may be wondering if enabling this setting is a serious security risk—I don't think so. It's a good idea to look through the actions of any shortcut that you download, but it's unlikely it's a major security risk by enabling untrusted shortcuts. Use common sense security measures like not inputting passwords, banking info, or other private info into an untrusted shortcut, and you shouldn't have any issues.
 

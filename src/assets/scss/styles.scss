@@ -356,14 +356,12 @@ pre {
     height: auto;
   }
 
-  figure {
-    margin-bottom: 2rem;
-  }
-
   figcaption {
     font-size: .9125rem;
     color: #777;
     text-align: center;
+    margin-top: -1rem;
+    margin-bottom: 2rem;
   }
 }
 
