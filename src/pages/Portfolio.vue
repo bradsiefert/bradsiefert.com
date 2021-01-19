@@ -10,7 +10,7 @@
           <h2 class="h3 mt-5">Case Studies</h2>
           <g-link to="/case-studies/highbeam-design-system">
             <g-image 
-              class="img-fluid rounded-lg mb-3" 
+              class="img-fluid rounded mb-3" 
               src="@/assets/images/case-study-highbeam.jpg"
               style="border: 1px solid #eeeeee;"
               quality="100"
@@ -19,7 +19,7 @@
 
           <g-link to="/case-studies/ux-methodology">
             <g-image 
-              class="img-fluid rounded-lg" 
+              class="img-fluid rounded" 
               src="@/assets/images/case-study-ux-methodology.jpg"
               style="border: 1px solid #eeeeee;"
               quality="100"

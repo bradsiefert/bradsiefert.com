@@ -87,6 +87,14 @@ a:active {
   }
 }
 
+@media (max-width: 1023px) {
+  .skinny-contain,
+  .slim-contain,
+  .wide-contain {
+    max-width: none;
+  }
+}
+
 // Typography
 .text-right-then-left   { text-align: right;	}
 @media (max-width: 992px) { .text-right-then-left   { text-align: left;   } }
@@ -277,11 +285,17 @@ pre {
   padding: 1.0625rem 2rem 0.9375rem;
 }
 
+.btn-outline-dark {
+  background-color: $white;
+}
+
 // Breadcrumbs
 .breadcrumb {
   background: transparent;
   color: $black;
   font-size: 0.75rem;
+  font-family: $font-family-monospace;
+  text-transform: uppercase;
   line-height: 1.5;
   letter-spacing: 0.1px;
   border-radius: 0;
@@ -320,7 +334,9 @@ pre {
 }
 
 .blog-details {
-  font-size: 0.8125rem;
+  font-size: $font-size-200;
+  font-family: $font-family-monospace;
+  text-transform: uppercase;
 }
 
 .blog-post {
@@ -380,7 +396,7 @@ pre {
   height: auto;
 }
 
-/* ---------- Contact Page --------- */
+// Contact Page
 
 .form-control,
 .form-control:focus {
@@ -399,7 +415,7 @@ textarea.form-control {
   font-weight: 600;
 }
 
-/* ---------- Siri Shortcuts Page --------- */
+// Siri Shortcuts Page --------- */
 .box.shortcuts {
   background-color: $white;
   border: 1px solid $gray-400;
@@ -424,3 +440,36 @@ textarea.form-control {
 .downloads .box {
   margin-bottom: 0;
 }
+
+// Stuff I Use
+.box.gear {
+  background: #f8f8f8;
+  box-shadow: inset 0 0 16px 0 rgba(0,0,0,0.08);
+  border: none;
+  border-radius: 8px;
+  padding: 1.5rem 2rem;
+}
+
+@media (max-width: 1023px) {
+  .box.gear {
+    padding: 1.5rem;
+  }
+  
+  .box.gear .stuff-img img {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.box.gear {
+  .stuff-img {
+    border-radius: 0.5rem;
+    box-shadow: 0 0 21px 0 rgba(0,0,0,0.16);
+  }
+  
+  p:last-of-type {
+    margin-bottom: 0;
+  }
+}
+
