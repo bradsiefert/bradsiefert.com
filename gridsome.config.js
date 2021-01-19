@@ -34,7 +34,23 @@ module.exports = {
         typeName: 'SiriShortcuts',
         path: './content/siri-shortcuts/**/*.md',
       }
-    }
+    },
+    {
+      use: '@gridsome/source-airtable',
+      options: {
+        apiKey: process.env.AIRTABLE_KEY, // required
+        base: process.env.AIRTABLE_BASE, // required
+        tables: [
+          {
+            name: 'My Gear', // required
+            typeName: 'Gear', // required
+            select: {
+              sort: [{field: "Sorting Order ID", direction: "asc"}],
+            },
+          },
+        ],
+      },
+    },
   ],
   templates: {
     Blog: [{
