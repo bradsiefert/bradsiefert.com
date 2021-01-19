@@ -34,7 +34,7 @@
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown" :class="{ 'show': showAboutDrop } ">
             <g-link class="dropdown-item" rel="noopener" to="/about">Bio</g-link>
-            <g-link class="dropdown-item" rel="noopener" to="/">My Gear &nbsp;<span class="badge bg-dark rounded-pill">Soon</span></g-link>
+            <g-link class="dropdown-item" rel="noopener" to="/stuff-i-use">Stuff I Use</g-link>
             <g-link class="dropdown-item" rel="noopener" to="/contact">Contact Me</g-link>
           </ul>
         </li>

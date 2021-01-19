@@ -4,6 +4,7 @@
 import '~/assets/scss/styles.scss'
 import DefaultLayout from '~/layouts/Default.vue'
 import FrontPage from '~/layouts/FrontPage.vue'
+import StuffIUse from '~/layouts/StuffIUse.vue'
 import VueFuse from 'vue-fuse'
 
 // Adding FontAwesome
