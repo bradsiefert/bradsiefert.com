@@ -19,7 +19,7 @@
               <p class="font-size-100 font-monospace"><strong>FILE TYPE:</strong> Git repo</p>
 
               <div class="mt-auto">
-                <div class="d-grid g-2 d-flex">
+                <div class="d-grid gap-2 d-flex">
                   <a target="_blank" class="btn btn-outline-dark btn-sm my-1 me-sm-2" href="https://github.com/bradsiefert/gridsome-starter-neumorphic">
                     Clone from Github &nbsp;➡️
                   </a>
@@ -41,7 +41,7 @@
               <p class="font-size-100 font-monospace"><strong>FILE TYPE:</strong> Sketch</p>
 
               <div class="mt-auto">
-                <div class="d-grid g-2 d-flex">
+                <div class="d-grid gap-2 d-flex">
                   <a target="_blank" class="btn btn-outline-dark btn-sm my-1 me-sm-2" href="files/Resume-Template.pdf">
                     Sample Resume &nbsp;⬇️
                   </a>
@@ -67,7 +67,7 @@
               <p class="font-size-100 font-monospace"><strong>FILE TYPE:</strong> PDF and JPG</p>
 
               <div class="mt-auto">
-                <div class="d-grid g-2 d-flex">
+                <div class="d-grid gap-2 d-flex">
                   <a target="_blank" class="btn btn-outline-dark btn-sm my-1 me-sm-2" href="files/Enneagram Triads & Stances.pdf">
                     Download PDF &nbsp;⬇️
                   </a>
@@ -93,7 +93,7 @@
               <p class="font-size-100 font-monospace"><strong>FILE TYPE:</strong> PDF</p>
 
               <div class="mt-auto">
-                <div class="d-grid g-2 d-flex">
+                <div class="d-grid gap-2 d-flex">
                   <a target="_blank" class="btn btn-outline-dark btn-sm my-1 me-sm-2" href="https://www.icloud.com/iclouddrive/0uzI0Zqd87HQUkg5GlitLypOg#10-Years-of-Photos-(2007-2017)-Brad-Siefert">
                     Download PDF &nbsp;⬇️
                   </a>

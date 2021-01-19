@@ -24,7 +24,7 @@
               <li class="list-inline-item blog-details">
                 <time :datetime="$page.blog.datetime">{{ $page.blog.humanTime }}</time>
               </li>
-              <li class="list-inline-item blog-details pl-3">
+              <li class="list-inline-item blog-details ps-5">
                 {{ $page.blog.timeToRead }} min read
               </li>
             </ul>
