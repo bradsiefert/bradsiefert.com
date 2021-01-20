@@ -68,11 +68,11 @@
 
               <div class="mt-auto">
                 <div class="d-grid gap-2 d-flex">
-                  <a target="_blank" class="btn btn-outline-dark btn-sm my-1 me-sm-2" href="files/Enneagram Triads & Stances.pdf">
+                  <a target="_blank" class="btn btn-outline-dark btn-sm my-1 me-sm-2" href="files/Enneagram-Triads-&-Stances.pdf">
                     Download PDF &nbsp;⬇️
                   </a>
                   
-                  <a target="_blank" class="btn btn-outline-dark my-1 btn-sm" href="files/Enneagram Triads & Stances.jpg">
+                  <a target="_blank" class="btn btn-outline-dark my-1 btn-sm" href="files/Enneagram-Triads-&-Stances.jpg">
                     Download JPG &nbsp;⬇️
                   </a>
                 </div>
