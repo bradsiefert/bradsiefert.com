@@ -22,28 +22,17 @@
             <h5 class="mb-16">Design Portfolio Case Study:</h5>
             <h1>UX Methodology</h1>
             <p>
-              I often get asked about my approach to user experience design (UX). As a designer, it's easy to show a bunch 
-              of pretty pictures of interfaces, but most of us know those aren't what makes someone a good designer. 
-              A good designer is someone who elegantly solves user issues. It's difficult 
-              to show the process and thinking that lead to making design decisions. This case study is my attempt 
-              to explain how I do design thinking and what deliverables I tend to create along the way.
+              I often get asked about my approach to user experience design (UX). As a designer, it's easy to show a bunch of pretty pictures of interfaces, but most of us know those aren't what makes someone a good designer. A good designer is someone who elegantly solves user issues. It's difficult to show the process and thinking that lead to making design decisions. This case study is my attempt to explain how I do design thinking and what deliverables I tend to create along the way.
             </p>
 
             <h2 class="mt-24">Requirements</h2>
 
             <p>
-              Ideas for a design are often the first thing that come to us with a project. These are usually 
-              held within one or maybe a few person's brains. This seems obvious, but some of the most 
-              difficult design work that I've ever had to do is sitting in a meeting with a client trying to 
-              decipher what they are <em>really</em> want from a design. It seems obvious to them, 
-              but it's a much more complicated process.
+              Ideas for a design are often the first thing that come to us with a project. These are usually held within one or maybe a few person's brains. This seems obvious, but some of the most difficult design work that I've ever had to do is sitting in a meeting with a client trying to decipher what they are <em>really</em> want from a design. It seems obvious to them, but it's a much more complicated process.
             </p>
 
             <p>
-              I think this is one of my strongest skills. I'm always striving to being curious and to codify 
-              what needs to be created and why they want it created. Being extremely clear on the client's 
-              desired outcomes <strong>always</strong> leads to a better project for me. This is hard work, but I find it 
-              collaborative, fun, and helpful to every subsequence step of the design process.
+              I think this is one of my strongest skills. I'm always striving to being curious and to codify what needs to be created and why they want it created. Being extremely clear on the client's desired outcomes <strong>always</strong> leads to a better project for me. This is hard work, but I find it collaborative, fun, and helpful to every subsequence step of the design process.
             </p>
             
             <h2 class="mt-24">Deliverables</h2>
