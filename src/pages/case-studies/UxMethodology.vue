@@ -64,37 +64,19 @@
             <h3 class="text-center px-64 lh-base font-size-700 my-32">I love plain text lists, I love mind maps, I love user flows, and I like wireframes.</h3>
 
             <p>
-              I found that many times, a free flowing plain text list of requirements is the best place to start 
-              when creating a project. Organizing that information can go a really long way to understanding 
-              next actions. If things are a bit unwieldy or a more wicked problem, mind maps are a great tool. 
-              Mind maps are a way to grab a lot of disparate ideas and make associations during or after the 
-              collection process. They help to bring together ideas visually so people can process their 
-              thinking in specific areas. Also, they're super fun to look at! It's a real advantage over a plain 
-              text list.
+              I found that many times, a free flowing plain text list of requirements is the best place to start when creating a project. Organizing that information can go a really long way to understanding next actions. If things are a bit unwieldy or a more wicked problem, mind maps are a great tool. Mind maps are a way to grab a lot of disparate ideas and make associations during or after the collection process. They help to bring together ideas visually so people can process their thinking in specific areas. Also, they're super fun to look at! It's a real advantage over a plain text list.
             </p>
             
             <p>
-              A non-negotiable for me when doing a design is creating a user flow diagram. These diagrams are 
-              vital to making a holistic and well thought out project. User flows ensure that you have captured 
-              every part that a user could possible step through. If you don't have something like this, you're 
-              so much more likely to miss a page, a process, or a desired outcome. It's also so much easier to 
-              procrastinate because you don't fully know what you're creating. On some level, you're still 
-              unsure about how everything works together as a whole.
+              A non-negotiable for me when doing a design is creating a user flow diagram. These diagrams are vital to making a holistic and well thought out project. User flows ensure that you have captured every part that a user could possible step through. If you don't have something like this, you're so much more likely to miss a page, a process, or a desired outcome. It's also so much easier to procrastinate because you don't fully know what you're creating. On some level, you're still unsure about how everything works together as a whole.
             </p>
             
             <p>
-              Lastly, wireframes are a great tool for some projects, but they're optional for me. This is partly 
-              due to the kinds of projects and the scale of projects that I tend to work on. I've found that 
-              once I've done the necessary thinking of requirements gathering, processing through mind maps, and 
-              creating user flows, I'm very ready to get designing something beautiful. That's my favorite 
-              part of the process, so wireframes many times get skipped. I find that I can do the necessary 
-              design thinking about layout while I'm making the interface. They're tied to each other many 
-              times for me.
+              Lastly, wireframes are a great tool for some projects, but they're optional for me. This is partly due to the kinds of projects and the scale of projects that I tend to work on. I've found that once I've done the necessary thinking of requirements gathering, processing through mind maps, and creating user flows, I'm very ready to get designing something beautiful. That's my favorite part of the process, so wireframes many times get skipped. I find that I can do the necessary design thinking about layout while I'm making the interface. They're tied to each other many times for me.
             </p>
             
             <p>
-              This is just one designer's UX methodology. If this is helpful for you in anyway, I'd be thrilled 
-              if <g-link to="/contact">you let me know</g-link>.
+              This is just one designer's UX methodology. If this is helpful for you in anyway, I'd be thrilled if <g-link to="/contact">you let me know</g-link>.
             </p>
 
           </article>

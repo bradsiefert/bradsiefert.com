@@ -22,17 +22,11 @@
             <h5 class="mb-16">Design Portfolio Case Study:</h5>
             <h1>Highbeam Design System</h1>
             <p>
-              Design systems have become a powerful way that designers create consistent and well managed web 
-              and mobile apps. I've been toying around with making my own design system for a while and I 
-              wanted to show a bit of a preview to what I've been working on. This design system is for the 
-              internal products that my agency, Earlybird, creates for our clients. 
+              Design systems have become a powerful way that designers create consistent and well managed web and mobile apps. I've been toying around with making my own design system for a while and I wanted to show a bit of a preview to what I've been working on. This design system is for the internal products that my agency, Earlybird, creates for our clients. 
             </p>
 
             <p>
-              The design system is based on Bootstrap 5, but with lots of personal tweaks and additions. 
-              Nearly every UI element has been changed one by one to better fit the way I think looks best. 
-              I find myself making many of these changes whenever I create a new site so hopefully this will 
-              be a better starting place for my firm and others.
+              The design system is based on Bootstrap 5, but with lots of personal tweaks and additions. Nearly every UI element has been changed one by one to better fit the way I think looks best. I find myself making many of these changes whenever I create a new site so hopefully this will be a better starting place for my firm and others.
             </p>
 
             <g-link class="btn btn-primary btn-lg mb-4" to="https://highbeamdesignsystem.netlify.app">
@@ -54,20 +48,11 @@
             />
             
             <p class="mt-16">
-              One of the major changes is with typography. I'm using the typeface Inter for the body and 
-              headings and Fira Code for code, forms, tables, and buttons. I think they compliment each other 
-              very well. Using a monospaced font for these elements feels fresh and appropriate for such data 
-              heavy applications.
+              One of the major changes is with typography. I'm using the typeface Inter for the body and headings and Fira Code for code, forms, tables, and buttons. I think they compliment each other very well. Using a monospaced font for these elements feels fresh and appropriate for such data heavy applications.
             </p>
             
             <p class="mb-32">
-              Spacing and color are some of the areas I focused on the most. I updated the colors to be much 
-              more vibrant and bright, I still tried to keep proper contrast for UI elements. I also added two 
-              theme colors, "highlight", which is based off the yellow color and "tip" which is   the teal 
-              color. Highlight in particular has been used quite a bit throughout the system. I've never been 
-              happy with the few spacing options Bootstrap offers so I've tweaked them to make a bit more 
-              sense to me. There are now 12 different spacers and it helps to more easily dial in proper 
-              spacing for elements. 
+              Spacing and color are some of the areas I focused on the most. I updated the colors to be much more vibrant and bright, I still tried to keep proper contrast for UI elements. I also added two theme colors, "highlight", which is based off the yellow color and "tip" which is   the teal color. Highlight in particular has been used quite a bit throughout the system. I've never been happy with the few spacing options Bootstrap offers so I've tweaked them to make a bit more sense to me. There are now 12 different spacers and it helps to more easily dial in proper spacing for elements. 
             </p>
 
             <g-image 
@@ -99,10 +84,7 @@
             />
             
             <p>
-              There are updates to the grid system, forms, and all sorts of little changes I find myself 
-              making whenever I use Bootstrap for a project. The system has code snippets to quickly copy and 
-              reference to quickly build screens for our web apps. We've found it's incredibly helpful for 
-              keeping our products consistent and more easily updatable.
+              There are updates to the grid system, forms, and all sorts of little changes I find myself making whenever I use Bootstrap for a project. The system has code snippets to quickly copy and reference to quickly build screens for our web apps. We've found it's incredibly helpful for keeping our products consistent and more easily updatable.
             </p>
 
           </article>
