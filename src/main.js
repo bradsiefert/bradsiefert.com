@@ -1,6 +1,5 @@
 // This is the main.js file. Import global CSS and scripts here.
 // The Client API can be used here. Learn more: gridsome.org/docs/client-api
-
 import '~/assets/scss/styles.scss'
 import DefaultLayout from '~/layouts/Default.vue'
 import FrontPage from '~/layouts/FrontPage.vue'
@@ -11,16 +10,23 @@ import VueFuse from 'vue-fuse'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import { config, library } from '@fortawesome/fontawesome-svg-core'
 import { faGithub, faTwitter, faDribbble, faInstagram, faLinkedin, faProductHunt, faMedium } from '@fortawesome/free-brands-svg-icons'
+import { faLightBulb, faAdjust } from '@fortawesome/free-solid-svg-icons'
 import '@fortawesome/fontawesome-svg-core/styles.css'
 config.autoAddCss = true;
-library.add(faGithub, faTwitter, faDribbble, faInstagram, faLinkedin, faProductHunt, faMedium)
+library.add(faGithub, faTwitter, faDribbble, faInstagram, faLinkedin, faProductHunt, faMedium, faAdjust)
 
 export default function (Vue, { router, head, isClient }) {
-  Vue.use(VueFuse)
+  Vue.use(VueFuse)  
   
   // Set default layout as a global component
   Vue.component('Layout', DefaultLayout)
-
+  
+  // Detects if the device is using dark mode
+  if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+    const LIGHTS_OUT = 'dark-mode';
+    document.body.toggleAttribute(LIGHTS_OUT);
+  }
+  
   // Import FontAwesome
   Vue.component('font-awesome', FontAwesomeIcon)
 }

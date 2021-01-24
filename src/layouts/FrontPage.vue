@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="app">
     <header>
       <Navbar />
     </header>
@@ -150,9 +150,6 @@ export default {
   components: {
     Navbar, Footer, SearchBar
   },
-  data: () => ({
-    showNav: false, // This is to make the navbar open/close on mobile.
-  }),
   metaInfo() {
     return {
       title: 'UI/UX Designer',

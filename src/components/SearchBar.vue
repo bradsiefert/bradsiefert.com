@@ -1,7 +1,12 @@
 <template>
   <div>
     <search-focus @keyup="focusSearch"></search-focus>
-    <div class="search-bar">
+    
+    <div class="search-bar">      
+      <ToggleDarkMode class="ml-2 sm:ml-8">
+        <font-awesome :icon="['fas', 'adjust']"/>
+      </ToggleDarkMode>
+      
       <input 
         type="text" 
         class="form-control" 
@@ -51,12 +56,13 @@
 
 <script>
 import SearchFocus from '@/components/SearchFocus.vue'
+import ToggleDarkMode from "@/components/ToggleDarkMode";
 import axios from 'axios'
 
 export default {
   name: 'SearchBar', 
   components: {
-    SearchFocus
+    SearchFocus, ToggleDarkMode
   },
   data() {
     return {
@@ -120,7 +126,7 @@ export default {
 .search-bar .form-control,
 .search-bar .form-control:focus,
 .search-bar-results {
-  width: 160px;
+  width: 144px;
   border-radius: 1rem !important;
   height: 32px;
   font-size: $font-size-300;
@@ -199,5 +205,19 @@ export default {
   font-size: 1.25rem;
   color: $gray-500;
   cursor: pointer;
+}
+
+// Styling the dark/light mode button
+.search-bar .btn {
+  height: 32px;
+  font-size: $font-size-500;
+  line-height: 1;
+  padding: 0 .5rem;
+  color: $black;
+  font-weight: 500;
+  opacity: 1;
+  z-index: 99;
+  border: 1px solid $gray-200;
+  box-shadow: 0 0 32px 0 rgba(0,0,0,0.08);
 }
 </style>
