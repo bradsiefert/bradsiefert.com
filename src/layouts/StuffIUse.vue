@@ -40,6 +40,7 @@ query {
 import Navbar from '@/components/Navbar.vue'
 import SearchBar from '@/components/SearchBar.vue'
 import Footer from '@/components/Footer.vue'
+
 export default {
   components: {
     Navbar, Footer, SearchBar

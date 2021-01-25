@@ -34,6 +34,10 @@ export default {
 
     detectPrefered() {
       return window.matchMedia('(prefers-color-scheme: dark)').matches;
+      
+      if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.toggleAttribute(LIGHTS_OUT);
+      }
     },
 
     hasInStorage() {

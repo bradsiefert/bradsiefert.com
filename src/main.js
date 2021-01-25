@@ -21,12 +21,6 @@ export default function (Vue, { router, head, isClient }) {
   // Set default layout as a global component
   Vue.component('Layout', DefaultLayout)
   
-  // Detects if the device is using dark mode
-  if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-    const LIGHTS_OUT = 'dark-mode';
-    document.body.toggleAttribute(LIGHTS_OUT);
-  }
-  
   // Import FontAwesome
   Vue.component('font-awesome', FontAwesomeIcon)
 }
