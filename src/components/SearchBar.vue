@@ -2,8 +2,8 @@
   <div>
     <search-focus @keyup="focusSearch"></search-focus>
     
-    <div class="search-bar">      
-      <ToggleDarkMode class="ml-2 sm:ml-8">
+    <div class="search-bar">    
+      <ToggleDarkMode>
         <font-awesome :icon="['fas', 'adjust']"/>
       </ToggleDarkMode>
       
@@ -114,13 +114,8 @@ export default {
 .search-bar {
   position: fixed;
   top: 32px;
-  right: 32px;
-}
-
-@media (max-width: 1024px) {
-  .search-bar {
-    display: none;
-  }
+  right: 16px;
+  z-index: 99;
 }
 
 .search-bar .form-control,
@@ -133,7 +128,6 @@ export default {
   color: $black;
   font-weight: 500;
   opacity: 1;
-  z-index: 99;
 }
 
 .search-bar-results {
@@ -142,13 +136,50 @@ export default {
   min-width: 320px;
   position: fixed;
   top: 68px;
-  right: 32px;
+  right: 16px;
   max-height: 320px;
   overflow-y: auto;
 }
 
 .search-bar-results a {
   color: $black;
+}
+
+// Styling the dark/light mode button
+.search-bar .btn {
+  height: 32px;
+  font-size: $font-size-500;
+  line-height: 1;
+  padding: 0 .5rem;
+  color: $black;
+  font-weight: 500;
+  opacity: 1;
+  z-index: 99;
+  border: 1px solid $gray-200;
+  box-shadow: 0 0 32px 0 rgba(0,0,0,0.08);
+  background-color: $white;
+  
+  float: left;
+  margin-right: 0.25rem;
+}
+
+@media (max-width: 1024px) {
+  .search-bar {
+    position: static;
+    top: 0;
+    right: 0;
+    margin: 0.5rem 1rem 2rem;
+  }
+  
+  .search-bar .btn {
+    width: 48px;
+    float: right;
+    margin-right: 0;
+  }
+  
+  .search-bar .form-control, .search-bar .form-control:focus, .search-bar-results {
+    width: calc(100% - 56px);
+  }
 }
 
 .results-wrap {
@@ -205,19 +236,5 @@ export default {
   font-size: 1.25rem;
   color: $gray-500;
   cursor: pointer;
-}
-
-// Styling the dark/light mode button
-.search-bar .btn {
-  height: 32px;
-  font-size: $font-size-500;
-  line-height: 1;
-  padding: 0 .5rem;
-  color: $black;
-  font-weight: 500;
-  opacity: 1;
-  z-index: 99;
-  border: 1px solid $gray-200;
-  box-shadow: 0 0 32px 0 rgba(0,0,0,0.08);
 }
 </style>

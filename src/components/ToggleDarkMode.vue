@@ -1,5 +1,5 @@
 <template>
-  <button @click="handleClick" aria-label="Toggle Darkmode" class="btn btn-sm me-2 float-start" title="Toggle Darkmode">
+  <button @click="handleClick" aria-label="Toggle Darkmode" class="btn btn-sm" title="Toggle Darkmode">
     <slot :dark="isDarkMode" />
   </button>
 </template>
