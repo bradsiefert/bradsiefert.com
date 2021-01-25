@@ -158,9 +158,18 @@ export default {
   border: 1px solid $gray-200;
   box-shadow: 0 0 32px 0 rgba(0,0,0,0.08);
   background-color: $white;
-  
   float: left;
   margin-right: 0.25rem;
+}
+
+.search-bar .close {
+  position: relative;
+  top: -31.5px;
+  right: 16px;
+  font-size: 1.25rem;
+  color: $gray-500;
+  cursor: pointer;
+  float: right;
 }
 
 @media (max-width: 1024px) {
@@ -179,6 +188,25 @@ export default {
   
   .search-bar .form-control, .search-bar .form-control:focus, .search-bar-results {
     width: calc(100% - 56px);
+  }
+  
+  .search-bar-results {
+    min-width: none;
+    position: absolute;
+    top: 184px;
+    right: auto;
+    width: calc(100% - 2rem);
+    margin: 0 1rem;
+  }
+  
+  .search-bar .close {
+    position: fixed;
+    top: 140px;
+    right: 88px;
+    font-size: 1.25rem !important;
+    color: $gray-500;
+    cursor: pointer;
+    float: right;
   }
 }
 
@@ -227,14 +255,5 @@ export default {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-}
-
-.search-bar .close {
-  position: absolute;
-  top: 0;
-  right: 12px;
-  font-size: 1.25rem;
-  color: $gray-500;
-  cursor: pointer;
 }
 </style>
