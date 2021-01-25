@@ -7,7 +7,7 @@
 // Global
 
 // All this is to make the footer sticky to the bottom.
-html, body, #app { min-height: 100%; }
+html, body, #app { min-height: 100vh; }
 body, #app { display: flex; flex-direction: column; }
 main { flex: 1 0 auto; }
 .footer { flex-shrink: 0; }
