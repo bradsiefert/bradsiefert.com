@@ -1,9 +1,9 @@
 <template>
-  <StuffIUse>          
+  <StuffIUse>
     <article class="lead">
       <div class="row g-2">
         <div class="col-xl">
-          <a class="btn btn-primary btn-lg w-100 mb-3 disabled" href="/stuff-i-use/everyday-carry">
+          <a class="btn btn-outline-dark btn-lg w-100 mb-3" href="/stuff-i-use/everyday-carry">
             Everyday Carry &nbsp;👖
           </a>
         </div>
@@ -13,7 +13,7 @@
           </a>
         </div>
         <div class="col-xl">
-          <a class="btn btn-outline-dark btn-lg w-100 mb-3" href="/stuff-i-use/photography-gear">
+          <a class="btn btn-primary btn-lg w-100 mb-3 disabled" href="/stuff-i-use/photography-gear">
             Photography Gear &nbsp;📸
           </a>
         </div>
@@ -21,9 +21,13 @@
       
       <hr class="mt-3 mb-5">
       
-      <h2 class="h1">Everyday Carry</h2>
+      <h2 class="h1">Photography Gear</h2>
       <p>
-        These are the items that are closest to me most of the time. I do my best to thoughtfully choose what I daily carry so there's nothing superfluous. It helps me feel like I've got control of the things I use and not the other way around.
+        I've been a serious photographer since 2007. For years I've read and researched constantly about photography cameras, lenses, and accessories trying to figure out what is the right gear  for me. It's only this past couple of years where I've honed in on the tools I like best.
+      </p>
+
+      <p>
+        One thing that always frustrates me when photographers talk about gear is when they'll say something like "the gear doesn't matter." This is wrong, privileged, and silly. I've never once heard someone say this who doesn't already have multiple thousands of dollars invested in gear. Better gear doesn't necessarily make you more creative, but there are all sorts of shots you simply cannot make without certain gear. Get the right gear for you. Whatever works best for your budget what you want to shoot. The rest is just noise.
       </p>
       
       <div class="row" v-for="edge in $page.gear.edges" :key="edge.node.id">
@@ -54,7 +58,6 @@
           </div>
         </div>
       </div>
-      
     </article>
   </StuffIUse>
 </template>
@@ -62,7 +65,9 @@
 <page-query>
 query MyGear {
   gear: allGear (
-    filter: { subcategory: { in: "Everyday Carry" } }
+    filter: { categoryFromBrands: { contains: "Photography" } 
+              retired: { exists: false } 
+            }
     sortBy: "sortingOrderId" order: ASC
   ) {
     edges {
@@ -75,6 +80,8 @@ query MyGear {
         rating
         thumbnailUrl
         sortingOrderId
+        categoryFromBrands
+        retired
       }
     }
   }
@@ -90,7 +97,7 @@ export default {
   },
   metaInfo() {
     return {
-      title: 'Stuff I Use / Everyday Carry'
+      title: 'Stuff I Use / Photography Gear'
     };
   }
 };

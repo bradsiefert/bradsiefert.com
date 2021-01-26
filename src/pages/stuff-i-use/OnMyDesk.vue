@@ -62,7 +62,9 @@
 <page-query>
 query MyGear {
   gear: allGear (
-    filter: { subcategory: { in: "Desk" } }
+    filter: { subcategory: { in: "Desk" }
+              retired: { exists: false } 
+            }
     sortBy: "sortingOrderId" order: ASC
   ) {
     edges {
@@ -75,6 +77,7 @@ query MyGear {
         rating
         thumbnailUrl
         sortingOrderId
+        retired
       }
     }
   }
