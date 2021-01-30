@@ -6,7 +6,7 @@
 
           <ul class="list-inline float-end small fw-bold mt-2">
             <li class="list-inline-item me-3"><a href="/blog/feed.json">JSON</a></li>
-            <li class="list-inline-item"><a href="/blog/feed.rss">RSS</a></li>
+            <li class="list-inline-item"><a href="/blog/feed.xml">RSS</a></li>
           </ul>
 
           <h1>Blog</h1>
