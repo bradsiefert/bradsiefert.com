@@ -4,9 +4,10 @@
       <div class="row justify-content-center">
         <div class="col-lg-12">
 
-          <!-- <div class="float-right">
-            <small><strong><a href="https://www.brad.si/efert/category/blog/feed/">RSS Feed</a></strong></small>
-          </div> -->
+          <ul class="list-inline float-end small fw-bold mt-2">
+            <li class="list-inline-item me-3"><a href="/blog/feed.json">JSON</a></li>
+            <li class="list-inline-item"><a href="/blog/feed.rss">RSS</a></li>
+          </ul>
 
           <h1>Blog</h1>
           <p>A blog about design, development, productivity, and other things I can't stop thinking about.</p>

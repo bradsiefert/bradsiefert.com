@@ -51,6 +51,49 @@ module.exports = {
         ],
       },
     },
+    {
+      use: '@microflash/gridsome-plugin-feed',
+      options: {
+        contentTypes: ['Blog'],
+        feedOptions: {
+          title: 'Brad Siefert / Designer & Photographer',
+          description: 'Personal blog of Chicago based UI/UX Designer Brad Siefert.'
+        },
+        rss: {
+          enabled: true,
+          output: '/blog/feed.xml'
+        },
+        atom: {
+          enabled: true,
+          output: '/blog/feed.atom'
+        },
+        json: {
+          enabled: true,
+          output: '/blog/feed.json'
+        },
+        maxItems: 100,
+
+        // (optional) an array of properties to be parsed as HTML
+        // Converts relative URLs to absolute URLs
+        // You can disable this by omitting the option
+        htmlFields: ['content'],
+
+        // (optional) appends a trailing slash to the URLs
+        enforceTrailingSlashes: false,
+
+        // (optional) a function to filter out the nodes
+        // e.g., filter out all outdated posts, filterNodes: (node) => !!node.outdated
+        filterNodes: (node) => true,
+
+        // (optional) sets the properties on each feed item
+        // See https://github.com/jpmonette/feed#example for all options
+        nodeToFeedItem: (node) => ({
+          title: node.title,
+          date: node.date,
+          content: node.content
+        })
+      },
+    },
   ],
   templates: {
     Blog: [{
