@@ -10,7 +10,7 @@ import VueFuse from 'vue-fuse'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import { config, library } from '@fortawesome/fontawesome-svg-core'
 import { faGithub, faTwitter, faDribbble, faInstagram, faLinkedin, faProductHunt, faMedium } from '@fortawesome/free-brands-svg-icons'
-import { faLightBulb, faAdjust } from '@fortawesome/free-solid-svg-icons'
+import { faAdjust } from '@fortawesome/free-solid-svg-icons'
 import '@fortawesome/fontawesome-svg-core/styles.css'
 config.autoAddCss = true;
 library.add(faGithub, faTwitter, faDribbble, faInstagram, faLinkedin, faProductHunt, faMedium, faAdjust)

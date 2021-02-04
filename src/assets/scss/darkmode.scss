@@ -30,7 +30,8 @@ body[dark-mode] {
   }
   
   .navbar .navbar-nav .nav-link:hover,
-  .navbar .navbar-nav .dropdown-menu a.dropdown-item:hover {
+  .navbar .navbar-nav .dropdown-menu a.dropdown-item:hover, 
+  .navbar .navbar-nav .nav-link.active {
     color: $primary !important;
   }
   

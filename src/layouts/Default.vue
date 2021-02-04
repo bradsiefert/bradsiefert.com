@@ -26,8 +26,8 @@ query {
 </static-query>
 
 <script>
-import Navbar from '@/components/Navbar.vue'
 import SearchBar from '@/components/SearchBar.vue'
+import Navbar from '@/components/Navbar.vue'
 import Footer from '@/components/Footer.vue'
 
 export default {
