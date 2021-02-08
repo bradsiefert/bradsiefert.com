@@ -53,16 +53,16 @@
                   <div class="col-md-4">
                     <a href="https://earlybird.co" title="Link to Earlybird Software" rel="nofollow">
                       <g-image
-                        class="img-fluid mb-3"
-                        src="~/assets/images/earlybird-logo.svg" 
+                        class="keeper-logo img-fluid mb-3"
+                        src="~/assets/images/keeper-logo.svg" 
                         alt="Logo for Earlybird Software">
                       </g-image>
                     </a>
                   </div>
                   <div class="col-md-8">
-                    <h2>UI/UX Designer @ Earlybird Software</h2>
+                    <h2>UI/UX Designer @ Keeper Security</h2>
                     <p class="mb-7">
-                      Since 2013, I've been the UI/UX Designer at Earlybird, a cloud computing agency focused on building smarter business operations. I've helped design and build web and mobile apps that support internal processes and customer dashboards. I create the flows, designs, and develop the web front-ends for our products.
+                      In early 2021 I joined the team at Keeper Security. Keeper is a cybersecurity company with a variety of security tools, most famously, our password manager, Keeper. Our products serve individuals, families, small businesses and enterprise companies. My work helps improve the user experience of our products on mobile, web, browser, and desktop.
                     </p>
                   </div>
                 </div>
@@ -103,26 +103,25 @@
                   <div class="col-md-8">
   
                     <div class="row">
-                      <div class="col-4 text-start">
+                      <div class="col-sm-4 text-center text-sm-start">
+                        <g-image
+                          class="img-fluid mb-4"
+                          src="~/assets/images/earlybird-logo-dark.svg" 
+                          alt="Logo for ColorJar">
+                        </g-image>
+                      </div>
+                      <div class="col-sm-4 text-center text-sm-end">
                         <g-image
                           class="img-fluid mb-4"
                           src="~/assets/images/colorjar.svg" 
                           alt="Logo for ColorJar">
                         </g-image>
                       </div>
-                      <div class="col-4 text-center">
+                      <div class="col-sm-4 text-center text-sm-end">
                         <g-image
                           class="img-fluid mb-4"
                           src="~/assets/images/dose.svg" 
                           alt="Logo for Dose aka Spartz">
-                        </g-image>
-                      </div>
-                      <div class="col-4 text-end">
-                        <g-image
-                          class="img-fluid mb-4"
-                          style="width: 80px;"
-                          src="~/assets/images/forbes.png" 
-                          alt="Logo for Forbes">
                         </g-image>
                       </div>
                     </div>
@@ -157,7 +156,7 @@ export default {
         { property: "og:type", content: 'article' },
         { property: "og:title", content: "Brad Siefert / Designer & Photographer" },
         { property: "og:description", content: "Personal design portfolio and blog of Chicago based UI/UX Designer Brad Siefert." },
-        { property: "og:url", content: "https://brad.si/efert" },
+        { property: "og:url", content: "https://bradsiefert.com" },
         { property: "og:image", content: "https://bradsiefert.com/files/sharing.jpg" },
 
         { name: "twitter:card", content: "summary_large_image" },
