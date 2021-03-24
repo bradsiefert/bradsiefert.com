@@ -19,13 +19,13 @@
               </g-image>
             </div>
   
-            <h1 class="display-1">
+            <div class="display-1">
               Hi, 👋🏻 &nbsp;I’m Brad and I’m a UI/UX Designer from Chicago, IL.<br /><br />
   
-              I love <a target="_new" rel="noopener" href="https://jamstack.org/">front-end development</a>.<br />
+              I love <a target="_new" rel="noopener" href="https://designsystemsrepo.com/">Design Systems</a> & the <a target="_new" rel="noopener" href="https://jamstack.org/">Jamstack</a>.<br />
               I’m a <a target="_new" rel="noopener" href="https://shortcuts.directory/">Siri Shortcuts enthusiast</a>.<br /> 
               Each year I take around <a target="_new" rel="noopener" href="https://photos.bradsiefert.com">50k+ photos</a>.<br />
-            </h1>
+            </div>
   
             <div class="text-center my-6">
               <g-link 
@@ -98,7 +98,7 @@
               <div class="col">
                 <div class="row">
                   <div class="col-md-4">
-                    <h2 class="h3 font-size-500 mb-5">Previously</h2>
+                    <h3 class="h3 font-size-500 mb-5">Previously</h3>
                   </div>
                   <div class="col-md-8">
   

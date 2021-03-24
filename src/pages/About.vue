@@ -19,14 +19,12 @@
                 title="Link to East Garfield Park's Wikipedia" 
                 href="https://en.wikipedia.org/wiki/East_Garfield_Park,_Chicago"
                 rel="noopener"
-              >
-              East Garfield Park</a> neighborhood of Chicago with my wife Nicole and my daughter Lydia.
+              >East Garfield Park</a> neighborhood of Chicago with my wife Nicole and my daughter Lydia.
             </p>
 
             <p>
               I value elegance, clarity, and efficiency in design. I always strive to consider 
-              the user's needs and how to best serve them. I love working with people who inspire me to learn and 
-              who are serious about creating beautiful and meaningful work.
+              the user's needs and how to best serve them. I love working with people who inspire me to learn and who are serious about creating beautiful and meaningful work.
             </p>
 
             <p>
@@ -36,14 +34,11 @@
                 title="Link to Open Arms Ministry" 
                 href="https://openarmsministry.org"
                 rel="noopener"
-              >Open Arms</a>, 
-              focused on improving our internal systems and IT. It's been a great opportunity to learn how to 
-              blend code and no-code solutions to create more effective operations.
+              >Open Arms</a>, focused on improving our internal systems and IT. It's been a great opportunity to learn how to blend code and no-code solutions to create more effective operations.
             </p>
 
             <p class="mb-5">
-              Each year I take around 50,000 photos. I want to learn two languages in the next couple of years: Spanish 
-              and JavaScript. I drink <em>a bit</em> too much Diet Coke—but I’m working on it.
+              Each year I take around 50,000 photos. I want to learn two languages in the next couple of years: Spanish and JavaScript. I drink <em>a bit</em> too much Diet Coke—but I’m working on it.
             </p>
             
             <h3 class="h4">Currently I'm obsessed with:</h3>

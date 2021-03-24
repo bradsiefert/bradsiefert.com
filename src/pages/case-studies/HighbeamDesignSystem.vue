@@ -32,6 +32,10 @@
             <g-link class="btn btn-primary btn-lg mb-4" to="https://highbeamdesignsystem.netlify.app">
               Live Site &nbsp;➡️
             </g-link>
+            
+            <g-link class="btn btn-outline-dark btn-lg ms-sm-3 mb-4" to="https://highbeamdesignsystem.netlify.app">
+              View on Github &nbsp;➡️
+            </g-link>
 
             <g-image 
               src="@/assets/images/portfolio-highbeam-design-system-preview-1.jpg"

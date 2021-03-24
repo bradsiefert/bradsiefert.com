@@ -23,7 +23,7 @@
       
       <h2 class="h1">Photography Gear</h2>
       <p>
-        I've been a serious photographer since 2007. For years I've read and researched constantly about photography cameras, lenses, and accessories trying to figure out what is the right gear  for me. It's only this past couple of years where I've honed in on the tools I like best.
+        I've been a photographer since 2007. For years I've read and researched constantly about photography cameras, lenses, and accessories trying to figure out what is the right gear  for me. It's only this past couple of years where I've honed in on the tools I like best.
       </p>
 
       <p>
