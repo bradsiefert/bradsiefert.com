@@ -20,7 +20,7 @@
             </div>
   
             <div class="display-1">
-              Hi, 👋🏻 &nbsp;I’m Brad and I’m a UI/UX Designer from Chicago, IL.<br /><br />
+              Hi, 👋🏻 &nbsp;I’m Brad and I’m a Design Engineer from Chicago, IL.<br /><br />
   
               I love <a target="_new" rel="noopener" href="https://designsystemsrepo.com/">Design Systems</a> & the <a target="_new" rel="noopener" href="https://jamstack.org/">Jamstack</a>.<br />
               I’m a <a target="_new" rel="noopener" href="https://shortcuts.directory/">Siri Shortcuts enthusiast</a>.<br /> 
