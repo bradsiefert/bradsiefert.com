@@ -51,18 +51,19 @@
                 <h2 class="h3 font-size-500 mb-5">Currently</h2>
                 <div class="row">
                   <div class="col-md-4">
-                    <a href="https://earlybird.co" title="Link to Earlybird Software" rel="nofollow">
+                    <a href="https://www.nielsen.com/" title="Link to Nielsen" rel="nofollow">
                       <g-image
-                        class="keeper-logo img-fluid mb-3"
-                        src="~/assets/images/keeper-logo.svg" 
-                        alt="Logo for Earlybird Software">
+                        class="img-fluid mb-3"
+                        style="max-width: 128px;"
+                        src="~/assets/images/nielsen-logo.svg" 
+                        alt="Logo for Nielsen">
                       </g-image>
                     </a>
                   </div>
                   <div class="col-md-8">
-                    <h2>UI/UX Designer @ Keeper Security</h2>
+                    <h2>Product Designer @ Nielsen</h2>
                     <p class="mb-7">
-                      In early 2021 I joined the team at Keeper Security. Keeper is a cybersecurity company with a variety of security tools, most famously, our password manager, Keeper. Our products serve individuals, families, small businesses and enterprise companies. My work helps improve the user experience of our products on mobile, web, browser, and desktop.
+                      My work at Nielsen involves focus on creating, organizing, and implementing user interface elements of Nielsen's design system. It's exciting to craft designs that serve our design team, our development teams, and the business as a whole.
                     </p>
                   </div>
                 </div>
