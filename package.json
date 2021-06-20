@@ -19,13 +19,13 @@
     "gridsome-source-static-meta": "^1.0.1",
     "lodash.flatten": "^4.4.0",
     "lodash.pick": "^4.4.0",
+    "sass": "^1.35.1",
     "vue-fuse": "^2.2.1"
   },
   "devDependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.34",
     "@fortawesome/free-brands-svg-icons": "^5.15.2",
     "@fortawesome/vue-fontawesome": "^0.1.10",
-    "node-sass": "^4.14.1",
-    "sass-loader": "^8.0.2"
+    "sass-loader": "^10.2.0"
   }
 }
