@@ -12,10 +12,10 @@
 
       <div class="row">
         <div class="col">
-          <g-image 
+          <img 
             class="img-fluid mb-3" 
             width="320"
-            src="~/assets/images/clueless-my-bad.gif" 
+            src="@/assets/images/clueless-my-bad.gif" 
             alt="Gif from the movie Clueless of Cher saying My bad!" 
           />
           <h1>404 Error: Page Not Found</h1>
