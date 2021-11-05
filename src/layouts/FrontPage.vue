@@ -22,7 +22,7 @@
             <div class="display-1">
               Hi, 👋🏻 &nbsp;I’m Brad and I’m a Design Engineer from Chicago, IL.<br /><br />
   
-              I love <a target="_new" rel="noopener" href="https://designsystemsrepo.com/">Design Systems</a> & the <a target="_new" rel="noopener" href="https://jamstack.org/">Jamstack</a>.<br />
+              I love the <a target="_new" rel="noopener" href="https://jamstack.org/">Jamstack</a> & <a target="_new" rel="noopener" href="https://designsystemsrepo.com/">design systems</a>.<br />
               I’m a <a target="_new" rel="noopener" href="https://shortcuts.directory/">Siri Shortcuts enthusiast</a>.<br /> 
               Each year I take around <a target="_new" rel="noopener" href="https://photos.bradsiefert.com">50k+ photos</a>.<br />
             </div>
@@ -53,15 +53,15 @@
                   <div class="col-md-4">
                     <a href="https://www.nielsen.com/" title="Link to Nielsen" rel="nofollow">
                       <g-image
-                        class="img-fluid mb-3"
-                        style="max-width: 128px;"
-                        src="~/assets/images/nielsen-logo.svg" 
+                        class="img-fluid mb-3 logo"
+                        style="max-width: 160px;"
+                        src="~/assets/images/nielsen-logo-light.png" 
                         alt="Logo for Nielsen">
                       </g-image>
                     </a>
                   </div>
                   <div class="col-md-8">
-                    <h2>Product Designer @ Nielsen</h2>
+                    <h2>Design Systems, Product Designer @ Nielsen</h2>
                     <p class="mb-7">
                       My work at Nielsen involves focus on creating, organizing, and implementing user interface elements of Nielsen's design system. It's exciting to craft designs that serve our design team, our development teams, and the business as a whole.
                     </p>
