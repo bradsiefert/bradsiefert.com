@@ -22,7 +22,7 @@
             <div class="display-1">
               Hi, 👋🏻 &nbsp;I’m Brad and I’m a Design Engineer from Chicago, IL.<br /><br />
   
-              I love the <a target="_new" rel="noopener" href="https://jamstack.org/">Jamstack</a> & <a target="_new" rel="noopener" href="https://designsystemsrepo.com/">design systems</a>.<br />
+              I love <a target="_new" rel="noopener" href="https://designsystemsrepo.com/">Design Systems</a> & the <a target="_new" rel="noopener" href="https://jamstack.org/">Jamstack</a>.<br />
               I’m a <a target="_new" rel="noopener" href="https://shortcuts.directory/">Siri Shortcuts enthusiast</a>.<br /> 
               Each year I take around <a target="_new" rel="noopener" href="https://photos.bradsiefert.com">50k+ photos</a>.<br />
             </div>
@@ -61,9 +61,9 @@
                     </a>
                   </div>
                   <div class="col-md-8">
-                    <h2>Design Systems, Product Designer @ Nielsen</h2>
+                    <h2>Director of Design Systems @ Nielsen</h2>
                     <p class="mb-7">
-                      My work at Nielsen involves focus on creating, organizing, and implementing user interface elements of Nielsen's design system. It's exciting to craft designs that serve our design team, our development teams, and the business as a whole.
+                      My work at Nielsen involves the creation, organization, and implementation of user interface elements in our design system. Most days are a combination of design, engineering, and a bit of customer service. I help craft UI, user flows, and documentation that serve our design and development teams. Our team's work is fueling development of the next generation of apps at Nielsen.
                     </p>
                   </div>
                 </div>
