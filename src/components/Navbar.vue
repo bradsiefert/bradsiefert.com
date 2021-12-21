@@ -99,7 +99,7 @@ h1.navbar-brand  {
     min-width: 192px;
     min-height: 256px;
     padding: 2rem;
-    display: flex;
+    display: block;
     flex-direction: column;
     border-radius: 0 12px 12px 0;
     z-index: 100;
