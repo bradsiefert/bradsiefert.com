@@ -152,17 +152,17 @@ export default {
   },
   metaInfo() {
     return {
-      title: 'UI/UX Designer',
+      title: 'Designer & Photographer',
       meta: [
         { property: "og:type", content: 'article' },
         { property: "og:title", content: "Brad Siefert / Designer & Photographer" },
-        { property: "og:description", content: "Personal design portfolio and blog of Chicago based UI/UX Designer Brad Siefert." },
+        { property: "og:description", content: "Personal design portfolio and blog of Chicago based Design Engineer Brad Siefert." },
         { property: "og:url", content: "https://bradsiefert.com" },
         { property: "og:image", content: "https://bradsiefert.com/files/sharing.jpg" },
 
         { name: "twitter:card", content: "summary_large_image" },
         { name: "twitter:title", content: "Brad Siefert / Designer & Photographer" },
-        { name: "twitter:description", content: "Personal design portfolio and blog of Chicago based UI/UX Designer Brad Siefert." },
+        { name: "twitter:description", content: "Personal design portfolio and blog of Chicago based Design Engineer Brad Siefert." },
         { name: "twitter:site", content: "@bksiefert" },
         { name: "twitter:creator", content: "@bksiefert" },
         { name: "twitter:image", content: "https://bradsiefert.com/files/sharing.jpg" }

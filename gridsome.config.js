@@ -6,7 +6,7 @@
 
 module.exports = {
   siteName: 'Brad Siefert / Designer & Photographer',
-  siteDescription: "Personal design portfolio and blog of Chicago based UI/UX Designer Brad Siefert.",
+  siteDescription: "Personal design portfolio and blog of Chicago based Design Engineer Brad Siefert.",
   siteUrl: 'https://bradsiefert.com',
   titleTemplate: `Brad Siefert / %s`,
   icon: 'src/favicon.png',
@@ -57,7 +57,7 @@ module.exports = {
         contentTypes: ['Blog'],
         feedOptions: {
           title: 'Brad Siefert / Designer & Photographer',
-          description: 'Personal blog of Chicago based UI/UX Designer Brad Siefert.'
+          description: 'Personal design portfolio and blog of Chicago based Design Engineer Brad Siefert.'
         },
         rss: {
           enabled: true,
