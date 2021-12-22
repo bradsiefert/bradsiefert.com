@@ -13,7 +13,7 @@
             <div class="col">
               <h1>Stuff I Use</h1>
               <p class="">I spend a lot of time thinking about this junk. I figure I might as well tell y'all about it.</p>
-              <p class="font-size-100 font-monospace text-uppercase">Last Update: 2021-01-17</p>
+              <p class="font-size-100 font-monospace text-uppercase">Last Update: 2021-12-22</p>
               
               <hr class="my-5">
               <slot/>

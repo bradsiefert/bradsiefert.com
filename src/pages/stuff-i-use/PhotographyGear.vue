@@ -65,9 +65,9 @@
 <page-query>
 query MyGear {
   gear: allGear (
-    filter: { categoryFromBrands: { contains: "Photography" } 
-              retired: { exists: false } 
-            }
+    filter: { subcategory: { in: "Photography" }
+      retired: { exists: false } 
+    }
     sortBy: "sortingOrderId" order: ASC
   ) {
     edges {

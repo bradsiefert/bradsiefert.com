@@ -62,7 +62,7 @@
 <page-query>
 query MyGear {
   gear: allGear (
-    filter: { subcategory: { in: "Desk" }
+    filter: { subcategory: { in: "On My Desk" }
               retired: { exists: false } 
             }
     sortBy: "sortingOrderId" order: ASC
