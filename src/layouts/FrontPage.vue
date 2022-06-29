@@ -3,48 +3,48 @@
     <header>
       <Navbar />
     </header>
-  
+
     <main>
       <SearchBar />
-      
+
       <div class="container skinny-contain">
         <div class="row landing-hero">
           <div class="col-sm-12">
             <div class="text-center mb-5">
-              <g-image 
-                src="~/assets/images/avatar.jpg" 
-                style="width: 128px;" 
+              <g-image
+                src="~/assets/images/avatar.jpg"
+                style="width: 128px;"
                 class="rounded-circle"
                 alt="Avatar for Brad Siefert">
               </g-image>
             </div>
-  
+
             <div class="display-1">
               Hi, 👋🏻 &nbsp;I’m Brad and I’m a Design Engineer from Chicago, IL.<br /><br />
-  
+
               I love <a target="_new" rel="noopener" href="https://designsystemsrepo.com/">Design Systems</a> & the <a target="_new" rel="noopener" href="https://jamstack.org/">Jamstack</a>.<br />
-              I’m a <a target="_new" rel="noopener" href="https://shortcuts.directory/">Siri Shortcuts enthusiast</a>.<br /> 
+              I’m a <a target="_new" rel="noopener" href="https://shortcuts.directory/">Siri Shortcuts enthusiast</a>.<br />
               Each year I take around <a target="_new" rel="noopener" href="https://photos.bradsiefert.com">50k+ photos</a>.<br />
             </div>
-  
+
             <div class="text-center my-6">
-              <g-link 
+              <g-link
                 target="_new"
-                to="/portfolio/" 
+                to="/portfolio/"
                 class="btn btn-outline-dark rounded-pill mb-3 me-md-3">
                 View Design Work &nbsp;🎨
               </g-link>
-              <a 
+              <a
                 target="_new"
-                rel="noopener" 
-                href="https://photos.bradsiefert.com" 
+                rel="noopener"
+                href="https://photos.bradsiefert.com"
                 class="btn btn-outline-dark rounded-pill mb-3"
-                title="Link to checkout my photography work" 
+                title="Link to checkout my photography work"
               >
                 See Photo Projects &nbsp;📸
               </a>
             </div>
-  
+
             <hr class="mb-5">
             <div class="row">
               <div class="col">
@@ -55,13 +55,13 @@
                       <g-image
                         class="img-fluid mb-3 logo"
                         style="max-width: 160px;"
-                        src="~/assets/images/nielsen-logo-light.png" 
+                        src="~/assets/images/nielsen-logo-light.png"
                         alt="Logo for Nielsen">
                       </g-image>
                     </a>
                   </div>
                   <div class="col-md-8">
-                    <h2>Senior Product Designer, Design Systems @ Nielsen</h2>
+                    <h2>Lead Product Designer, Design Systems @ Nielsen</h2>
                     <p class="mb-7">
                       My work at Nielsen involves the creation, organization, and implementation of user interface elements in our design system. Most days are a combination of design, engineering, and a bit of customer service. I help craft UI, user flows, and documentation that serve our design and development teams. Our team's work is fueling development of the next generation of apps at Nielsen.
                     </p>
@@ -69,7 +69,7 @@
                 </div>
               </div>
             </div>
-            
+
             <hr class="mb-5">
             <div class="row">
               <div class="col">
@@ -79,7 +79,7 @@
                     <a href="https://openarmsministry.org" title="Link to Open Arms Ministry" rel="nofollow">
                       <g-image
                         class="img-fluid mb-3"
-                        src="~/assets/images/oam-logo.svg" 
+                        src="~/assets/images/oam-logo.svg"
                         alt="Logo for Open Arms Ministry">
                       </g-image>
                     </a>
@@ -87,13 +87,13 @@
                   <div class="col-md-8">
                     <h2>Board Member @ Open Arms Ministry</h2>
                     <p class="mb-7">
-                      Since 2018, I've been on the board of a homelessness non-profit, Open Arms, focused on improving our internal systems and IT. It's been a great opportunity to learn how to blend code and no-code solutions to create more effective operations. I'm honored to have been given the responsibility to help support the community with my technical skills and gifts. 
+                      Since 2018, I've been on the board of a homelessness non-profit, Open Arms, focused on improving our internal systems and IT. It's been a great opportunity to learn how to blend code and no-code solutions to create more effective operations. I'm honored to have been given the responsibility to help support the community with my technical skills and gifts.
                     </p>
                   </div>
                 </div>
               </div>
             </div>
-            
+
             <hr class="mb-5">
             <div class="row jobs">
               <div class="col">
@@ -102,41 +102,41 @@
                     <h3 class="h3 font-size-500 mb-5">Previously</h3>
                   </div>
                   <div class="col-md-8">
-  
+
                     <div class="row">
                       <div class="col-sm-4 text-center text-sm-start">
                         <g-image
                           class="img-fluid mb-4"
-                          src="~/assets/images/earlybird-logo-dark.svg" 
+                          src="~/assets/images/earlybird-logo-dark.svg"
                           alt="Logo for ColorJar">
                         </g-image>
                       </div>
                       <div class="col-sm-4 text-center text-sm-end">
                         <g-image
                           class="img-fluid mb-4"
-                          src="~/assets/images/colorjar.svg" 
+                          src="~/assets/images/colorjar.svg"
                           alt="Logo for ColorJar">
                         </g-image>
                       </div>
                       <div class="col-sm-4 text-center text-sm-end">
                         <g-image
                           class="img-fluid mb-4"
-                          src="~/assets/images/dose.svg" 
+                          src="~/assets/images/dose.svg"
                           alt="Logo for Dose aka Spartz">
                         </g-image>
                       </div>
                     </div>
-  
+
                   </div>
                 </div>
               </div>
             </div>
-  
+
           </div>
         </div>
       </div>
     </main>
-  
+
     <Footer />
   </div>
 </template>
