@@ -63,7 +63,7 @@
                   <div class="col-md-8">
                     <h2>Lead Product Designer, Design Systems @ Nielsen</h2>
                     <p class="mb-7">
-                      My work at Nielsen involves the creation, organization, and implementation of user interface elements in our design system. Most days are a combination of design, engineering, and a bit of customer service. I help craft UI, user flows, and documentation that serve our design and development teams. Our team's work is fueling development of the next generation of apps at Nielsen.
+                      I lead the creation, organization, and implementation of the UI elements in our design system. Most days are a combination of design, writing, engineering, and a bit of customer service. I help craft UI, user flows, and documentation that serve our design and development teams. Our team's work is fueling development of the next generation of apps at Nielsen.
                     </p>
                   </div>
                 </div>
