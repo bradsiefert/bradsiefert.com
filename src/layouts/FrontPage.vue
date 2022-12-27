@@ -5,7 +5,7 @@
     </header>
 
     <main>
-      <SearchBar />
+      <DarkModeOnly />
 
       <div class="container skinny-contain">
         <div class="row landing-hero">
@@ -142,13 +142,14 @@
 </template>
 
 <script>
-import SearchBar from '@/components/SearchBar.vue'
+// import SearchBar from '@/components/SearchBar.vue'
+import DarkModeOnly from '@/components/DarkModeOnly.vue'
 import Navbar from '@/components/Navbar.vue'
 import Footer from '@/components/Footer.vue'
 
 export default {
   components: {
-    Navbar, Footer, SearchBar
+    Navbar, Footer, DarkModeOnly
   },
   metaInfo() {
     return {

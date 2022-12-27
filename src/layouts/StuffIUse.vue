@@ -5,7 +5,7 @@
     </header>
 
     <main>
-      <SearchBar />
+      <DarkModeOnly />
       
       <transition name="fade" appear>
         <div class="container skinny-contain">
@@ -37,13 +37,14 @@ query {
 </static-query>
 
 <script>
+// import SearchBar from '@/components/SearchBar.vue'
+import DarkModeOnly from '@/components/DarkModeOnly.vue'
 import Navbar from '@/components/Navbar.vue'
-import SearchBar from '@/components/SearchBar.vue'
 import Footer from '@/components/Footer.vue'
 
 export default {
   components: {
-    Navbar, Footer, SearchBar
+    Navbar, Footer, DarkModeOnly
   }
 }
 </script>
