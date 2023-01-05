@@ -25,13 +25,13 @@
 
 @font-face {
     font-family: 'Benton Sans';
-    src: url('../fonts/BentonSans-Semibold.eot');
-    src: url('../fonts/BentonSans-Semibold.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/BentonSans-Semibold.woff2') format('woff2'),
-        url('../fonts/BentonSans-Semibold.woff') format('woff'),
-        url('../fonts/BentonSans-Semibold.ttf') format('truetype'),
-        url('../fonts/BentonSans-Semibold.svg#BentonSans-Semibold') format('svg');
-    font-weight: 700;
+    src: url('../fonts/BentonSans-Bold.eot');
+    src: url('../fonts/BentonSans-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/BentonSans-Bold.woff2') format('woff2'),
+        url('../fonts/BentonSans-Bold.woff') format('woff'),
+        url('../fonts/BentonSans-Bold.ttf') format('truetype'),
+        url('../fonts/BentonSans-Bold.svg#BentonSans-Bold') format('svg');
+    font-weight: bold;
     font-style: normal;
 }
 
@@ -57,5 +57,29 @@
         url('../fonts/TiemposText-SemiboldItalic.ttf') format('truetype'),
         url('../fonts/TiemposText-SemiboldItalic.svg#BentonSans-Black') format('svg');
     font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Tiempos Text';
+    src: url('../fonts/TiemposText-Bold.eot');
+    src: url('../fonts/TiemposText-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/TiemposText-Bold.woff2') format('woff2'),
+        url('../fonts/TiemposText-Bold.woff') format('woff'),
+        url('../fonts/TiemposText-Bold.ttf') format('truetype'),
+        url('../fonts/TiemposText-Bold.svg#BentonSans-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Tiempos Text';
+    src: url('../fonts/TiemposText-BoldItalic.eot');
+    src: url('../fonts/TiemposText-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/TiemposText-BoldItalic.woff2') format('woff2'),
+        url('../fonts/TiemposText-BoldItalic.woff') format('woff'),
+        url('../fonts/TiemposText-BoldItalic.ttf') format('truetype'),
+        url('../fonts/TiemposText-BoldItalic.svg#BentonSans-Bold') format('svg');
+    font-weight: bold;
     font-style: italic;
 }
