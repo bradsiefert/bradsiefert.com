@@ -9,5 +9,10 @@
   "devDependencies": {
     "@nuxt/content": "^2.2.2",
     "nuxt": "^3.0.0"
+  },
+  "dependencies": {
+    "@iconify-prerendered/vue-bi": "^0.18.1672651410",
+    "bootstrap": "^5.2.3",
+    "sass": "^1.57.1"
   }
 }

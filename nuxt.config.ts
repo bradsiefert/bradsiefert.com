@@ -15,7 +15,6 @@ export default defineNuxtConfig({
     documentDriven: true
   },
   css: [
-    '@/assets/scss/styles.scss',
-    // Needed to install sass and bootstrap to make this work.
+    '@/assets/scss/styles.scss', // Needed to install sass and bootstrap to make this work.
   ]
 })
