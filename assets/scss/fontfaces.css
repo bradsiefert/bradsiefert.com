@@ -1,4 +1,4 @@
-// Benton Sans
+/*Benton Sans*/
 @font-face {
     font-family: 'Benton Sans';
     src: url('../fonts/BentonSans-Book.eot');
@@ -35,7 +35,7 @@
     font-style: normal;
 }
 
-// Tiempos Text
+/*Tiempos Text*/
 @font-face {
     font-family: 'Tiempos Text';
     src: url('../fonts/TiemposText-Semibold.eot');
