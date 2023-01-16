@@ -12,7 +12,10 @@ export default defineNuxtConfig({
   },
   modules: ['@nuxt/content'],
   content: {
-    documentDriven: true
+    documentDriven: true,
+    markdown: {
+      anchorLinks: false
+    }
   },
   css: [
     '@/assets/scss/styles.scss', // Needed to install sass and bootstrap to make this work.
