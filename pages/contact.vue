@@ -6,7 +6,26 @@
           <h1>Say Hello</h1>
           <p class="mb-5">Please reach out and I'll do my best to get back to you asap.</p>
 
+          <div class="alert alert-warning" role="alert">
+            This form is under construction. Please contact me on <a href="https://www.linkedin.com/in/bradsiefert/">LinkedIn</a> if you'd like to reach out.
+          </div>
+
           <form
+            data-netlify="true"
+            name="pizzaOrder"
+            method="post"
+            action="/success"
+            onSubmit={handleSubmit}
+          >
+            <input type="hidden" name="form-name" value="pizzaOrder" />
+            <label>
+              What order did the pizza give to the pineapple?
+              <input name="order" type="text" onChange={handleChange} />
+            </label>
+            <input type="submit" />
+          </form>
+
+          <!--<form
             name="brad.si Contact Form"
             method="post"
             v-on:submit.prevent="handleSubmit"
@@ -71,39 +90,10 @@
             <div class="mb-4">
               <button type="submit" class="btn btn-outline-dark btn-lg">Send Message&nbsp; 📤</button>
             </div>
-          </form>
+          </form>-->
 
         </div>
       </div>
     </div>
   </div>
 </template>
-
-<script>
-export default {
-  data() {
-    return {
-      formData: {},
-    }
-  },
-  methods: {
-    encode(data) {
-      return Object.keys(data)
-        .map(key => encodeURIComponent(key) + '=' + encodeURIComponent(data[key]))
-        .join('&')
-    },
-    handleSubmit(e) {
-      fetch('/', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-        body: this.encode({
-          'form-name': e.target.getAttribute('name'),
-          ...this.formData,
-        }),
-      })
-      .then(() => this.$router.push('/success'))
-      .catch(error => alert(error))
-    }
-  }
-};
-</script>
