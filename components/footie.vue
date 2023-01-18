@@ -13,9 +13,9 @@
             <li class="list-inline-item">
               <NuxtLink rel="noopener" to="/portfolio">Portfolio</NuxtLink>
             </li>
-            <li class="list-inline-item">
+            <!--<li class="list-inline-item">
               <NuxtLink rel="noopener" to="/siri-shortcuts">Siri Shortcuts</NuxtLink>
-            </li>
+            </li>-->
             <li class="list-inline-item">
               <NuxtLink rel="noopener" to="/downloads">Downloads</NuxtLink>
             </li>
@@ -97,7 +97,7 @@
           <h4 class="h5">Credits</h4>
           <p class="mb-1">
             Forever grateful to <NuxtLink target="_blank" rel="noopener" title="Link to Frank's twitter" href="https://twitter.com/omgfrank">Fkorf</NuxtLink>
-            & <NuxtLink target="_blank" rel="noopener" title="Link to Kris Kroski's website" href="http://kro.ski">Kroski</NuxtLink>.
+            & <NuxtLink target="_blank" rel="noopener" title="Link to Kris Kroski's website" href="https://kro.ski">Kroski</NuxtLink>.
             Powered by <NuxtLink target="_blank" rel="noopener" title="Link to Nuxt 3" href="https://nuxt.com">Nuxt 3</NuxtLink>,
             <NuxtLink target="_blank" rel="noopener" title="Link to Bootstrap" href="https://getbootstrap.com">Bootstrap</NuxtLink>,
             <NuxtLink target="_blank" rel="noopener" title="Link to Netlify" href="https://netlify.com">Netlify</NuxtLink>.
@@ -117,6 +117,7 @@
 
   /* ---------- Footer --------- */
   footer {
+    background-color: $white;
     margin-top: 128px;
     min-height: 192px;
     padding-top: 1.5rem;
@@ -124,7 +125,7 @@
     font-size: .875rem;
     letter-spacing: 0;
     line-height: 1.4;
-    border-top: 1px solid $gray-200;
+    border-top: 1px solid $gray-300;
   }
 
   footer h4,

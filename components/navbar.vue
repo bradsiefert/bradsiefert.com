@@ -1,6 +1,6 @@
 <template>
   <nav class="navbar navbar-expand-lg navbar-light">
-    <h1 class="navbar-brand"><NuxtLink to="/">Brad Siefert</NuxtLink></h1>
+    <div class="h1 navbar-brand"><NuxtLink to="/">Brad Siefert</NuxtLink></div>
 
     <button
       class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar"
@@ -15,11 +15,11 @@
           <NuxtLink class="nav-link" rel="noopener" to="/portfolio">Design Portfolio</NuxtLink>
         </li>
         <li class="nav-item">
-          <NuxtLink class="nav-link" rel="noopener" to="https://photos.bradsiefert.com">Photography</NuxtLink>
+          <NuxtLink class="nav-link" target="_new" rel="noopener" to="https://photos.bradsiefert.com">Photography</NuxtLink>
         </li>
-        <li class="nav-item">
+        <!--<li class="nav-item">
           <NuxtLink class="nav-link" rel="noopener" to="/siri-shortcuts">Siri Shortcuts</NuxtLink>
-        </li>
+        </li>-->
         <li class="nav-item">
           <NuxtLink class="nav-link" rel="noopener" to="/downloads">Downloads</NuxtLink>
         </li>
@@ -57,19 +57,18 @@ export default {
 // Navbar
 .navbar, .search-bar .form-control, .search-bar-results {
   background: #FFFFFF;
-  border: 1px solid #EAEAEA;
+  border: 1px solid $gray-300;
   box-shadow: 0 0 32px 0 rgba(0,0,0,0.08);
   color: $black;
   border-radius: 0;
 }
 
-h1.navbar-brand  {
+.navbar-brand  {
   font-family: "Tiempos Text";
   font-weight: bold;
   font-size: 1.25rem;
   padding: 4px 0 8px;
   margin: 0;
-  width: 100%;
 }
 
 .navbar-brand a {
@@ -92,7 +91,6 @@ h1.navbar-brand  {
     top: 64px;
     left: 0;
     min-width: 192px;
-    min-height: 256px;
     padding: 2rem;
     display: block;
     flex-direction: column;
@@ -137,7 +135,7 @@ h1.navbar-brand  {
 }
 
 @media (max-width: 1023px) {
-  h1.navbar-brand {
+  .navbar-brand {
     width: auto;
     font-size: 1.75rem;
     margin: 6px 0 0;
@@ -145,8 +143,8 @@ h1.navbar-brand  {
   }
 
   .navbar {
-    padding: 24px 16px 24px 24px;
-    margin-bottom: 2rem;
+    padding: 1rem 0.5rem 1rem 1.5rem;
+    margin-bottom: 1rem;
     min-height: 96px;
   }
 

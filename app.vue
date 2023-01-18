@@ -3,8 +3,8 @@
     <navbar />
   </header>
 
+  <darkmodeonly />
   <main>
-    <darkmodeonly />
     <NuxtPage/>
   </main>
 

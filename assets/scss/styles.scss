@@ -15,7 +15,7 @@ main { flex: 1 0 auto; }
 html { background-color: $primary; }
 
 body {
-  background-color: $white;
+  background-color: $gray-100;
   font-size: 1rem;
   font-family: 'Benton Sans';
   font-weight: 500;
@@ -182,10 +182,8 @@ h4, .h4 {
 
 h5, .h5 {
   font-weight: bold;
-  color: $primary;
   font-size: .875rem;
   font-size: 12px;
-  color: #00BEFF;
   letter-spacing: 0.5px;
   text-transform: uppercase;
   line-height: 1.125rem;
@@ -220,7 +218,8 @@ small, .small {
 
 blockquote {
   margin: 1rem 0 1.5rem;
-  background-color: $gray-100;
+  background-color: $gray-200;
+  border-radius: 0.5rem;
   padding: 1.5rem 2rem .5rem !important;
   font-style: italic;
   font-family: "Tiempos Text";
@@ -301,21 +300,22 @@ pre {
   line-height: 1.5;
   letter-spacing: 0.1px;
   border-radius: 0;
-  border-top: 1px solid $gray-200;
-  border-bottom: 1px solid $gray-200;
+  border-top: 1px solid $gray-300;
+  border-bottom: 1px solid $gray-300;
   padding: 10px 1rem 10px 0;
   margin-bottom: 3rem;
 }
 
 .divider {
-  border-bottom: 1px solid $gray-200;
+  border-bottom: 1px solid $gray-300;
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
 
 /* Blog */
 .box {
-  border: 1px solid $gray-200;
+  border: 1px solid $gray-300;
+  background-color: $white;
   padding: 2rem;
   font-size: 0.9375rem;
   letter-spacing: 0;
@@ -386,18 +386,21 @@ pre {
   }
 }
 
-.portfolio img {
-  border: 1px solid $gray-200;
+.portfolio img,
+.case-study img {
+  border: 1px solid $gray-300;
 }
 
 .portfolio-post p {
   font-size: 1.25rem;
 }
 
-.portfolio-post img {
+.portfolio-post img,
+.portfolio-img {
   margin-bottom: 1rem;
-  border: 1px solid $gray-100;
+  border: 1px solid $gray-300;
   max-width: 100%;
+  border-radius: .5rem;
   height: auto;
 }
 
@@ -407,7 +410,7 @@ pre {
 .form-control:focus {
   font-size: .875rem;
   height: 48px;
-  background-color: transparent;
+  background-color: $white;
   padding: 0.5rem 1rem;
   border-radius: .5rem;
 }

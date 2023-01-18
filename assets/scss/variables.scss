@@ -47,10 +47,10 @@ $spacers: map-merge((
 $white:    #fff !default;
 $gray-100: #fafafa !default; $gray-200: #eeeeee !default; $gray-300: #dddddd !default;
 $gray-400: #cccccc !default; $gray-500: #777777 !default; $gray-600: #555555 !default;
-$gray-700: #555555 !default; $gray-800: #333333 !default; $gray-900: #121212 !default;
-$black:    #000 !default;
+$gray-700: #555555 !default; $gray-800: #333333 !default; $gray-900: #222 !default;
+$black:    #101010 !default;
 
-$blue:    #2AC9FF !default;
+$blue:    #0d6efd !default;
 $indigo:  #6610f2 !default;
 $purple:  #6f42c1 !default;
 $pink:    #e83e8c !default;
@@ -62,6 +62,7 @@ $teal:    #20c997 !default;
 $cyan:    #85BFFF !default;
 
 $primary:       $blue !default;
+$primary-dark:  #5C92FF !default;
 $secondary:     $gray-300 !default;
 $success:       $green !default;
 $info:          $cyan !default;
@@ -88,7 +89,7 @@ $theme-colors: map-merge(
 );
 
 /* Link Variables */
-$link-color:                              darken($primary, 12%) !default;
+$link-color:                              darken($primary, 8%) !default;
 $link-decoration:                         none !default;
 $link-hover-color:                        darken($link-color, 16%) !default;
 $link-hover-decoration:                   underline !default;
@@ -102,7 +103,7 @@ $navbar-light-disabled-color:       rgba($gray-800, .3);
 $navbar-light-toggler-border-color: transparent;
 
 $hr-margin-y:                 $spacer !default;
-$hr-color:                    $gray-200 !default;
+$hr-color:                    $gray-300 !default;
 $hr-opacity:                  1 !default;
 
 /* Colors */
