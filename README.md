@@ -1,14 +1,40 @@
-# Default starter for Gridsome
+# BradSiefert.com Nuxt 3 Readme
+Started from: Content v2 Minimal Starter
 
-This is the project you get when you run `gridsome create new-project`.
+This uses Nuxt's Content v2. For more information, [read Content v2's documentation](https://content-v2.nuxtjs.org/) to learn more.
 
-### 1. Install Gridsome CLI tool if you don't have
+## Setup this site
+Make sure to install the dependencies:
 
-`npm install --global @gridsome/cli`
+```bash
+# npm
+npm install
 
-### 2. Create a Gridsome project
+# yarn
+yarn install
 
-1. `gridsome create my-gridsome-site` to install default starter
-2. `cd my-gridsome-site` to open the folder
-3. `gridsome develop` to start a local dev server at `http://localhost:8080`
-4. Happy coding 🎉🙌
+# pnpm
+pnpm install --shamefully-hoist
+```
+
+## Start Development Server
+Start the development server on http://localhost:3000
+
+```bash
+npm run dev
+```
+
+## Build or Deploy to Production
+Build the application for production:
+
+```bash
+npm run build
+```
+
+Locally preview production build:
+
+```bash
+npm run preview
+```
+
+Check out the [deployment documentation](https://v3.nuxtjs.org/docs/deployment) for more information.
