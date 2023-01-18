@@ -1,7 +1,10 @@
 <script setup lang="ts">
 import type { QueryBuilderParams } from '@nuxt/content/dist/runtime/types'
-const query: QueryBuilderParams = {
-  path: '/blog', limit: 5, sort: { date: -1 }
+const queryPortfolio: QueryBuilderParams = {
+  path: '/portfolio', sort: { date: -1 }
+}
+const queryCaseStudy: QueryBuilderParams = {
+  path: '/case-studies', limit: 2, sort: { date: -1 }
 }
 </script>
 
@@ -12,50 +15,38 @@ const query: QueryBuilderParams = {
         <div class="col-lg-12">
 
           <h1>Design Portfolio</h1>
-          <p>Some of my design and front-end development work I'm proud to show off.</p>
+          <p>Some design and development work I'm proud to show.</p>
 
-          <ContentList :query="query" v-slot="{ list }">
-            <div v-for="blog in list" :key="blog._path">
-              <NuxtLink :to="blog._path"><h2>{{ blog.title }}</h2></NuxtLink>
-              <p>{{ blog.description }}</p>
+          <h2 class="h4 mt-5 mb-5 text-uppercase">Case Studies</h2>
+          <ContentList :query="queryCaseStudy" v-slot="{ list }">
+            <div class="case-study" v-for="casestudies in list" :key="casestudies._path">
+              <NuxtLink :to="casestudies._path">
+                <h3 class="font-size-600 mt-3">{{ casestudies.title }}</h3>
+              </NuxtLink>
               <figure>
-                <img class="img-fluid" :src="blog.cover_image"/>
+                <NuxtLink :to="casestudies._path">
+                  <img
+                    class="img-fluid rounded"
+                    :src="casestudies.cover_image"
+                  />
+                </NuxtLink>
               </figure>
             </div>
           </ContentList>
 
-          <!--<h2 class="h3 mt-5">Case Studies</h2>-->
-          <!--<NuxtLink to="/case-studies/highbeam-design-system">
-            <img
-              class="img-fluid rounded mb-3"
-              src="@/assets/portfolio/case-study-highbeam.jpg"
-              style="border: 1px solid #eeeeee;"
-              quality="100"
-            />
-          </NuxtLink>
-
-          <NuxtLink to="/case-studies/ux-methodology">
-            <img
-              class="img-fluid rounded"
-              src="@/assets/portfolio/case-study-ux-methodology.jpg"
-              style="border: 1px solid #eeeeee;"
-              quality="100"
-            />
-          </NuxtLink>-->
-
-          <!--<div class="row g-2 mt-4 mb-5">
-            <h2 class="h3 mt-5 mb-0">Select UI/UX Work</h2>
-            <div class="col-md-6 col-xl-4" v-for="entry in $page.allPortfolio.edges" :key="entry.node.id">
-              <NuxtLink class="portfolio" :to="entry.node.path">
-                <img
-                  class="img-fluid rounded"
-                  :src="entry.node.cover_image"
-                  :alt="entry.node.title"
-                  quality="88"
-                />
-              </NuxtLink>
-            </div>
-          </div>-->
+          <div class="row g-2 mt-4 mb-5">
+            <h2 class="h4 mt-5 text-uppercase">Select UI/UX Work</h2>
+            <ContentList :query="queryPortfolio" v-slot="{ list }">
+              <div class="col-md-6 col-lg-4 col-xl-3" v-for="portfolio in list" :key="portfolio._path">
+                <NuxtLink class="portfolio" :to="portfolio._path">
+                  <img class="img-fluid rounded"
+                    :src="portfolio.cover_image"
+                    :alt="portfolio.title"
+                  />
+                </NuxtLink>
+              </div>
+            </ContentList>
+          </div>
 
         </div>
       </div>

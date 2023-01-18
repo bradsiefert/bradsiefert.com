@@ -47,97 +47,74 @@
                 rel="noopener"
                 title="Link to Design Systems Repo"
                 href="https://designsystemsrepo.com"
-              >
-                Design Systems
-              </a>&nbsp;&nbsp;
+              >Design Systems
+              </a>&nbsp;&nbsp;&nbsp;&nbsp;
               <a
                 target="_blank"
                 rel="noopener"
                 title="Link to the Jamstack"
                 href="https://jamstack.org/"
-              >
-                Jamstack
-              </a>&nbsp;&nbsp;
+              >Jamstack</a>&nbsp;&nbsp;&nbsp;&nbsp;
               <a
                 target="_blank"
                 rel="noopener"
                 title="Link to Apple's Shortcuts app"
                 href="https://apps.apple.com/us/app/shortcuts/id1462947752"
-              >
-                Siri Shortcuts
-              </a>&nbsp;&nbsp;
+              >Siri Shortcuts</a>&nbsp;&nbsp;&nbsp;&nbsp;
               <a
                 target="_blank"
                 rel="noopener"
                 title="Link to iPadOS"
                 href="https://www.apple.com/ipados/"
-              >
-                iPadOS
-              </a>&nbsp;&nbsp;
+              >iPadOS</a>&nbsp;&nbsp;&nbsp;&nbsp;
               <a
                 target="_blank"
                 rel="noopener"
                 title="Link to Airtable"
                 href="https://airtable.com"
-              >
-                AirTable
-              </a>&nbsp;&nbsp;
-              <a
-                target="_blank"
-                rel="noopener"
-                title="Link to Makerpad"
-                href="https://www.makerpad.co"
-              >
-                No-code tools
-              </a>&nbsp;&nbsp;
+              >AirTable</a>&nbsp;&nbsp;&nbsp;&nbsp;
               <a
                 target="_blank"
                 rel="noopener"
                 title="Link to The Ringer"
                 href="https://www.theringer.com"
-              >
-                The Ringer
-              </a>&nbsp;&nbsp;
+              >The Ringer</a>&nbsp;&nbsp;&nbsp;&nbsp;
               <a
                 target="_blank"
                 rel="noopener"
                 title="Link to the Relay FM network"
                 href="https://www.relay.fm"
-              >
-                Relay FM
-              </a>&nbsp;&nbsp;
+              >Relay FM</a>&nbsp;&nbsp;&nbsp;&nbsp;
               <a
                 target="_blank"
                 rel="noopener"
                 title="Link to the Do By Friday podcast"
                 href="http://dobyfriday.com"
-              >
-                Do By Friday
-              </a>&nbsp;&nbsp;
+              >Do By Friday</a>&nbsp;&nbsp;&nbsp;&nbsp;
               <a
                 target="_blank"
                 rel="noopener"
                 title="Link to Polaroid Originals instant film"
                 href="https://us.polaroidoriginals.com"
-              >
-                Instant film
-              </a>&nbsp;&nbsp;
+              >Instant film</a>&nbsp;&nbsp;&nbsp;&nbsp;
+              <a
+                target="_blank"
+                rel="noopener"
+                title="Link to Chicago Bears football team"
+                href="https://www.instagram.com/chicagobears/"
+              >Chicago Bears</a>&nbsp;&nbsp;&nbsp;&nbsp;
               <a
                 target="_blank"
                 rel="noopener"
                 title="Link to Chelsea FC soccer team"
                 href="https://www.instagram.com/chelseafc/"
-              >
-                Chelsea FC
-              </a>&nbsp;&nbsp;
+              >Chelsea FC</a>&nbsp;&nbsp;&nbsp;&nbsp;
               <a
                 target="_blank"
                 rel="noopener"
                 title="Link to The Ringer"
                 href="https://atp.fm/"
-              >
-                Tech podcasts
-              </a>&nbsp;&nbsp;
+              >Tech podcasts</a>&nbsp;&nbsp;&nbsp;&nbsp;
             </small>
           </p>
 
