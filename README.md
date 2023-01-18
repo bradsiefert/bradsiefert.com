@@ -1,4 +1,4 @@
-# BradSiefert.com Nuxt 3 Readme
+# bradsiefert.com Nuxt 3 Readme
 Started from: Content v2 Minimal Starter
 
 This uses Nuxt's Content v2. For more information, [read Content v2's documentation](https://content-v2.nuxtjs.org/) to learn more.
@@ -37,4 +37,4 @@ Locally preview production build:
 npm run preview
 ```
 
-Check out the [deployment documentation](https://v3.nuxtjs.org/docs/deployment) for more information.
+Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment#deployment) for more information.

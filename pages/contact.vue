@@ -6,33 +6,6 @@
           <h1>Say Hello</h1>
           <p class="mb-5">Please reach out and I'll do my best to get back to you asap.</p>
 
-          <div class="alert alert-warning" role="alert">
-            This form is under construction. Please contact me on <a href="https://www.linkedin.com/in/bradsiefert/">LinkedIn</a> if you'd like to reach out.
-          </div>
-
-          <!--<form
-            name="bradsiefert.com Contact Form"
-            action="/success"
-            method="POST"
-            data-netlify="true"
-            netlify-honeypot="bot-field"
-          >
-            <input type="hidden" name="form-name" value="contact" />
-            <label class="form-label" for="name">
-              Name:
-            </label>
-            <input class="form-field" name="name" id="name" />
-            <label class="form-label" for="email">
-              Email:
-            </label>
-            <input class="form-field" name="email" id="email" />
-            <label class="form-label" for="message">
-              Message:
-            </label>
-            <textarea class="form-field" name="message" id="message"></textarea>
-            <input class="form-button" type="submit" value="Send message" />
-          </form>-->
-
           <form
             name="bradsiefert.com Contact Form"
             method="post"
@@ -42,16 +15,11 @@
           >
             <input type="hidden" name="form-name" value="bradsiefert.com Contact Form" />
             <p hidden>
-              <label>
-                Don’t fill this out: <input name="bot-field" />
-              </label>
+              <label>Don’t fill this out: <input name="bot-field" /></label>
             </p>
 
             <div class="mb-4">
-              <h3>
-                <label for="name">Name</label>
-              </h3>
-
+              <h3><label for="name">Name</label></h3>
               <input
                 type="text"
                 name="name"
@@ -63,9 +31,7 @@
             </div>
 
             <div class="mb-4">
-              <h3>
-                <label for="email">Email</label>
-              </h3>
+              <h3><label for="email">Email</label></h3>
               <input
                 type="email"
                 name="email"
@@ -77,9 +43,7 @@
             </div>
 
             <div class="mb-4">
-              <h3>
-                <label for="message">Message</label>
-              </h3>
+              <h3><label for="message">Message</label></h3>
               <textarea
                 name="message"
                 type="text"
