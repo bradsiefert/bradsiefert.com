@@ -1,32 +1,30 @@
-# Content v2 Minimal Starter
+# BradSiefert.com Nuxt 3 Readme
+Started from: Content v2 Minimal Starter
 
-Look at the [Content documentation](https://content-v2.nuxtjs.org/) to learn more.
+This uses Nuxt's Content v2. For more information, [read Content v2's documentation](https://content-v2.nuxtjs.org/) to learn more.
 
-## Setup
-
+## Setup this site
 Make sure to install the dependencies:
 
 ```bash
-# yarn
-yarn install
-
 # npm
 npm install
+
+# yarn
+yarn install
 
 # pnpm
 pnpm install --shamefully-hoist
 ```
 
-## Development Server
-
+## Start Development Server
 Start the development server on http://localhost:3000
 
 ```bash
 npm run dev
 ```
 
-## Production
-
+## Build or Deploy to Production
 Build the application for production:
 
 ```bash
@@ -39,4 +37,4 @@ Locally preview production build:
 npm run preview
 ```
 
-Checkout the [deployment documentation](https://v3.nuxtjs.org/docs/deployment) for more information.
+Check out the [deployment documentation](https://v3.nuxtjs.org/docs/deployment) for more information.
