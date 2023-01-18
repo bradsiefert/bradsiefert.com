@@ -58,7 +58,7 @@
     font-weight: 500;
     opacity: 1;
     z-index: 99;
-    border: 1px solid $gray-200;
+    border: 1px solid $gray-300;
     box-shadow: 0 0 32px 0 rgba(0,0,0,0.08);
     background-color: $white;
     float: left;
@@ -80,7 +80,7 @@
       position: static;
       top: 0;
       right: 0;
-      margin: 0.5rem 1rem 2rem;
+      margin: 0 1rem;
     }
 
     .search-bar .btn {
@@ -115,7 +115,7 @@
 
   .results-wrap {
     padding: 1rem;
-    border-bottom: 1px solid $gray-200;
+    border-bottom: 1px solid $gray-300;
   }
 
   .search-bar-results a > .results-wrap:hover {
