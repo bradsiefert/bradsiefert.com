@@ -55,7 +55,6 @@
               <input
                 type="text"
                 name="name"
-                v-model="formData.name"
                 class="form-control"
                 aria-required="true"
                 aria-invalid="false"
@@ -70,7 +69,6 @@
               <input
                 type="email"
                 name="email"
-                v-model="formData.email"
                 class="form-control"
                 aria-required="true"
                 aria-invalid="false"
@@ -84,7 +82,6 @@
               </h3>
               <textarea
                 name="message"
-                v-model="formData.message"
                 type="text"
                 class="form-control"
                 aria-required="true"
