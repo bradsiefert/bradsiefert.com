@@ -21,12 +21,11 @@
         </div>
 
         <div class="text-center my-6">
-          <a
-            target="_new"
-            to="/portfolio/"
+          <NuxtLink
+            to="/portfolio"
             class="btn btn-outline-dark rounded-pill mb-3 me-md-3">
             View Design Work &nbsp;🎨
-          </a>
+          </NuxtLink>
           <a
             target="_new"
             rel="noopener"
