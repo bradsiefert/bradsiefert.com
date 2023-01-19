@@ -43,7 +43,7 @@
             <h2 class="h3 font-size-500 mb-5">Currently</h2>
             <div class="row">
               <div class="col-md-4">
-                <a href="https://www.nielsen.com/" title="Link to Nielsen" rel="nofollow">
+                <a target="_new" href="https://www.nielsen.com/" title="Link to Nielsen" rel="nofollow">
                   <img
                     class="img-fluid mb-3 logo"
                     style="max-width: 160px;"
@@ -53,9 +53,16 @@
               </div>
               <div class="col-md-8">
                 <h2>Lead Designer, Design Systems @ Nielsen</h2>
-                <p class="mb-7">
+                <p class="mb-3">
                   I lead the creation, organization, and implementation of the UI elements in our design system. Most days are a combination of design, writing, engineering, and a bit of customer service. I help craft UI, user flows, and documentation that serve our design and development teams. Our team's work is fueling development of the next generation of apps at Nielsen.
                 </p>
+
+                <a
+                  target="_new"
+                  href="https://nielsendesignsystem.com"
+                  class="btn btn-sm btn-outline-dark rounded-pill mb-3 me-md-3">
+                  Check out Nielsen's Design System &nbsp;➡️
+                </a>
               </div>
             </div>
           </div>
@@ -67,7 +74,7 @@
             <h2 class="h3 font-size-500 mb-5">Volunteering</h2>
             <div class="row">
               <div class="col-md-4">
-                <a href="https://openarmsministry.org" title="Link to Open Arms Ministry" rel="nofollow">
+                <a target="_new" href="https://openarmsministry.org" title="Link to Open Arms Ministry" rel="nofollow">
                   <img
                     class="img-fluid mb-3 oam"
                     src="~/assets/images/oam-logo.svg"
