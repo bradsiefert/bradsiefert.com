@@ -17,7 +17,7 @@
         <div class="display-1">
           I love <a target="_new" rel="noopener" href="https://designsystemsrepo.com/">Design Systems</a> & the <a target="_new" rel="noopener" href="https://jamstack.org/">Jamstack</a>.<br />
           I’m a <a target="_new" rel="noopener" href="https://shortcuts.directory/">Siri Shortcuts enthusiast</a>.<br />
-          Each year I take around <a target="_new" rel="noopener" href="https://photos.bradsiefert.com">50k+ photos</a>.<br />
+          I average <a target="_new" rel="noopener" href="https://photos.bradsiefert.com">25K photos</a> taken annually.<br />
         </div>
 
         <div class="text-center my-6">
@@ -53,16 +53,18 @@
               </div>
               <div class="col-md-8">
                 <h2>Lead Designer, Design Systems @ Nielsen</h2>
-                <p class="mb-3">
+                <p class="mb-4">
                   I lead the creation, organization, and implementation of the UI elements in our design system. Most days are a combination of design, writing, engineering, and a bit of customer service. I help craft UI, user flows, and documentation that serve our design and development teams. Our team's work is fueling development of the next generation of apps at Nielsen.
                 </p>
 
-                <a
-                  target="_new"
-                  href="https://nielsendesignsystem.com"
-                  class="btn btn-sm btn-outline-dark rounded-pill mb-3 me-md-3">
-                  Check out Nielsen's Design System &nbsp;➡️
-                </a>
+                <p class="mb-3">
+                  <a
+                    target="_new"
+                    href="https://nielsendesignsystem.com"
+                    class="btn btn-sm btn-outline-dark rounded-pill mb-3 me-md-3">
+                    Check out Nielsen's Design System &nbsp;➡️
+                  </a>
+                </p>
               </div>
             </div>
           </div>
