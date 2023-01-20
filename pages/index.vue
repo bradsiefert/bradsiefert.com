@@ -54,15 +54,15 @@
               <div class="col-md-8">
                 <h2>Lead Designer, Design Systems @ Nielsen</h2>
                 <p class="mb-4">
-                  I lead the creation, organization, and implementation of the UI elements in our design system. Most days are a combination of design, writing, engineering, and a bit of customer service. I help craft UI, user flows, and documentation that serve our design and development teams. Our team's work is fueling development of the next generation of apps at Nielsen.
+                  I lead the creation, organization, and implementation of the UI elements for Nielsen's Global Design System. My work includes designing, writing, engineering, customer service, and education. I help craft UI, user flows, and documentation that serve our design and development teams. The system is fueling Nielsen One, a next generation suite of applications from Nielsen.
                 </p>
 
-                <p class="mb-3">
+                <p class="mb-4">
                   <a
                     target="_new"
                     href="https://nielsendesignsystem.com"
                     class="btn btn-sm btn-outline-dark rounded-pill mb-3 me-md-3">
-                    Check out Nielsen's Design System &nbsp;➡️
+                    Check out Nielsen's Global Design System &nbsp;➡️
                   </a>
                 </p>
               </div>
@@ -85,8 +85,19 @@
               </div>
               <div class="col-md-8">
                 <h2>Board Member @ Open Arms Ministry</h2>
-                <p class="mb-7">
+                <p class="mb-4">
                   Since 2018, I've been on the board of a homelessness non-profit, Open Arms, focused on improving our internal systems and IT. It's been a great opportunity to learn how to blend code and no-code solutions to create more effective operations. I'm honored to have been given the responsibility to help support the community with my technical skills and gifts.
+                </p>
+
+                <p class="mb-4">
+                  <a
+                    target="_new"
+                    href="https://openarmsministry.org"
+                    class="btn btn-sm btn-outline-dark rounded-pill mb-3 me-md-3"
+                    rel="nofollow"
+                  >
+                    Check out Open Arms &nbsp;➡️
+                  </a>
                 </p>
               </div>
             </div>
