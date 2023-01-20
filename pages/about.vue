@@ -10,8 +10,7 @@
       <div class="col-lg-8 gx-5">
         <article class="lead">
           <p>
-            Hi, I'm Brad, and I'm a UI/UX designer experienced in designing web apps, mobile apps,
-            and front-end web development. I live in the
+            Hi, I'm Brad, I'm a UI/UX designer experienced in designing web apps, mobile apps, and a bit of front-end web development. I live in the
             <a
               target="_blank"
               title="Link to East Garfield Park's Wikipedia"
@@ -21,8 +20,7 @@
           </p>
 
           <p>
-            I value elegance, clarity, and efficiency in design. I always strive to consider
-            the user's needs and how to best serve them. I love working with people who inspire me to learn and who are serious about creating beautiful and meaningful work.
+            I value elegance, clarity, and efficiency in design. I always strive to consider the user's needs and to elegantly serve them. I love working with people who are serious about creating beautiful and meaningful work.
           </p>
 
           <p>
@@ -32,11 +30,11 @@
               title="Link to Open Arms Ministry"
               href="https://openarmsministry.org"
               rel="noopener"
-            >Open Arms</a>, focused on improving our internal systems and IT. It's been a great opportunity to learn how to blend code and no-code solutions to create more effective operations.
+            >Open Arms</a>. My work focuses on improving internal systems, being our secretary, and IT. It's been an honor to serve my community with my technology skills.
           </p>
 
           <p class="mb-5">
-            Each year I take around 50,000 photos. I want to learn two languages in the next couple of years: Spanish and JavaScript. I drink <em>a bit</em> too much Diet Coke—but I’m working on it.
+            Each year I take around 25,000 photos. I want to learn two languages in the coming years: JavaScript and Spanish. I drink <em>a little bit</em> too much Diet Coke—but I’m working on it.
           </p>
 
           <h3 class="h4">Currently I'm obsessed with:</h3>
@@ -125,7 +123,7 @@
       </div>
 
       <div class="col-lg-4">
-        <img class="img-fluid" src="~/assets/images/photo-bradsiefert.jpg" alt="Photo of Brad Siefert" />
+        <img class="img-fluid" src="@/assets/images/photo-bradsiefert.jpg" alt="Photo of Brad Siefert" />
       </div>
 
     </div>
