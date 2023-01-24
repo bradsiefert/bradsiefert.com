@@ -92,6 +92,12 @@
               <a
                 target="_blank"
                 rel="noopener"
+                title="Link to my Letterboxd profile"
+                href="https://letterboxd.com/bradsiefert/"
+              >Letterboxd</a>&nbsp;&nbsp;&nbsp;&nbsp;
+              <a
+                target="_blank"
+                rel="noopener"
                 title="Link to Polaroid Originals instant film"
                 href="https://us.polaroidoriginals.com"
               >Instant film</a>&nbsp;&nbsp;&nbsp;&nbsp;
@@ -107,12 +113,6 @@
                 title="Link to Chelsea FC soccer team"
                 href="https://www.instagram.com/chelseafc/"
               >Chelsea FC</a>&nbsp;&nbsp;&nbsp;&nbsp;
-              <a
-                target="_blank"
-                rel="noopener"
-                title="Link to The Ringer"
-                href="https://atp.fm/"
-              >Tech podcasts</a>&nbsp;&nbsp;&nbsp;&nbsp;
             </small>
           </p>
 
