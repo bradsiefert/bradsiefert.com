@@ -4,7 +4,7 @@ const queryPortfolio: QueryBuilderParams = {
   path: '/portfolio', sort: { date: -1 }
 }
 const queryCaseStudy: QueryBuilderParams = {
-  path: '/case-studies', limit: 2, sort: { date: -1 }
+  path: '/case-studies', limit: 4, sort: { date: -1 }
 }
 </script>
 

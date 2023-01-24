@@ -37,7 +37,7 @@
           </a>
         </div>
 
-        <hr class="mb-5">
+        <hr class="mb-2">
         <div class="row">
           <div class="col">
             <h2 class="h3 font-size-500 mb-5">Currently</h2>
@@ -57,6 +57,15 @@
                   I lead the creation, organization, and implementation of the UI elements for Nielsen's Global Design System. My work includes designing, writing, engineering, customer service, and education. I help craft UI, user flows, and documentation that serve our design and development teams. The system is fueling Nielsen One, a next generation suite of applications from Nielsen.
                 </p>
 
+                <p class="mb-0">
+                  <NuxtLink
+                    target="_new"
+                    to="/case-studies/nielsen-global-design-system"
+                    class="btn btn-sm btn-outline-dark rounded-pill mb-3 me-md-3">
+                    Read my Nielsen Case Study &nbsp;🎨
+                  </NuxtLink>
+                </p>
+
                 <p class="mb-4">
                   <a
                     target="_new"
@@ -70,7 +79,7 @@
           </div>
         </div>
 
-        <hr class="mb-5">
+        <hr class="mb-2">
         <div class="row">
           <div class="col">
             <h2 class="h3 font-size-500 mb-5">Volunteering</h2>
@@ -104,7 +113,7 @@
           </div>
         </div>
 
-        <hr class="mb-5">
+        <hr class="mb-2">
         <div class="row jobs">
           <div class="col">
             <div class="row">
@@ -113,7 +122,7 @@
               </div>
               <div class="col-md-8">
 
-                <div class="row">
+                <div class="row mt-3">
                   <div class="col-sm-4 text-center text-sm-start">
                     <img
                       class="img-fluid mb-4"
