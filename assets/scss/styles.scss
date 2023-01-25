@@ -429,6 +429,12 @@ figcaption {
   }
 }
 
+@media (min-width: 1440px) {
+  .portfolio-post p:has(span.wide-img > img) {
+    margin: 0 -128px 1rem;
+  }
+}
+
 /* Contact Page */
 
 .form-control,

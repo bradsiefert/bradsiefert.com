@@ -23,8 +23,8 @@
         <div class="text-center my-6">
           <NuxtLink
             to="/portfolio"
-            class="btn btn-outline-dark rounded-pill mb-3 me-md-3">
-            View Design Work &nbsp;🎨
+            class="btn btn-primary rounded-pill mb-3 me-md-3">
+            See Design Work &nbsp;🎨
           </NuxtLink>
           <a
             target="_new"
@@ -60,7 +60,7 @@
                 <p class="mb-0">
                   <NuxtLink
                     to="/case-studies/nielsen-global-design-system"
-                    class="btn btn-sm btn-outline-dark rounded-pill mb-3 me-md-3">
+                    class="btn btn-sm btn-primary rounded-pill mb-3 me-md-3">
                     Read my Nielsen Case Study &nbsp;🎨
                   </NuxtLink>
                 </p>
