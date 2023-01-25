@@ -59,7 +59,6 @@
 
                 <p class="mb-0">
                   <NuxtLink
-                    target="_new"
                     to="/case-studies/nielsen-global-design-system"
                     class="btn btn-sm btn-outline-dark rounded-pill mb-3 me-md-3">
                     Read my Nielsen Case Study &nbsp;🎨
