@@ -1,5 +1,5 @@
-# bradsiefert.com Nuxt 3 Readme
-Started from: Content v2 Minimal Starter
+# bradsiefert.com Nuxt 3 readme
+Started from: Nuxt 3's Content v2 Minimal Starter
 
 This uses Nuxt's Content v2. For more information, [read Content v2's documentation](https://content-v2.nuxtjs.org/) to learn more.
 
