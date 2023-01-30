@@ -70,7 +70,7 @@
                     target="_new"
                     href="https://nielsendesignsystem.com"
                     class="btn btn-sm btn-outline-dark rounded-pill mb-3 me-md-3">
-                    Check out Nielsen's Global Design System &nbsp;➡️
+                    Check out Nielsen's <span class="d-none d-sm-inline">Global</span> Design System &nbsp;➡️
                   </a>
                 </p>
               </div>
