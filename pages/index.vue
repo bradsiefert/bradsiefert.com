@@ -54,7 +54,7 @@
               <div class="col-md-8">
                 <h2>Lead Designer, Design Systems @ Nielsen</h2>
                 <p class="mb-4">
-                  I lead the creation, organization, and implementation of the UI elements for Nielsen's Global Design System. My work includes designing, writing, engineering, customer service, and education. I help craft UI, user flows, and documentation that serve our design and development teams. The system is fueling Nielsen One, a next generation suite of applications from Nielsen.
+                  I lead the creation, organization, and implementation of the UI elements for Nielsen's Global Design System. My work includes designing, writing, engineering, and training designers. I craft components, user flows, and documentation that serve our design and development teams. The system is fueling Nielsen One, a next generation suite of applications from Nielsen.
                 </p>
 
                 <p class="mb-0">
