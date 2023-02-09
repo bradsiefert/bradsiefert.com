@@ -4,9 +4,10 @@ export default defineNuxtConfig({
     head: {
       charset: 'utf-8',
       viewport: 'width=device-width, initial-scale=1"',
-      title: 'Brad Siefert / Designer & Photographer',
+      title: 'Brad Siefert / UX Designer & Photographer',
       meta: [
-        { name: 'description', content: 'Personal design portfolio and blog of Chicago based Design Engineer Brad Siefert.' }
+        { name: 'description', content: 'Design portfolio and personal blog of Chicago-based Design Technologist and photographer, Brad Siefert.' }
+        { property: "og:image", content: 'https://bradsiefert.com/sharing.jpg' },
       ],
     }
   },
