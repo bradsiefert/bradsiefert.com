@@ -11,7 +11,7 @@
         </div>
 
         <h1 class="display-1 mb-6">
-          Hi, 👋🏻 &nbsp;I’m Brad and I’m a Design Technologist from Chicago, IL.
+          Hi, 👋🏻 &nbsp;I’m Brad and I’m a <a target="_new" rel="noopener" href="https://indeed.design/article/what-is-a-design-technologist">Design Technologist</a> from Chicago, IL.
         </h1>
 
         <div class="display-1">
