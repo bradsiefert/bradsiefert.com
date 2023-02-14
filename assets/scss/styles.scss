@@ -188,14 +188,13 @@ h3, .h3 {
 h4, .h4 {
   font-weight: bold;
   font-size: 1.25rem;
-  line-height: 1.25rem;
+  line-height: 1;
   margin: 1.5rem auto 0.75rem;
 }
 
 h5, .h5 {
   font-weight: bold;
   font-size: .875rem;
-  font-size: 12px;
   letter-spacing: 0.5px;
   text-transform: uppercase;
   line-height: 1.125rem;
@@ -369,16 +368,15 @@ pre {
     margin-bottom: 1rem;
   }
 
-  h1 {
+  h1, .h1 {
     margin-top: 2rem;
   }
 
-  h2 {
+  h2, .h2 {
     margin-top: 3rem;
-    font-size: 1.5rem;
   }
 
-  h3 {
+  h3, .h3 {
     margin-top: 2rem;
   }
 
@@ -406,6 +404,11 @@ figcaption {
 .portfolio-post p,
 .portfolio-post ul {
   font-size: 1.25rem;
+}
+
+.portfolio-post h3,
+.portfolio-post .h3 {
+  margin-top: 2rem;
 }
 
 .portfolio-post img,
