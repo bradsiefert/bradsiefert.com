@@ -10,7 +10,7 @@
       <div class="col-lg-8 gx-5">
         <article class="lead">
           <p>
-            Hi, I'm Brad, I'm a UI/UX designer experienced in designing web apps, mobile apps, and a bit of front-end web development. I live in the
+            Hi, I'm Brad. I'm a UI/UX designer experienced in designing web apps, mobile apps, and a bit of front-end web development. I live in the
             <a
               target="_blank"
               title="Link to East Garfield Park's Wikipedia"
@@ -37,7 +37,7 @@
             Each year I take around 25,000 photos. I want to learn two languages in the coming years: JavaScript and Spanish. I drink <em>a little bit</em> too much Diet Coke—but I’m working on it.
           </p>
 
-          <h3 class="h4">Currently I'm obsessed with:</h3>
+          <h3 class="h4">Currently I'm Into:</h3>
           <p class="mb-5">
             <small>
               <a

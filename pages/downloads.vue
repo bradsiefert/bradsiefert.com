@@ -3,7 +3,7 @@
     <div class="container wide-contain downloads">
       <h1 class="mb-2">Downloads</h1>
       <p>
-        Occasionally I'll create something I'd love to share with everyone. I'll drop those things here.
+        Occasionally I create something I'd love to share with everyone. I'll drop those things here.
       </p>
 
       <div class="row g-3">
@@ -11,7 +11,9 @@
           <div class="box">
             <div class="d-flex flex-column" style="min-height: 256px;">
               <p class="blog-details">2023-02-10</p>
-              <div class="mt-auto"><h2 class="h4 mb-2">Super Bowl 57 Party Game <span class="badge text-bg-primary">New</span></h2></div>
+              <div class="mt-auto"><h2 class="h4 mb-2">Super Bowl 57 Party Game
+                <!--<span class="badge text-bg-primary">New</span>-->
+              </h2></div>
               <p class="font-size-300">
                 I have an annual tradition of having friends over to watch the Super Bowl. Each year I make this PDF party game and it's always a lot of fun. I'm proud of the game because casual football fans have a decent shot of winning even against a big football fan. Check it out and please use it at your own party!
               </p>
