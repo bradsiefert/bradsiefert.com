@@ -69,7 +69,7 @@
             <li class="list-inline-item">
               <NuxtLink
                 target="_blank"
-                rel="noopener"
+                rel="me"
                 title="Link to Brad's Mastodon"
                 href="https://mas.to/@bradsiefert"
               ><IconMastodon /></NuxtLink>
