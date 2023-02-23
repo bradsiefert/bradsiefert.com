@@ -32,13 +32,16 @@ body[dark-mode] {
   }
 
   .navbar-brand a, .navbar .navbar-nav .nav-link,
-  .navbar-brand a, .navbar .navbar-nav a.dropdown-item {
+  .navbar-brand a, .navbar .navbar-nav a.dropdown-item,
+  .navbar-brand a.router-link-active.router-link-exact-active {
     color: $white !important;
   }
 
   .navbar .navbar-nav .nav-link:hover,
   .navbar .navbar-nav .dropdown-menu a.dropdown-item:hover,
-  .navbar .navbar-nav .nav-link.active {
+  .navbar .navbar-nav .nav-link.active,
+  .navbar .navbar-nav .dropdown-menu a.dropdown-item.router-link-active.router-link-exact-active,
+  .navbar .navbar-nav .nav-link.router-link-active.router-link-exact-active {
     color: $primary-dark !important;
   }
 

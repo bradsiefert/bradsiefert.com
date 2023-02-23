@@ -1,6 +1,8 @@
 <template>
   <nav class="navbar navbar-expand-lg navbar-light">
-    <div class="h1 navbar-brand"><NuxtLink to="/">Brad Siefert</NuxtLink></div>
+    <div class="h1 navbar-brand">
+      <NuxtLink rel="noopener" to="/">Brad Siefert</NuxtLink>
+    </div>
 
     <button
       class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar"
@@ -71,7 +73,8 @@ export default {
   margin: 0;
 }
 
-.navbar-brand a {
+.navbar-brand a,
+.navbar-brand a.router-link-active.router-link-exact-active {
   color: $black;
 }
 
