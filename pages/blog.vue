@@ -3,6 +3,12 @@ import type { QueryBuilderParams } from '@nuxt/content/dist/runtime/types'
 const queryBlog: QueryBuilderParams = {
   path: '/blog', sort: { date: -1 }
 }
+definePageMeta({
+  documentDriven: false
+})
+useHead({
+  title: 'Blog'
+})
 </script>
 
 <template>

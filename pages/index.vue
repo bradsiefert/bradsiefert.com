@@ -31,8 +31,7 @@
             rel="noopener"
             href="https://photos.bradsiefert.com"
             class="btn btn-outline-dark rounded-pill mb-3"
-            title="Link to checkout my photography work"
-          >
+            title="Link to checkout my photography work">
             See Photo Projects &nbsp;📸
           </a>
         </div>
@@ -192,7 +191,10 @@
 </style>
 
 <script setup lang="ts">
-  definePageMeta({
-    documentDriven: false
-  })
+definePageMeta({
+  documentDriven: false
+})
+useHead({
+  title: 'UX Designer & Photographer'
+})
 </script>

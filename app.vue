@@ -10,3 +10,21 @@
 
   <footie />
 </template>
+
+<script setup lang="ts">
+  useHead({
+    titleTemplate: (titleChunk) => {
+      return titleChunk ? `Brad Siefert / ${titleChunk}`: 'Brad Siefert / UX Designer & Photographer';
+    }
+  }),
+  useServerSeoMeta({
+    description: 'Design portfolio and personal blog of Chicago-based Design Technologist and photographer, Brad Siefert.',
+    ogImage: 'https://bradsiefert.com/sharing.jpg',
+    ogTitle: 'Brad Siefert / UX Designer & Photographer',
+    ogDescription: 'Design portfolio and personal blog of Chicago-based Design Technologist and photographer, Brad Siefert.',
+    twitterCard: 'summary_large_image',
+    twitterImage: 'https://bradsiefert.com/sharing.jpg',
+    twitterTitle: 'Brad Siefert / UX Designer & Photographer',
+    twitterDescription: 'Design portfolio and personal blog of Chicago-based Design Technologist and photographer, Brad Siefert.',
+  })
+</script>

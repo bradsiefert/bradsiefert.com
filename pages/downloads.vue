@@ -135,3 +135,12 @@
     </div>
   </div>
 </template>
+
+<script setup lang="ts">
+definePageMeta({
+  documentDriven: false
+})
+useHead({
+  title: 'Downloads'
+})
+</script>

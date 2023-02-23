@@ -6,6 +6,12 @@ const queryPortfolio: QueryBuilderParams = {
 const queryCaseStudy: QueryBuilderParams = {
   path: '/case-studies', limit: 4, sort: { date: -1 }
 }
+definePageMeta({
+  documentDriven: false
+})
+useHead({
+  title: 'Design Portfolio'
+})
 </script>
 
 <template>
@@ -53,4 +59,3 @@ const queryCaseStudy: QueryBuilderParams = {
     </div>
   </div>
 </template>
-
