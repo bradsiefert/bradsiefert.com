@@ -10,6 +10,36 @@
         <div class="col-xl-6">
           <div class="box">
             <div class="d-flex flex-column" style="min-height: 256px;">
+              <p class="blog-details">2023-03-06</p>
+              <div class="mt-auto"><h2 class="h4 mb-2">Resume Template <span class="badge text-bg-primary">Updated</span></h2></div>
+              <p class="font-size-300">
+                Job hunting can be such a terrible and soul crushing pursuit. I hope that his resume template helps make a few things a bit easier. I'm really proud of this design. Best to you in your search.
+              </p>
+
+              <p class="font-size-100 font-monospace"><strong>FILE TYPE:</strong> Figma, Sketch</p>
+
+              <div class="mt-auto">
+                <div class="d-grid gap-2 d-flex">
+                  <a target="_blank" class="btn btn-outline-dark btn-sm my-1 me-sm-2" href="files/Resume-Template.pdf">
+                    Sample Resume &nbsp;⬇️
+                  </a>
+
+                  <a target="_blank" class="btn btn-outline-dark btn-sm my-1 me-sm-2" href="https://www.figma.com/community/file/1214668297902216877">
+                    Figma &nbsp;⬇️
+                  </a>
+
+                  <a target="_blank" class="btn btn-outline-dark btn-sm my-1 me-sm-2" href="files/Resume-Template.sketch">
+                    Sketch &nbsp;⬇️
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xl-6">
+          <div class="box">
+            <div class="d-flex flex-column" style="min-height: 256px;">
               <p class="blog-details">2023-02-10</p>
               <div class="mt-auto"><h2 class="h4 mb-2">Super Bowl 57 Party Game
                 <!--<span class="badge text-bg-primary">New</span>-->
@@ -18,7 +48,7 @@
                 I have an annual tradition of having friends over to watch the Super Bowl. Each year I make this PDF party game and it's always a lot of fun. I'm proud of the game because casual football fans have a decent shot of winning even against a big football fan. Check it out and please use it at your own party!
               </p>
 
-              <p class="font-size-100 font-monospace"><strong>FILE TYPE:</strong> PDF and Pages</p>
+              <p class="font-size-100 font-monospace"><strong>FILE TYPE:</strong> PDF, Pages</p>
 
               <div class="mt-auto">
                 <div class="d-grid gap-2 d-flex">
@@ -57,31 +87,7 @@
           </div>
         </div>
 
-        <div class="col-xl-6">
-          <div class="box">
-            <div class="d-flex flex-column" style="min-height: 256px;">
-              <p class="blog-details">2020-06-21</p>
-              <div class="mt-auto"><h2 class="h4 mb-2">Sketch Resume Template</h2></div>
-              <p class="font-size-300">
-                Job hunting can be such a terrible and soul crushing pursuit. I hope that his resume template helps make a few things a bit easier. I'm really proud of this design. Best to you in your search.
-              </p>
 
-              <p class="font-size-100 font-monospace"><strong>FILE TYPE:</strong> Sketch</p>
-
-              <div class="mt-auto">
-                <div class="d-grid gap-2 d-flex">
-                  <a target="_blank" class="btn btn-outline-dark btn-sm my-1 me-sm-2" href="files/Resume-Template.pdf">
-                    Sample Resume &nbsp;⬇️
-                  </a>
-
-                  <a target="_blank" class="btn btn-outline-dark btn-sm my-1 me-sm-2" href="files/Resume-Template.sketch">
-                    Sketch file &nbsp;⬇️
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
 
         <div class="col-xl-6">
           <div class="box">
@@ -92,7 +98,7 @@
                 The Enneagram has been an incredibly helpful tool for spiritual growth in my life. My therapist had a hand drawn version of this drawing and I decided to design a digital version. There are a lot of variations of language in the Enneagram, but this language is what has spoken most clearly to me.
               </p>
 
-              <p class="font-size-100 font-monospace"><strong>FILE TYPE:</strong> PDF and JPG</p>
+              <p class="font-size-100 font-monospace"><strong>FILE TYPE:</strong> PDF, JPG</p>
 
               <div class="mt-auto">
                 <div class="d-grid gap-2 d-flex">
