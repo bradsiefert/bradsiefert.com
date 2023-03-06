@@ -21,7 +21,7 @@
               <div class="mt-auto">
                 <div class="d-grid gap-2 d-flex">
                   <a target="_blank" class="btn btn-outline-dark btn-sm my-1 me-sm-2" href="files/Resume-Template.pdf">
-                    Sample Resume &nbsp;⬇️
+                    Sample &nbsp;⬇️
                   </a>
 
                   <a target="_blank" class="btn btn-outline-dark btn-sm my-1 me-sm-2" href="https://www.figma.com/community/file/1214668297902216877">
