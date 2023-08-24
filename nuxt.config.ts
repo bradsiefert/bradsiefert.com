@@ -22,6 +22,9 @@ export default defineNuxtConfig({
       anchorLinks: false
     }
   },
+  experimental: {
+    viewTransition: true
+  },
   css: [
     '@/assets/scss/styles.scss' // Needed to install sass and bootstrap to make this work.
   ]
