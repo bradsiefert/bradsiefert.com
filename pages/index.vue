@@ -42,36 +42,28 @@
             <h2 class="h3 font-size-500 mb-5">Currently</h2>
             <div class="row">
               <div class="col-md-4">
-                <a target="_new" href="https://www.nielsen.com/" title="Link to Nielsen" rel="nofollow">
+                <a target="_new" href="https://govos.com/" title="Link to GovOS" rel="nofollow">
                   <img
-                    class="img-fluid mb-3 logo"
-                    style="max-width: 160px;"
-                    src="~/assets/images/nielsen-logo-light.png"
-                    alt="Logo for Nielsen">
+                    class="logo-govos img-fluid mb-3"
+                    style="max-width: 144px;"
+                    src="~/assets/images/govos-logo-light.svg"
+                    alt="Logo for GovOS">
                 </a>
               </div>
               <div class="col-md-8">
-                <h2>Lead Designer, Design Systems @ Nielsen</h2>
+                <h2>Lead Designer, Design Systems @ GovOS</h2>
                 <p class="mb-4">
-                  I lead the creation, organization, and implementation of the UI elements for Nielsen's Global Design System. My work includes designing, writing, engineering, and training designers. I craft components, user flows, and documentation that serve our design and development teams. The system is fueling Nielsen One, a next generation suite of applications from Nielsen.
+                  I lead the creation, organization, and implementation of the GovOS Design System. My work includes designing, writing, engineering, and collaborating with designers. I craft components, user flows, and documentation that serve our design and development teams.
                 </p>
 
-                <p class="mb-0">
-                  <NuxtLink
-                    to="/case-studies/nielsen-global-design-system"
-                    class="btn btn-sm btn-primary rounded-pill mb-3 me-md-3">
-                    Read my Nielsen Case Study &nbsp;🎨
-                  </NuxtLink>
-                </p>
-
-                <p class="mb-4">
+                <!--<p class="mb-4">
                   <a
                     target="_new"
-                    href="https://nielsendesignsystem.com"
+                    href="https://govos.com/"
                     class="btn btn-sm btn-outline-dark rounded-pill mb-3 me-md-3">
-                    Check out Nielsen's <span class="d-none d-sm-inline">Global</span> Design System &nbsp;➡️
+                    Check out GovOS &nbsp;➡️
                   </a>
-                </p>
+                </p>-->
               </div>
             </div>
           </div>
@@ -96,7 +88,7 @@
                   Since 2018, I've been on the board of a homelessness non-profit, Open Arms, focused on improving our internal systems and IT. It's been a great opportunity to learn how to blend code and no-code solutions to create more effective operations. I'm honored to have been given the responsibility to help support the community with my technical skills and gifts.
                 </p>
 
-                <p class="mb-4">
+                <!--<p class="mb-4">
                   <a
                     target="_new"
                     href="https://openarmsministry.org"
@@ -105,7 +97,7 @@
                   >
                     Check out Open Arms &nbsp;➡️
                   </a>
-                </p>
+                </p>-->
               </div>
             </div>
           </div>
@@ -119,33 +111,30 @@
                 <h3 class="h3 font-size-500 mb-5">Previously</h3>
               </div>
               <div class="col-md-8">
-
-                <div class="row mt-3">
-                  <div class="col-sm-4 text-center text-sm-start">
+                <div class="d-sm-flex justify-content-between text-center mt-3">
+                  <div>
+                    <img
+                      class="img-fluid mt-1 mb-4"
+                      src="~/assets/images/nielsen-logo-light.svg"
+                      alt="Logo for Nielsen">
+                  </div>
+                  <div>
                     <img
                       class="img-fluid mb-4"
                       src="~/assets/images/earlybird-logo-dark.svg"
-                      alt="Logo for ColorJar">
+                      alt="Logo for Earlybird">
                   </div>
-                  <div class="col-sm-4 text-center text-sm-end">
-                    <img
-                      class="img-fluid mb-4"
-                      src="~/assets/images/colorjar.svg"
-                      alt="Logo for ColorJar">
-                  </div>
-                  <div class="col-sm-4 text-center text-sm-end">
+                  <div>
                     <img
                       class="img-fluid mb-4"
                       src="~/assets/images/dose.svg"
                       alt="Logo for Dose aka Spartz">
                   </div>
                 </div>
-
               </div>
             </div>
           </div>
         </div>
-
       </div>
     </div>
   </div>

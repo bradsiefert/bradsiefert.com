@@ -172,6 +172,10 @@ body[dark-mode] {
     filter: brightness(0) invert(1);
   }
 
+  img.logo-govos {
+    content: url('../images/govos-logo-dark.svg');
+  }
+
   .portfolio img {
     border: none;
   }
