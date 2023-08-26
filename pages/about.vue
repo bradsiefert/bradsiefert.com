@@ -135,6 +135,6 @@ definePageMeta({
   documentDriven: false
 })
 useHead({
-  title: 'Contact'
+  title: 'Bio'
 })
 </script>
