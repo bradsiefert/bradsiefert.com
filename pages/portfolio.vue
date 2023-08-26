@@ -33,7 +33,7 @@ useHead({
                 <NuxtLink :to="casestudies._path">
                   <img
                     class="img-fluid rounded"
-                    :src="casestudies.cover_image"
+                    :src="casestudies.head.image"
                   />
                 </NuxtLink>
               </figure>
@@ -46,7 +46,7 @@ useHead({
               <div class="col-md-6 col-lg-4 col-xl-3" v-for="portfolio in list" :key="portfolio._path">
                 <NuxtLink class="portfolio" :to="portfolio._path">
                   <img class="img-fluid rounded"
-                    :src="portfolio.cover_image"
+                    :src="portfolio.head.image"
                     :alt="portfolio.title"
                   />
                 </NuxtLink>

@@ -26,7 +26,7 @@ useHead({
           <div class="box" v-for="blog in list" :key="blog._path">
             <figure>
               <NuxtLink :to="blog._path">
-                <img class="img-fluid" :src="blog.cover_image"/>
+                <img class="img-fluid" :src="blog.head.image"/>
               </NuxtLink>
             </figure>
             <p class="blog-details">
