@@ -22,11 +22,11 @@
 
               <div class="mt-auto">
                 <div class="d-grid gap-2 d-flex">
-                  <a target="_blank" class="btn btn-outline-dark btn-sm my-1 me-sm-2" href="files/Super-Bowl-57-Party-Game.pdf">
+                  <a target="_blank" class="btn btn-outline-dark btn-sm my-1 me-sm-2" href="files/Super-Bowl-58-Party-Game.pdf">
                     Download PDF &nbsp;⬇️
                   </a>
 
-                  <a target="_blank" class="btn btn-outline-dark my-1 btn-sm" href="files/Super-Bowl-57-Party-Game.pages">
+                  <a target="_blank" class="btn btn-outline-dark my-1 btn-sm" href="files/Super-Bowl-58-Party-Game.pages">
                     Download Pages &nbsp;⬇️
                   </a>
                 </div>
