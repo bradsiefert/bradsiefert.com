@@ -16,7 +16,7 @@
               title="Link to East Garfield Park's Wikipedia"
               href="https://en.wikipedia.org/wiki/East_Garfield_Park,_Chicago"
               rel="noopener"
-            >East Garfield Park</a> neighborhood of Chicago with my wife Nicole and my daughter Lydia.
+            >East Garfield Park</a> neighborhood of Chicago with my daughter Lydia.
           </p>
 
           <p>
