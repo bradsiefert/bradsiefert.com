@@ -10,20 +10,26 @@
             name="bradsiefert.com Contact Form"
             method="post"
             action="/success"
+            autocomplete="on"
             data-netlify="true"
             data-netlify-honeypot="bot-field"
           >
             <input type="hidden" name="form-name" value="bradsiefert.com Contact Form" />
             <p hidden>
-              <label>Don’t fill this out: <input name="bot-field" /></label>
+              <label>
+                Don’t fill this out: <input name="bot-field" />
+              </label>
             </p>
 
             <div class="mb-4">
-              <h3><label for="name">Name</label></h3>
+              <label id="name" class="h3" for="name">
+                Name
+              </label>
               <input
                 type="text"
                 name="name"
                 class="form-control"
+                autocomplete="on"
                 aria-required="true"
                 aria-invalid="false"
                 placeholder="Your Name"
@@ -31,11 +37,14 @@
             </div>
 
             <div class="mb-4">
-              <h3><label for="email">Email</label></h3>
+              <label class="h3" for="email">
+                Email
+              </label>
               <input
                 type="email"
                 name="email"
                 class="form-control"
+                autocomplete="on"
                 aria-required="true"
                 aria-invalid="false"
                 placeholder="name@email.com"
@@ -43,15 +52,17 @@
             </div>
 
             <div class="mb-4">
-              <h3><label for="message">Message</label></h3>
-              <textarea
-                name="message"
-                type="text"
-                class="form-control"
-                aria-required="true"
-                aria-invalid="false"
-                placeholder=""
-              />
+              <label class="h3 d-block" for="message">
+                Message
+                <textarea
+                  type="text"
+                  name="message"
+                  class="form-control"
+                  aria-required="true"
+                  aria-invalid="false"
+                  placeholder=""
+                />
+              </label>
             </div>
 
             <div class="mb-4">
