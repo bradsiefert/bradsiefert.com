@@ -34,6 +34,7 @@ useHead({
                   <img
                     class="img-fluid rounded"
                     :src="casestudies.head.image"
+                    :alt="`Image of UI elements from `+casestudies.title"
                   />
                 </NuxtLink>
               </figure>

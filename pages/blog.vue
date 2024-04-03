@@ -23,10 +23,10 @@ useHead({
         <p>A blog about design, development, productivity, and other things I can't stop thinking about.</p>
 
         <ContentList :query="queryBlog" v-slot="{ list }">
-          <div class="box" v-for="blog in list" :key="blog._path">
+          <div class="box blog" v-for="blog in list" :key="blog._path">
             <figure>
               <NuxtLink :to="blog._path">
-                <img class="img-fluid" :src="blog.head.image"/>
+                <img class="img-fluid" :alt="blog.alt" :src="blog.head.image"/>
               </NuxtLink>
             </figure>
             <p class="blog-details">

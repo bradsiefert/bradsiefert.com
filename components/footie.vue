@@ -8,14 +8,11 @@
       <div class="row">
 
         <div class="col-md-8 col-lg-7">
-          <h4 class="h5">Navigation</h4>
+          <p class="h5">Site Map</p>
           <ul class="list-inline footer-nav">
             <li class="list-inline-item">
               <NuxtLink rel="noopener" to="/portfolio">Portfolio</NuxtLink>
             </li>
-            <!--<li class="list-inline-item">
-              <NuxtLink rel="noopener" to="/siri-shortcuts">Siri Shortcuts</NuxtLink>
-            </li>-->
             <li class="list-inline-item">
               <NuxtLink rel="noopener" to="/downloads">Downloads</NuxtLink>
             </li>
@@ -32,7 +29,7 @@
         </div>
 
         <div class="col-md-4 col-lg-5">
-          <h4 class="h5">Social</h4>
+          <p class="h5">Social</p>
           <ul class="list-inline footer-social mb-md-2">
             <li class="list-inline-item">
               <NuxtLink
@@ -94,7 +91,7 @@
         </div>
 
         <div class="col-12">
-          <h4 class="h5">Credits</h4>
+          <p class="h5">Credits</p>
           <p class="mb-1">
             Forever grateful to <NuxtLink target="_blank" rel="noopener" title="Link to Frank's twitter" href="https://twitter.com/omgfrank">Fkorf</NuxtLink>
             & <NuxtLink target="_blank" rel="noopener" title="Link to Kris Kroski's website" href="https://kro.ski">Kroski</NuxtLink>.
@@ -128,13 +125,12 @@
     border-top: 1px solid $gray-300;
   }
 
-  footer h4,
+  footer h3,
   footer .h5 {
     margin-bottom: .25rem;
     font-weight: bold;
   }
 
-  .footer-nav a,
   .footer-social a {
     color: $black;
   }

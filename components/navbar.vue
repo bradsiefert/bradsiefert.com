@@ -30,9 +30,12 @@
             About
           </NuxtLink>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown" :class="{ 'show': showAboutDrop } ">
-            <NuxtLink class="dropdown-item" rel="noopener" to="/about">Bio</NuxtLink>
-            <!--<NuxtLink class="dropdown-item" rel="noopener" to="/stuff-i-use">Stuff I Use <span class="badge rounded-pill text-bg-secondary">Soon</span></NuxtLink>-->
-            <NuxtLink class="dropdown-item" rel="noopener" to="/contact">Contact Me</NuxtLink>
+            <li>
+              <NuxtLink class="dropdown-item" rel="noopener" to="/about">Bio</NuxtLink>
+            </li>
+            <li>
+              <NuxtLink class="dropdown-item" rel="noopener" to="/contact">Contact Me</NuxtLink>
+            </li>
           </ul>
         </li>
         <li class="nav-item">

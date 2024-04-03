@@ -46,14 +46,14 @@ $spacers: map-merge((
 /* Updating Base Colors (I don't believe in false greys.) */
 $white:    #fff !default;
 $gray-100: #fafafa !default; $gray-200: #eeeeee !default; $gray-300: #dddddd !default;
-$gray-400: #cccccc !default; $gray-500: #777777 !default; $gray-600: #555555 !default;
+$gray-400: #cccccc !default; $gray-500: #727272 !default; $gray-600: #555555 !default;
 $gray-700: #555555 !default; $gray-800: #333333 !default; $gray-900: #222 !default;
 $black:    #101010 !default;
 
-$blue:    #0d6efd !default;
+$blue:    #0263F3 !default;
 $indigo:  #6610f2 !default;
 $purple:  #6f42c1 !default;
-$pink:    #e83e8c !default;
+$pink:    #D32273 !default;
 $red:     #EC4964 !default;
 $orange:  #FF8C42 !default;
 $yellow:  #FFCA3D !default;
@@ -62,7 +62,7 @@ $teal:    #20c997 !default;
 $cyan:    #85BFFF !default;
 
 $primary:       $blue !default;
-$primary-dark:  #5C92FF !default;
+$primary-dark:  #528BFF !default;
 $secondary:     $gray-300 !default;
 $success:       $green !default;
 $info:          $cyan !default;
@@ -89,7 +89,7 @@ $theme-colors: map-merge(
 );
 
 /* Link Variables */
-$link-color:                              darken($primary, 8%) !default;
+$link-color:                              darken($primary, 4%) !default;
 $link-decoration:                         none !default;
 $link-hover-color:                        darken($link-color, 16%) !default;
 $link-hover-decoration:                   underline !default;

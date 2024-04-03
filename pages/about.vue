@@ -37,7 +37,7 @@
             Each year I take around 25,000 photos. I want to learn two languages in the coming years: JavaScript and Spanish. I drink <em>a little bit</em> too much Diet Coke—but I’m working on it.
           </p>
 
-          <h3 class="h4">Currently I'm Into:</h3>
+          <h2 class="h3">I'm Currently Into...</h2>
           <p class="mb-5">
             <small>
               <a
