@@ -15,9 +15,8 @@
         </h1>
 
         <div class="display-1">
-          I love <a target="_new" rel="noopener" href="https://designsystemsrepo.com/">Design Systems</a> & the <a target="_new" rel="noopener" href="https://jamstack.org/">Jamstack</a>.<br />
-          I’m a <a target="_new" rel="noopener" href="https://shortcuts.directory/">Siri Shortcuts enthusiast</a>.<br />
-          I average <a target="_new" rel="noopener" href="https://photos.bradsiefert.com">25K photos</a> taken annually.<br />
+          I build <a target="_new" rel="noopener" href="https://designsystemsrepo.com/">design systems</a>, love elegant <a target="_new" rel="noopener" href="https://www.makingsoftware.com/">UI design</a>,
+          advocate for <a target="_new" rel="noopener" href="https://www.w3.org/WAI/">accessibility</a>, and <a target="_new" rel="noopener" href="https://github.com/bradsiefert">code</a> as much as I can. I take around ~25K photos annually. 
         </div>
 
         <div class="text-center my-6">
@@ -55,15 +54,6 @@
                 <p class="mb-4">
                   I lead the creation, organization, and implementation of the GovOS Design System. My work includes designing, writing, engineering, and collaborating with designers. I craft components, user flows, and documentation that serve our design and development teams.
                 </p>
-
-                <!--<p class="mb-4">
-                  <a
-                    target="_new"
-                    href="https://govos.com/"
-                    class="btn btn-sm btn-outline-dark rounded-pill mb-3 me-md-3">
-                    Check out GovOS &nbsp;➡️
-                  </a>
-                </p>-->
               </div>
             </div>
           </div>

@@ -25,7 +25,10 @@
         <li class="nav-item">
           <NuxtLink class="nav-link" rel="noopener" to="/downloads">Downloads</NuxtLink>
         </li>
-        <li class="nav-item dropdown">
+        <li>
+          <NuxtLink class="dropdown-item" rel="noopener" to="/about">About</NuxtLink>
+        </li>
+        <!-- <li class="nav-item dropdown">
           <NuxtLink class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false" @click="showAboutDrop = !showAboutDrop">
             About
           </NuxtLink>
@@ -37,7 +40,7 @@
               <NuxtLink class="dropdown-item" rel="noopener" to="/contact">Contact Me</NuxtLink>
             </li>
           </ul>
-        </li>
+        </li> -->
         <li class="nav-item">
           <NuxtLink class="nav-link" rel="noopener" to="/blog">Blog</NuxtLink>
         </li>
