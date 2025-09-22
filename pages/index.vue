@@ -135,7 +135,7 @@
 
 // Landing Page
 .landing-hero {
-  font-family: "Tiempos Text";
+  font-family: var(--font-family-serif);
 }
 
 .landing-hero p {

@@ -1,10 +1,17 @@
 /* Importin' */
-@import "variables.scss";
+// @import "variables.scss";
+@import "@kofile/gds-foundations";
+@import "@kofile/gds-styles";
 @import "fontfaces.css";
 @import "bootstrap";
 @import "darkmode.scss";
 
 /* Global */
+:root,
+:host { 
+  --font-family-serif: "Source Serif 4", serif;
+  --font-weights-extrabold: 848;
+}
 
 /* All this is to make the footer sticky to the bottom. */
 html, body, #__nuxt { min-height: 100vh; }
@@ -13,22 +20,28 @@ main { flex: 1 0 auto; }
 .footer { flex-shrink: 0; }
 
 html {
-  background-color: $primary;
+  background-color: var(--color-neutral-100);
+  border-top: 1px solid var(--color-neutral-300);
 }
 
 body {
-  background-color: $gray-100;
-  font-size: 1rem;
-  font-family: 'Benton Sans';
-  font-weight: 500;
-  color: $black;
-  letter-spacing: -0.1px;
+  background-color: var(--color-neutral-lightest);
+  color: var(--color-neutral-darkest);
+  font-family: var(--font-families-default);
+  font-size: var(--font-size-md);
+  font-weight: var(--font-weights-regular);
+  letter-spacing: var(--letter-spacing-md);
+  line-height: var(--line-heights-md);
 }
 
 @media (min-width: 1024px) {
   main {
     padding-top: 6rem;
   }
+}
+
+a {
+  color: var(--color-neutral-darkest);
 }
 
 a:active {
@@ -58,38 +71,48 @@ a:active {
 /* Layout */
 @media (max-width: 1599px) {
   .wide-contain {
-    max-width: 1024px;
+    max-width: calc(1024px + 32px);
   }
 }
 
 @media (min-width: 1199px) {
+  .wide-contain {
+    max-width: calc(1024px + 32px);
+  }
   .slim-contain {
-    max-width: 992px;
+    max-width: calc(960px + 32px);
   }
 }
 
 @media (max-width: 1399px) {
-  .slim-contain,
   .wide-contain {
-    max-width: 800px;
+    max-width: calc(1024px + 32px);
+  }
+  .slim-contain {
+    max-width: calc(768px + 32px);
   }
 }
 
 @media (min-width: 1199px) {
   .skinny-contain {
-    max-width: 800px;
+    max-width: calc(768px + 32px);
+  }
+  .slim-contain {
+    max-width: calc(576px + 32px);
   }
 }
 
 @media (max-width: 1199px) {
-  .skinny-contain,
-  .slim-contain,
   .wide-contain {
-    max-width: 672px;
+    max-width: calc(768px + 32px);
+  }
+  .skinny-contain,
+  .slim-contain {
+    max-width: calc(576px + 32px);
   }
 }
 
-@media (max-width: 1023px) {
+@media (max-width: 768px) {
   .skinny-contain,
   .slim-contain,
   .wide-contain {
@@ -104,13 +127,14 @@ a:active {
 @media (max-width: 992px) { .text-right-then-center   { text-align: center; } }
 
 .lead {
-  line-height: 1.5;
-  font-weight: 400;
-  letter-spacing: 0;
+  font-size: var(--font-size-xl);
+  line-height: var(--line-heights-xl);
+  font-weight: var(--line-heights-xl);
+  letter-spacing: var(--letter-spacing-xl);
 }
 
 .lead p {
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
 }
 
 .small {
@@ -122,11 +146,11 @@ a:active {
 }
 
 .text-secondary {
-  color: $gray-500 !important;
+  color: var(--color-neutral-500) !important;
 }
 
 .display-1 {
-  font-family: 'Tiempos Text';
+  font-family: var(--font-family-serif);
   font-weight: bold;
   font-style: normal;
   font-size: 2.5rem;
@@ -136,13 +160,13 @@ a:active {
 }
 
 .landing-hero .display-1 a {
-  color: $black;
+  color: var(--color-neutral-darkest);
 }
 
 .display-2 {
   font-weight: bold;
   font-size: 3rem;
-  color: #FFFFFF;
+  color: var(--color-neutral-lightest);
   letter-spacing: 0.5px;
   margin-bottom: 1rem;
 }
@@ -150,27 +174,27 @@ a:active {
 .display-3 {
   font-weight: 500;
   font-size: 2rem;
-  color: #FFFFFF;
+  color: var(--color-neutral-lightest);
   margin-bottom: 1rem;
 }
 
 .display-4 {
   font-weight: bold;
   font-size: 1rem;
-  color: #121212;
+  color: var(--color-neutral-darkest);
   letter-spacing: -0.3px;
   margin-bottom: 1rem;
 }
 
 h1, .h1 {
-  font-family: "Tiempos Text";
-  font-weight: bold;
-  font-size: 2rem;
-  letter-spacing: 0;
+  font-family: var(--font-family-serif);
+  font-weight: var(--font-weights-extrabold);
+  font-size: 2.25rem;
+  margin-bottom: 0.5rem;
 }
 
 h2, .h2 {
-  font-weight: bold;
+  font-weight: var(--font-weights-bold);
   font-size: 1.75rem;
   letter-spacing: -0.1px;
   line-height: 1.5;
@@ -178,22 +202,22 @@ h2, .h2 {
 }
 
 h3, .h3 {
-  font-family: "Tiempos Text";
-  font-weight: bold;
+  font-family: var(--font-family-serif);
+  font-weight: var(--font-weights-bold);
   font-size: 1.5rem;
   font-style: italic;
   margin-top: 1.25rem;
 }
 
 h4, .h4 {
-  font-weight: bold;
+  font-weight: var(--font-weights-bold);
   font-size: 1.25rem;
   line-height: 1;
   margin: 1.5rem auto 0.75rem;
 }
 
 h5, .h5 {
-  font-weight: bold;
+  font-weight: var(--font-weights-bold);
   font-size: .875rem;
   letter-spacing: 0.5px;
   text-transform: uppercase;
@@ -201,7 +225,7 @@ h5, .h5 {
 }
 
 h6, .h6 {
-  font-weight: bold;
+  font-weight: var(--font-weights-bold);
   font-size: .75rem;
   letter-spacing: -0.1px;
   line-height: 1.125rem;
@@ -229,11 +253,11 @@ small, .small {
 
 blockquote {
   margin: 1rem 0 1.5rem;
-  background-color: $gray-200;
+  background-color: var(--color-neutral-200);
   border-radius: 0.5rem;
   padding: 1.5rem 2rem .5rem !important;
   font-style: italic;
-  font-family: "Tiempos Text";
+  font-family: var(--font-family-serif);
 }
 
 blockquote {
@@ -242,7 +266,7 @@ blockquote {
   }
 
   p:last-of-type {
-    font-family: "Benton Sans";
+    font-family: var(--font-family-sans-serif);
     font-style: normal;
     font-weight: 500;
     font-size: .875rem;
@@ -251,8 +275,8 @@ blockquote {
 
 pre {
   font-size: 72%;
-  color: $link-color;
-  background-color: $gray-100;
+  color: var(--color-neutral-600);
+  background-color: var(--color-neutral-100);
   padding: 1rem;
 }
 
@@ -262,14 +286,14 @@ pre {
 
 /* ---------- Buttons --------- */
 .btn {
-  font-weight: bold;
-  font-size: 0.9375rem;
-  line-height: 0.9375rem;
-  padding: 13px 2rem 10px;
-  letter-spacing: 0.2px;
-  font-family: "Tiempos Text";
-  border-radius: 96px;
-  box-shadow: 2px 2px 4px 0 rgba(0,0,0,0.12);
+  font-family: var(--font-family-default);
+  font-size: var(--font-size-lg);
+  letter-spacing: var(--letter-spacing-lg);
+  line-height: var(--line-heights-lg);
+  font-weight: var(--font-weights-semibold);
+  padding: 11px 20px;
+  border-radius: var(--border-radius-md);
+  transition: background-color 0.3s ease;
 }
 
 @media (max-width: 512px) {
@@ -298,65 +322,45 @@ pre {
 }
 
 .btn-outline-dark {
-  background-color: $white;
+  background-color: var(--color-neutral-lightest);
 }
 
 /* Breadcrumbs */
 .breadcrumb {
-  background: transparent;
-  color: $black;
-  font-size: 0.75rem;
-  font-family: $font-family-monospace;
-  text-transform: uppercase;
-  line-height: 1.5;
-  letter-spacing: 0.1px;
-  border-radius: 0;
-  border-top: 1px solid $gray-300;
-  border-bottom: 1px solid $gray-300;
-  padding: 10px 1rem 10px 0;
-  margin-bottom: 3rem;
+  color: var(--color-neutral-600);
+  // padding: 10px 1rem 10px 0;
+  margin-bottom: 32px;
+}
+
+.breadcrumb a {
+  color: var(--color-neutral-darkest);
+  font-size: var(--font-size-md);
+  font-weight: var(--font-weights-semibold);
+  letter-spacing: var(--letter-spacing-md);
+  line-height: var(--line-heights-md);
 }
 
 .divider {
-  border-bottom: 1px solid $gray-300;
+  border-bottom: 1px solid var(--color-neutral-300);
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
 
 /* Blog */
-.box {
-  border: 1px solid $gray-300;
-  background-color: $white;
-  padding: 2rem;
-  font-size: 0.9375rem;
-  letter-spacing: 0;
-  line-height: 1.5;
-  margin-bottom: 2rem;
-  position: relative;
-  border-radius: 0.5rem;
+.blog img, .blog figure {
+  border-radius: var(--border-radius-md);
+  margin-bottom: var(--spacing-2xs);
 }
 
-.box.blog a:not(.btn) {
-  color: $gray-900;
-}
-
-@media (max-width: 767px) {
-  .box {
-    padding: 1.5rem;
-  }
-}
-
-.blog-details {
-  font-size: $font-size-200;
-  font-family: $font-family-monospace;
-  text-transform: uppercase;
+.blog a:not(.btn) {
+  color: var(--color-neutral-900);
+  text-decoration: none;
 }
 
 .blog-post {
   font-size: 1.25rem;
   font-weight: normal;
   line-height: 1.5;
-  letter-spacing: 0;
 }
 
 .blog-post {
@@ -398,7 +402,7 @@ figcaption {
 
 .portfolio img,
 .case-study img {
-  border: 1px solid $gray-300;
+  border: 1px solid var(--color-neutral-300);
 }
 
 .portfolio-post p,
@@ -414,7 +418,7 @@ figcaption {
 .portfolio-post img,
 .portfolio-img {
   margin: 1rem 0;
-  border: 1px solid $gray-300;
+  border: 1px solid var(--color-neutral-300);
   max-width: 100%;
   border-radius: .5rem;
   height: auto;
@@ -444,7 +448,7 @@ figcaption {
 .form-control:focus {
   font-size: .875rem;
   height: 48px;
-  background-color: $white;
+  background-color: var(--color-neutral-lightest);
   padding: 0.5rem 1rem;
   border-radius: .5rem;
 }
@@ -459,12 +463,12 @@ textarea.form-control {
 
 /* Siri Shortcuts Page */
 .box.shortcuts {
-  background-color: $white;
-  border: 1px solid $gray-400;
+  background-color: var(--color-neutral-lightest);
+  border: 1px solid var(--color-neutral-400);
   border-radius: 0.5rem;
   min-height: 256px;
   padding: 1.5rem;
-  color: $black;
+  color: var(--color-neutral-darkest);
 }
 
 .box.shortcuts:hover {
