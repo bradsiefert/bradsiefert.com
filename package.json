@@ -1,4 +1,5 @@
 {
+  "name": "bradsiefert.com",
   "private": true,
   "scripts": {
     "build": "nuxt build",
@@ -11,7 +12,9 @@
     "nuxt": "^3.7.0"
   },
   "dependencies": {
-    "@iconify-prerendered/vue-bi": "^0.18.1672651410",
+    "@kofile/gds-foundations": "^1.4.5",
+    "@kofile/gds-styles": "^1.4.5",
+    "@phosphor-icons/vue": "^2.2.1",
     "bootstrap": "^5.3.1",
     "nuxi": "^3.6.5",
     "sass": "^1.66.1"
