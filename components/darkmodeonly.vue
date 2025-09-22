@@ -1,12 +1,9 @@
-<script setup>
-  import { IconCircleHalf, IconBrightnessHighFill } from '@iconify-prerendered/vue-bi';
-</script>
-
 <template>
   <div class="search-bar">
     <button @click="handleClick" aria-label="Toggle Darkmode" class="btn btn-sm" title="Toggle Darkmode">
       <slot :dark="isDarkMode" />
-      <IconCircleHalf />
+      <span v-if="!isDarkMode">🌙&nbsp;&nbsp;Dark Mode</span>
+      <span v-else>☀️&nbsp;&nbsp;Light Mode</span>
     </button>
   </div>
 </template>
@@ -28,7 +25,7 @@
     border-radius: 1rem !important;
     height: 32px;
     font-size: $font-size-300;
-    color: $black;
+    color: var(--color-neutral-darkest);
     font-weight: 500;
     opacity: 1;
   }
@@ -45,7 +42,7 @@
   }
 
   .search-bar-results a {
-    color: $black;
+    color: var(--color-neutral-darkest);
   }
 
   // Styling the dark/light mode button
@@ -54,13 +51,13 @@
     font-size: $font-size-500;
     line-height: 1;
     padding: 0 .5rem;
-    color: $black;
+    color: var(--color-neutral-darkest);
     font-weight: 500;
     opacity: 1;
     z-index: 99;
     border: 1px solid $gray-300;
     box-shadow: 0 0 32px 0 rgba(0,0,0,0.08);
-    background-color: $white;
+    background-color: var(--color-neutral-lightest);
     float: left;
     margin-right: 0.25rem;
   }
@@ -84,7 +81,6 @@
     }
 
     .search-bar .btn {
-      width: 48px;
       float: right;
       margin-right: 0;
     }
@@ -146,7 +142,7 @@
 
   .results-head {
     font-size: $font-size-500;
-    font-family: "Tiempos Text";
+    font-family: var(--font-family-serif);
     font-weight: 700;
     margin-bottom: 0.125rem;
     line-height: 1.25;

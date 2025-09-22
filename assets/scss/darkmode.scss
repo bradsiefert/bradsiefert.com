@@ -1,40 +1,45 @@
 /* ---------- Dark Mode Styles --------- */
 body[dark-mode] {
-  color: $white;
-  background-color: $black;
+  color: var(--color-neutral-lightest);
+  background-color: var(--color-neutral-darkest);
+
+  html {
+    background-color: var(--color-neutral-1000) !important;
+    border-top: 1px solid var(--color-neutral-800) !important;
+  }
 
   a:not(.btn) {
-    color: $primary-dark;
+    color: var(--color-neutral-lightest);
   }
 
   hr {
-    color: $gray-800;
+    color: var(--color-neutral-800);
   }
 
   .text-primary {
-    color: $primary-dark !important;
+    color: var(--color-primary-400) !important;
   }
 
   footer {
-    border-top-color: $gray-800;
-    background-color: $black;
+    border-top-color: var(--color-neutral-800);
+    background-color: var(--color-neutral-1000);
   }
 
   .footer-social a {
-    color: $white;
+    color: var(--color-neutral-lightest);
   }
 
   .navbar {
-    background-color: $black;
+    background-color: var(--color-neutral-darkest);
     box-shadow: 0 0 32px 0 rgba(0,0,0,0.64);
-    border: 1px solid $gray-800;
+    border: 1px solid var(--color-neutral-800);
     border-left: none;
   }
 
   .navbar-brand a, .navbar .navbar-nav .nav-link,
   .navbar-brand a, .navbar .navbar-nav a.dropdown-item,
   .navbar-brand a.router-link-active.router-link-exact-active {
-    color: $white !important;
+    color: var(--color-neutral-lightest) !important;
   }
 
   .navbar .navbar-nav .nav-link:hover,
@@ -42,26 +47,26 @@ body[dark-mode] {
   .navbar .navbar-nav .nav-link.active,
   .navbar .navbar-nav .dropdown-menu a.dropdown-item.router-link-active.router-link-exact-active,
   .navbar .navbar-nav .nav-link.router-link-active.router-link-exact-active {
-    color: $primary-dark !important;
+    color: var(--color-primary-400) !important;
   }
 
   .navbar .bg-dark {
-    color: $black;
-    background-color: $white;
+    color: var(--color-neutral-darkest);
+    background-color: var(--color-neutral-lightest);
   }
 
   @media (max-width: 1023px) {
     .navbar {
-      background-color: $black;
+      background-color: var(--color-neutral-darkest);
       border: none;
-      border-bottom: 1px solid $gray-800;
+      border-bottom: 1px solid var(--color-neutral-800);
       position: sticky;
       top: 0;
       width: 100%;
     }
 
     .navbar-brand a, .navbar .navbar-nav .nav-link {
-      color: $white;
+      color: var(--color-neutral-lightest);
     }
   }
 
@@ -74,26 +79,26 @@ body[dark-mode] {
   .search-bar .form-control:focus,
   .search-bar-results,
   .search-bar .btn {
-    background-color: $black;
+    background-color: var(--color-neutral-darkest);
     box-shadow: 0 0 32px 0 rgba(0,0,0,0.64);
-    border: 1px solid $gray-800;
-    color: $white;
+    border: 1px solid var(--color-neutral-800);
+    color: var(--color-neutral-lightest);
   }
 
   .results-wrap {
-    border-bottom: 1px solid $gray-700;
+    border-bottom: 1px solid var(--color-neutral-700);
   }
 
   .results-wrap:hover,
   .results-wrap:hover a,
   .results-wrap:hover p {
-    background-color: $blue-500;
-    color: $black;
+    background-color: var(--color-neutral-500);
+    color: var(--color-neutral-darkest);
   }
 
   .search-bar-results a,
   .search-bar p {
-    color: $white;
+    color: var(--color-neutral-lightest);
   }
 
   .results-wrap:last-of-type {
@@ -101,34 +106,32 @@ body[dark-mode] {
   }
 
   .breadcrumb {
-    border-top: 1px solid $gray-800;
-    border-bottom: 1px solid $gray-800;
-    color: $gray-500;
+    color: var(--color-neutral-500);
   }
 
   .landing-hero .display-1 a {
-    color: $white;
+    color: var(--color-neutral-lightest);
   }
 
   .box {
-    border: 1px solid $gray-800;
-    background-color: $black;
+    border: 1px solid var(--color-neutral-800);
+    background-color: var(--color-neutral-darkest);
   }
 
   .box a:not(.btn) {
-    color: $white;
+    color: var(--color-neutral-lightest);
   }
 
   .box, .form-control {
-    border: 1px solid $gray-800;
+    border: 1px solid var(--color-neutral-800);
   }
 
   .form-control, .form-control:focus, .form-control::placeholder {
-    color: $white;
+    color: var(--color-neutral-lightest);
   }
 
   .divider {
-    border-bottom: 1px solid $gray-800;
+    border-bottom: 1px solid var(--color-neutral-300);
   }
 
   .portfolio-post img {
@@ -136,39 +139,26 @@ body[dark-mode] {
   }
 
   blockquote, pre {
-    background-color: $gray-900;
-  }
-
-  .box.shortcuts {
-    background-color: #161616;
-    border: 1px solid $gray-800;
-    color: $white;
-  }
-
-  .box.shortcuts:hover {
-    border: 1px solid #2AC9FF;
-    color: #2AC9FF;
+    background-color: var(--color-neutral-900);
   }
 
   .btn-outline-dark {
-    color: $white;
-    border-color: $white;
+    color: var(--color-neutral-lightest);
+    border-color: var(--color-neutral-lightest);
     background-color: transparent;
   }
 
   .btn-outline-dark:hover {
-    color: $black;
-    border-color: $white;
-    background-color: $white;
+    color: var(--color-neutral-darkest);
+    border-color: var(--color-neutral-lightest);
+    background-color: var(--color-neutral-lightest);
   }
 
   .btn-primary:disabled, .btn-primary.disabled {
     opacity: 1;
   }
 
-  .jobs img,
-  img.oam,
-  img.logo {
+  .jobs img, img.oam, img.logo {
     filter: brightness(0) invert(1);
   }
 
@@ -178,10 +168,5 @@ body[dark-mode] {
 
   .portfolio img {
     border: none;
-  }
-
-  .box.gear {
-    border: 1px solid $gray-800;
-    background-color: transparent;
   }
 }
