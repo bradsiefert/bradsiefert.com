@@ -14,19 +14,19 @@
     <div class="navbar-collapse collapse" id="navbar" :class="{ 'show': showNav } ">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <NuxtLink class="nav-link" rel="noopener" to="/portfolio">Design Portfolio</NuxtLink>
+          <NuxtLink class="nav-link" rel="noopener" to="/portfolio">Portfolio</NuxtLink>
         </li>
         <li class="nav-item">
-          <NuxtLink class="nav-link" target="_new" rel="noopener" to="https://photos.bradsiefert.com">Photography</NuxtLink>
+          <NuxtLink class="nav-link" target="_new" rel="noopener" to="https://photos.bradsiefert.com">Photos ↗</NuxtLink>
         </li>
-        <!--<li class="nav-item">
-          <NuxtLink class="nav-link" rel="noopener" to="/siri-shortcuts">Siri Shortcuts</NuxtLink>
-        </li>-->
         <li class="nav-item">
-          <NuxtLink class="nav-link" rel="noopener" to="/downloads">Downloads</NuxtLink>
+          <NuxtLink class="nav-link" rel="noopener" to="/blog">Blog</NuxtLink>
         </li>
         <li>
           <NuxtLink class="dropdown-item" rel="noopener" to="/about">About</NuxtLink>
+        </li>
+        <li>
+          <NuxtLink class="dropdown-item" rel="noopener" to="/about">Light/Dark</NuxtLink>
         </li>
         <!-- <li class="nav-item dropdown">
           <NuxtLink class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false" @click="showAboutDrop = !showAboutDrop">
@@ -41,9 +41,6 @@
             </li>
           </ul>
         </li> -->
-        <li class="nav-item">
-          <NuxtLink class="nav-link" rel="noopener" to="/blog">Blog</NuxtLink>
-        </li>
       </ul>
     </div>
   </nav>
@@ -60,19 +57,19 @@ export default {
 </script>
 
 <style lang="scss">
-@import "@/assets/scss/variables.scss";
+
 
 // Navbar
 .navbar, .search-bar .form-control, .search-bar-results {
-  background: #FFFFFF;
-  border: 1px solid $gray-300;
+  background: var(--color-neutral-lightest);
+  border: 1px solid var(--color-neutral-300);
   box-shadow: 0 0 32px 0 rgba(0,0,0,0.08);
-  color: $black;
+  color: var(--color-neutral-darkest);
   border-radius: 0;
 }
 
 .navbar-brand  {
-  font-family: "Tiempos Text";
+  font-family: var(--font-family-serif);
   font-weight: bold;
   font-size: 1.25rem;
   padding: 4px 0 8px;
@@ -81,7 +78,7 @@ export default {
 
 .navbar-brand a,
 .navbar-brand a.router-link-active.router-link-exact-active {
-  color: $black;
+  color: var(--color-neutral-darkest);
 }
 
 .navbar .navbar-nav .nav-link {
@@ -177,11 +174,11 @@ export default {
 }
 
 .navbar .navbar-nav .dropdown-menu a.dropdown-item {
-  color: $black;
+  color: var(--color-neutral-darkest);
 }
 
 .navbar .navbar-nav .dropdown-menu a.dropdown-item:hover {
-  color: $primary;
+  color: var(--color-neutral-darkest);
 }
 
 .dropdown-toggle::after {
@@ -209,6 +206,6 @@ export default {
 }
 
 .navbar .badge {
-  font-size: $font-size-000;
+  font-size: 13px;
 }
 </style>
