@@ -1,128 +1,57 @@
 <template>
   <div class="container wide-contain">
     <div class="row">
-
-      <div class="col-lg-12 gx-5">
-        <h1>Bio</h1>
-        <p class="small">I promise this won’t be in the third person. 😉</p>
+      <div class="col-12">
+      <div class="breadcrumb gap-xs">
+        <NuxtLink to="/">Home</NuxtLink> / About
+        </div>
       </div>
 
-      <div class="col-lg-8 gx-5">
+      <h1>About</h1>
+      <div class="col-xl-8">
         <article class="lead">
           <p>
-            Hi, I'm Brad. I'm a UI/UX designer experienced in designing web apps, mobile apps, and a bit of front-end web development. I live in the
-            <a
-              target="_blank"
-              title="Link to East Garfield Park's Wikipedia"
-              href="https://en.wikipedia.org/wiki/East_Garfield_Park,_Chicago"
-              rel="noopener"
-            >East Garfield Park</a> neighborhood of Chicago with my daughter Lydia.
+            Hi, I’m Brad. I’m a Product Designer and Design Technologist experienced in designing web apps, mobile apps, and design systems. I’m fluent in both Figma and code. I love working with both designers and engineers to bridge the gap between design intent and production reality.  
           </p>
-
           <p>
-            I value elegance, clarity, and efficiency in design. I always strive to consider the user's needs and to elegantly serve them. I love working with people who are serious about creating beautiful and meaningful work.
+            I value elegance, clarity, and efficiency in my designs. Lately, I’ve focused on building design systems that make products more robust, consistent, and accessible. People describe my work as meticulous and hyper-organized but approachable and collaborative. I name all my layers and auto all the layouts.
           </p>
-
           <p>
-            Since 2018, I've been on the board of a homelessness non-profit,
-            <a
-              target="_blank"
-              title="Link to Open Arms Ministry"
-              href="https://openarmsministry.org"
-              rel="noopener"
-            >Open Arms</a>. My work focuses on improving internal systems, being our secretary, and IT. It's been an honor to serve my community with my technology skills.
+            Photography is a huge part of my life. Each year I take around 25K photos, exploring everything from portraits and street photography to landscapes and long exposures. I love yoga, the Enneagram, Chelsea Football Club, the Chicago Bears, instant film cameras, and logging films in Letterboxd. I live in Chicago’s East Garfield Park neighborhood with my daughter and our dog Coco.
           </p>
-
-          <p class="mb-5">
-            Each year I take around 25,000 photos. I want to learn two languages in the coming years: JavaScript and Spanish. I drink <em>a little bit</em> too much Diet Coke—but I’m working on it.
-          </p>
-
-          <h2 class="h3">I'm Currently Into...</h2>
-          <p class="mb-5">
-            <small>
-              <a
-                target="_blank"
-                rel="noopener"
-                title="Link to Design Systems Repo"
-                href="https://designsystemsrepo.com"
-              >Design Systems
-              </a>&nbsp;&nbsp;&nbsp;&nbsp;
-              <a
-                target="_blank"
-                rel="noopener"
-                title="Link to the Jamstack"
-                href="https://jamstack.org/"
-              >Jamstack</a>&nbsp;&nbsp;&nbsp;&nbsp;
-              <a
-                target="_blank"
-                rel="noopener"
-                title="Link to Apple's Shortcuts app"
-                href="https://apps.apple.com/us/app/shortcuts/id1462947752"
-              >Siri Shortcuts</a>&nbsp;&nbsp;&nbsp;&nbsp;
-              <a
-                target="_blank"
-                rel="noopener"
-                title="Link to iPadOS"
-                href="https://www.apple.com/ipados/"
-              >iPadOS</a>&nbsp;&nbsp;&nbsp;&nbsp;
-              <a
-                target="_blank"
-                rel="noopener"
-                title="Link to Airtable"
-                href="https://airtable.com"
-              >AirTable</a>&nbsp;&nbsp;&nbsp;&nbsp;
-              <a
-                target="_blank"
-                rel="noopener"
-                title="Link to The Ringer"
-                href="https://www.theringer.com"
-              >The Ringer</a>&nbsp;&nbsp;&nbsp;&nbsp;
-              <a
-                target="_blank"
-                rel="noopener"
-                title="Link to the Relay FM network"
-                href="https://www.relay.fm"
-              >Relay FM</a>&nbsp;&nbsp;&nbsp;&nbsp;
-              <a
-                target="_blank"
-                rel="noopener"
-                title="Link to the Do By Friday podcast"
-                href="http://dobyfriday.com"
-              >Do By Friday</a>&nbsp;&nbsp;&nbsp;&nbsp;
-              <a
-                target="_blank"
-                rel="noopener"
-                title="Link to my Letterboxd profile"
-                href="https://letterboxd.com/bradsiefert/"
-              >Letterboxd</a>&nbsp;&nbsp;&nbsp;&nbsp;
-              <a
-                target="_blank"
-                rel="noopener"
-                title="Link to Polaroid Originals instant film"
-                href="https://us.polaroidoriginals.com"
-              >Instant film</a>&nbsp;&nbsp;&nbsp;&nbsp;
-              <a
-                target="_blank"
-                rel="noopener"
-                title="Link to Chicago Bears football team"
-                href="https://www.instagram.com/chicagobears/"
-              >Chicago Bears</a>&nbsp;&nbsp;&nbsp;&nbsp;
-              <a
-                target="_blank"
-                rel="noopener"
-                title="Link to Chelsea FC soccer team"
-                href="https://www.instagram.com/chelseafc/"
-              >Chelsea FC</a>&nbsp;&nbsp;&nbsp;&nbsp;
-            </small>
-          </p>
-
-          <a target="_blank" class="btn btn-outline-dark btn-lg mb-5" href="files/Brad-Siefert-Resume.pdf">
-            Download Resume &nbsp;📂
-          </a>
         </article>
+
+        <div class="jobs mb-2xl">
+          <div class="d-sm-flex flex-sm-row justify-content-between align-items-center mb-sm">
+            <div class="fs-lg-semibold my-sm">Previously:</div>
+            <img
+              style="max-width: 88px;"
+              class="my-sm mx-xs"
+              src="~/assets/images/govos-logo-light.svg"
+              alt="Logo for GovOS">
+            <img
+              style="max-width: 108px;"
+              class="my-sm mx-xs"
+              src="~/assets/images/nielsen-logo-light.svg"
+              alt="Logo for Nielsen">
+            <img
+              style="max-width: 136px;"
+              class="my-sm mx-xs"
+              src="~/assets/images/earlybird-logo-dark.svg"
+              alt="Logo for Earlybird">
+            <img
+              style="max-width: 80px;"
+              class="my-sm mx-xs d-none d-sm-block"
+              src="~/assets/images/dose.svg"
+              alt="Logo for Dose aka Spartz">
+          </div>
+          <a target="_blank" class="btn btn-outline-dark" href="files/Brad-Siefert-Resume.pdf">
+              Download Resume &nbsp;↘
+            </a>
+        </div>
       </div>
 
-      <div class="col-lg-4">
+      <div class="col-xl-4">
         <img class="img-fluid" src="@/assets/images/photo-bradsiefert.jpg" alt="Photo of Brad Siefert" />
       </div>
 

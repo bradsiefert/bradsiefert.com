@@ -19,16 +19,18 @@ useHead({
     <div class="container wide-contain">
       <div class="row">
         <div class="col-lg-12">
+          <div class="breadcrumb gap-xs">
+            <NuxtLink to="/">Home</NuxtLink> / Portfolio
+          </div>
 
-          <h1>Design Portfolio</h1>
-          <p>Some design and development work I'm proud to show.</p>
+          <h1 class="mb-xs">Design Portfolio</h1>
+          <p class="fs-md-regular">Selected work in product design, design systems, and front-end craft.</p>
 
-          <h2 class="h4 mt-5 mb-5 text-uppercase">Case Studies</h2>
           <ContentList :query="queryCaseStudy" v-slot="{ list }">
             <div class="case-study" v-for="casestudies in list" :key="casestudies._path">
-              <NuxtLink :to="casestudies._path">
+              <!-- <NuxtLink :to="casestudies._path">
                 <h3 class="font-size-600 mt-3">{{ casestudies.title }}</h3>
-              </NuxtLink>
+              </NuxtLink> -->
               <figure>
                 <NuxtLink :to="casestudies._path">
                   <img
@@ -42,9 +44,8 @@ useHead({
           </ContentList>
 
           <div class="row g-2 mt-4 mb-5">
-            <h2 class="h4 mt-5 text-uppercase">Select UI/UX Work</h2>
             <ContentList :query="queryPortfolio" v-slot="{ list }">
-              <div class="col-md-6 col-lg-4 col-xl-3" v-for="portfolio in list" :key="portfolio._path">
+              <div class="col-6 col-lg-4 col-xl-4" v-for="portfolio in list" :key="portfolio._path">
                 <NuxtLink class="portfolio" :to="portfolio._path">
                   <img class="img-fluid rounded"
                     :src="portfolio.head.image"
