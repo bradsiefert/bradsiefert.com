@@ -8,7 +8,7 @@
       </div>
 
       <h1>About</h1>
-      <div class="col-xl-8">
+      <div class="col-xl-8 col-lg-7">
         <article class="lead">
           <p>
             Hi, I’m Brad. I’m a Product Designer and Design Technologist experienced in designing web apps, mobile apps, and design systems. I’m fluent in both Figma and code. I love working with both designers and engineers to bridge the gap between design intent and production reality.  
@@ -51,8 +51,8 @@
         </div>
       </div>
 
-      <div class="col-xl-4">
-        <img class="img-fluid" src="@/assets/images/photo-bradsiefert.jpg" alt="Photo of Brad Siefert" />
+      <div class="col-xl-4 col-lg-5">
+        <img class="img-fluid" src="@/assets/images/photo-bradsiefert-in-puertorico.jpg" alt="Photo of Brad Siefert" />
       </div>
 
     </div>
@@ -64,6 +64,6 @@ definePageMeta({
   documentDriven: false
 })
 useHead({
-  title: 'Bio'
+  title: 'About'
 })
 </script>

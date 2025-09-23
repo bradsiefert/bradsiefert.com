@@ -12,7 +12,7 @@ useHead({
 </script>
 
 <template>
-  <div class="container slim-contain">
+  <div class="container skinny-contain">
     <div class="row justify-content-center">
       <div class="col-lg-12">
         <div class="breadcrumb gap-xs">
@@ -20,7 +20,7 @@ useHead({
         </div>
 
         <h1>Blog</h1>
-        <p class="mb-2xl">An occasional blog about things I can't stop thinking about.</p>
+        <p class="fs-xl-regular mb-2xl">An occasional blog about things I can't stop thinking about.</p>
 
         <ContentList :query="queryBlog" v-slot="{ list }">
           <div class="blog d-flex flex-column gap-sm" v-for="blog in list" :key="blog._path">

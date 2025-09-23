@@ -1,5 +1,5 @@
 <template>
-  <div class="container-xl skinny-contain">
+  <div class="container skinny-contain">
     <div class="row">
       <div class="col-lg-12 blog-post">
         <div class="breadcrumb">
