@@ -4,7 +4,7 @@
       <div class="row">
         <div class="d-flex flex-xl-row flex-column justify-content-between mb-2xs">
           <div class="d-flex flex-column">
-            <h5>Sitemap</h5>
+            <div class="h5">Sitemap</div>
             <ul class="list-unstyled d-flex flex-wrap gap-sm fs-sm-regular">
               <li><NuxtLink rel="noopener" to="/">Home</NuxtLink></li>
               <li><NuxtLink rel="noopener" to="/about">About</NuxtLink></li>
@@ -17,7 +17,7 @@
           </div>
 
           <div class="d-flex flex-column">
-            <h5>Elsewhere</h5>
+            <div class="h5">Elsewhere</div>
             <ul class="list-unstyled d-flex flex-wrap gap-sm fs-sm-regular justify-content-start">
               <li>
               <NuxtLink
@@ -50,7 +50,7 @@
           </div>
         </div>
 
-        <h5>Credits</h5>
+        <div class="h5">Credits</div>
         <p class="fs-sm-regular mb-1">
           Forever grateful to <NuxtLink target="_blank" rel="noopener" title="Link to Frank's website" href="https://fkorf.com">Fkorf</NuxtLink> & <NuxtLink target="_blank" rel="noopener" title="Link to Kris Kroski's website" href="https://kro.ski">Kroski</NuxtLink> for teaching me to code. Site is typeset in Source Sans 3 and Source Sans 4 by Paul D. Hunt. Powered by <NuxtLink target="_blank" rel="noopener" title="Link to Nuxt 3" href="https://nuxt.com">Nuxt 3</NuxtLink>,
           <NuxtLink target="_blank" rel="noopener" title="Link to Bootstrap" href="https://getbootstrap.com">Bootstrap</NuxtLink>, <NuxtLink target="_blank" rel="noopener" title="Link to Netlify" href="https://netlify.com">Netlify</NuxtLink>. Licensed under <NuxtLink rel="license" target="_blank" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"> Creative Commons Attribution-NonCommercial-ShareAlike 4.0</NuxtLink>
@@ -76,7 +76,7 @@
     text-decoration: underline;
   }
 
-  footer h5 {
+  footer .h5 {
     font-family: var(--font-family-serif);
     font-weight: var(--font-weights-extrabold);
     font-size: var(--font-size-2xs);
