@@ -53,7 +53,7 @@
         <h5>Credits</h5>
         <p class="fs-sm-regular mb-1">
           Forever grateful to <NuxtLink target="_blank" rel="noopener" title="Link to Frank's website" href="https://fkorf.com">Fkorf</NuxtLink> & <NuxtLink target="_blank" rel="noopener" title="Link to Kris Kroski's website" href="https://kro.ski">Kroski</NuxtLink> for teaching me to code. Site is typeset in Source Sans 3 and Source Sans 4 by Paul D. Hunt. Powered by <NuxtLink target="_blank" rel="noopener" title="Link to Nuxt 3" href="https://nuxt.com">Nuxt 3</NuxtLink>,
-          <NuxtLink target="_blank" rel="noopener" title="Link to Bootstrap" href="https://getbootstrap.com">Bootstrap</NuxtLink>,<NuxtLink target="_blank" rel="noopener" title="Link to Netlify" href="https://netlify.com">Netlify</NuxtLink>. Licensed under <NuxtLink rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"> Creative Commons Attribution-NonCommercial-ShareAlike 4.0 license</NuxtLink>
+          <NuxtLink target="_blank" rel="noopener" title="Link to Bootstrap" href="https://getbootstrap.com">Bootstrap</NuxtLink>, <NuxtLink target="_blank" rel="noopener" title="Link to Netlify" href="https://netlify.com">Netlify</NuxtLink>. Licensed under <NuxtLink rel="license" target="_blank" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"> Creative Commons Attribution-NonCommercial-ShareAlike 4.0</NuxtLink>
         </p>
       </div>
 
@@ -64,10 +64,9 @@
 <style lang="scss">
   /* ---------- Footer --------- */
   footer {
-    margin-top: 96px;
+    margin-top: 64px;
     min-height: 192px;
-    padding-top: 24px;
-    padding-bottom: 32px;
+    padding: 32px 1rem 48px;
     background-color: var(--color-neutral-100);
     border-top: 1px solid var(--color-neutral-300);
   }
