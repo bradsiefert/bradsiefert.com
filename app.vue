@@ -1,10 +1,8 @@
 <template>
   <header>
-    <!-- <navbar /> -->
-    <darkmodeonly />
+    <navbar />
   </header>
 
-  
   <main>
     <NuxtPage/>
   </main>
