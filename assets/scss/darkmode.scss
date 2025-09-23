@@ -3,11 +3,6 @@ body[dark-mode] {
   color: var(--color-neutral-lightest);
   background-color: var(--color-neutral-darkest);
 
-  html {
-    background-color: var(--color-neutral-1000) !important;
-    border-top: 1px solid var(--color-neutral-800) !important;
-  }
-
   a:not(.btn) {
     color: var(--color-neutral-lightest);
   }
@@ -31,78 +26,19 @@ body[dark-mode] {
 
   .navbar {
     background-color: var(--color-neutral-darkest);
-    box-shadow: 0 0 32px 0 rgba(0,0,0,0.64);
-    border: 1px solid var(--color-neutral-800);
-    border-left: none;
-  }
-
-  .navbar-brand a, .navbar .navbar-nav .nav-link,
-  .navbar-brand a, .navbar .navbar-nav a.dropdown-item,
-  .navbar-brand a.router-link-active.router-link-exact-active {
-    color: var(--color-neutral-lightest) !important;
-  }
-
-  .navbar .navbar-nav .nav-link:hover,
-  .navbar .navbar-nav .dropdown-menu a.dropdown-item:hover,
-  .navbar .navbar-nav .nav-link.active,
-  .navbar .navbar-nav .dropdown-menu a.dropdown-item.router-link-active.router-link-exact-active,
-  .navbar .navbar-nav .nav-link.router-link-active.router-link-exact-active {
-    color: var(--color-primary-400) !important;
-  }
-
-  .navbar .bg-dark {
-    color: var(--color-neutral-darkest);
-    background-color: var(--color-neutral-lightest);
-  }
-
-  @media (max-width: 1023px) {
-    .navbar {
-      background-color: var(--color-neutral-darkest);
-      border: none;
-      border-bottom: 1px solid var(--color-neutral-800);
-      position: sticky;
-      top: 0;
-      width: 100%;
-    }
-
-    .navbar-brand a, .navbar .navbar-nav .nav-link {
-      color: var(--color-neutral-lightest);
-    }
-  }
-
-  .navbar-light .navbar-toggler-icon {
-    filter: invert(1);
-  }
-
-  .form-control,
-  .search-bar .form-control,
-  .search-bar .form-control:focus,
-  .search-bar-results,
-  .search-bar .btn {
-    background-color: var(--color-neutral-darkest);
-    box-shadow: 0 0 32px 0 rgba(0,0,0,0.64);
     border: 1px solid var(--color-neutral-800);
     color: var(--color-neutral-lightest);
   }
-
-  .results-wrap {
-    border-bottom: 1px solid var(--color-neutral-700);
-  }
-
-  .results-wrap:hover,
-  .results-wrap:hover a,
-  .results-wrap:hover p {
-    background-color: var(--color-neutral-500);
-    color: var(--color-neutral-darkest);
-  }
-
-  .search-bar-results a,
-  .search-bar p {
+  
+  .navbar .btn {
     color: var(--color-neutral-lightest);
   }
 
-  .results-wrap:last-of-type {
-    border-bottom: none;
+  .navbar a:hover,
+  .navbar .btn:hover,
+  .navbar .btn:active {
+    color: var(--color-neutral-lightest);
+    background-color: var(--color-neutral-800);
   }
 
   .breadcrumb {
@@ -168,5 +104,26 @@ body[dark-mode] {
 
   .portfolio img {
     border: none;
+  }
+
+  .case-study {
+    border-top: 1px solid var(--color-neutral-800);
+    border-bottom: 1px solid var(--color-neutral-800);
+  }
+  
+  .case-study.govos {
+    background-color: var(--color-neutral-1000);
+  }
+
+  .case-study.govos img {
+    content: url('../images/govos-design-system-casestudy-dark.png');
+  }
+  
+  .case-study.nielsen {
+    background-color: var(--color-neutral-1000);
+  }
+
+  .case-study.nielsen img {
+    content: url('../images/nielsen-design-system-casestudy-dark.png');
   }
 }
