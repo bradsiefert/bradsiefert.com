@@ -108,14 +108,6 @@
 }
 
 /* Navigation */
-header {
-  min-height: 128px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin: 0 auto;
-}
-
 .navbar-glass {
   padding: 8px 16px;
   border-radius: 12px;

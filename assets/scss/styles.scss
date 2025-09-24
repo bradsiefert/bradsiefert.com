@@ -485,6 +485,14 @@ figcaption {
 }
 
 /* Hero */
+header {
+  min-height: 128px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
 .hero {
   padding: 0 16px 48px;
   min-height: 384px;
