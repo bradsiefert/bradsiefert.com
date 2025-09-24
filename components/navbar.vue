@@ -36,6 +36,7 @@
 </template>
 
 <style>
+/* This is the fallback navbar, that doesn't have a glass effect. */
 header {
   min-height: 128px;
   display: flex;
@@ -47,16 +48,16 @@ header {
 .navbar {
   padding: 8px 16px;
   border-radius: 12px;
-  box-shadow: 0 0 32px 0 rgba(0,0,0,0.12);
+  /* box-shadow: 0 0 32px 0 rgba(0,0,0,0.12);
   border: 1px solid var(--color-neutral-300-alpha);
-  background-color: var(--color-neutral-lightest);
+  background-color: var(--color-neutral-lightest); */
   min-width: 768px;
   min-height: 56px;
   margin: 0 auto;
-  position: fixed;
+  /* position: fixed;
   top: 32px;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translateX(-50%); */
   z-index: 1000;
 }
 
