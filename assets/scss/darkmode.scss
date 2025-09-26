@@ -48,15 +48,6 @@ body[dark-mode] {
     padding: 0;
   }
   
-  .glass-filter,
-  .glass-overlay,
-  .glass-specular {
-    position: absolute;
-    inset: 0;
-    border-radius: inherit;
-    padding: 0;
-  }
-  
   .glass-filter {
     z-index: 0;
     backdrop-filter: blur(6px);

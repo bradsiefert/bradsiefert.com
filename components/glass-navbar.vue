@@ -156,7 +156,6 @@
     min-width: 0;
     font-size: 16px !important;
     line-height: 24px !important;
-    padding: 4px 8px;
   }
 
   .navbar-glass .title {
@@ -176,7 +175,7 @@
 
 @media (max-width: 480px) {
   .navbar-glass, .glass-outer, .glass-inner {
-    font-size: 14px !important;
+    font-size: 16px !important;
     line-height: 24px !important;
   }
 
@@ -198,6 +197,16 @@
   .navbar-glass a, 
   .navbar-glass .btn {
     padding: 4px;
+  }
+
+  @media (max-width: 480px) {
+    .navbar-glass .nav-link svg {
+      display: none;
+    }
+
+    .navbar-glass ul {
+      gap: 12px !important;
+    }
   }
 }
 </style>

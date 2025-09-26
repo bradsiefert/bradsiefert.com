@@ -64,3 +64,19 @@ onMounted(() => {
 // Optimized: Simplified click handler
 const handleClick = () => toggleDarkMode()
 </script>
+
+<style>
+@media (max-width: 768px) {
+  .navbar-glass .btn {
+    font-size: 16px !important;
+    line-height: 24px !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar-glass svg {
+    height: 20px;
+    width: 20px;
+  }
+}
+</style>
