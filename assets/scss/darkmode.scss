@@ -8,7 +8,7 @@ body[dark-mode] {
   }
 
   hr {
-    color: var(--color-neutral-800);
+    color: var(--color-neutral-300);
   }
 
   .text-primary {
@@ -71,7 +71,7 @@ body[dark-mode] {
   }
 
   .divider {
-    border-bottom: 1px solid var(--color-neutral-300);
+    border-bottom: 1px solid var(--color-neutral-800);
   }
 
   .portfolio-post img {
@@ -98,6 +98,29 @@ body[dark-mode] {
     opacity: 1;
   }
 
+  .btn-govos-primary {
+    box-shadow: 0 0 0 0 !important;
+    border: 1px solid var(--color-primary-600) !important;
+  }
+
+  .btn-govos-primary:hover {
+    box-shadow: 0 0 0 0 !important;
+    background-color: var(--color-primary-700) !important;
+    border: 1px solid var(--color-primary-700) !important;
+  }
+
+  .btn-govos-neutral {
+    color: var(--color-neutral-lightest);
+    background-color: var(--color-neutral-darkest);
+    border: 1px solid var(--color-neutral-500);
+  }
+  
+  .btn-govos-neutral:hover {  
+    background-color: var(--color-neutral-900) !important;
+    color: var(--color-neutral-lightest) !important;
+    border: 1px solid var(--color-neutral-500) !important;
+  }
+
   .jobs img, img.oam, img.logo {
     filter: brightness(0) invert(1);
   }
@@ -119,8 +142,12 @@ body[dark-mode] {
     background-color: var(--color-neutral-1000);
   }
 
-  .case-study.govos img {
+  img.govos-components {
     content: url('../images/govos-design-system-casestudy-dark.png');
+  }
+
+  img.govos-patterns {
+    content: url('../images/govos-design-system-casestudy-design-patterns-dark.webp');
   }
   
   .case-study.nielsen {

@@ -10,8 +10,10 @@
 :host { 
   --font-family-serif: "Source Serif 4", serif;
   --font-weights-extrabold: 848;
+  --bs-code-color: var(--color-primary-600);
   --nielsen-primary-100: #F1F0FE;
   --nielsen-primary-500: #6A46FE;
+  --nielsen-primary-600: #4B31AF;
   --nielsen-primary-1000: #130B32;
   --nielsen-neutral-darkest: #111218;
   --govos-primary-100: #F0F7FF;
@@ -335,6 +337,7 @@ pre {
 
 .btn-nielsen-primary {
   background-color: var(--nielsen-primary-500);
+  border-color: var(--nielsen-primary-500);
   color: var(--color-neutral-lightest);
   border-radius: 32px;
   font-size: var(--font-size-lg);
@@ -343,8 +346,12 @@ pre {
   font-weight: var(--font-weights-bold);
 }
 
-.btn-nielsen-primary:hover, .btn-nielsen-primary:active, .btn-nielsen-primary:focus, .btn-nielsen-primary:focus-visible, .btn-nielsen-primary::first-child:active {  
-  background-color: var(--nielsen-primary-500) !important;
+.btn-nielsen-primary:hover, 
+.btn-nielsen-primary:active, 
+.btn-nielsen-primary:focus, 
+.btn-nielsen-primary:focus-visible {  
+  background-color: var(--nielsen-primary-600) !important;
+  border-color: var(--nielsen-primary-600) !important;
   color: var(--color-neutral-lightest) !important;
 }
 
@@ -365,10 +372,47 @@ pre {
   border: 2px solid var(--nielsen-neutral-darkest) !important;
 }
 
+.btn-govos-primary {
+  font-size: var(--font-size-lg);
+  letter-spacing: var(--letter-spacing-lg);
+  line-height: var(--line-heights-lg);
+  font-weight: var(--font-weights-semibold);
+  color: var(--color-neutral-lightest);
+  background-color: var(--govos-primary-600);
+  border: 1px solid var(--govos-primary-700);
+  box-shadow: 0px -2px 1px 0px rgba(18, 18, 18, 0.12) inset,
+    0px 1px 1px 0px rgba(255, 255, 255, 0.24) inset;
+  transition: background-color 0.25s ease-in-out, box-shadow 0.25s ease-in-out,
+    border-color 0.25s ease-in-out;
+}
+
+.btn-govos-primary:hover {  
+  background-color: var(--govos-primary-700) !important;
+  color: var(--color-neutral-lightest) !important;
+  border-color: var(--govos-primary-1000) !important;
+}
+
+.btn-govos-neutral {
+  font-size: var(--font-size-lg);
+  letter-spacing: var(--letter-spacing-lg);
+  line-height: var(--line-heights-lg);
+  font-weight: var(--font-weights-semibold);
+  color: var(--color-neutral-darkest);
+  background-color: var(--color-neutral-lightest);
+  border: 1px solid var(--color-neutral-500);
+  transition: background-color 0.25s ease-in-out, box-shadow 0.25s ease-in-out,
+    border-color 0.25s ease-in-out;
+}
+
+.btn-govos-neutral:hover {  
+  background-color: var(--color-neutral-200) !important;
+  color: var(--color-neutral-darkest) !important;
+  border: 1px solid var(--color-neutral-500) !important;
+}
+
 /* Breadcrumbs */
 .breadcrumb {
   color: var(--color-neutral-600);
-  // padding: 10px 1rem 10px 0;
   margin-bottom: 32px;
 }
 
@@ -444,6 +488,18 @@ figcaption {
   border: 1px solid var(--color-neutral-300);
 }
 
+@media (min-width: 768px) {
+.portfolio-post:first-of-type p:first-of-type,
+.portfolio-post .lead {
+    font-size: 175% !important;
+  }
+}
+
+.portfolio-post h1, 
+.portfolio-post .h1 {
+  padding-bottom: 1rem;
+}
+
 .portfolio-post p,
 .portfolio-post ul {
   font-size: var(--font-size-xl);
@@ -459,7 +515,7 @@ figcaption {
 
 .portfolio-post img,
 .portfolio-img {
-  margin: 1rem 0;
+  margin: 0.5rem 0 1rem;
   border: 1px solid var(--color-neutral-300);
   max-width: 100%;
   border-radius: .5rem;
@@ -471,16 +527,33 @@ figcaption {
   margin: 2rem 0;
 }
 
+@media (min-width: 512px) {
+  .portfolio-post .col-lg-12 > div:not(.breadcrumb) a:first-child:first-of-type {
+    margin-right: 16px;
+  }
+  
+  .portfolio-post .btn-nielsen-primary {
+    margin-right: 16px;
+  }
+}
+
 /*  This gives that nice images breaking the container look */
 @media (min-width: 1280px) {
-  .portfolio-post p:has(img) {
+  .portfolio-post p:has(img),
+  .portfolio-post p:has(a > img) {
     margin: 0 -64px 1rem;
   }
 }
 
 @media (min-width: 1440px) {
-  .portfolio-post p:has(span.wide-img > img) {
-    margin: 0 -128px 1rem;
+  .portfolio-post p:has(span.wide-img > img),
+  .portfolio-post p:has(span.wide-img > a > img) {
+    margin: 0 -64px 1rem;
+  }
+
+  .portfolio-post p:has(span.ultrawide-img > img),
+  .portfolio-post p:has(span.ultrawide-img > a > img) {
+    margin: 0 -320px 1rem;
   }
 }
 
