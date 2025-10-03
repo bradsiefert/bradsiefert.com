@@ -15,6 +15,14 @@ body[dark-mode] {
     color: var(--color-primary-400) !important;
   }
 
+  code, .code, pre code, kbd, samp {
+    color: var(--color-primary-400) !important;
+  }
+
+  figcaption {
+    color: var(--color-neutral-400) !important;
+  }
+
   footer {
     border-top-color: var(--color-neutral-800);
     background-color: var(--color-neutral-1000);
@@ -143,7 +151,7 @@ body[dark-mode] {
   }
 
   img.govos-components {
-    content: url('../images/govos-design-system-casestudy-dark.png');
+    content: url('../images/govos-design-system-casestudy-dark.webp');
   }
 
   img.govos-patterns {
@@ -155,6 +163,6 @@ body[dark-mode] {
   }
 
   .case-study.nielsen img {
-    content: url('../images/nielsen-design-system-casestudy-dark.png');
+    content: url('../images/nielsen-design-system-casestudy-dark.webp');
   }
 }

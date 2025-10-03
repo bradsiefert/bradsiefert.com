@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import type { QueryBuilderParams } from '@nuxt/content/dist/runtime/types'
 const queryPortfolio: QueryBuilderParams = {
-  path: '/portfolio', sort: { date: -1 }
+  path: '/portfolio', sort: [{ date: -1 }]
 }
 definePageMeta({
   documentDriven: false
@@ -16,7 +16,7 @@ useHead({
     <div class="container wide-contain">
       <h2 class="mb-lg lh-xs"><span class="fs-xl-regular">Case Study /</span> <span class="fs-xl-bold">GovOS Design System</span></h2>
       <NuxtLink to="/case-studies/govos-design-system">
-        <img class="govos-components img-fluid" src="@/assets/images/govos-design-system-casestudy-light.png" alt="GovOS Design System UI Components"/>
+        <img class="govos-components img-fluid" src="@/assets/images/govos-design-system-casestudy-light.webp" alt="GovOS Design System UI Components"/>
       </NuxtLink>
     </div>
   </div>
@@ -25,7 +25,7 @@ useHead({
     <div class="container wide-contain">
       <h2 class="mb-lg lh-xs"><span class="fs-xl-regular">Case Study /</span> <span class="fs-xl-bold">Nielsen Global Design System</span></h2>
       <NuxtLink to="/case-studies/nielsen-global-design-system">
-        <img class="img-fluid" src="@/assets/images/nielsen-design-system-casestudy-light.png" alt="Nielsen Global Design System UI Components"/>
+        <img class="img-fluid" src="@/assets/images/nielsen-design-system-casestudy-light.webp" alt="Nielsen Global Design System UI Components"/>
       </NuxtLink>
     </div>
   </div>
