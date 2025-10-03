@@ -1,7 +1,7 @@
 <template>
-  <div class="container skinny-contain">
+  <div class="container skinny-contain portfolio-post">
     <div class="row">
-      <div class="col-lg-12 portfolio-post">
+      <div class="col-lg-12">
         <div class="breadcrumb gap-xs">
           <NuxtLink to="/">Home</NuxtLink> / 
           <NuxtLink to="/portfolio">Portfolio</NuxtLink> / 
