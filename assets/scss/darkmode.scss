@@ -1,134 +1,85 @@
 /* ---------- Dark Mode Styles --------- */
 body[dark-mode] {
-  color: $white;
-  background-color: $black;
+  color: var(--color-neutral-lightest);
+  background-color: var(--color-neutral-darkest);
 
   a:not(.btn) {
-    color: $primary-dark;
+    color: var(--color-neutral-lightest);
   }
 
   hr {
-    color: $gray-800;
+    color: var(--color-neutral-300);
   }
 
   .text-primary {
-    color: $primary-dark !important;
+    color: var(--color-primary-400) !important;
+  }
+
+  code, .code, pre code, kbd, samp {
+    color: var(--color-primary-400) !important;
+  }
+
+  figcaption {
+    color: var(--color-neutral-400) !important;
   }
 
   footer {
-    border-top-color: $gray-800;
-    background-color: $black;
+    border-top-color: var(--color-neutral-800);
+    background-color: var(--color-neutral-1000);
   }
 
   .footer-social a {
-    color: $white;
+    color: var(--color-neutral-lightest);
   }
 
-  .navbar {
-    background-color: $black;
-    box-shadow: 0 0 32px 0 rgba(0,0,0,0.64);
-    border: 1px solid $gray-800;
-    border-left: none;
+  .navbar-glass {
+    color: var(--color-neutral-lightest);
+  }
+  
+  .navbar-glass .btn {
+    color: var(--color-neutral-lightest);
   }
 
-  .navbar-brand a, .navbar .navbar-nav .nav-link,
-  .navbar-brand a, .navbar .navbar-nav a.dropdown-item,
-  .navbar-brand a.router-link-active.router-link-exact-active {
-    color: $white !important;
+  .navbar-glass a:hover,
+  .navbar-glass .btn:hover,
+  .navbar-glass .btn:active {
+    color: var(--color-neutral-lightest);
+    background-color: var(--color-neutral-800);
   }
 
-  .navbar .navbar-nav .nav-link:hover,
-  .navbar .navbar-nav .dropdown-menu a.dropdown-item:hover,
-  .navbar .navbar-nav .nav-link.active,
-  .navbar .navbar-nav .dropdown-menu a.dropdown-item.router-link-active.router-link-exact-active,
-  .navbar .navbar-nav .nav-link.router-link-active.router-link-exact-active {
-    color: $primary-dark !important;
+  .glass-inner {
+    background: transparent;
+    box-shadow: 0 0 24px 0 rgba(0,0,0,0.48);
+    border: 1px solid var(--color-neutral-900);
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 2.2);
+    border-radius: 12px;
+    padding: 0;
   }
-
-  .navbar .bg-dark {
-    color: $black;
-    background-color: $white;
+  
+  .glass-filter {
+    z-index: 0;
+    backdrop-filter: blur(6px);
+    filter: url(#lensFilter) saturate(111%) brightness(.56);
   }
-
-  @media (max-width: 1023px) {
-    .navbar {
-      background-color: $black;
-      border: none;
-      border-bottom: 1px solid $gray-800;
-      position: sticky;
-      top: 0;
-      width: 100%;
-    }
-
-    .navbar-brand a, .navbar .navbar-nav .nav-link {
-      color: $white;
-    }
+  
+  .glass-overlay {
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.25);
   }
-
-  .navbar-light .navbar-toggler-icon {
-    filter: invert(1);
-  }
-
-  .form-control,
-  .search-bar .form-control,
-  .search-bar .form-control:focus,
-  .search-bar-results,
-  .search-bar .btn {
-    background-color: $black;
-    box-shadow: 0 0 32px 0 rgba(0,0,0,0.64);
-    border: 1px solid $gray-800;
-    color: $white;
-  }
-
-  .results-wrap {
-    border-bottom: 1px solid $gray-700;
-  }
-
-  .results-wrap:hover,
-  .results-wrap:hover a,
-  .results-wrap:hover p {
-    background-color: $blue-500;
-    color: $black;
-  }
-
-  .search-bar-results a,
-  .search-bar p {
-    color: $white;
-  }
-
-  .results-wrap:last-of-type {
-    border-bottom: none;
+  
+  .glass-specular {
+    z-index: 2;
+    border: 1px solid var(--color-neutral-900);
+    box-shadow: inset 1px 1px 0 rgba(255, 255, 255, 0.0),
+      inset 0 0 6px rgba(255, 255, 255, 0.0);
   }
 
   .breadcrumb {
-    border-top: 1px solid $gray-800;
-    border-bottom: 1px solid $gray-800;
-    color: $gray-500;
-  }
-
-  .landing-hero .display-1 a {
-    color: $white;
-  }
-
-  .box {
-    border: 1px solid $gray-800;
-    background-color: $black;
-  }
-
-  .box a:not(.btn) {
-    color: $white;
-  }
-
-  .box, .form-control {
-    border: 1px solid $gray-800;
-  }
-
-  .form-control, .form-control:focus, .form-control::placeholder {
-    color: $white;
+    color: var(--color-neutral-500);
   }
 
   .divider {
-    border-bottom: 1px solid $gray-800;
+    border-bottom: 1px solid var(--color-neutral-800);
   }
 
   .portfolio-post img {
@@ -136,39 +87,49 @@ body[dark-mode] {
   }
 
   blockquote, pre {
-    background-color: $gray-900;
-  }
-
-  .box.shortcuts {
-    background-color: #161616;
-    border: 1px solid $gray-800;
-    color: $white;
-  }
-
-  .box.shortcuts:hover {
-    border: 1px solid #2AC9FF;
-    color: #2AC9FF;
+    background-color: var(--color-neutral-900);
   }
 
   .btn-outline-dark {
-    color: $white;
-    border-color: $white;
+    color: var(--color-neutral-lightest);
+    border-color: var(--color-neutral-lightest);
     background-color: transparent;
   }
 
   .btn-outline-dark:hover {
-    color: $black;
-    border-color: $white;
-    background-color: $white;
+    color: var(--color-neutral-darkest);
+    border-color: var(--color-neutral-lightest);
+    background-color: var(--color-neutral-lightest);
   }
 
   .btn-primary:disabled, .btn-primary.disabled {
     opacity: 1;
   }
 
-  .jobs img,
-  img.oam,
-  img.logo {
+  .btn-govos-primary {
+    box-shadow: 0 0 0 0 !important;
+    border: 1px solid var(--color-primary-600) !important;
+  }
+
+  .btn-govos-primary:hover {
+    box-shadow: 0 0 0 0 !important;
+    background-color: var(--color-primary-700) !important;
+    border: 1px solid var(--color-primary-700) !important;
+  }
+
+  .btn-govos-neutral {
+    color: var(--color-neutral-lightest);
+    background-color: var(--color-neutral-darkest);
+    border: 1px solid var(--color-neutral-500);
+  }
+  
+  .btn-govos-neutral:hover {  
+    background-color: var(--color-neutral-900) !important;
+    color: var(--color-neutral-lightest) !important;
+    border: 1px solid var(--color-neutral-500) !important;
+  }
+
+  .jobs img, img.oam, img.logo {
     filter: brightness(0) invert(1);
   }
 
@@ -180,8 +141,28 @@ body[dark-mode] {
     border: none;
   }
 
-  .box.gear {
-    border: 1px solid $gray-800;
-    background-color: transparent;
+  .case-study {
+    border-top: 1px solid var(--color-neutral-800);
+    border-bottom: 1px solid var(--color-neutral-800);
+  }
+  
+  .case-study.govos {
+    background-color: var(--color-neutral-1000);
+  }
+
+  img.govos-components {
+    content: url('../images/govos-design-system-casestudy-dark.webp');
+  }
+
+  img.govos-patterns {
+    content: url('../images/govos-design-system-casestudy-design-patterns-dark.webp');
+  }
+  
+  .case-study.nielsen {
+    background-color: var(--color-neutral-1000);
+  }
+
+  .case-study.nielsen img {
+    content: url('../images/nielsen-design-system-casestudy-dark.webp');
   }
 }

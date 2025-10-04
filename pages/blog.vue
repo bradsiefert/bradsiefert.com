@@ -15,30 +15,26 @@ useHead({
   <div class="container skinny-contain">
     <div class="row justify-content-center">
       <div class="col-lg-12">
-        <ul class="list-inline float-end small fw-bold mt-2">
-          <li class="list-inline-item"><a href="/blog/feed.xml">RSS Feed</a></li>
-        </ul>
+        <div class="breadcrumb gap-xs">
+          <NuxtLink to="/">Home</NuxtLink> / <span>Blog</span>
+        </div>
 
         <h1>Blog</h1>
-        <p>A blog about design, development, productivity, and other things I can't stop thinking about.</p>
+        <p class="fs-xl-regular mb-2xl">An occasional blog about things I can't stop thinking about.</p>
 
         <ContentList :query="queryBlog" v-slot="{ list }">
-          <div class="box blog" v-for="blog in list" :key="blog._path">
+          <div class="blog d-flex flex-column gap-sm" v-for="blog in list" :key="blog._path">
             <figure>
               <NuxtLink :to="blog._path">
                 <img class="img-fluid" :alt="blog.alt" :src="blog.head.image"/>
               </NuxtLink>
             </figure>
-            <p class="blog-details">
-              <time :datetime="blog.date">{{ blog.date }}</time>
-            </p>
+            <span class="fs-sm-regular"><time :datetime="blog.date">{{ blog.date }}</time></span>
             <NuxtLink :to="blog._path">
-              <h2 class="h1">{{ blog.title }}</h2>
+              <h2 class="h1 mb-0">{{ blog.title }}</h2>
             </NuxtLink>
-            <p>{{ blog.description }}</p>
-            <NuxtLink class="btn btn-outline-dark" :to="blog._path">
-              Read Post &nbsp;➡️
-            </NuxtLink>
+            <p class="fs-md-regular mb-0">{{ blog.description }}</p>
+            <hr class="divider mb-2xl">
           </div>
         </ContentList>
 

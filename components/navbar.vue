@@ -1,214 +1,136 @@
+<script setup>
+  import { PhSwatches, PhImages, PhTextAlignLeft, PhUserCircle } from "@phosphor-icons/vue";
+</script>
+
 <template>
-  <nav class="navbar navbar-expand-lg navbar-light">
-    <div class="h1 navbar-brand">
-      <NuxtLink rel="noopener" to="/">Brad Siefert</NuxtLink>
-    </div>
-
-    <button
-      class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
-      @click="showNav = !showNav"
-    ><span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="navbar-collapse collapse" id="navbar" :class="{ 'show': showNav } ">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <NuxtLink class="nav-link" rel="noopener" to="/portfolio">Design Portfolio</NuxtLink>
-        </li>
-        <li class="nav-item">
-          <NuxtLink class="nav-link" target="_new" rel="noopener" to="https://photos.bradsiefert.com">Photography</NuxtLink>
-        </li>
-        <!--<li class="nav-item">
-          <NuxtLink class="nav-link" rel="noopener" to="/siri-shortcuts">Siri Shortcuts</NuxtLink>
-        </li>-->
-        <li class="nav-item">
-          <NuxtLink class="nav-link" rel="noopener" to="/downloads">Downloads</NuxtLink>
-        </li>
-        <li>
-          <NuxtLink class="dropdown-item" rel="noopener" to="/about">About</NuxtLink>
-        </li>
-        <!-- <li class="nav-item dropdown">
-          <NuxtLink class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false" @click="showAboutDrop = !showAboutDrop">
-            About
-          </NuxtLink>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdown" :class="{ 'show': showAboutDrop } ">
-            <li>
-              <NuxtLink class="dropdown-item" rel="noopener" to="/about">Bio</NuxtLink>
-            </li>
-            <li>
-              <NuxtLink class="dropdown-item" rel="noopener" to="/contact">Contact Me</NuxtLink>
-            </li>
-          </ul>
-        </li> -->
-        <li class="nav-item">
-          <NuxtLink class="nav-link" rel="noopener" to="/blog">Blog</NuxtLink>
-        </li>
-      </ul>
-    </div>
+  <nav class="navbar d-flex justify-content-between align-items-center">
+    <NuxtLink to="/" class="name d-flex align-items-center">
+      <span class="title">Brad Siefert</span>
+    </NuxtLink>
+    <ul class="d-flex gap-3xs list-unstyled mb-0 align-items-center">
+      <li class="nav-link">
+        <NuxtLink to="/portfolio" class="d-flex align-items-center gap-2xs">
+          <PhSwatches :size="24" /> Portfolio
+        </NuxtLink>
+      </li>
+      <li class="nav-link">
+        <NuxtLink href="https://photos.bradsiefert.com" target="_blank" class="d-flex align-items-center gap-2xs">
+          <PhImages :size="24" /> Photos ↗
+        </NuxtLink>
+      </li>
+      <li class="nav-link">
+        <NuxtLink to="/blog" class="d-flex align-items-center gap-2xs">
+          <PhTextAlignLeft :size="24" /> Blog
+        </NuxtLink>
+      </li>
+      <li class="nav-link">
+        <NuxtLink to="/about" class="d-flex align-items-center gap-2xs">
+          <PhUserCircle :size="24" /> About
+        </NuxtLink>
+      </li>
+      <li>
+        <darkmode />
+      </li>
+    </ul>
   </nav>
 </template>
 
-<script>
-export default {
-  name: 'Navbar',
-  data: () => ({
-    showNav: false, // This is to make the navbar open/close on mobile.
-    showAboutDrop: false
-  })
-}
-</script>
-
-<style lang="scss">
-@import "@/assets/scss/variables.scss";
-
-// Navbar
-.navbar, .search-bar .form-control, .search-bar-results {
-  background: #FFFFFF;
-  border: 1px solid $gray-300;
-  box-shadow: 0 0 32px 0 rgba(0,0,0,0.08);
-  color: $black;
-  border-radius: 0;
+<style>
+/* This is the fallback navbar, that doesn't have a glass effect. */
+header {
+  min-height: 128px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
 }
 
-.navbar-brand  {
-  font-family: "Tiempos Text";
-  font-weight: bold;
-  font-size: 1.25rem;
-  padding: 4px 0 8px;
-  margin: 0;
+.navbar {
+  padding: 8px 16px;
+  border-radius: 12px;
+  /* box-shadow: 0 0 32px 0 rgba(0,0,0,0.12);
+  border: 1px solid var(--color-neutral-300-alpha);
+  background-color: var(--color-neutral-lightest); */
+  min-width: 768px;
+  min-height: 56px;
+  margin: 0 auto;
+  /* position: fixed;
+  top: 32px;
+  left: 50%;
+  transform: translateX(-50%); */
+  z-index: 1000;
 }
 
-.navbar-brand a,
-.navbar-brand a.router-link-active.router-link-exact-active {
-  color: $black;
-}
-
-.navbar .navbar-nav .nav-link {
-  text-align: center;
-  padding: 0.5rem 0;
-  font-size: 1rem;
-}
-
-.navbar-collapse {
-  margin-top: 1rem;
-}
-
-@media (min-width: 1024px) {
-  .navbar {
-    position: fixed;
-    top: 64px;
-    left: 0;
-    min-width: 192px;
-    padding: 2rem;
-    display: block;
-    flex-direction: column;
-    border-radius: 0 12px 12px 0;
-    z-index: 100;
-  }
-
-  .navbar .navbar-nav {
-    flex-direction: column;
-  }
-
-  #navbar > ul.navbar-nav > li:last-of-type > a.nav-link {
-    padding: 0;
-  }
-
-  .navbar-brand {
-    font-size: 1.25rem;
-    line-height: 1.2;
-    padding-bottom: .5rem;
-    margin-right: 4px;
-    padding-top: 8px;
-    white-space: normal;
-  }
-
-  .navbar-collapse {
-    margin-top: 0;
-  }
-}
-
-@media (min-width: 1025px) and (max-width: 1200px) {
-  .navbar {
-    min-width: 176px;
-    padding: 2rem 1.5rem;
-  }
-}
-
-@media (min-width: 1023px) and (max-width: 1025px) {
-  .navbar {
-    min-width: 160px;
-    padding: 1.5rem 1rem;
-  }
-}
-
-@media (max-width: 1023px) {
-  .navbar-brand {
-    width: auto;
-    font-size: 1.75rem;
-    margin: 6px 0 0;
-    padding: 0;
-  }
-
-  .navbar {
-    padding: 1rem 0.5rem 1rem 1.5rem;
-    margin-bottom: 1rem;
-    min-height: 96px;
-  }
-
-  .navbar-brand {
-    font-size: 1.75rem;
-    padding-top: 14px;
-  }
-
-  .navbar .navbar-nav .nav-link,
-  .navbar .navbar-nav .dropdown-item {
-    padding: 0.5rem 0;
-    font-size: 1.125rem;
-  }
-}
-
-.navbar .navbar-nav .nav-link,
-.navbar .navbar-nav .dropdown-item {
-  padding: 0 0 2px;
-  text-align: left;
-  min-width: 0;
-}
-
-.navbar .navbar-nav .dropdown-menu a.dropdown-item {
-  color: $black;
-}
-
-.navbar .navbar-nav .dropdown-menu a.dropdown-item:hover {
-  color: $primary;
-}
-
-.dropdown-toggle::after {
-  margin-left: .125em;
-  vertical-align: .125em;
-}
-
-.navbar-expand-lg .navbar-nav .dropdown-menu {
-  position: static;
-  left: 0;
-  top: 0;
-  padding: 0;
-  background-color: transparent;
-  white-space: normal;
-  min-width: 0 !important;
+.navbar .btn {
+  font-size: var(--font-size-md);
+  letter-spacing: var(--letter-spacing-md); 
+  line-height: var(--line-heights-md);
+  font-weight: var(--font-weights-regular);
+  transition: background-color 0.3s ease;
   border: none;
+  padding: 8px;
 }
 
-.navbar-expand-lg .navbar-nav .dropdown-menu .dropdown-item {
- padding: 0.125rem 0 0 0.75rem;
- background-color: transparent;
- white-space: normal;
- min-width: none;
- font-weight: inherit;
+.navbar a, 
+.navbar .btn {
+  padding: 8px;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
 }
 
-.navbar .badge {
-  font-size: $font-size-000;
+.navbar a:hover,
+.navbar .btn:hover,
+.navbar .btn:active {
+  background-color: var(--color-neutral-200-alpha);
+  border-radius: 6px;
+}
+
+.navbar .title {
+  font-family: var(--font-family-serif);
+  font-weight: var(--font-weights-extrabold);
+  letter-spacing: var(--letter-spacing-md);
+  line-height: var(--line-heights-md);
+  text-transform: uppercase;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    min-width: 100%;
+    font-size: 16px !important;
+    line-height: 24px !important;
+    padding: 4px 8px;
+  }
+
+  .navbar .title {
+    font-size: 16px !important;
+    line-height: 24px !important;
+  }
+
+  .navbar .nav-link svg {
+    display: none;
+  }
+
+  .navbar a, 
+  .navbar .btn {
+    padding: 6px;
+  }
+}
+
+@media (max-width: 440px) {
+  .navbar {
+    font-size: 14px !important;
+    line-height: 24px !important;
+    padding: 4px 8px;
+  }
+
+  .navbar svg {
+    height: 16px;
+    width: 16px;
+  }
+
+  .navbar a, 
+  .navbar .btn {
+    padding: 4px;
+  }
 }
 </style>
