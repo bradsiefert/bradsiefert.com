@@ -86,6 +86,10 @@ body[dark-mode] {
     border: none;
   }
 
+  .blog-card {
+    border-bottom: 1px solid var(--color-neutral-800);
+  }
+
   blockquote, pre {
     background-color: var(--color-neutral-900);
   }

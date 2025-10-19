@@ -46,7 +46,7 @@
               alt="Logo for Dose aka Spartz">
           </div>
           <a target="_blank" class="btn btn-outline-dark" href="files/Brad-Siefert-Resume.pdf">
-              Download Resume &nbsp;↘
+            Download Resume&nbsp;&nbsp;↓
             </a>
         </div>
       </div>
