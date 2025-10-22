@@ -19,9 +19,9 @@
         />
         <h1>Sorry, Page Not Found 😭</h1>
         <p>
-          I'm sorry about this. If you'd let me know about this on <a target="_blank" href="https://mas.to/@bradsiefert">Mastodon</a>, I'd appreciate it.
+          I'm sorry about this. If you'd let me know about this on
+          <a target="_blank" href="https://x.com/bksiefert">X (Twitter)</a> or <a target="_blank" href="https://bsky.app/profile/bradsiefert.bsky.social">Bluesky</a>, I'd appreciate it.
         </p>
-
       </div>
     </div>
   </div>
