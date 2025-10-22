@@ -1,9 +1,9 @@
 <script setup lang="ts">
 import type { QueryBuilderParams } from '@nuxt/content/dist/runtime/types'
-const queryBlog: QueryBuilderParams = {
+const queryBlog = {
   path: '/blog', 
-  where: { draft: { $ne: true } },
-  sort: [{ date: -1 }]
+  sort: [{ date: -1 }],
+  where: { draft: { $ne: true } }
 }
 definePageMeta({
   documentDriven: false

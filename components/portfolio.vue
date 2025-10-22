@@ -1,14 +1,10 @@
 <script setup lang="ts">
 import type { QueryBuilderParams } from '@nuxt/content/dist/runtime/types'
 const queryPortfolio: QueryBuilderParams = {
-  path: '/portfolio', sort: [{ date: -1 }]
+  path: '/portfolio', 
+  sort: [{ date: -1 }],
+  where: { draft: { $ne: true } }
 }
-definePageMeta({
-  documentDriven: false
-})
-useHead({
-  title: 'Design Portfolio'
-})
 </script>
 
 <template>

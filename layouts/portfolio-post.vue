@@ -25,12 +25,15 @@
 const route = useRoute()
 
 // Get the current document using the route path
-const { data: document } = await useAsyncData('current-document', () => {
+const { data: document, error } = await useAsyncData('current-document', () => {
   return queryContent(route.path).findOne()
 })
 
-// Extract title from document frontmatter
+// Extract title from document frontmatter with error handling
 const pageTitle = computed(() => {
+  if (error.value) {
+    return 'Portfolio Post'
+  }
   return document.value?.title || 'Portfolio Post'
 })
 </script>
