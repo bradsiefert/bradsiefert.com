@@ -143,3 +143,12 @@
     </div>
   </article>
 </template>
+
+<script setup>
+definePageMeta({
+  documentDriven: false
+})
+useHead({
+  title: 'Case Study / GovOS Design System'
+})
+</script>
