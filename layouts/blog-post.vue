@@ -5,7 +5,7 @@
         <div class="breadcrumb">
           <div class="breadcrumb-item">
             <NuxtLink title="Link back to Blog posts" to="/blog">
-              ⬅️ Back to Blog
+              ← Back to Blog
             </NuxtLink>
           </div>
         </div>
