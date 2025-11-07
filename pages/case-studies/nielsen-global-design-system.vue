@@ -25,7 +25,7 @@
 
     <div class="case-study nielsen">
       <div class="container wide-contain">
-        <img class="img-fluid mt-xl" src="@/portfolio/case-study-gds-cover.webp" alt="Nielsen Global Design System UI Components"/>
+        <img class="img-fluid mt-xl" src="/portfolio/case-study-gds-cover.webp" alt="Nielsen Global Design System UI Components"/>
         <figcaption class="mt-md mb-none">Nielsen Global Design System Cover</figcaption>
       </div>
     </div>
