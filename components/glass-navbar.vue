@@ -114,9 +114,9 @@
 }
 
 .navbar-glass .btn {
-  font-size: var(--font-size-md);
-  letter-spacing: var(--letter-spacing-md); 
-  line-height: var(--line-heights-md);
+  font-size: var(--font-size-lg);
+  letter-spacing: var(--letter-spacing-lg); 
+  line-height: var(--line-heights-lg);
   font-weight: var(--font-weights-regular);
   transition: background-color 0.3s ease;
   border: none;
@@ -129,6 +129,10 @@
   transition: background-color 0.3s ease;
   text-decoration: none;
   border-radius: 6px;
+  font-size: var(--font-size-lg);
+  letter-spacing: var(--letter-spacing-lg); 
+  line-height: var(--line-heights-lg);
+  font-weight: var(--font-weights-regular);
 }
 
 .navbar-glass a:hover,
@@ -170,10 +174,15 @@
   .navbar-glass a, 
   .navbar-glass .btn {
     padding: 6px;
+    font-size: 115% !important;
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 512px) {
+  .navbar-glass {
+    padding: 8px 12px;
+  }
+
   .navbar-glass, .glass-outer, .glass-inner {
     font-size: 16px !important;
     line-height: 24px !important;
@@ -199,7 +208,7 @@
     padding: 4px;
   }
 
-  @media (max-width: 480px) {
+  @media (max-width: 512px) {
     .navbar-glass .nav-link svg {
       display: none;
     }
