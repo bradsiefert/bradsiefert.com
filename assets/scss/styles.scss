@@ -32,7 +32,7 @@
   --color-primary-1000: var(--primitive-blue-1000);
   
   /* Design System Updates CHORE */
-  --font-weights-regular: 384 !important;
+  --font-weights-regular: 444 !important;
   --letter-spacing-3xs: -0.005px !important;
   --letter-spacing-2xs: -0.005px !important;
   --letter-spacing-xs: -0.005px !important;
@@ -53,6 +53,13 @@ html, body, #__nuxt { min-height: 100vh; }
 body, #__nuxt { display: flex; flex-direction: column; }
 main { flex: 1 0 auto; }
 .footer { flex-shrink: 0; }
+
+* {
+  font-synthesis: none;
+  -webkit-font-smoothing: antialiased; /* Fixes Safari boldness */
+  -moz-osx-font-smoothing: grayscale;  /* For Firefox on macOS */
+  text-rendering: optimizeLegibility;
+}
 
 html {
   scroll-behavior: smooth;
@@ -83,6 +90,10 @@ a {
 a:active {
   position: relative;
   top: 2px;
+}
+
+b, strong {
+  font-weight: var(--font-weights-bold) !important;
 }
 
 /* Responsive Text */
