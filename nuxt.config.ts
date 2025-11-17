@@ -7,6 +7,11 @@ export default defineNuxtConfig({
       },
       charset: 'utf-8',
       viewport: 'width=device-width, initial-scale=1',
+    },
+    pageTransition: {
+      name: 'fade',
+      mode: 'default',
+      duration: 200
     }
   },
   modules: ['@nuxt/content'],
