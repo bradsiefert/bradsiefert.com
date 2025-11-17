@@ -12,8 +12,8 @@
     "nuxt": "^3.7.0"
   },
   "dependencies": {
-    "@kofile/gds-foundations": "^1.4.5",
-    "@kofile/gds-styles": "^1.4.5",
+    "@kofile/gds-foundations": "^1.4.7",
+    "@kofile/gds-styles": "^1.4.7",
     "@phosphor-icons/vue": "^2.2.1",
     "bootstrap": "^5.3.1",
     "nuxi": "^3.6.5",
