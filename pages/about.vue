@@ -17,7 +17,7 @@
             I value elegance, clarity, and efficiency in my designs. Lately, I've focused on building design systems that make products more robust, consistent, and accessible. People describe my work as meticulous and hyper-organized but approachable and collaborative. I name all my layers and auto all the layouts.
           </p>
           <p>
-            Photography is a huge part of my life. Each year I take around 25K photos, exploring everything from portraits and street photography to landscapes and long exposures. I love yoga, the Enneagram, Chelsea Football Club, the Chicago Bears, instant film cameras, and logging films in Letterboxd. I live in Chicago's East Garfield Park neighborhood with my daughter and our dog Coco.
+            Photography is a huge part of my life. Each year I take at least 25,000 photos exploring everything from portraits and street photography to landscapes and long exposures. I love yoga, the Enneagram, Chelsea Football Club, the Chicago Bears, instant film cameras, and logging films in Letterboxd. I live in Chicago's East Garfield Park neighborhood with my daughter and our dog Coco.
           </p>
         </article>
 
