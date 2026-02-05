@@ -14,7 +14,7 @@
             <p>In mid 2021 I began designing a new, from scratch, design system for Nielsen. It was exciting because the challenge and the opportunity were both clear from the start. Nielsen has over 40 web applications on at least 5 different development platforms. This complexity hurt product quality and hampered designer's ability to create. There was a mandate from UX and Product to consolidate the UI components and patterns into a single design system. This new system would fuel a new application suite, Nielsen One, and eventually the whole organization. That is how Nielsen's Global Design System (GDS) came to be.</p>
 
             <p class="mt-xl">
-              <a href="https://nielsendesignsystem.com" target="_new" class="btn btn-primary btn-lg btn-nielsen-primary mb-xs">Nielsen Design System Site ↗</a>
+              <a href="https://nielsendesignsystem.netlify.app" target="_new" class="btn btn-primary btn-lg btn-nielsen-primary mb-xs">Nielsen Design System Site ↗</a>
             </p>
             <hr>
           </div>
@@ -53,7 +53,7 @@
 
           <p>These values are important to me because they reflect who I am and the systems I strive to create.</p>
 
-          <p class="micro text-secondary">For more information, visit the <a href="https://nielsendesignsystem.com/foundations/design-principles/" target="_new">Design Principles</a> on GDS.</p>
+          <p class="micro text-secondary">For more information, visit the <a href="https://nielsendesignsystem.netlify.app/foundations/design-principles/" target="_new">Design Principles</a> on GDS.</p>
 
           <hr>
 
@@ -62,30 +62,24 @@
 
           <p>GDS includes tokens for UI colors, gradients, reporting colors, font family, font size, font weight, line height, letter spacing, spacing, layout, borders, radii, shadows, and elevation. Our color tokens also have a second semantic naming layer to guard against changes in the future. Those semantic names are neutral, primary, secondary, tertiary, accent, success, danger, warning, and highlight.</p>
 
-          <figure>
-            <span class="wide-img">
-              <a target="_blank" rel="nofollow" href="/portfolio/case-study-gds-tokens-color.png" class="lightbox-trigger">
-                <img src="/portfolio/case-study-gds-tokens-color.png" alt="Table of color tokens">
-              </a>
-            </span>
+          <figure class="wide-img">
+            <a target="_blank" rel="nofollow" href="/portfolio/case-study-gds-tokens-color.png" class="lightbox-trigger">
+              <img src="/portfolio/case-study-gds-tokens-color.png" alt="Table of color tokens">
+            </a>
             <figcaption>Table of color tokens</figcaption>
           </figure>
 
-          <figure>
-            <span class="wide-img">
-              <a target="_blank" rel="nofollow" href="/portfolio/case-study-gds-tokens-ui.png" class="lightbox-trigger">
-                <img src="/portfolio/case-study-gds-tokens-ui.png" alt="Tables of typography and spacing tokens">
-              </a>
-            </span>
+          <figure class="wide-img">
+            <a target="_blank" rel="nofollow" href="/portfolio/case-study-gds-tokens-ui.png" class="lightbox-trigger">
+              <img src="/portfolio/case-study-gds-tokens-ui.png" alt="Tables of typography and spacing tokens">
+            </a>
             <figcaption>Tables of typography and spacing tokens</figcaption>
           </figure>
 
-          <figure>
-            <span class="wide-img">
-              <a target="_blank" rel="nofollow" href="/portfolio/case-study-gds-tokens-shadows.png" class="lightbox-trigger">
-                <img src="/portfolio/case-study-gds-tokens-shadows.png" alt="Shadow tokens guidance and documentation">
-              </a>
-            </span>
+          <figure class="wide-img">
+            <a target="_blank" rel="nofollow" href="/portfolio/case-study-gds-tokens-shadows.png" class="lightbox-trigger">
+              <img src="/portfolio/case-study-gds-tokens-shadows.png" alt="Shadow tokens guidance and documentation">
+            </a>
             <figcaption>Shadow tokens guidance and documentation</figcaption>
           </figure>
 
@@ -98,49 +92,41 @@
 
           <p>GDS has nine colors: gray, blurple, aqua, eggplant, blue, green, red, orange, and yellow and 11 steps for each color. Including the colors white and black gives us a total of 101 interface colors. These colors are used throughout every part of Nielsen applications. The lone exception is reporting colors. I created a separate set of reporting colors to be used in data visualizations.</p>
 
-          <figure>
-            <span class="wide-img">
-              <a target="_blank" rel="nofollow" href="/portfolio/case-study-gds-color-lightmode.png" class="lightbox-trigger">
-                <img src="/portfolio/case-study-gds-color-lightmode.png" alt="GDS core colors on light mode">
-              </a>
-            </span>
+          <figure class="wide-img">
+            <a target="_blank" rel="nofollow" href="/portfolio/case-study-gds-color-lightmode.png" class="lightbox-trigger">
+              <img src="/portfolio/case-study-gds-color-lightmode.png" alt="GDS core colors on light mode">
+            </a>
             <figcaption>GDS core colors on light mode</figcaption>
           </figure>
 
-          <figure>
-            <span class="wide-img">
-              <a target="_blank" rel="nofollow" href="/portfolio/case-study-gds-color-darkmode.png" class="lightbox-trigger">
-                <img src="/portfolio/case-study-gds-color-darkmode.png" alt="GDS core colors on dark mode">
-              </a>
-            </span>
+          <figure class="wide-img">
+            <a target="_blank" rel="nofollow" href="/portfolio/case-study-gds-color-darkmode.png" class="lightbox-trigger">
+              <img src="/portfolio/case-study-gds-color-darkmode.png" alt="GDS core colors on dark mode">
+            </a>
             <figcaption>GDS core colors on dark mode</figcaption>
           </figure>
 
-          <p class="micro text-secondary">For more information, visit the <a href="https://nielsendesignsystem.com/foundations/color/" target="_new">Color page</a> on GDS.</p>
+          <p class="micro text-secondary">For more information, visit the <a href="https://nielsendesignsystem.netlify.app/foundations/colors/" target="_new">Color page</a> on GDS.</p>
 
           <hr>
 
           <h3>Typography</h3>
           <p>During the 2021 Nielsen rebrand, I helped convince the organization to choose Inter as the typeface for Nielsen's identity and products. Inter has excellent support for many Cyrillic, Greek, and Latin languages and will be used in all languages it supports. If Inter doesn't support a language, the fall back is Google's Noto Sans. Noto Sans has the most comprehensive language support of any typeface ever created. This makes it an excellent fallback for Nielsen products across the world.</p>
 
-          <figure>
-            <span class="wide-img">
-              <a target="_blank" rel="nofollow" href="/portfolio/case-study-gds-type-scale.png" class="lightbox-trigger">
-                <img src="/portfolio/case-study-gds-type-scale.png" alt="Typescale sizing with examples">
-              </a>
-            </span>
+          <figure class="wide-img">
+            <a target="_blank" rel="nofollow" href="/portfolio/case-study-gds-type-scale.png" class="lightbox-trigger">
+              <img src="/portfolio/case-study-gds-type-scale.png" alt="Typescale sizing with examples">
+            </a>
             <figcaption>Typescale sizing with examples</figcaption>
           </figure>
 
           <h4>Type Features</h4>
           <p>I created an 11-step type scale to give our designers ample options for building interfaces. Our base size is <code>-size-500</code>, which is <code>16px</code>. These variety of sizes is not tied to specific headings. This something I see commonly and I find too inflexible. I prefer the typography scale be divorced from semantic headings so that pages can be more creative with how they use typography.</p>
 
-          <figure>
-            <span class="wide-img">
-              <a target="_blank" rel="nofollow" href="/portfolio/case-study-gds-type-weight-opentype.png" class="lightbox-trigger">
-                <img src="/portfolio/case-study-gds-type-weight-opentype.png" alt="Typography examples and OpenType feature showcase">
-              </a>
-            </span>
+          <figure class="wide-img">
+            <a target="_blank" rel="nofollow" href="/portfolio/case-study-gds-type-weight-opentype.png" class="lightbox-trigger">
+              <img src="/portfolio/case-study-gds-type-weight-opentype.png" alt="Typography examples and OpenType feature showcase">
+            </a>
             <figcaption>Typography examples and OpenType feature showcase</figcaption>
           </figure>
 
@@ -148,7 +134,7 @@
 
           <p>Inter has excellent support for OpenType, an advanced set of typographic features. We utilize slashed zero, open digits, and monospaced numbers in our applications. Doing this maximizes legibility and reduces the need for multiple typefaces in our applications.</p>
 
-          <p class="micro text-secondary">For more information, visit the <a href="https://nielsendesignsystem.com/foundations/typography/" target="_new">Typography page</a> on GDS.</p>
+          <p class="micro text-secondary">For more information, visit the <a href="https://nielsendesignsystem.netlify.app/foundations/typography/" target="_new">Typography page</a> on GDS.</p>
 
           <hr>
 
@@ -164,21 +150,17 @@
             <li>Supporting assistive technologies like screen readers and voice over</li>
           </ul>
 
-          <figure>
-            <span class="wide-img">
-              <a target="_blank" rel="nofollow" href="/portfolio/case-study-gds-accessiblity-uistates.png" class="lightbox-trigger">
-                <img src="/portfolio/case-study-gds-accessiblity-uistates.png" alt="Examples of common UI states in GDS">
-              </a>
-            </span>
+          <figure class="wide-img">
+            <a target="_blank" rel="nofollow" href="/portfolio/case-study-gds-accessiblity-uistates.png" class="lightbox-trigger">
+              <img src="/portfolio/case-study-gds-accessiblity-uistates.png" alt="Examples of common UI states in GDS">
+            </a>
             <figcaption>Examples of common UI states in GDS</figcaption>
           </figure>
 
-          <figure>
-            <span class="wide-img">
-              <a target="_blank" rel="nofollow" href="/portfolio/case-study-gds-accessiblity-contrast.png" class="lightbox-trigger">
-                <img src="/portfolio/case-study-gds-accessiblity-contrast.png" alt="Documentation about color contrast in GDS">
-              </a>
-            </span>
+          <figure class="wide-img">
+            <a target="_blank" rel="nofollow" href="/portfolio/case-study-gds-accessiblity-contrast.png" class="lightbox-trigger">
+              <img src="/portfolio/case-study-gds-accessiblity-contrast.png" alt="Documentation about color contrast in GDS">
+            </a>
             <figcaption>Documentation about color contrast in GDS</figcaption>
           </figure>
 
@@ -188,7 +170,7 @@
 
           <p>Creating accessible applications must include conversations between designers, developers, and importantly, folks with disabilities. Accessibility isn't an add-on or a box to be checked. It's empathetically and thoughtfully providing resources to all kinds of folks. People with disabilities should be able to use any application simply because it's the right thing to do. Accessibility hurts no one and helps everyone.</p>
 
-          <p class="micro text-secondary">For more information, visit the <a href="https://nielsendesignsystem.com/foundations/accessibility/" target="_new">Accessibility page</a> on GDS.</p>
+          <p class="micro text-secondary">For more information, visit the <a href="https://nielsendesignsystem.netlify.app/foundations/accessibility/" target="_new">Accessibility page</a> on GDS.</p>
 
           <hr>
 
@@ -202,43 +184,35 @@
 
           <p>I start by building the core components possible. And when needed, layer them together to create larger components. Getting the core right is so important. The choices made for the core components cascade throughout the system. Thoughtfully anticipating issues and addressing them early enables the system to scale smoothly.</p>
 
-          <figure>
-            <span class="wide-img">
-              <a target="_blank" rel="nofollow" href="/portfolio/case-study-gds-components-formlabel.png" class="lightbox-trigger">
-                <img src="/portfolio/case-study-gds-components-formlabel.png" alt="Form Label component variants in light and dark mode">
-              </a>
-            </span>
+          <figure class="wide-img">
+            <a target="_blank" rel="nofollow" href="/portfolio/case-study-gds-components-formlabel.png" class="lightbox-trigger">
+              <img src="/portfolio/case-study-gds-components-formlabel.png" alt="Form Label component variants in light and dark mode">
+            </a>
             <figcaption>Form Label component variants in light and dark mode</figcaption>
           </figure>
 
-          <figure>
-            <span class="wide-img">
-              <a target="_blank" rel="nofollow" href="/portfolio/case-study-gds-components-input.png" class="lightbox-trigger">
-                <img src="/portfolio/case-study-gds-components-input.png" alt="Input component variants">
-              </a>
-            </span>
+          <figure class="wide-img">
+            <a target="_blank" rel="nofollow" href="/portfolio/case-study-gds-components-input.png" class="lightbox-trigger">
+              <img src="/portfolio/case-study-gds-components-input.png" alt="Input component variants">
+            </a>
             <figcaption>Input component variants</figcaption>
           </figure>
 
-          <figure>
-            <span class="wide-img">
-              <a target="_blank" rel="nofollow" href="/portfolio/case-study-gds-components-icons.png" class="lightbox-trigger">
-                <img src="/portfolio/case-study-gds-components-icons.png" alt="Icon wrapper variants in light and dark mode">
-              </a>
-            </span>
+          <figure class="wide-img">
+            <a target="_blank" rel="nofollow" href="/portfolio/case-study-gds-components-icons.png" class="lightbox-trigger">
+              <img src="/portfolio/case-study-gds-components-icons.png" alt="Icon wrapper variants in light and dark mode">
+            </a>
             <figcaption>Icon wrapper variants in light and dark mode</figcaption>
           </figure>
 
-          <figure>
-            <span class="wide-img">
-              <a target="_blank" rel="nofollow" href="/portfolio/case-study-gds-components-messages.png" class="lightbox-trigger">
-                <img src="/portfolio/case-study-gds-components-messages.png" alt="Content options for the Dialog component">
-              </a>
-            </span>
+          <figure class="wide-img">
+            <a target="_blank" rel="nofollow" href="/portfolio/case-study-gds-components-messages.png" class="lightbox-trigger">
+              <img src="/portfolio/case-study-gds-components-messages.png" alt="Content options for the Dialog component">
+            </a>
             <figcaption>Content options for the Dialog component</figcaption>
           </figure>
 
-          <p class="micro text-secondary">For more information, visit the <a href="https://nielsendesignsystem.com/components/" target="_new">Components page</a> on GDS.</p>
+          <p class="micro text-secondary">For more information, visit the <a href="https://nielsendesignsystem.netlify.app/components/" target="_new">Components page</a> on GDS.</p>
 
           <hr>
 
@@ -251,30 +225,24 @@
 
           <p>I think design system documentation can be a great way to teach younger designers the foundations of design. Because of this, I wrote with as few assumptions as possible. I tried to explain the concepts of design (eg: typography, grid system, component properties, etc.) succinctly, but thoroughly so folks with less design experience would understand.</p>
 
-          <figure>
-            <span class="wide-img">
-              <a target="_blank" rel="nofollow" href="/portfolio/case-study-gds-documentation-actionicon.png" class="lightbox-trigger">
-                <img src="/portfolio/case-study-gds-documentation-actionicon.png" alt="User Flow documentation for the Action Icon component">
-              </a>
-            </span>
+          <figure class="wide-img">
+            <a target="_blank" rel="nofollow" href="/portfolio/case-study-gds-documentation-actionicon.png" class="lightbox-trigger">
+              <img src="/portfolio/case-study-gds-documentation-actionicon.png" alt="User Flow documentation for the Action Icon component">
+            </a>
             <figcaption>User Flow documentation for the Action Icon component</figcaption>
           </figure>
 
-          <figure>
-            <span class="wide-img">
-              <a target="_blank" rel="nofollow" href="/portfolio/case-study-gds-documentation-multimenu.png" class="lightbox-trigger">
-                <img src="/portfolio/case-study-gds-documentation-multimenu.png" alt="User Flow documentation for a multi-select menu">
-              </a>
-            </span>
+          <figure class="wide-img">
+            <a target="_blank" rel="nofollow" href="/portfolio/case-study-gds-documentation-multimenu.png" class="lightbox-trigger">
+              <img src="/portfolio/case-study-gds-documentation-multimenu.png" alt="User Flow documentation for a multi-select menu">
+            </a>
             <figcaption>User Flow documentation for a multi-select menu</figcaption>
           </figure>
 
-          <figure>
-            <span class="wide-img">
-              <a target="_blank" rel="nofollow" href="/portfolio/case-study-gds-documentation-buttons.png" class="lightbox-trigger">
-                <img src="/portfolio/case-study-gds-documentation-buttons.png" alt="Button content and usage guidelines">
-              </a>
-            </span>
+          <figure class="wide-img">
+            <a target="_blank" rel="nofollow" href="/portfolio/case-study-gds-documentation-buttons.png" class="lightbox-trigger">
+              <img src="/portfolio/case-study-gds-documentation-buttons.png" alt="Button content and usage guidelines">
+            </a>
             <figcaption>Button content and usage guidelines</figcaption>
           </figure>
 
@@ -287,6 +255,9 @@
 </template>
 
 <script setup>
+definePageMeta({
+  documentDriven: false
+})
 useHead({
   title: 'Case Study / Nielsen Global Design System'
 })
