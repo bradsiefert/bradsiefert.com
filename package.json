@@ -8,15 +8,15 @@
     "preview": "nuxt preview"
   },
   "devDependencies": {
-    "@nuxt/content": "^2.7.2",
-    "nuxt": "^3.7.0"
+    "@nuxt/content": "^3.11.0",
+    "nuxt": "^4.3.0"
   },
   "dependencies": {
     "@kofile/gds-foundations": "^1.4.7",
     "@kofile/gds-styles": "^1.4.7",
     "@phosphor-icons/vue": "^2.2.1",
+    "better-sqlite3": "^12.6.2",
     "bootstrap": "^5.3.1",
-    "nuxi": "^3.6.5",
     "sass": "^1.66.1"
   }
 }

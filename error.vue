@@ -1,37 +1,52 @@
 <template>
-  <div class="container skinny-contain">
-    <div class="row">
-      <div class="col">
-        <div class="breadcrumb">
-          <div class="breadcrumb-item"><a title="Link back to home" href="/">Home</a></div>
-          <div class="breadcrumb-item">404 Page</div>
+  <header>
+    <glass-navbar />
+  </header>
+
+  <main>
+    <div class="container skinny-contain">
+      <div class="row">
+        <div class="col">
+          <div class="breadcrumb">
+            <div class="breadcrumb-item"><a title="Link back to home" href="/" @click.prevent="handleGoHome">Home</a></div>
+            <div class="breadcrumb-item">{{ error?.statusCode === 404 ? '404' : 'Error' }} Page</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <img
+            class="img-fluid mb-3"
+            width="320"
+            src="/clueless-my-bad.gif"
+            alt="Gif from the movie Clueless of Cher saying My bad!"
+          />
+          <h1>Sorry, Page Not Found 😭</h1>
+          <p>
+            I'm sorry about this. If you'd let me know about this on
+            <a target="_blank" href="https://x.com/bksiefert">X (Twitter)</a> or <a target="_blank" href="https://bsky.app/profile/bradsiefert.bsky.social">Bluesky</a>, I'd appreciate it.
+          </p>
         </div>
       </div>
     </div>
+  </main>
 
-    <div class="row">
-      <div class="col">
-        <img
-          class="img-fluid mb-3"
-          width="320"
-          src="@/assets/images/clueless-my-bad.gif"
-          alt="Gif from the movie Clueless of Cher saying My bad!"
-        />
-        <h1>Sorry, Page Not Found 😭</h1>
-        <p>
-          I'm sorry about this. If you'd let me know about this on
-          <a target="_blank" href="https://x.com/bksiefert">X (Twitter)</a> or <a target="_blank" href="https://bsky.app/profile/bradsiefert.bsky.social">Bluesky</a>, I'd appreciate it.
-        </p>
-      </div>
-    </div>
-  </div>
+  <footie />
 </template>
 
 <script setup lang="ts">
-  definePageMeta({
-    documentDriven: false
-  }),
-  useHead({
-    title: '404 Error!'
-  })
+import type { NuxtError } from '#app'
+
+defineProps<{
+  error: NuxtError | null
+}>()
+
+function handleGoHome() {
+  clearError({ redirect: '/' })
+}
+
+useHead({
+  title: '404 Error!'
+})
 </script>
