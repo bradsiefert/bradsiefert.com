@@ -24,5 +24,20 @@ export default defineNuxtConfig({
   },
   css: [
     '@/assets/scss/styles.scss' // Needed to install sass and bootstrap to make this work.
-  ]
+  ],
+  vite: {
+    css: {
+      preprocessorOptions: {
+        scss: {
+          silenceDeprecations: [
+            'color-functions',
+            'import',
+            'if-function',
+            'global-builtin',
+            'abs-percent'
+          ]
+        }
+      }
+    }
+  }
 })
