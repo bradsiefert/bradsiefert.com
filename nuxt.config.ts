@@ -1,6 +1,10 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   compatibilityDate: '2024-11-01',
+  srcDir: '.',
+  dir: {
+    app: 'app',
+  },
   app: {
     head: {
       htmlAttrs: {
@@ -18,7 +22,7 @@ export default defineNuxtConfig({
   modules: ['@nuxt/content'],
   content: {
     // documentDriven removed in v3 - using catch-all routes instead
-    markdown: {
+    renderer: {
       anchorLinks: false
     }
   },

@@ -261,5 +261,17 @@ definePageMeta({
 useHead({
   title: 'Case Study / Nielsen Global Design System'
 })
+
+// REVIEW (page transition / scroll): Workaround for same Nuxt bug—new page was painting at inherited
+// scroll (e.g. index→Nielsen jump). Scroll to top in onMounted so first paint is at top; skip when
+// __nuxt_restoring_scroll is set (back/forward). Re-evaluate when upgrading Nuxt.
+onMounted(() => {
+  const restoring = window['__nuxt_restoring_scroll']
+  if (restoring) {
+    window['__nuxt_restoring_scroll'] = false
+    return
+  }
+  window.scrollTo(0, 0)
+})
 </script>
 
