@@ -22,7 +22,7 @@ useHead({
         <div class="breadcrumb gap-xs">
           <NuxtLink to="/">Home</NuxtLink> / 
           <span>Siri Shortcuts</span> / 
-          <span>{{ page.title }}</span>
+          <span>{{ page?.title }}</span>
         </div>
 
         <article class="pt-3">

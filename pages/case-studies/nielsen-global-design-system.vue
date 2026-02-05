@@ -15,7 +15,6 @@
 
             <p class="mt-xl">
               <a href="https://nielsendesignsystem.com" target="_new" class="btn btn-primary btn-lg btn-nielsen-primary mb-xs">Nielsen Design System Site ↗</a>
-              <a href="https://nielsendesignsystem.com" target="_new" class="btn btn-primary btn-lg btn-nielsen-neutral mb-xs">Nielsen Design System Site ↗</a>
             </p>
             <hr>
           </div>

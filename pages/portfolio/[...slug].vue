@@ -15,7 +15,7 @@ useHead({
 })
 
 // Apply layout from frontmatter (default to 'portfolio-post')
-const layout = computed(() => page.value?.layout || 'portfolio-post')
+const layout = computed(() => (page.value?.layout || 'portfolio-post') as 'portfolio-post')
 </script>
 
 <template>
