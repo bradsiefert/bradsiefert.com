@@ -4,7 +4,9 @@
   </header>
 
   <main>
-    <NuxtPage/>
+    <NuxtLayout>
+      <NuxtPage/>
+    </NuxtLayout>
   </main>
 
   <footie />

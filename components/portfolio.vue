@@ -1,10 +1,11 @@
 <script setup lang="ts">
-import type { QueryBuilderParams } from '@nuxt/content/dist/runtime/types'
-const queryPortfolio: QueryBuilderParams = {
-  path: '/portfolio', 
-  sort: [{ date: -1 }],
-  where: { draft: { $ne: true } }
-}
+// Fetch portfolio items using Content v3 queryCollection API
+const { data: portfolioItems } = await useAsyncData('portfolio-list', () => {
+  return queryCollection('portfolio')
+    .where('draft', '=', false)
+    .order('date', 'DESC')
+    .all()
+})
 </script>
 
 <template>
@@ -31,16 +32,14 @@ const queryPortfolio: QueryBuilderParams = {
       <div class="col-lg-12">
         <div class="row g-2 mt-4 mb-5">
           <h2 class="fs-xl-semibold">Select UI/UX Work</h2>
-          <ContentList :query="queryPortfolio" v-slot="{ list }">
-            <div class="col-6 col-lg-4 col-xl-4" v-for="portfolio in list" :key="portfolio._path">
-              <NuxtLink class="portfolio" :to="portfolio._path">
-                <img class="img-fluid rounded"
-                  :src="portfolio.head.image"
-                  :alt="portfolio.title"
-                />
-              </NuxtLink>
-            </div>
-          </ContentList>
+          <div class="col-6 col-lg-4 col-xl-4" v-for="portfolio in portfolioItems" :key="portfolio.path">
+            <NuxtLink class="portfolio" :to="portfolio.path">
+              <img class="img-fluid rounded"
+                :src="portfolio.head?.image"
+                :alt="portfolio.title"
+              />
+            </NuxtLink>
+          </div>
         </div>
       </div>
     </div>

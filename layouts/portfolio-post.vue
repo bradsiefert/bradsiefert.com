@@ -20,13 +20,12 @@
 </template>
 
 <script setup>
-// Use Nuxt Content's document-driven approach to get the title
-// This works with document-driven pages without interfering with content rendering
+// Use Nuxt Content v3 queryCollection API to get the title
 const route = useRoute()
 
 // Get the current document using the route path
-const { data: document, error } = await useAsyncData('current-document', () => {
-  return queryContent(route.path).findOne()
+const { data: document, error } = await useAsyncData(`portfolio-layout-${route.path}`, () => {
+  return queryCollection('portfolio').path(route.path).first()
 })
 
 // Extract title from document frontmatter with error handling

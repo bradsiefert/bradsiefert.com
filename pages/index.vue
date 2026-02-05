@@ -10,9 +10,6 @@
 </template>
 
 <script setup lang="ts">
-definePageMeta({
-  documentDriven: false
-})
 useHead({
   title: 'Product Designer & Design Technologist'
 })
