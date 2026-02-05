@@ -25,11 +25,15 @@
 
     <div class="case-study govos">
       <div class="container wide-contain">
-        <img class="govos-components img-fluid mt-xl" src="@/assets/images/govos-design-system-casestudy-light.webp" alt="GovOS Design System UI Components"/>
-        <figcaption class="mt-md mb-none">Example GovOS Design System components</figcaption>
+        <figure>
+          <img class="govos-components img-fluid mt-xl" src="@/assets/images/govos-design-system-casestudy-light.webp" alt="GovOS Design System UI Components"/>
+          <figcaption class="mt-md mb-none">Example GovOS Design System components</figcaption>
+        </figure>
 
-        <img class="govos-patterns img-fluid mt-xl" src="@/assets/images/govos-design-system-casestudy-design-patterns-light.webp" alt="GovOS Design System UI Components"/>
-        <figcaption class="mt-md mb-none">Example GovOS Design System Patterns</figcaption>
+        <figure>
+          <img class="govos-patterns img-fluid mt-xl" src="@/assets/images/govos-design-system-casestudy-design-patterns-light.webp" alt="GovOS Design System UI Components"/>
+          <figcaption class="mt-md mb-none">Example GovOS Design System Patterns</figcaption>
+        </figure>
       </div>
     </div> 
 
@@ -41,14 +45,14 @@
           
           <p>The lack of a cohesive visual design and a design system created significant inefficiencies for both designers and engineers. There weren't any shared UI components or platform level code. Every new product or feature was effectively starting from scratch, which led to duplicated effort and inconsistent patterns. Designers had no shared library to work from, so visual styles varied widely between applications. Because front-ends were so brittle, developers rarely made visual updates. They didn't have any design assets to go off so when they made changes they hard-coded colors, spacing, and typography and never addressed the overall design debt resulting in fragmented user interfaces.</p>
           
-          <p>
+          <figure>
             <span class="ultrawide-img">
               <a target="_blank" rel="nofollow" href="/portfolio/case-study-govos-legacy-applications.webp" class="lightbox-trigger">
                 <img src="/portfolio/case-study-govos-legacy-applications.webp" alt="Screenshots of various GovOS products before the design system I created">
               </a>
             </span>
             <figcaption>Various GovOS products pre-design system</figcaption>
-          </p>
+          </figure>
 
           <p>The absence of a design system limited the ability to expand products with new features, slowing down development, and creating more and more technical debt. It even effected our sales team because our products were so disconnected from each other it was difficult to say our applications were a real suite of products.</p>
 
@@ -112,30 +116,30 @@
           
           <p>Collaborating with other designers is important to me and comes naturally for me. Especially during the design process for the tax portal redesigns, I collaborated closely with designers to adapt components to their needs and participated in design critiques and reviews to make sure they knew my intentions when designing the components and patterns. It was the first stress test for using the system in such a large scale and on such a short timeline. It performed extremely well and allowed me to focus on the larger goals of maturing the system while still maintaining consistency across the product suite.</p>
           
-          <p>
+          <figure>
             <span class="ultrawide-img">
               <a target="_blank" rel="nofollow" href="/portfolio/case-study-govos-apps-cdor.webp" class="lightbox-trigger">
                 <img src="/portfolio/case-study-govos-apps-cdor.webp" alt="">
               </a>
             </span>
             <figcaption>GovOS's Tax and Licensing product for states and counties built with the new design system</figcaption>
-          </p>
-          <p>
+          </figure>
+          <figure>
             <span class="ultrawide-img">
               <a target="_blank" rel="nofollow" href="/portfolio/case-study-govos-apps-search.webp" class="lightbox-trigger">
                 <img src="/portfolio/case-study-govos-apps-search.webp" alt="">
               </a>
             </span>
             <figcaption>GovOS's Record Search product using the new design system</figcaption>
-          </p>
-          <p>
+          </figure>
+          <figure>
             <span class="ultrawide-img">
               <a target="_blank" rel="nofollow" href="/portfolio/case-study-govos-apps-platform.webp" class="lightbox-trigger">
                 <img src="/portfolio/case-study-govos-apps-platform.webp" alt="">
               </a>
             </span>
             <figcaption>Example of GovOS platform components</figcaption>
-          </p>
+          </figure>
 
           <div class="divider mt-5"></div>
         </div>
@@ -145,9 +149,6 @@
 </template>
 
 <script setup>
-definePageMeta({
-  documentDriven: false
-})
 useHead({
   title: 'Case Study / GovOS Design System'
 })

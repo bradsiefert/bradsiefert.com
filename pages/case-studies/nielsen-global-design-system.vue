@@ -25,8 +25,10 @@
 
     <div class="case-study nielsen">
       <div class="container wide-contain">
-        <img class="img-fluid mt-xl" src="/portfolio/case-study-gds-cover.webp" alt="Nielsen Global Design System UI Components"/>
-        <figcaption class="mt-md mb-none">Nielsen Global Design System Cover</figcaption>
+        <figure>
+          <img class="img-fluid mt-xl" src="/portfolio/case-study-gds-cover.webp" alt="Nielsen Global Design System UI Components"/>
+          <figcaption class="mt-md mb-none">Nielsen Global Design System Cover</figcaption>
+        </figure>
       </div>
     </div>
 
@@ -61,32 +63,32 @@
 
           <p>GDS includes tokens for UI colors, gradients, reporting colors, font family, font size, font weight, line height, letter spacing, spacing, layout, borders, radii, shadows, and elevation. Our color tokens also have a second semantic naming layer to guard against changes in the future. Those semantic names are neutral, primary, secondary, tertiary, accent, success, danger, warning, and highlight.</p>
 
-          <p>
+          <figure>
             <span class="wide-img">
               <a target="_blank" rel="nofollow" href="/portfolio/case-study-gds-tokens-color.png" class="lightbox-trigger">
                 <img src="/portfolio/case-study-gds-tokens-color.png" alt="Table of color tokens">
               </a>
             </span>
             <figcaption>Table of color tokens</figcaption>
-          </p>
+          </figure>
 
-          <p>
+          <figure>
             <span class="wide-img">
               <a target="_blank" rel="nofollow" href="/portfolio/case-study-gds-tokens-ui.png" class="lightbox-trigger">
                 <img src="/portfolio/case-study-gds-tokens-ui.png" alt="Tables of typography and spacing tokens">
               </a>
             </span>
             <figcaption>Tables of typography and spacing tokens</figcaption>
-          </p>
+          </figure>
 
-          <p>
+          <figure>
             <span class="wide-img">
               <a target="_blank" rel="nofollow" href="/portfolio/case-study-gds-tokens-shadows.png" class="lightbox-trigger">
                 <img src="/portfolio/case-study-gds-tokens-shadows.png" alt="Shadow tokens guidance and documentation">
               </a>
             </span>
             <figcaption>Shadow tokens guidance and documentation</figcaption>
-          </p>
+          </figure>
 
           <hr>
 
@@ -97,23 +99,23 @@
 
           <p>GDS has nine colors: gray, blurple, aqua, eggplant, blue, green, red, orange, and yellow and 11 steps for each color. Including the colors white and black gives us a total of 101 interface colors. These colors are used throughout every part of Nielsen applications. The lone exception is reporting colors. I created a separate set of reporting colors to be used in data visualizations.</p>
 
-          <p>
+          <figure>
             <span class="wide-img">
               <a target="_blank" rel="nofollow" href="/portfolio/case-study-gds-color-lightmode.png" class="lightbox-trigger">
                 <img src="/portfolio/case-study-gds-color-lightmode.png" alt="GDS core colors on light mode">
               </a>
             </span>
             <figcaption>GDS core colors on light mode</figcaption>
-          </p>
+          </figure>
 
-          <p>
+          <figure>
             <span class="wide-img">
               <a target="_blank" rel="nofollow" href="/portfolio/case-study-gds-color-darkmode.png" class="lightbox-trigger">
                 <img src="/portfolio/case-study-gds-color-darkmode.png" alt="GDS core colors on dark mode">
               </a>
             </span>
             <figcaption>GDS core colors on dark mode</figcaption>
-          </p>
+          </figure>
 
           <p class="micro text-secondary">For more information, visit the <a href="https://nielsendesignsystem.com/foundations/color/" target="_new">Color page</a> on GDS.</p>
 
@@ -122,26 +124,26 @@
           <h3>Typography</h3>
           <p>During the 2021 Nielsen rebrand, I helped convince the organization to choose Inter as the typeface for Nielsen's identity and products. Inter has excellent support for many Cyrillic, Greek, and Latin languages and will be used in all languages it supports. If Inter doesn't support a language, the fall back is Google's Noto Sans. Noto Sans has the most comprehensive language support of any typeface ever created. This makes it an excellent fallback for Nielsen products across the world.</p>
 
-          <p>
+          <figure>
             <span class="wide-img">
               <a target="_blank" rel="nofollow" href="/portfolio/case-study-gds-type-scale.png" class="lightbox-trigger">
                 <img src="/portfolio/case-study-gds-type-scale.png" alt="Typescale sizing with examples">
               </a>
             </span>
             <figcaption>Typescale sizing with examples</figcaption>
-          </p>
+          </figure>
 
           <h4>Type Features</h4>
           <p>I created an 11-step type scale to give our designers ample options for building interfaces. Our base size is <code>-size-500</code>, which is <code>16px</code>. These variety of sizes is not tied to specific headings. This something I see commonly and I find too inflexible. I prefer the typography scale be divorced from semantic headings so that pages can be more creative with how they use typography.</p>
 
-          <p>
+          <figure>
             <span class="wide-img">
               <a target="_blank" rel="nofollow" href="/portfolio/case-study-gds-type-weight-opentype.png" class="lightbox-trigger">
                 <img src="/portfolio/case-study-gds-type-weight-opentype.png" alt="Typography examples and OpenType feature showcase">
               </a>
             </span>
             <figcaption>Typography examples and OpenType feature showcase</figcaption>
-          </p>
+          </figure>
 
           <p>GDS has three font weights, Regular, Semibold, and Bold to help provide appropriate contrast between text. In the future I'd like to explore using the Variable Font version of Inter. It opens up a variety of possibilities for providing subtle font weight differences.</p>
 
@@ -163,23 +165,23 @@
             <li>Supporting assistive technologies like screen readers and voice over</li>
           </ul>
 
-          <p>
+          <figure>
             <span class="wide-img">
               <a target="_blank" rel="nofollow" href="/portfolio/case-study-gds-accessiblity-uistates.png" class="lightbox-trigger">
                 <img src="/portfolio/case-study-gds-accessiblity-uistates.png" alt="Examples of common UI states in GDS">
               </a>
             </span>
             <figcaption>Examples of common UI states in GDS</figcaption>
-          </p>
+          </figure>
 
-          <p>
+          <figure>
             <span class="wide-img">
               <a target="_blank" rel="nofollow" href="/portfolio/case-study-gds-accessiblity-contrast.png" class="lightbox-trigger">
                 <img src="/portfolio/case-study-gds-accessiblity-contrast.png" alt="Documentation about color contrast in GDS">
               </a>
             </span>
             <figcaption>Documentation about color contrast in GDS</figcaption>
-          </p>
+          </figure>
 
           <p>I took these accessibility considerations very seriously in my work on GDS. Every text and UI element was checked to be sure they had proper contrast ratios (3:1 for UI elements, 4.5:1 for text). I helped write documentation to encourage proper page structure for headings and other semantic elements. And I updated our components to provide proper input guidance for minimum target sizing, dragging movements, and error prevention for modifying data.</p>
 
@@ -201,41 +203,41 @@
 
           <p>I start by building the core components possible. And when needed, layer them together to create larger components. Getting the core right is so important. The choices made for the core components cascade throughout the system. Thoughtfully anticipating issues and addressing them early enables the system to scale smoothly.</p>
 
-          <p>
+          <figure>
             <span class="wide-img">
               <a target="_blank" rel="nofollow" href="/portfolio/case-study-gds-components-formlabel.png" class="lightbox-trigger">
                 <img src="/portfolio/case-study-gds-components-formlabel.png" alt="Form Label component variants in light and dark mode">
               </a>
             </span>
             <figcaption>Form Label component variants in light and dark mode</figcaption>
-          </p>
+          </figure>
 
-          <p>
+          <figure>
             <span class="wide-img">
               <a target="_blank" rel="nofollow" href="/portfolio/case-study-gds-components-input.png" class="lightbox-trigger">
                 <img src="/portfolio/case-study-gds-components-input.png" alt="Input component variants">
               </a>
             </span>
             <figcaption>Input component variants</figcaption>
-          </p>
+          </figure>
 
-          <p>
+          <figure>
             <span class="wide-img">
               <a target="_blank" rel="nofollow" href="/portfolio/case-study-gds-components-icons.png" class="lightbox-trigger">
                 <img src="/portfolio/case-study-gds-components-icons.png" alt="Icon wrapper variants in light and dark mode">
               </a>
             </span>
             <figcaption>Icon wrapper variants in light and dark mode</figcaption>
-          </p>
+          </figure>
 
-          <p>
+          <figure>
             <span class="wide-img">
               <a target="_blank" rel="nofollow" href="/portfolio/case-study-gds-components-messages.png" class="lightbox-trigger">
                 <img src="/portfolio/case-study-gds-components-messages.png" alt="Content options for the Dialog component">
               </a>
             </span>
             <figcaption>Content options for the Dialog component</figcaption>
-          </p>
+          </figure>
 
           <p class="micro text-secondary">For more information, visit the <a href="https://nielsendesignsystem.com/components/" target="_new">Components page</a> on GDS.</p>
 
@@ -250,32 +252,32 @@
 
           <p>I think design system documentation can be a great way to teach younger designers the foundations of design. Because of this, I wrote with as few assumptions as possible. I tried to explain the concepts of design (eg: typography, grid system, component properties, etc.) succinctly, but thoroughly so folks with less design experience would understand.</p>
 
-          <p>
+          <figure>
             <span class="wide-img">
               <a target="_blank" rel="nofollow" href="/portfolio/case-study-gds-documentation-actionicon.png" class="lightbox-trigger">
                 <img src="/portfolio/case-study-gds-documentation-actionicon.png" alt="User Flow documentation for the Action Icon component">
               </a>
             </span>
             <figcaption>User Flow documentation for the Action Icon component</figcaption>
-          </p>
+          </figure>
 
-          <p>
+          <figure>
             <span class="wide-img">
               <a target="_blank" rel="nofollow" href="/portfolio/case-study-gds-documentation-multimenu.png" class="lightbox-trigger">
                 <img src="/portfolio/case-study-gds-documentation-multimenu.png" alt="User Flow documentation for a multi-select menu">
               </a>
             </span>
             <figcaption>User Flow documentation for a multi-select menu</figcaption>
-          </p>
+          </figure>
 
-          <p>
+          <figure>
             <span class="wide-img">
               <a target="_blank" rel="nofollow" href="/portfolio/case-study-gds-documentation-buttons.png" class="lightbox-trigger">
                 <img src="/portfolio/case-study-gds-documentation-buttons.png" alt="Button content and usage guidelines">
               </a>
             </span>
             <figcaption>Button content and usage guidelines</figcaption>
-          </p>
+          </figure>
 
           <div class="divider mt-5"></div>
         </div>
@@ -286,9 +288,6 @@
 </template>
 
 <script setup>
-definePageMeta({
-  documentDriven: false
-})
 useHead({
   title: 'Case Study / Nielsen Global Design System'
 })
