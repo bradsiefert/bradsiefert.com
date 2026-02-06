@@ -674,6 +674,87 @@ header {
   margin-bottom: 1rem;
 }
 
+/* Wave emoji animation */
+.wave-emoji {
+  display: inline-block;
+  transform-origin: 64% 64%;
+  animation: wave-a 0.76s ease-out;
+}
+
+body[dark-mode] .wave-emoji {
+  animation: wave-b 0.76s ease-out;
+}
+
+@keyframes wave-a {
+  0%   { transform: rotate(0deg); }
+  15%  { transform: rotate(12deg); }
+  30%  { transform: rotate(-8deg); }
+  45%  { transform: rotate(12deg); }
+  60%  { transform: rotate(-4deg); }
+  75%  { transform: rotate(10deg); }
+  100% { transform: rotate(0deg); }
+}
+
+@keyframes wave-b {
+  0%   { transform: rotate(0deg); }
+  15%  { transform: rotate(12deg); }
+  30%  { transform: rotate(-8deg); }
+  45%  { transform: rotate(12deg); }
+  60%  { transform: rotate(-4deg); }
+  75%  { transform: rotate(10deg); }
+  100% { transform: rotate(0deg); }
+}
+
+/* Hero highlighter effect */
+.gradient-highlight {
+  position: relative;
+  z-index: 1;
+
+  &::before {
+    content: '';
+    position: absolute;
+    pointer-events: none;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    opacity: 0.4;
+    background: linear-gradient(to right, var(--color-highlight-300), var(--color-highlight-100));
+    mix-blend-mode: hard-light;
+    border-radius: var(--border-radius-xs);
+  }
+
+  &.angle-one {
+    &::before {
+      left: 0.125rem;
+      right: 0.125rem;
+      transform: rotate(0.3333deg);
+    }
+  }
+
+  &.angle-two {
+    &::before {
+      left: -0.25rem;
+      right: -0.25rem;
+      transform: rotate(-0.9deg);
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .gradient-highlight.angle-one {
+    &::before {
+      display: none !important;
+    }
+  }
+}
+
+body[dark-mode] .gradient-highlight {
+  &::before {
+    opacity: 0.4;
+    background: linear-gradient(to right, var(--color-warning-800), var(--color-warning-900));
+  }
+}
+
 @media (max-width: 768px) {
   .hero {
     padding: 32px 32px 80px;
@@ -694,11 +775,11 @@ header {
 }
 
 .case-study.nielsen {
+  border-top: none;
   background-color: var(--nielsen-primary-100);
 }
 
 /* Page Transitions */
-
 /* Ensure transition wrapper displays content properly */
 main > div {
   position: relative;
