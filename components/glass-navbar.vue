@@ -1,5 +1,5 @@
 <script setup>
-  import { PhSwatches, PhImages, PhTextAlignLeft, PhUserCircle } from "@phosphor-icons/vue";
+  import { PhBriefcase, PhImages, PhTextAlignLeft, PhUserCircle, PhGameController } from "@phosphor-icons/vue";
 </script>
 
 <template>
@@ -15,9 +15,14 @@
         <ul class="d-flex gap-3xs list-unstyled mb-0 align-items-center">
           <li class="nav-link">
             <NuxtLink to="/portfolio" class="glass-content__link d-flex align-items-center gap-2xs">
-              <PhSwatches :size="24" /> Portfolio
+              <PhBriefcase :size="24" /> Portfolio
             </NuxtLink>
           </li>
+          <!-- <li class="nav-link">
+            <NuxtLink to="https://playground.bradsiefert.com" target="_blank" class="glass-content__link d-flex align-items-center gap-2xs">
+              <PhGameController :size="24" /> Playground ↗
+            </NuxtLink>
+          </li> -->
           <li class="nav-link">
             <NuxtLink href="https://photos.bradsiefert.com" target="_blank" class="glass-content__link d-flex align-items-center gap-2xs">
               <PhImages :size="24" /> Photos ↗
@@ -113,24 +118,15 @@
   border-radius: 12px;
 }
 
-.navbar-glass .btn {
-  font-size: var(--font-size-lg);
-  letter-spacing: var(--letter-spacing-lg); 
-  line-height: var(--line-heights-lg);
-  font-weight: var(--font-weights-regular);
-  transition: background-color 0.3s ease;
-  border: none;
-  padding: 8px;
-}
-
 .navbar-glass a, 
 .navbar-glass .btn {
   padding: 8px;
   transition: background-color 0.3s ease;
   text-decoration: none;
+  border: none;
   border-radius: 6px;
   font-size: var(--font-size-lg);
-  letter-spacing: var(--letter-spacing-lg); 
+  letter-spacing: -0.1px; 
   line-height: var(--line-heights-lg);
   font-weight: var(--font-weights-regular);
 }
@@ -138,7 +134,7 @@
 .navbar-glass a:hover,
 .navbar-glass .btn:hover,
 .navbar-glass .btn:active {
-  background-color: var(--color-neutral-300-alpha);
+  background-color: var(--color-neutral-200-alpha);
   border-radius: 6px;
 }
 
