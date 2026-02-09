@@ -47,33 +47,6 @@
   --letter-spacing-6xl: -0.025px !important;
 }
 
-/* Dark Mode Transitions */
-body,
-body a,
-body footer,
-body .navbar-glass,
-body .navbar-glass .btn,
-body .glass-inner,
-body .glass-overlay,
-body .glass-specular,
-body .breadcrumb,
-body .divider,
-body .blog-card,
-body blockquote,
-body pre,
-body .btn-outline-dark,
-body .case-study,
-body hr,
-body code,
-body .text-primary,
-body figcaption {
-  transition: 
-    background-color 0.3s ease,
-    color 0.3s ease,
-    border-color 0.3s ease,
-    box-shadow 0.3s ease;
-}
-
 /* All this is to make the footer sticky to the bottom. */
 html, body, #__nuxt { min-height: 100vh; }
 body, #__nuxt { display: flex; flex-direction: column; }
@@ -679,10 +652,12 @@ header {
   display: inline-block;
   transform-origin: 64% 64%;
   animation: wave-a 0.76s ease-out;
+  animation-delay: 360ms;
 }
 
 body[dark-mode] .wave-emoji {
   animation: wave-b 0.76s ease-out;
+  animation-delay: 360ms;
 }
 
 @keyframes wave-a {
@@ -778,7 +753,6 @@ body[dark-mode] .gradient-highlight {
   border-top: none;
   background-color: var(--nielsen-primary-100);
 }
-
 /* Page Transitions */
 /* Ensure transition wrapper displays content properly */
 main > div {
