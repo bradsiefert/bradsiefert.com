@@ -51,6 +51,12 @@ const getVariantForTag = (tag: string): 'neutral' | 'primary' | 'highlight' => {
           </template>
           <div class="blog-content">
             <div class="blog-meta">
+              <time 
+                class="blog-date" 
+                :datetime="blog.date"
+              >
+                {{ blog.date }}
+              </time>
               <div class="blog-badges">
                 <Badge 
                   v-for="tag in blog.tags" 
@@ -59,12 +65,6 @@ const getVariantForTag = (tag: string): 'neutral' | 'primary' | 'highlight' => {
                   :variant="getVariantForTag(tag)"
                 />
               </div>
-              <time 
-                class="blog-date" 
-                :datetime="blog.date"
-              >
-                {{ blog.date }}
-              </time>
             </div>
             <NuxtLink :to="blog.path" class="text-decoration-none">
               <h2 class="blog-title">

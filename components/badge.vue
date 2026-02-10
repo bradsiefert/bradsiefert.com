@@ -1,5 +1,6 @@
+<!-- <div class="badge" :class="`badge-${variant}`"> Update to this to have have colorful badges. -->
 <template>
-  <div class="badge" :class="`badge-${variant}`">
+  <div class="badge badge-neutral">
     {{ label }}
   </div>
 </template>
@@ -23,11 +24,11 @@ const props = withDefaults(defineProps<Props>(), {
   align-items: center;
   justify-content: center;
   font-family: var(--font-families-default);
-  font-size: var(--font-size-2xs);
+  font-size: var(--font-size-3xs);
   font-weight: var(--font-weights-semibold);
-  line-height: var(--line-heights-2xs);
+  line-height: var(--line-heights-3xs);
   color: var(--color-neutral-darkest);
-  letter-spacing: var(--letter-spacing-2xs);
+  letter-spacing: var(--letter-spacing-3xs);
   white-space: nowrap;
 }
 
@@ -40,7 +41,7 @@ const props = withDefaults(defineProps<Props>(), {
 }
 
 .badge-highlight {
-  background-color: var(--color-highlight-200);
+  background-color: var(--color-highlight-100);
 }
 
 body[dark-mode] {
@@ -69,7 +70,7 @@ body[dark-mode] {
 
   .badge-highlight {
     color: var(--color-highlight-100);
-    background-color: var(--color-highlight-800);
+    background-color: var(--color-highlight-900);
   }
 }
 </style>
