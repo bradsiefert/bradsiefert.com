@@ -51,7 +51,7 @@
                 <img src="/portfolio/case-study-govos-legacy-applications.webp" alt="Screenshots of various GovOS products before the design system I created">
               </a>
             </span>
-            <figcaption>Various GovOS products pre-design system</figcaption>
+            <figcaption class="mt-0">Various GovOS products pre-design system</figcaption>
           </figure>
 
           <p>The absence of a design system limited the ability to expand products with new features, slowing down development, and creating more and more technical debt. It even effected our sales team because our products were so disconnected from each other it was difficult to say our applications were a real suite of products.</p>
@@ -122,7 +122,7 @@
                 <img src="/portfolio/case-study-govos-apps-cdor.webp" alt="">
               </a>
             </span>
-            <figcaption>GovOS's Tax and Licensing product for states and counties built with the new design system</figcaption>
+            <figcaption class="mt-0">GovOS's Tax and Licensing product for states and counties built with the new design system</figcaption>
           </figure>
           <figure>
             <span class="ultrawide-img">
@@ -130,7 +130,7 @@
                 <img src="/portfolio/case-study-govos-apps-search.webp" alt="">
               </a>
             </span>
-            <figcaption>GovOS's Record Search product using the new design system</figcaption>
+            <figcaption class="mt-0">GovOS's Record Search product using the new design system</figcaption>
           </figure>
           <figure>
             <span class="ultrawide-img">
@@ -138,7 +138,7 @@
                 <img src="/portfolio/case-study-govos-apps-platform.webp" alt="">
               </a>
             </span>
-            <figcaption>Example of GovOS platform components</figcaption>
+            <figcaption class="mt-0">Example of GovOS platform components</figcaption>
           </figure>
 
           <div class="divider mt-5"></div>

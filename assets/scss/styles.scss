@@ -612,12 +612,16 @@ figcaption {
 
 @media (min-width: 1440px) {
   .portfolio-post p:has(span.wide-img > img),
-  .portfolio-post p:has(span.wide-img > a > img) {
+  .portfolio-post p:has(span.wide-img > a > img),
+  .portfolio-post figure:has(span.wide-img > img),
+  .portfolio-post figure:has(span.wide-img > a > img) {
     margin: 0 -64px 1rem;
   }
 
   .portfolio-post p:has(span.ultrawide-img > img),
-  .portfolio-post p:has(span.ultrawide-img > a > img) {
+  .portfolio-post p:has(span.ultrawide-img > a > img),
+  .portfolio-post figure:has(span.ultrawide-img > img),
+  .portfolio-post figure:has(span.ultrawide-img > a > img) {
     margin: 0 -320px 1rem;
   }
 }
