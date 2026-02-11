@@ -580,7 +580,7 @@ figcaption {
 
 .portfolio-post img,
 .portfolio-img {
-  margin: 0.5rem 0 1rem;
+  margin: 0.5rem 0 0.75rem;
   border: 1px solid var(--color-neutral-300);
   max-width: 100%;
   border-radius: .5rem;
@@ -757,6 +757,12 @@ body[dark-mode] .gradient-highlight {
   border-top: none;
   background-color: var(--nielsen-primary-100);
 }
+
+.case-study.neutral {
+  border-top: none;
+  background-color: var(--color-neutral-100);
+}
+
 /* Page Transitions */
 /* Ensure transition wrapper displays content properly */
 main > div {

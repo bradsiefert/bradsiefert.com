@@ -181,6 +181,11 @@ body[dark-mode] {
     background-color: var(--color-neutral-1000);
   }
 
+  .case-study.neutral {
+    border-top: none;
+    background-color: var(--color-neutral-1000);
+  }
+
   img.govos-components {
     content: url('../images/govos-design-system-casestudy-dark.webp');
   }
