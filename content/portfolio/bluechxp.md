@@ -3,7 +3,7 @@ category: Portfolio
 title: "BLUECHXP App"
 date: 2025-06-10
 head.image: '/portfolio/portfolio-bluechxp.jpg'
-draft: true
+draft: false
 layout: portfolio-post
 ---
 

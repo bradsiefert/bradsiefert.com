@@ -3,7 +3,7 @@ category: Portfolio
 title: "photos.bradsiefert.com"
 date: 2026-02-10
 head.image: '/blog/blog-photos.bradsiefert.com2.webp'
-draft: false
+draft: true
 layout: portfolio-post
 ---
 
