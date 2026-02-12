@@ -25,7 +25,7 @@ import { PhLink } from "@phosphor-icons/vue";
     </div>
   </div>
 
-  <!-- <div class="case-study neutral">
+  <!-- <div class="case-study neutral" style="border-top: none;">
     <div class="container wide-contain">
       <h2 class="mb-lg lh-xs">
         <span class="fs-xl-regular">Case Study / </span>
@@ -38,7 +38,7 @@ import { PhLink } from "@phosphor-icons/vue";
     </div>
   </div> -->
 
-  <div class="case-study nielsen">
+  <div class="case-study nielsen" style="border-top: none;">
     <div class="container wide-contain">
       <h2 class="mb-lg lh-xs">
         <span class="fs-xl-regular">Case Study / </span>
@@ -53,7 +53,7 @@ import { PhLink } from "@phosphor-icons/vue";
     </div>
   </div>
 
-  <!-- <div class="case-study neutral">
+  <!-- <div class="case-study neutral" style="border-top: none;">
     <div class="container wide-contain">
       <h2 class="mb-lg lh-xs">
         <span class="fs-xl-regular">Case Study / </span>

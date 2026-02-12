@@ -16,7 +16,7 @@
             <p class="mt-xl">
               <a href="https://nielsendesignsystem.netlify.app" target="_new" class="btn btn-primary btn-lg btn-nielsen-primary mb-xs">Nielsen Design System Site ↗</a>
             </p>
-            <hr>
+            <hr class="mb-3xl">
           </div>
         </div>
       </div>
