@@ -47,7 +47,7 @@
           </div>
           <a target="_blank" class="btn btn-outline-dark" href="files/Brad-Siefert-Resume.pdf">
             Download Resume&nbsp;&nbsp;↓
-            </a>
+          </a>
         </div>
       </div>
 
