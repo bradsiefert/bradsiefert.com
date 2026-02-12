@@ -63,7 +63,7 @@ main { flex: 1 0 auto; }
 html {
   scroll-behavior: smooth;
   background-color: var(--color-neutral-300);
-  // border-top: 1px solid var(--color-neutral-300); // Removed until I can figure out the darkmode html issue.
+  overscroll-behavior-y: none;
 }
 
 body {
@@ -83,12 +83,22 @@ body {
 }
 
 a {
+  position: static;
+  top: 0;
   color: var(--color-neutral-darkest);
 }
 
 a:active {
   position: relative;
   top: 2px;
+  transition: top 96ms ease-in-out;
+}
+
+.navbar-glass a:active, .btn:active {
+  position: static;
+  top: 0;
+  transform: scale(0.96);
+  transition: transform 100ms ease-in-out;
 }
 
 b, strong {
@@ -543,7 +553,7 @@ img.blog-image {
 
 figcaption {
   font-size: .9125rem;
-  color: #727272;
+  color: var(--color-neutral-700);
   text-align: center;
   margin-top: -1rem;
   margin-bottom: 2rem;
@@ -754,12 +764,10 @@ body[dark-mode] .gradient-highlight {
 }
 
 .case-study.nielsen {
-  border-top: none;
   background-color: var(--nielsen-primary-100);
 }
 
 .case-study.neutral {
-  border-top: none;
   background-color: var(--color-neutral-100);
 }
 

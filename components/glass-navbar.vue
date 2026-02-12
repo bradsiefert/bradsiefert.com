@@ -121,7 +121,6 @@
 .navbar-glass a, 
 .navbar-glass .btn {
   padding: 8px;
-  transition: background-color 0.3s ease;
   text-decoration: none;
   border: none;
   border-radius: 6px;
@@ -136,6 +135,7 @@
 .navbar-glass .btn:active {
   background-color: var(--color-neutral-200-alpha);
   border-radius: 6px;
+  transition: background-color 400ms ease-in-out;
 }
 
 .navbar-glass .title {
