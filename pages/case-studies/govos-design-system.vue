@@ -1,6 +1,6 @@
 <template>
   <article>
-    <div class="container skinny-contain portfolio-post">
+    <div class="container skinny-contain portfolio-post" id="overview">
       <div class="row">
         <div class="col-lg-12">
           <div class="breadcrumb gap-xs">
@@ -102,7 +102,7 @@
                 <img src="/portfolio/case-study-govos-colors-inverted.webp" alt="">
               </a>
             </span>
-            <figcaption class="mt-0">GovOS's colors inverted</figcaption>
+            <figcaption class="mt-0">GovOS's primary color inverted to show light/dark mode support</figcaption>
           </figure>
           <figure>
             <span class="wide-img">
@@ -160,7 +160,7 @@
           </figure>
           <hr>
 
-          <h2>Documentation for Everyone</h2>
+          <h2>Documentation for All</h2>
           <p>Documentation is the differentiator between a system that is used and a system that is ignored. I spend a huge amount of time writing and creating design documentation for the system. Above all, I want the system to be easy to use and understand for both designers and developers. Writing plain written and clear documentation and creating assets to explain the documentation, makes that a reality.</p>
             
           <p>Content writing seems like such a straightforward task, but anyone who has tried it will tell you it's incredibly difficult. It requires a deep understanding of design principles and engineering best practices and the ability to write in a way that is both precise and concise. I never considered a component or pattern done until the design and development documentation was written. Without great docs, there's no chance it'll be used right.</p>
@@ -228,6 +228,7 @@
 </template>
 
 <script setup>
+definePageMeta({ layout: 'case-study' })
 useHead({
   title: 'Case Study / GovOS Design System'
 })

@@ -1,6 +1,6 @@
 <template>
   <article>
-    <div class="container skinny-contain portfolio-post">
+    <div class="container skinny-contain portfolio-post" id="overview">
       <div class="row">
         <div class="col-lg-12">
           <div class="breadcrumb gap-xs">
@@ -288,6 +288,7 @@
 
 <script setup>
 definePageMeta({
+  layout: 'case-study',
   documentDriven: false
 })
 useHead({
