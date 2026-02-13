@@ -66,6 +66,11 @@ html {
   overscroll-behavior-y: none;
 }
 
+/* Offset scroll position when jumping to TOC anchors */
+.toc-scroll-target, #overview {
+  scroll-margin-top: 112px;
+}
+
 body {
   background-color: var(--color-neutral-lightest);
   color: var(--color-neutral-darkest);
@@ -426,6 +431,94 @@ pre {
   background-color: var(--color-neutral-200) !important;
   color: var(--color-neutral-darkest) !important;
   border: 1px solid var(--color-neutral-500) !important;
+}
+
+/* ---------- Glass panel --------- */
+.glass-inner {
+  background: transparent;
+  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.16);
+  border: 1px solid var(--color-neutral-400-alpha);
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 2.2);
+  border-radius: 12px;
+  padding: 0;
+}
+
+.glass-filter,
+.glass-overlay,
+.glass-specular {
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  padding: 0;
+}
+
+.glass-filter {
+  z-index: 0;
+  backdrop-filter: blur(4px);
+  filter: url(#lensFilter) saturate(111%) brightness(1.08);
+}
+
+.glass-overlay {
+  z-index: 1;
+  background: rgba(255, 255, 255, 0.48);
+}
+
+.glass-specular {
+  z-index: 2;
+  border: 1px solid var(--color-neutral-300-alpha);
+  box-shadow:
+    inset 1px 1px 0 rgba(255, 255, 255, 0.8),
+    inset 0 0 5px rgba(255, 255, 255, 0.8);
+}
+
+header .glass-outer {
+  position: fixed;
+  top: 32px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000;
+  min-width: 768px;
+  min-height: 56px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+header .glass-content {
+  position: relative;
+  z-index: 3;
+  padding: 0;
+}
+
+.case-study-toc .glass-outer {
+  position: fixed;
+  right: 48px;
+  bottom: 48px;
+  z-index: 999;
+}
+
+@media (max-width: 768px) {
+  header .glass-outer {
+    top: 24px;
+    width: calc(100% - 32px) !important;
+  }
+
+  header .glass-outer,
+  header .glass-inner {
+    width: 100%;
+    min-width: 0;
+    font-size: 16px !important;
+    line-height: 24px !important;
+  }
+}
+
+@media (max-width: 512px) {
+  header .glass-outer,
+  header .glass-inner {
+    width: 100%;
+    min-width: 0;
+    font-size: 16px !important;
+    line-height: 24px !important;
+  }
 }
 
 /* Breadcrumbs */
