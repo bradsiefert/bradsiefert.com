@@ -149,6 +149,7 @@
 @media (max-width: 768px) {
   .glass-outer {
     top: 24px;
+    width: calc(100% - 32px) !important;
   }
 
   .navbar-glass, .glass-outer, .glass-inner {

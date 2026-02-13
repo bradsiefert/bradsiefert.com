@@ -2,7 +2,7 @@
   <button 
     @click="handleClick" 
     aria-label="Toggle Darkmode" 
-    class="btn d-flex align-items-center gap-2xs" 
+    class="btn d-flex gap-2xs justify-content-center" 
     title="Toggle Darkmode"
   >
     <slot :dark="isDarkMode" />
@@ -10,13 +10,13 @@
     <!-- Dark Mode State -->
     <template v-if="!isDarkMode">
       <PhMoon :size="24" />
-      <span class="d-none d-sm-block">Dark Mode</span>
+      <span class="d-none d-md-block">Dark Mode</span>
     </template>
     
     <!-- Light Mode State -->
     <template v-else>
       <PhSun :size="24" />
-      <span class="d-none d-sm-block">Light Mode</span>
+      <span class="d-none d-md-block">Light Mode</span>
     </template>
   </button>
 </template>
@@ -66,6 +66,12 @@ const handleClick = () => toggleDarkMode()
 </script>
 
 <style>
+@media (min-width: 768px) {
+  .navbar-glass .btn {
+    min-width: 128px;
+  }
+}
+
 @media (max-width: 768px) {
   .navbar-glass .btn {
     font-size: 16px !important;
