@@ -11,7 +11,7 @@
           <div class="pt-md">
             <div class="my-sm fs-lg-semibold text-uppercase">Case Study</div>
             <h1>GovOS Design System</h1>
-            <p>In 2021, I joined GovOS as the company's first in-house designer. They'd pieced design together for years through contractors and had no centralized visual design or design system. I was tasked to build a complete design system from scratch. I build foundations like color scale and typescale, 30+ components, and managed building the system in React.</p>
+            <p>In 2021, I joined GovOS as the company's first in-house designer. For years they'd pieced design together through contractors and had no visual design ethos or design system. I was tasked to build a complete design system from scratch. I created foundations like the color scale and type scale, made 30+ components, and managed building the system in React.</p>
 
             <p class="lead">I chose to work in govtech because I believe goverments should provide excellent services to its citizens. Building this system was an opportunity to improve how millions of people interact with essential public services.</p>
 
