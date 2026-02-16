@@ -1,7 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   compatibilityDate: '2026-02-11',
-  devtools: { enabled: false },
+  devtools: { enabled: true },
   srcDir: '.',
   dir: {
     app: 'app',
@@ -20,7 +20,7 @@ export default defineNuxtConfig({
       duration: 200
     }
   },
-  modules: ['@nuxt/content'],
+  modules: ['@nuxt/content', '@nuxt/a11y'],
   content: {
     // documentDriven removed in v3 - using catch-all routes instead
     renderer: {
