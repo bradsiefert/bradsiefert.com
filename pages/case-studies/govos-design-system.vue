@@ -51,7 +51,7 @@
           
           <figure>
             <span class="ultrawide-img">
-              <a target="_blank" rel="nofollow" href="/portfolio/case-study-govos-legacy-applications.webp">
+              <a target="_blank" rel="nofollow" href="/portfolio/case-study-govos-legacy-applications.webp" aria-label="View full size: Various GovOS products pre-design system">
                 <img src="/portfolio/case-study-govos-legacy-applications.webp" alt="Screenshots of various GovOS products before the design system I created">
               </a>
             </span>
@@ -74,40 +74,40 @@
           </ul>
           <figure>
             <span class="wide-img">
-              <a target="_blank" rel="nofollow" href="/portfolio/case-study-govos-color-palette.webp">
-                <img src="/portfolio/case-study-govos-color-palette.webp" alt="">
+              <a target="_blank" rel="nofollow" href="/portfolio/case-study-govos-color-palette.webp" aria-label="View full size: GovOS color scale and color roles">
+                <img src="/portfolio/case-study-govos-color-palette.webp" alt="GovOS color scale and color roles">
               </a>
             </span>
             <figcaption class="mt-0">GovOS's color scale and color roles</figcaption>
           </figure>
           <figure>
             <span class="wide-img">
-              <a target="_blank" rel="nofollow" href="/portfolio/case-study-govos-typography-fontfamily.webp">
-                <img src="/portfolio/case-study-govos-typography-fontfamily.webp" alt="">
+              <a target="_blank" rel="nofollow" href="/portfolio/case-study-govos-typography-fontfamily.webp" aria-label="View full size: GovOS typography font family, Source Sans 3 in three weights">
+                <img src="/portfolio/case-study-govos-typography-fontfamily.webp" alt="GovOS typography font family, Source Sans 3 in three weights">
               </a>
             </span>
             <figcaption class="mt-0">GovOS's typography font family, Source Sans 3 in three weights, 480, 600, and 720</figcaption>
           </figure>
           <figure>
             <span class="wide-img">
-              <a target="_blank" rel="nofollow" href="/portfolio/case-study-govos-typography-fontweight.webp">
-                <img src="/portfolio/case-study-govos-typography-fontweight.webp" alt="">
+              <a target="_blank" rel="nofollow" href="/portfolio/case-study-govos-typography-fontweight.webp" aria-label="View full size: GovOS typography scale, 12 steps">
+                <img src="/portfolio/case-study-govos-typography-fontweight.webp" alt="GovOS typography scale, 12 steps from 3xs to 6xl">
               </a>
             </span>
             <figcaption class="mt-0">GovOS's typography scale, 12 steps from 3xs to 6xl</figcaption>
           </figure>
           <figure>
             <span class="wide-img">
-              <a target="_blank" rel="nofollow" href="/portfolio/case-study-govos-colors-inverted.webp">
-                <img src="/portfolio/case-study-govos-colors-inverted.webp" alt="">
+              <a target="_blank" rel="nofollow" href="/portfolio/case-study-govos-colors-inverted.webp" aria-label="View full size: GovOS primary color inverted for light and dark mode">
+                <img src="/portfolio/case-study-govos-colors-inverted.webp" alt="GovOS primary color inverted to show light and dark mode support">
               </a>
             </span>
             <figcaption class="mt-0">GovOS's primary color inverted to show light/dark mode support</figcaption>
           </figure>
           <figure>
             <span class="wide-img">
-              <a target="_blank" rel="nofollow" href="/portfolio/case-study-govos-colors-darkmode.webp">
-                <img src="/portfolio/case-study-govos-colors-darkmode.webp" alt="">
+              <a target="_blank" rel="nofollow" href="/portfolio/case-study-govos-colors-darkmode.webp" aria-label="View full size: GovOS components in light and dark mode">
+                <img src="/portfolio/case-study-govos-colors-darkmode.webp" alt="GovOS components contrasted in light and dark mode">
               </a>
             </span>
             <figcaption class="mt-0">GovOS's components contrasted in light and dark mode</figcaption>
@@ -120,7 +120,7 @@
           <p>Product alignment is extremely hard to accomplish. It requires auditing, alignment, vision, and buy-in. It's rare that product folks have the time to do this kind of work. They are often required to take a very myopic view that only includes their product. I think design systems are powerful tools for aligning platform-level patterns and my favorite example from my time at GovOS is global navigation.</p>
           <figure>
             <span class="ultrawide-img">
-              <a target="_blank" rel="nofollow" href="/portfolio/case-study-govos-product-navigation-annotations.webp">
+              <a target="_blank" rel="nofollow" href="/portfolio/case-study-govos-product-navigation-annotations.webp" aria-label="View full size: Global navigation with annotations">
                 <img src="/portfolio/case-study-govos-product-navigation-annotations.webp" alt="Screenshot of a global navigation with annotations labeling important sections like platform nativation and application title.">
               </a>
             </span>
@@ -128,7 +128,7 @@
           </figure>
           <figure>
             <span class="ultrawide-img">
-              <a target="_blank" rel="nofollow" href="/portfolio/case-study-govos-product-navigation-sidenav.webp">
+              <a target="_blank" rel="nofollow" href="/portfolio/case-study-govos-product-navigation-sidenav.webp" aria-label="View full size: Sidebar navigation component">
                 <img src="/portfolio/case-study-govos-product-navigation-sidenav.webp" alt="Screenshot of a global navigation header and sidebar navigation with an example flyover panel with links.">
               </a>
             </span>
@@ -136,7 +136,7 @@
           </figure>
           <figure>
             <span class="ultrawide-img">
-              <a target="_blank" rel="nofollow" href="/portfolio/case-study-govos-product-navigation-colormodes.webp">
+              <a target="_blank" rel="nofollow" href="/portfolio/case-study-govos-product-navigation-colormodes.webp" aria-label="View full size: Global navigation in light and dark mode">
                 <img src="/portfolio/case-study-govos-product-navigation-colormodes.webp" alt="Screenshot of two global navigation headers, one in light mode, one in dark mode.">
               </a>
             </span>
@@ -144,7 +144,7 @@
           </figure>
           <figure>
             <span class="ultrawide-img">
-              <a target="_blank" rel="nofollow" href="/portfolio/case-study-govos-product-navigation-mobile.webp">
+              <a target="_blank" rel="nofollow" href="/portfolio/case-study-govos-product-navigation-mobile.webp" aria-label="View full size: Mobile navigation component">
                 <img src="/portfolio/case-study-govos-product-navigation-mobile.webp" alt="Screenshot of how our global navigation component works on mobile screens.">
               </a>
             </span>
@@ -152,8 +152,8 @@
           </figure>
           <figure>
             <span class="ultrawide-img">
-              <a target="_blank" rel="nofollow" href="/portfolio/case-study-govos-product-navigation-beforeafter.webp">
-                <img src="/portfolio/case-study-govos-product-navigation-beforeafter.webp" alt="Screenshot of a global navigation before and after examples of headers pre and post-design system. The post-design system ones look better. 😉">
+              <a target="_blank" rel="nofollow" href="/portfolio/case-study-govos-product-navigation-beforeafter.webp" aria-label="View full size: Pre and post-design system header comparison">
+                <img src="/portfolio/case-study-govos-product-navigation-beforeafter.webp" alt="Screenshot of a global navigation before and after examples of headers pre and post-design system. The post-design system ones look better.">
               </a>
             </span>
             <figcaption class="mt-0">Pre-design system headers vs design system global navigation components build for each product</figcaption>
@@ -166,24 +166,24 @@
           <p>Content writing seems like such a straightforward task, but anyone who has tried it will tell you it's incredibly difficult. It requires a deep understanding of design principles and engineering best practices and the ability to write in a way that is both precise and concise. I never considered a component or pattern done until the design and development documentation was written. Without great docs, there's no chance it'll be used right.</p>
           <figure>
             <span class="wide-img">
-              <a target="_blank" rel="nofollow" href="/portfolio/case-study-govos-docs-dialog.webp">
-                <img src="/portfolio/case-study-govos-docs-dialog.webp" alt="">
+              <a target="_blank" rel="nofollow" href="/portfolio/case-study-govos-docs-dialog.webp" aria-label="View full size: Dialog component documentation">
+                <img src="/portfolio/case-study-govos-docs-dialog.webp" alt="Documentation of the Dialog component">
               </a>
             </span>
             <figcaption class="mt-0">Documentation of the Dialog component. Every component has docs written for designers, developers, PMs, and LLMs.</figcaption>
           </figure>
           <figure>
             <span class="wide-img">
-              <a target="_blank" rel="nofollow" href="/portfolio/case-study-govos-docs-emptystate.webp">
-                <img src="/portfolio/case-study-govos-docs-emptystate.webp" alt="">
+              <a target="_blank" rel="nofollow" href="/portfolio/case-study-govos-docs-emptystate.webp" aria-label="View full size: Empty state documentation">
+                <img src="/portfolio/case-study-govos-docs-emptystate.webp" alt="Documentation including user flows, interaction states, and usage guidance">
               </a>
             </span>
             <figcaption class="mt-0">Documentation isn't just words, it's user flows, interaction states, and usages guidance.</figcaption>
           </figure>
           <figure>
             <span class="wide-img">
-              <a target="_blank" rel="nofollow" href="/portfolio/case-study-govos-docs-menu.webp">
-                <img src="/portfolio/case-study-govos-docs-menu.webp" alt="">
+              <a target="_blank" rel="nofollow" href="/portfolio/case-study-govos-docs-menu.webp" aria-label="View full size: Menu component documentation">
+                <img src="/portfolio/case-study-govos-docs-menu.webp" alt="Menu component documentation with variants">
               </a>
             </span>
             <figcaption class="mt-0">When creating docs I highlight variants to designers and developers to make sure they are aware of all component options.</figcaption>
@@ -197,7 +197,7 @@
           
           <figure>
             <span class="ultrawide-img">
-              <a target="_blank" rel="nofollow" href="/portfolio/case-study-govos-apps-cdor.webp">
+              <a target="_blank" rel="nofollow" href="/portfolio/case-study-govos-apps-cdor.webp" aria-label="View full size: GovOS Tax and Licensing product">
                 <img src="/portfolio/case-study-govos-apps-cdor.webp" alt="Screenshot of two pages in a state tax portal web application.">
               </a>
             </span>
@@ -205,7 +205,7 @@
           </figure>
           <figure>
             <span class="ultrawide-img">
-              <a target="_blank" rel="nofollow" href="/portfolio/case-study-govos-apps-search.webp">
+              <a target="_blank" rel="nofollow" href="/portfolio/case-study-govos-apps-search.webp" aria-label="View full size: GovOS Record Search product">
                 <img src="/portfolio/case-study-govos-apps-search.webp" alt="Screenshot of two pages in a official records search web application.">
               </a>
             </span>
@@ -213,7 +213,7 @@
           </figure>
           <figure>
             <span class="ultrawide-img">
-              <a target="_blank" rel="nofollow" href="/portfolio/case-study-govos-apps-platform.webp">
+              <a target="_blank" rel="nofollow" href="/portfolio/case-study-govos-apps-platform.webp" aria-label="View full size: GovOS platform components">
                 <img src="/portfolio/case-study-govos-apps-platform.webp" alt="Screenshot of two pages in platform components in a web application.">
               </a>
             </span>

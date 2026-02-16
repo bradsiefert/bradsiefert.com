@@ -8,7 +8,7 @@
       <div class="glass-filter"></div>
       <div class="glass-overlay"></div>
       <div class="glass-specular"></div>
-      <nav class="navbar-glass d-flex justify-content-between glass-content">
+      <nav class="navbar-glass d-flex justify-content-between glass-content" aria-label="Main navigation">
         <NuxtLink to="/" class="d-flex align-items-center">
           <span class="title">Brad Siefert</span>
         </NuxtLink>
