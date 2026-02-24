@@ -20,7 +20,7 @@ export default defineNuxtConfig({
       duration: 200
     }
   },
-  modules: ['@nuxt/content', '@nuxt/a11y'],
+  modules: ['@nuxt/content', '@nuxt/a11y', '@nuxt/hints'],
   content: {
     // documentDriven removed in v3 - using catch-all routes instead
     renderer: {
