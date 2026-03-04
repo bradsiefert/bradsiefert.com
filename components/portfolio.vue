@@ -25,7 +25,7 @@ import { PhLink } from "@phosphor-icons/vue";
     </div>
   </div>
 
-  <!-- <div class="case-study neutral" style="border-top: none;">
+  <div class="case-study govos" style="border-top: none;">
     <div class="container wide-contain">
       <h2 class="mb-lg lh-xs">
         <span class="fs-xl-regular">Case Study / </span>
@@ -33,10 +33,10 @@ import { PhLink } from "@phosphor-icons/vue";
         <PhLink :size="16" weight="bold" class="ms-1" />
       </h2>
       <NuxtLink to="/case-studies/colorardo-state-tax-portal">
-        <img class="govos-components img-fluid" style="opacity: 0.1;" src="@/assets/images/govos-design-system-casestudy-light.webp" alt="GovOS Design System UI Components"/>
+        <img class="cdor-screens img-fluid" src="/portfolio/case-study-cdor-cover-light.webp" alt="Screenshots of the Colorado State Tax Portal"/>
       </NuxtLink>
     </div>
-  </div> -->
+  </div>
 
   <div class="case-study nielsen" style="border-top: none;">
     <div class="container wide-contain">
