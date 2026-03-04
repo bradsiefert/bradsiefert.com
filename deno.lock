@@ -13,11 +13,13 @@
       "dependencies": [
         "npm:@kofile/gds-foundations@^1.4.7",
         "npm:@kofile/gds-styles@^1.4.7",
+        "npm:@nuxt/a11y@^1.0.0-alpha.1",
         "npm:@nuxt/content@^3.11.0",
+        "npm:@nuxt/hints@^1.0.0-alpha.6",
         "npm:@phosphor-icons/vue@^2.2.1",
         "npm:better-sqlite3@^12.6.2",
         "npm:bootstrap@^5.3.1",
-        "npm:nuxt@^4.3.0",
+        "npm:nuxt@^4.3.1",
         "npm:sass@^1.66.1"
       ]
     }
