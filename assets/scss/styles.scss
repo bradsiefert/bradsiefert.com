@@ -491,8 +491,8 @@ header .glass-content {
 
 .case-study-toc .glass-outer {
   position: fixed;
-  right: 48px;
-  bottom: 48px;
+  left: 32px;
+  top: 32px;
   z-index: 999;
 }
 
@@ -755,17 +755,15 @@ header {
   margin-bottom: 1rem;
 }
 
-/* Wave emoji animation */
+/* Wave emoji animation - runs first, slightly after page load */
 .wave-emoji {
   display: inline-block;
   transform-origin: 64% 64%;
-  animation: wave-a 0.76s ease-out;
-  animation-delay: 360ms;
+  animation: wave-a 0.76s ease-out 0.35s both;
 }
 
 body[dark-mode] .wave-emoji {
-  animation: wave-b 0.76s ease-out;
-  animation-delay: 360ms;
+  animation: wave-b 0.76s ease-out 0.35s both;
 }
 
 @keyframes wave-a {
@@ -804,13 +802,15 @@ body[dark-mode] .wave-emoji {
     background: linear-gradient(to right, var(--color-highlight-300), var(--color-highlight-100));
     mix-blend-mode: hard-light;
     border-radius: var(--border-radius-xs);
+    transform-origin: left;
+    animation: highlight-reveal 0.65s ease-in-out 1.15s both;
   }
 
   &.angle-one {
     &::before {
       left: 0.125rem;
       right: 0.125rem;
-      transform: rotate(0.3333deg);
+      animation-name: highlight-reveal-angle-one;
     }
   }
 
@@ -818,9 +818,26 @@ body[dark-mode] .wave-emoji {
     &::before {
       left: -0.25rem;
       right: -0.25rem;
-      transform: rotate(-0.9deg);
+      animation-name: highlight-reveal-angle-two;
+      animation-delay: 2.1s;
+      animation-timing-function: ease-in-out;
     }
   }
+}
+
+@keyframes highlight-reveal {
+  0% { transform: scaleX(0); }
+  100% { transform: scaleX(1); }
+}
+
+@keyframes highlight-reveal-angle-one {
+  0% { transform: scaleX(0) rotate(0.3333deg); }
+  100% { transform: scaleX(1) rotate(0.3333deg); }
+}
+
+@keyframes highlight-reveal-angle-two {
+  0% { transform: scaleX(0) rotate(-0.9deg); }
+  100% { transform: scaleX(1) rotate(-0.9deg); }
 }
 
 @media (max-width: 768px) {
