@@ -119,7 +119,7 @@
           </figure>
           <hr>
 
-          <h2>Impact & Learnings</h2>
+          <!-- <h2>Impact & Learnings</h2> -->
 
 
           <div class="divider mt-5"></div>
