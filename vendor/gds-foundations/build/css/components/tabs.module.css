@@ -1,0 +1,81 @@
+.root {
+  display: flex;
+  flex-direction: column;
+}
+
+.list {
+  display: flex;
+  column-gap: var(--spacing-xl);
+  flex-shrink: 0;
+}
+.list[data-border] {
+  border-block-end-color: var(--color-neutral-300);
+  border-block-end-width: var(--border-width-sm);
+  border-block-end-style: solid;
+}
+.list[data-mode="dark"][data-border] {
+  border-color: var(--color-neutral-800);
+}
+.trigger {
+  box-sizing: border-box;
+  background-color: transparent;
+  border-block-end-color: transparent;
+  border-block-end-width: var(--border-width-md);
+  border-block-end-style: solid;
+  padding-block-end: 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-families-default);
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weights-bold);
+  letter-spacing: var(--letter-spacing-lg);
+  line-height: var(--line-heights-lg);
+  height: var(--spacing-2xl);
+  color: var(--color-neutral-darkest);
+}
+.trigger:hover {
+  color: var(--color-primary-700);
+}
+.trigger[data-state="active"] {
+  box-sizing: border-box;
+  color: var(--color-primary-700);
+  border-color: var(--color-primary-700);
+}
+.trigger[data-size="xl"] {
+  font-family: var(--font-families-default);
+  font-size: var(--font-size-2xl);
+  font-weight: var(--font-weights-bold);
+  letter-spacing: var(--letter-spacing-2xl);
+  line-height: var(--line-heights-2xl);
+  height: var(--spacing-3xl);
+}
+.trigger[data-mode="dark"] {
+  color: var(--color-neutral-lightest);
+}
+.trigger[data-mode="dark"]:hover {
+  color: var(--color-primary-300);
+}
+.trigger[data-mode="dark"][data-state="active"] {
+  color: var(--color-primary-400);
+  border-color: var(--color-primary-400);
+}
+
+.content {
+  background-color: var(--color-neutral-lightest);
+  flex-shrink: 1;
+  border: var(--border-width-sm) solid var(--color-neutral-300);
+  border-radius: var(--border-radius-sm);
+  margin-top: var(--spacing-xs);
+  padding: var(--spacing-md);
+  outline: none;
+  width: auto;
+}
+.content:focus {
+  border: var(--border-width-sm) solid var(--color-neutral-300);
+}
+.content[data-mode="dark"] {
+  background-color: var(--color-neutral-darkest);
+  border-color: var(--color-neutral-800);
+}

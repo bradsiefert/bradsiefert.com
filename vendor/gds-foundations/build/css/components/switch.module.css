@@ -1,0 +1,86 @@
+.root {
+  --gds-switch-toggle-element-display: ; /* Toggle element display */
+
+  background-color: var(--color-neutral-lightest);
+  border-radius: var(--border-radius-xl);
+  border-width: var(--border-width-sm);
+  border-color: var(--color-neutral-800);
+  border-style: solid;
+  box-sizing: border-box;
+  display: var(--gds-switch-toggle-element-display, block);
+  cursor: pointer;
+  height: var(--spacing-lg);
+  transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+  width: 2.5rem;
+}
+.root:focus-visible {
+  outline-offset: var(--spacing-3xs);
+  outline-color: var(--color-primary-700);
+  outline-style: solid;
+  outline-width: var(--border-width-lg);
+}
+.root:not(:disabled):hover {
+  background-color: var(--color-neutral-400);
+  cursor: pointer;
+}
+.root:disabled {
+  opacity: var(--opacity-disabled);
+  cursor: not-allowed;
+}
+.root[data-state="checked"] {
+  background-color: var(--color-primary-600);
+  border-color: var(--color-primary-900);
+}
+
+.root[data-size="sm"] {
+  height: var(--spacing-md);
+  width: var(--spacing-2xl);
+}
+
+.thumb {
+  display: block;
+  width: var(--spacing-lg);
+  height: var(--spacing-lg);
+  background-color: var(--color-neutral-lightest);
+  border-radius: var(--border-radius-xl);
+  border-width: var(--border-width-sm);
+  border-color: var(--color-neutral-800);
+  border-style: solid;
+  transition: transform 0.2s ease-in-out, border-color 0.2s ease-in-out;
+  transform: translateX(-1px) translateY(-1px);
+  will-change: transform;
+}
+.thumb[data-state="checked"] {
+  transform: translateX(19px) translateY(-1px);
+  border-color: var(--color-primary-900);
+}
+
+.thumb[data-size="sm"] {
+  width: var(--spacing-md);
+  height: var(--spacing-md);
+}
+.thumb[data-size="sm"][data-state="checked"] {
+  transform: translateX(16px) translateY(-1px);
+}
+
+.root[data-mode="dark"] {
+  background-color: var(--color-neutral-darkest);
+  border-color: var(--color-neutral-700);
+}
+.root[data-mode="dark"]:hover {
+  background-color: var(--color-neutral-800);
+}
+.root[data-mode="dark"][data-state="checked"] {
+  background-color: var(--color-primary-500);
+  border-color: var(--color-primary-500);
+}
+.root[data-mode="dark"]:focus-visible {
+  outline-color: var(--color-primary-500);
+}
+
+.thumb[data-mode="dark"][data-state="checked"] {
+  border-color: var(--color-neutral-lightest);
+}
+.thumb[data-mode="dark"] {
+  border-color: var(--color-neutral-700);
+}

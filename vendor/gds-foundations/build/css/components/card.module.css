@@ -1,0 +1,17 @@
+.card {
+  background-color: var(--color-neutral-lightest);
+  border: var(--border-width-sm) solid var(--color-neutral-300);
+  border-radius: var(--border-radius-md);
+  padding: var(--spacing-md);
+  width: 100%;
+}
+.card[data-size="md"] {
+  padding: var(--spacing-xl);
+}
+.card[data-size="lg"] {
+  padding: var(--spacing-3xl);
+}
+.card[data-mode="dark"] {
+  background-color: var(--color-neutral-darkest);
+  border: var(--border-width-sm) solid var(--color-neutral-800);
+}

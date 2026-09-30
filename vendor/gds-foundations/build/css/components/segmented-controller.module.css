@@ -1,0 +1,103 @@
+.root {
+  display: flex;
+  flex-direction: column;
+}
+
+.list {
+  box-sizing: border-box;
+  display: flex;
+  column-gap: 1px;
+  border: var(--border-width-sm) solid var(--color-neutral-500);
+  border-radius: var(--border-radius-xs);
+  width: fit-content;
+  max-height: var(--primitive-32);
+}
+
+.trigger {
+  background-color: var(--color-neutral-lightest);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-families-default);
+  color: var(--color-neutral-darkest);
+}
+
+.trigger[data-size="lg"] {
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weights-semibold);
+  letter-spacing: var(--letter-spacing-sm);
+  line-height: var(--line-heights-sm);
+  padding-block: var(--spacing-xs);
+  padding-inline: var(--spacing-sm);
+  max-height: var(--primitive-32);
+}
+
+.trigger[data-size="md"] {
+  font-size: var(--font-size-2xs);
+  letter-spacing: var(--letter-spacing-2xs);
+  line-height: var(--line-heights-2xs);
+  padding-block: var(--spacing-3xs);
+  padding-inline: var(--spacing-xs);
+}
+
+.trigger:hover {
+  color: var(--color-neutral-darkest);
+  background-color: var(--color-neutral-200);
+}
+.trigger:first-child {
+  border-top-left-radius: var(--border-radius-sm);
+  border-bottom-left-radius: var(--border-radius-sm);
+}
+.trigger:last-child {
+  border-top-right-radius: var(--border-radius-sm);
+  border-bottom-right-radius: var(--border-radius-sm);
+}
+
+.trigger[data-state="active"] {
+  box-sizing: border-box;
+  background-color: var(--color-primary-100);
+  color: var(--color-primary-700);
+  border: 1px solid var(--color-primary-700);
+  border-radius: var(--border-radius-xs);
+  margin: -1px;
+}
+
+.list[data-mode="dark"] {
+  border: var(--border-width-sm) solid var(--color-neutral-800);
+  background-color: var(--color-neutral-1000);
+}
+
+.trigger[data-mode="dark"] {
+  border-color: transparent;
+
+  background-color: var(--color-neutral-darkest);
+  color: var(--color-neutral-lightest);
+}
+.trigger[data-mode="dark"]:hover {
+  color: var(--color-primary-300);
+}
+.trigger[data-mode="dark"][data-state="active"] {
+  color: var(--color-primary-400);
+  background-color: var(--color-primary-1000);
+  border-color: var(--color-primary-700);
+}
+
+.content {
+  background-color: var(--color-neutral-lightest);
+  flex-shrink: 1;
+  border: var(--border-width-sm) solid var(--color-neutral-300);
+  border-radius: var(--border-radius-sm);
+
+  margin-top: var(--spacing-xs);
+  padding: var(--spacing-md);
+  outline: none;
+  width: auto;
+}
+.content:focus {
+  border: var(--border-width-sm) solid var(--color-neutral-300);
+}
+.content[data-mode="dark"] {
+  background-color: var(--color-neutral-darkest);
+  border-color: var(--color-neutral-800);
+}

@@ -1,0 +1,34 @@
+.root {
+  display: inline-flex;
+
+  gap: var(--spacing-2xs);
+  height: auto;
+  align-items: baseline;
+}
+
+.img {
+  height: var(--spacing-2xl);
+  align-self: baseline;
+}
+
+.root[data-powered-by="true"] {
+  height: var(--spacing-md);
+}
+
+.root[data-powered-by="true"] .img {
+  height: var(--spacing-md);
+  align-self: baseline;
+}
+
+.powered {
+  font-family: var(--font-families-default);
+  font-size: var(--font-size-3xs);
+  font-weight: var(--font-weights-regular);
+  line-height: var(--line-heights-3xs);
+  letter-spacing: var(--letter-spacings-3xs);
+  color: var(--color-neutral-700);
+}
+
+.root[data-mode="dark"] .powered {
+  color: var(--color-neutral-400);
+}

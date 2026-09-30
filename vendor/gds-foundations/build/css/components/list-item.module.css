@@ -1,0 +1,13 @@
+.li {
+  all: unset;
+  color: var(--color-neutral-darkest);
+}
+
+.li[data-direction="horizontal"] {
+  display: flex;
+  gap: var(--spacing-xs);
+}
+
+.li[data-mode="dark"] {
+  color: var(--color-neutral-lightest);
+}

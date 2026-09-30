@@ -1,0 +1,6 @@
+allowBuilds:
+  esbuild: true
+  "@parcel/watcher": true
+  vue-demi: true
+  better-sqlite3: true
+  sharp: false

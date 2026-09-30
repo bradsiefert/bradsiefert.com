@@ -1,0 +1,10 @@
+.ul {
+  all: unset;
+  display: flex;
+  gap: var(--spacing-3xl);
+}
+
+.ul[data-direction="vertical"] {
+  flex-direction: column;
+  padding-block: var(--spacing-3xl);
+}

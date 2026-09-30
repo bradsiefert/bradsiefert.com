@@ -1,0 +1,102 @@
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  inset: 0;
+}
+
+.overlay[data-mode="dark"] {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  inset: 0;
+}
+
+.content {
+  background-color: var(--color-neutral-lightest);
+  border-radius: var(--primitive-6);
+  box-shadow: var(--shadow-md);
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: var(--layout-md);
+}
+.content:focus {
+  outline: none;
+}
+.content[data-size="spacious"] {
+  width: var(--layout-sm);
+}
+.content[data-mode="dark"] {
+  background-color: var(--color-neutral-darkest);
+}
+
+.title {
+  margin: var(--spacing-4xs);
+  /* margin-block-start: var(--spacing-sm); */
+  color: var(--color-neutral-darkest);
+  font-family: var(--font-families-default);
+  font-size: var(--font-size-xl);
+  font-weight: var(--font-weights-semibold);
+  letter-spacing: var(--letter-spacing-xl);
+  line-height: var(--line-heights-xl);
+  text-align: var(center);
+}
+.title[data-mode="dark"] {
+  color: var(--color-neutral-lightest);
+}
+
+.description {
+  margin: var(--spacing-4xs);
+  margin-block-start: var(--spacing-sm);
+  color: var(--color-neutral-400);
+  font-family: var(--font-families-default);
+  font-size: var(--font-size-2xs);
+  font-weight: var(--font-weights-regular);
+  letter-spacing: var(--letter-spacing-2xs);
+  line-height: var(--line-heights-2xs);
+  text-align: var(--center);
+}
+.description[data-mode="dark"] {
+  color: var(--color-neutral-lightest);
+}
+
+.icon {
+  background-color: var(--color-neutral-200);
+  width: min-content;
+  display: flex;
+  justify-content: center;
+  border-radius: var(--primitive-6);
+  padding: var(--spacing-2xs);
+  margin: 0 auto;
+}
+.icon[data-type="destructive"],
+.icon[data-type="error"] {
+  background-color: var(--color-danger-100);
+}
+.icon[data-type="success"] {
+  background-color: var(--color-success-100);
+}
+.icon[data-type="loading"],
+.icon[data-mode="dark"][data-type="loading"] {
+  background-color: transparent;
+}
+.icon[data-mode="dark"] {
+  background-color: var(--color-neutral-900);
+}
+.icon[data-mode="dark"][data-type="destructive"],
+.icon[data-mode="dark"][data-type="error"] {
+  background-color: var(--color-danger-900);
+}
+.icon[data-mode="dark"][data-type="success"] {
+  background-color: var(--color-success-900);
+}
+
+.content[data-size="md"] {
+  width: var(--layout-md);
+}
+.content[data-size="lg"] {
+  width: var(--layout-lg);
+}
+.content[data-size="xl"] {
+  width: var(--layout-xl);
+}

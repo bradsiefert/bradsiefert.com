@@ -1,0 +1,261 @@
+/* ------------------------------------------------------------------
+   Base (Light) Styles
+------------------------------------------------------------------ */
+
+.indicator {
+  display: flex;
+}
+
+.checkbox {
+  --checkbox-transition-speed: 0.2s;
+
+  appearance: none;
+  background-color: var(--color-neutral-lightest);
+  border-radius: var(--spacing-2xs);
+  border: var(--border-width-sm) solid var(--color-neutral-800);
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  height: var(--spacing-lg);
+  position: relative;
+  transition: background-color var(--checkbox-transition-speed, 0.2s) ease;
+  width: var(--spacing-lg);
+  min-width: var(--spacing-lg);
+  cursor: pointer;
+}
+
+.checkbox:not([data-disabled]):hover:not([data-state="checked"]):not(
+    :indeterminate
+  )::before {
+  background-color: var(--color-neutral-400);
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: var(--spacing-xs);
+  height: var(--spacing-xs);
+  transition: opacity 0.25s ease;
+}
+
+/* Default Checked (Light) */
+.checkbox[data-state="checked"] {
+  background-color: var(--color-primary-600);
+  border-color: var(--color-primary-900);
+}
+
+/* Focus */
+.checkbox:focus-visible {
+  outline: var(--border-width-lg) solid var(--color-primary-700);
+  outline-offset: var(--spacing-3xs);
+}
+
+/* Disabled */
+.checkbox[data-disabled],
+.checkbox[data-error="true"][data-disabled] {
+  cursor: not-allowed;
+  opacity: var(--opacity-disabled);
+}
+
+/* Error state */
+.checkbox[data-error="true"] {
+  background-color: var(--color-danger-600);
+}
+
+/* Error state - Unchecked - Hover */
+.checkbox[data-error="true"]:not([data-disabled]):not(
+    [data-state="checked"]
+  ):hover {
+  background-color: var(--color-neutral-lightest);
+}
+
+/* Indeterminate Default */
+.checkbox:indeterminate {
+  background-color: var(--color-primary-600);
+}
+
+/* Checkbox - Size = sm */
+.checkbox[data-size="sm"] {
+  border-radius: var(--border-radius-2xs);
+  height: var(--spacing-md);
+  width: var(--spacing-md);
+  min-width: var(--spacing-md);
+}
+
+/* Hover square for sm */
+.checkbox[data-size="sm"]:not([data-disabled]):hover:not(
+    [data-state="checked"]
+  ):not(:indeterminate)::before {
+  width: var(--spacing-xs);
+  height: var(--spacing-xs);
+}
+
+/* ------------------------------------------------------------------
+   Tile (Light)
+------------------------------------------------------------------ */
+.tile {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  min-height: var(--spacing-3xl);
+  padding-block: var(--spacing-sm);
+  padding-inline: var(--spacing-md);
+  border-radius: var(--primitive-6);
+  background-color: var(--color-neutral-lightest);
+  border: var(--border-width-sm) solid var(--color-neutral-300);
+}
+
+.tile[data-altbackground="true"] {
+  background-color: var(--color-neutral-400);
+  border-color: var(--color-neutral-400);
+}
+
+.tile:has(.root[data-state="checked"]) {
+  background-color: var(--color-primary-200-alpha);
+}
+
+.tile[data-state="checked"] {
+  background-color: var(--color-primary-200-alpha);
+  border-color: var(--color-primary-600);
+}
+
+.tile[data-state="checked"][data-error="true"] {
+  border-color: var(--color-danger-600);
+  background-color: var(--color-danger-200);
+}
+
+.tile:not([data-state="checked"]):hover {
+  background-color: var(--color-neutral-400);
+  border-color: var(--color-neutral-500, #818791);
+}
+
+/* ------------------------------------------------------------------
+   Dark Mode via prefers-color-scheme
+------------------------------------------------------------------ */
+/* @media (prefers-color-scheme: dark) {
+
+  .checkbox {
+    background-color: var(--color-neutral-darkest); 
+    border-color: var(--color-neutral-800); 
+  }
+  .checkbox:not([data-disabled]):hover:not([data-state="checked"]):not(
+      :indeterminate
+    )::before {
+    background-color: var(--color-neutral-700); 
+  }
+  .checkbox[data-state="checked"] {
+    background-color: var(--color-primary-500); 
+    border-color: var(--color-primary-500);
+  }
+  .checkbox:focus-visible {
+    outline-color: var(--color-primary-700); 
+  }
+  .checkbox[data-error="true"] {
+    background-color: var(--color-danger-500); 
+  }
+  .checkbox[data-error="true"]:not([data-disabled]):not(
+      [data-state="checked"]
+    ):hover {
+    background-color: var(--color-danger-900); 
+  }
+  .checkbox[data-error="true"][data-state="checked"],
+  .checkbox[data-error="true"][data-state="checked"]:hover {
+    background-color: var(--color-danger-500);
+  }
+
+
+  .tile {
+    background-color: var(--color-neutral-darkest); 
+    border-color: var(--color-neutral-900); 
+  }
+  .tile[data-altbackground="true"] {
+    background-color: var(--color-neutral-700); 
+  }
+  .tile:has(.root[data-state="checked"]) {
+    background-color: var(--color-primary-500); 
+  }
+  .tile:hover {
+    background-color: var(--color-neutral-700);
+    border-color: var(--color-neutral-800); 
+  }
+  .tile[data-state="checked"] {
+    background-color: var(--color-primary-500);
+    border-color: var(--color-primary-400, #66a8fd);
+  }
+  .tile[data-state="checked"][data-error="true"] {
+    background-color: var(--color-danger-900);
+    border-color: var(--color-danger-400, #fc817c);
+  }
+  .tile:not([data-state="checked"]):hover {
+    background-color: var(--color-neutral-700);
+    border-color: var(--color-neutral-800);
+  }
+} */
+
+/* ------------------------------------------------------------------
+   Dark Mode via data-mode=\"dark\" attribute
+   (Overwrites light defaults if explicitly set)
+------------------------------------------------------------------ */
+.checkbox[data-mode="dark"] {
+  background-color: var(--color-neutral-darkest);
+  border-color: var(--color-neutral-800);
+}
+
+.checkbox[data-mode="dark"]:not([data-disabled]):hover:not(
+    [data-state="checked"]
+  ):not(:indeterminate)::before {
+  background-color: var(--color-neutral-700);
+}
+
+.checkbox[data-mode="dark"][data-state="checked"] {
+  background-color: var(--color-primary-500);
+  border-color: var(--color-primary-500);
+}
+
+.checkbox[data-mode="dark"]:focus-visible {
+  outline-color: var(--color-primary-700);
+}
+
+.checkbox[data-mode="dark"][data-error="true"] {
+  background-color: var(--color-danger-500);
+}
+
+.checkbox[data-mode="dark"][data-error="true"]:not([data-disabled]):not(
+    [data-state="checked"]
+  ):hover {
+  background-color: var(--color-danger-900);
+}
+
+.checkbox[data-mode="dark"][data-error="true"][data-state="checked"],
+.checkbox[data-mode="dark"][data-error="true"][data-state="checked"]:hover {
+  background-color: var(--color-danger-500);
+}
+
+/* Tile (Dark attribute) */
+.tile[data-mode="dark"] {
+  background-color: var(--color-neutral-darkest);
+  border-color: var(--color-neutral-900);
+}
+
+.tile[data-altbackground="true"][data-mode="dark"] {
+  background-color: var(--color-neutral-700);
+}
+
+.tile[data-mode="dark"]:has(.root[data-state="checked"]) {
+  background-color: var(--color-primary-900);
+}
+
+.tile[data-mode="dark"]:hover {
+  background-color: var(--color-neutral-700);
+  border-color: var(--color-neutral-800);
+}
+
+.tile[data-mode="dark"][data-state="checked"] {
+  background-color: var(--color-primary-900);
+  border-color: var(--color-primary-400);
+}
+
+.tile[data-mode="dark"][data-state="checked"][data-error="true"] {
+  background-color: var(--color-danger-900);
+  border-color: var(--color-danger-400);
+}

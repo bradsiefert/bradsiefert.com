@@ -1,0 +1,97 @@
+.root {
+  align-items: center;
+  color: var(--color-neutral-darkest);
+  display: flex;
+  font-family: var(--font-families-default);
+
+  flex-direction: column;
+  justify-content: center;
+  padding: var(--spacing-md);
+  gap: var(--spacing-xs);
+  width: var(--layout-2xs);
+}
+
+.root[data-size="md"] {
+  width: var(--layout-sm);
+  padding: var(--spacing-md);
+}
+
+.root[data-size="md"] .title {
+  font-size: var(--font-size-xl);
+  line-height: var(--line-heights-xl);
+  letter-spacing: var(--letter-spacing-xl);
+}
+
+.root[data-size="md"] .description {
+  font-size: var(--font-size-xs);
+  line-height: var(--line-heights-xs);
+  letter-spacing: var(--letter-spacing-xs);
+}
+
+.root[data-size="lg"] {
+  width: var(--layout-sm);
+  padding: var(--spacing-md);
+}
+
+.root[data-size="lg"] .title {
+  font-size: var(--font-size-2xl);
+  line-height: var(--line-heights-2xl);
+  letter-spacing: var(--letter-spacing-2xl);
+}
+
+.root[data-size="lg"] .description {
+  font-size: var(--font-size-md);
+  line-height: var(--line-heights-md);
+  letter-spacing: var(--letter-spacing-md);
+}
+
+.content {
+  text-align: center;
+  gap: var(--spacing-2xs);
+}
+
+.icon {
+  background-color: var(--color-neutral-200);
+  width: min-content;
+  display: flex;
+  justify-content: center;
+  border-radius: var(--primitive-6);
+  padding: var(--spacing-2xs);
+  margin: 0 auto;
+}
+.icon[data-type="destructive"],
+.icon[data-type="error"] {
+  background-color: var(--color-danger-100);
+}
+.icon[data-type="success"] {
+  background-color: var(--color-success-100);
+}
+.icon[data-type="loading"],
+.icon[data-mode="dark"][data-type="loading"] {
+  background-color: transparent;
+}
+.icon[data-mode="dark"] {
+  background-color: var(--color-neutral-900);
+}
+.icon[data-mode="dark"][data-type="destructive"],
+.icon[data-mode="dark"][data-type="error"] {
+  background-color: var(--color-danger-900);
+}
+.icon[data-mode="dark"][data-type="success"] {
+  background-color: var(--color-success-900);
+}
+
+.title {
+  font-weight: var(--font-weights-bold);
+  font-size: var(--font-size-md);
+  line-height: var(--line-heights-md);
+  letter-spacing: var(--letter-spacing-md);
+}
+
+.description {
+  font-size: var(--font-size-2xs);
+  font-weight: var(--font-weights-regular);
+  line-height: var(--line-heights-2xs);
+  letter-spacing: var(--letter-spacing-2xs);
+  color: var(--color-neutral-700);
+}

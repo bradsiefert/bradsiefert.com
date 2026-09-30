@@ -1,0 +1,35 @@
+{
+  "name": "@kofile/gds-styles",
+  "version": "1.4.7",
+  "description": "",
+  "main": "build/minified/index.css",
+  "exports": {
+    ".": {
+      "import": "./build/minified/index.css",
+      "require": "./build/minified/index.css"
+    }
+  },
+  "scripts": {
+    "minify": "postcss ./src/utilities/*.css -d ./build/minified",
+    "build": "npm run minify",
+    "pack": "mkdir -p dist && npm pack && mv *.tgz dist/ && cd dist",
+    "pre:release": "auto-changelog -p --prepend && git add CHANGELOG.md"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kofile/design-system/tree/main/packages/foundations"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@kofile/gds-foundations": "file:../gds-foundations"
+  },
+  "devDependencies": {},
+  "auto-changelog": {
+    "output": "CHANGELOG.md",
+    "unreleased": true,
+    "template": "compact",
+    "commitLimit": false
+  }
+}

@@ -1,0 +1,17 @@
+.root {
+  background-color: var(--color-neutral-300);
+}
+.root[data-mode="dark"] {
+  background-color: var(--color-neutral-800);
+}
+.root[data-orientation="horizontal"] {
+  height: var(--border-width-sm);
+  width: 100%;
+}
+.root[data-orientation="vertical"] {
+  width: var(--border-width-sm);
+  background-color: var(--color-neutral-300);
+}
+.root[data-orientation="vertical"][data-mode="dark"] {
+  background-color: var(--color-neutral-800);
+}

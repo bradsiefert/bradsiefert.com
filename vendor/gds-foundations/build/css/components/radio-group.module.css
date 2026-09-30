@@ -1,0 +1,146 @@
+/* button {
+  all: unset;
+} */
+
+.root {
+  display: flex;
+}
+.root[data-orientation="vertical"] {
+  display: grid;
+  row-gap: var(--spacing-xs);
+}
+
+.item {
+  background-color: var(--color-neutral-lightest);
+  display: inline;
+  height: var(--spacing-lg);
+  min-width: var(--spacing-lg);
+  width: var(--spacing-lg);
+  border-color: var(--color-neutral-800);
+  border-style: solid;
+  border-width: var(--border-width-sm);
+  border-radius: 100%;
+}
+.item:focus-visible {
+  outline: var(--border-width-lg) solid var(--color-primary-700);
+  outline-offset: var(--spacing-3xs);
+}
+.item[aria-checked="true"] {
+  background-color: var(--color-primary-600);
+}
+.item[data-size="sm"] {
+  height: var(--spacing-md);
+  min-width: var(--spacing-md);
+  width: var(--spacing-md);
+}
+.item[data-error="true"] {
+  background-color: var(--color-danger-600);
+  border-color: var(--color-danger-800);
+}
+.item[data-disabled] {
+  opacity: var(--opacity-disabled);
+  cursor: not-allowed;
+}
+.item[data-mode="dark"] {
+  background-color: var(--color-neutral-darkest);
+  border-color: var(--color-neutral-800);
+}
+.item[data-mode="dark"][aria-checked="true"] {
+  background-color: var(--color-primary-500);
+  border-color: var(--color-primary-500);
+}
+.item[data-mode="dark"][data-error="true"] {
+  background-color: var(--color-danger-500);
+  border-color: var(--color-danger-500);
+}
+
+.indicator {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.indicator::after {
+  content: "";
+  display: block;
+  width: var(--spacing-xs);
+  height: var(--spacing-xs);
+  border-radius: 50%;
+  background-color: var(--color-neutral-lightest);
+}
+
+.tile {
+  box-sizing: border-box;
+  align-items: center;
+  padding-block: var(--spacing-sm);
+  padding-inline: var(--spacing-sm);
+  border-radius: var(--primitive-6);
+  background-color: var(--color-neutral-200);
+  border: var(--border-width-sm) solid var(--color-neutral-200);
+}
+.tile[data-altbackground="true"] {
+  background-color: var(--color-neutral-lightest);
+  border-color: var(--color-neutral-lightest);
+  min-height: var(--spacing-md);
+}
+
+/* Default Checked */
+.tile:has(.root[data-state="checked"]) {
+  background-color: var(--color-primary-200-alpha);
+}
+
+.tile[data-state="checked"] {
+  background-color: var(--color-primary-200-alpha);
+  border-color: var(--color-primary-600);
+}
+
+.tile[data-state="checked"][data-error="true"] {
+  background-color: var(--color-danger-200);
+  border-color: var(--color-danger-600);
+}
+
+.tile:not([data-state="checked"]):hover {
+  background-color: var(--color-neutral-300);
+  border-color: var(--color-neutral-300);
+}
+
+.tile[data-mode="dark"] {
+  background-color: var(--color-neutral-900);
+}
+
+.tile[data-mode="dark"][data-state="checked"][data-error="true"] {
+  background-color: var(--color-danger-900);
+  border-color: var(--color-danger-400);
+}
+
+/* Default Checked */
+.tile[data-mode="dark"]:has(.root[data-state="checked"]) {
+  background-color: var(--color-primary-900);
+}
+.tile[data-mode="dark"]:hover {
+  background-color: var(--color-neutral-800);
+}
+.tile[data-mode="dark"][data-state="checked"] {
+  background-color: var(--color-primary-900);
+}
+.tile[data-mode="dark"][data-state="checked"]:hover {
+  background-color: var(--color-primary-900);
+}
+
+.tile:has(.item[data-state="checked"]) {
+  background-color: var(--color-primary-200-alpha);
+  border-color: var(--color-primary-600);
+}
+
+.tile:has(.item[data-state="checked"])[data-error="true"] {
+  background-color: var(--color-danger-200);
+  border-color: var(--color-danger-600);
+}
+
+/* Hover example for un-checked */
+.tile:not(:has(.item[data-state="checked"])):hover {
+  background-color: var(--color-neutral-300);
+  border-color: var(--color-neutral-300);
+}

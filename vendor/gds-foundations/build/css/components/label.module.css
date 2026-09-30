@@ -1,0 +1,42 @@
+/* ------------------------------------------------------------------
+   Base (Light) Styles
+------------------------------------------------------------------ */
+.label {
+  all: unset;
+  box-sizing: border-box;
+  color: var(--color-neutral-1000, #121212);
+  cursor: default;
+  font-family: var(--font-families-default);
+  font-size: var(--font-size-md);
+  font-weight: var(--font-weights-regular);
+  letter-spacing: var(--letter-spacing-md);
+  line-height: var(--line-heights-md);
+}
+
+.label[aria-disabled="true"] {
+  opacity: var(--opacity-disabled, 0.32);
+  cursor: not-allowed;
+}
+
+.label[data-size="sm"] {
+  font-size: var(--font-size-xs);
+  letter-spacing: var(--letter-spacing-xs);
+  line-height: var(--line-heights-xs);
+}
+
+/* ------------------------------------------------------------------
+   Dark Mode via prefers-color-scheme
+------------------------------------------------------------------ */
+/* @media (prefers-color-scheme: dark) {
+  .label {
+    color: var(--color-neutral-lightest, #ffffff);
+  }
+} */
+
+/* ------------------------------------------------------------------
+   Dark Mode via data-mode="dark"
+   (Overwrites light defaults if explicitly set)
+------------------------------------------------------------------ */
+.label[data-mode="dark"] {
+  color: var(--color-neutral-lightest, #ffffff);
+}

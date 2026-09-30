@@ -1,0 +1,417 @@
+.container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 72px;
+  background-color: var(--color-neutral-lightest);
+  padding-inline: var(--spacing-md);
+  border-bottom: 1px solid var(--color-neutral-400);
+  z-index: var(--elevation-499);
+}
+
+.details {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+  height: 100%;
+  width: 100%;
+}
+
+.govName {
+  font-family: var(--font-families-default);
+  font-size: var(--font-size-2xl);
+  font-weight: var(--font-weights-regular);
+  letter-spacing: -1.5%;
+  line-height: 28.8px;
+}
+
+.appName {
+  font-family: var(--font-families-default);
+  font-weight: var(--font-weights-semibold);
+  font-size: var(--font-size-xl);
+  letter-spacing: var(--letter-spacing-xl);
+  line-height: var(--line-heights-xl);
+  margin-inline-start: var(--spacing-4xs);
+  margin-block-end: var(--spacing-xs);
+
+  width: 100%;
+  display: flex;
+}
+
+.divider {
+  height: var(--spacing-sm);
+  display: inline-flex;
+  position: relative;
+  top: var(--spacing-3xs);
+  background-color: var(--color-neutral-700);
+  margin-inline: var(--spacing-2xs);
+}
+
+.footerText {
+  font-family: var(--font-families-default);
+  font-size: var(--font-size-3xs);
+  font-weight: var(--font-weights-regular);
+  letter-spacing: var(--letter-spacing-3xs);
+  line-height: var(--line-heights-3xs);
+}
+
+.footerLinks {
+  display: inline-flex;
+  gap: var(--spacing-xs);
+}
+
+.footerLink {
+  color: var(--color-neutral-700);
+}
+
+.icon {
+  /* visibility: hidden; */
+}
+
+.accountName {
+  background-color: var(--color-neutral-lightest);
+  margin: 0;
+  font-family: var(--font-families-default);
+  font-size: var(--font-size-md);
+  font-weight: var(--font-weights-bold);
+  letter-spacing: var(--letter-spacing-md);
+  line-height: var(--line-heights-md);
+  padding-inline: var(--spacing-md);
+  padding-top: var(--spacing-xs);
+  padding-bottom: var(--spacing-4xs);
+}
+
+.accountEmail,
+.accountFooter {
+  background-color: var(--color-neutral-lightest);
+  margin: 0;
+  padding-inline: var(--spacing-md);
+  color: var(--color-neutral-700);
+  font-family: var(--font-families-default);
+  font-size: var(--font-size-3xs);
+  font-weight: var(--font-weights-regular);
+  letter-spacing: var(--letter-spacing-3xs);
+  line-height: var(--line-heights-3xs);
+}
+
+.accountEmail {
+  padding-bottom: var(--spacing-xs);
+}
+
+.accountFooter {
+  padding: var(--spacing-xs) var(--spacing-md);
+  text-align: center;
+}
+
+.label {
+  font-family: var(--font-families-default);
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weights-regular);
+  letter-spacing: var(--letter-spacing-sm);
+  line-height: var(--line-heights-sm);
+}
+
+/* Navigation Styles */
+.container:has(.navContainer[data-open="true"]) {
+  flex-direction: column;
+}
+
+.navContainer[data-open="true"] {
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 72px);
+  width: 100%;
+  position: absolute;
+  top: 72px;
+  bottom: 0;
+
+  /* top: 72px; */
+  left: 0;
+  right: 0;
+  background-color: var(--color-neutral-lightest);
+
+  padding: var(--spacing-md);
+
+  overflow: scroll;
+  z-index: var(--elevation-499);
+}
+
+.appNavigation {
+  width: 100%;
+  justify-items: flex-end;
+}
+
+.appNavigation > .list {
+  padding-bottom: var(--spacing-4xs);
+}
+
+.list {
+  list-style: none;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-xs);
+  padding: var(--spacing-md);
+  width: 100%;
+}
+
+.list:nth-child(2) {
+  padding-bottom: var(--spacing-2xs);
+}
+
+.item {
+  list-style: none;
+  padding: 0;
+}
+
+.link {
+  display: inline-flex;
+  align-items: center;
+  color: var(--color-neutral-darkest);
+  padding: var(--spacing-xs) var(--spacing-sm);
+  border-radius: var(--border-radius-sm);
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weights-semibold);
+  letter-spacing: var(--letter-spacing-sm);
+  line-height: var(--line-heights-sm);
+  cursor: pointer;
+  transition: background-color 0.25s ease-in-out;
+  width: 100%;
+  text-decoration: none;
+}
+
+.link:hover {
+  background-color: var(--color-neutral-200);
+}
+
+.link:active {
+  background-color: var(--color-neutral-300);
+}
+
+.link[data-selected="true"] {
+  background-color: var(--color-primary-200);
+  color: var(--color-primary-800);
+  border-radius: var(--border-radius-sm);
+}
+
+.close {
+  display: none;
+  position: absolute;
+  top: 50%;
+  right: var(--spacing-md);
+  transform: translateY(-50%);
+  align-items: center;
+  z-index: var(--elevation-499);
+}
+
+.poweredByContainer {
+  margin-block-start: var(--spacing-xs);
+}
+
+.sideNavCollapsibleTrigger {
+  display: flex;
+  align-items: center;
+  color: var(--color-neutral-darkest);
+  width: 100%;
+  padding: var(--spacing-xs) var(--spacing-xs);
+  border-radius: var(--border-radius-sm);
+  cursor: pointer;
+  transition: background-color 0.25s ease-in-out;
+}
+
+/* Hover the entire row, including caret */
+.sideNavCollapsibleTrigger:hover {
+  background-color: var(--color-neutral-200);
+}
+
+.sideNavCollapsibleTrigger > a.link[data-selected="true"] {
+  background-color: var(--color-danger-300);
+}
+
+/* Responsive Overrides */
+
+@media (max-width: 512px) {
+  .appName {
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    gap: var(--spacing-2xs);
+  }
+
+  .appNavigation {
+    width: fit-content;
+  }
+
+  .navContainer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: var(--spacing-xs);
+    width: 100%;
+  }
+
+  .navContainer > nav > .list > li > .link {
+    max-height: var(--spacing-2xl) !important;
+  }
+
+  .appName {
+    border-inline-start: 1px solid var(--color-neutral-400);
+    /* margin-inline-start: var(--spacing-4xs); */
+    /* margin-block-start: var(--spacing-4xs); */
+    padding-inline-start: var(--spacing-sm);
+    font-size: var(--font-size-2xl);
+    letter-spacing: var(--letter-spacing-2xl);
+    line-height: var(--line-heights-2xl);
+    width: fit-content;
+  }
+
+  .list {
+    flex-direction: row;
+    align-items: center;
+    align-self: center;
+    gap: var(--spacing-2xs);
+    padding: 0;
+    width: max-content;
+  }
+
+  .link {
+    /* height: var(--spacing-2xl); */
+  }
+}
+
+@media (max-width: 1024px) {
+  .navContainer {
+    display: none;
+  }
+
+  .close {
+    display: flex;
+  }
+}
+
+/* ------------------------------------------------------------------ */
+/* Side Navigation Styles                                             */
+/* These styles support the SideNavigation component implementation.  */
+/* ------------------------------------------------------------------ */
+
+.sideNavContainer {
+  --nav-width-expanded: calc(240px - var(--spacing-sm));
+  --nav-width-collapsed: 72px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: var(--nav-width-expanded, 240px);
+  background-color: var(--color-neutral-lightest);
+  height: calc(100vh - 72px);
+  overflow-y: auto;
+  transition: width 0.25s ease;
+  padding: var(--spacing-sm);
+  padding-bottom: var(--spacing-4xs);
+  border-right: 1px solid var(--color-neutral-400);
+  position: fixed;
+  top: 72px;
+  left: 0;
+}
+
+.sideNavContainer::-webkit-scrollbar {
+  display: none;
+}
+
+.sideNavContainer.collapsed {
+  width: var(--nav-width-collapsed, 72px);
+  align-items: center;
+}
+
+.sideNavList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sideNavItemWrapper {
+  margin-bottom: var(--spacing-xs);
+}
+
+/* When side nav is collapsed, li's are only as wide as their content */
+.sideNavContainer.collapsed .sideNavList li {
+  width: fit-content;
+}
+
+/* When side nav is expanded, li's fill the container width */
+.sideNavContainer:not(.collapsed) .sideNavList li {
+  width: 100%;
+}
+
+.sideNavSubList {
+  list-style: none;
+  padding: 0;
+}
+
+.sideNavSubList .link,
+.menu-list .link {
+  border-radius: var(--border-radius-none);
+}
+.sideNavSubList .link:hover,
+.menu-list .link:hover,
+.sideNavSubList .link:focus,
+.menu-list .link:focus {
+  border-radius: var(--border-radius-none);
+}
+
+/* 2. Top‑level side‐nav links keep the normal small radius */
+.sideNavList > li > .link {
+  border-radius: var(--border-radius-sm);
+  height: 40px !important;
+}
+.sideNavList.collapsed > li > .collapsedLinkWrapper > .link {
+  border-radius: var(--border-radius-sm);
+  height: 40px !important;
+}
+.sideNavList > li > .link:hover,
+.sideNavList > li > .link:focus {
+  border-radius: var(--border-radius-sm);
+}
+
+.sideNavFooter {
+  position: sticky;
+  bottom: 0; /* stick to the bottom edge */
+  width: 100%; /* full width of the nav */
+  display: flex;
+  justify-content: center; /* center the button */
+  padding: var(--spacing-md) 0 var(--spacing-md) 0; /* a little vertical breathing room */
+  z-index: var(--elevation-100); /* above the scrolling list */
+
+  /* semi‑transparent white so backdrop‑filter can blur underneath */
+  background-color: rgba(255, 255, 255, 0.75);
+
+  /* apply the frosted‐glass blur */
+  backdrop-filter: blur(1px);
+  -webkit-backdrop-filter: blur(1px);
+}
+
+/* inline badge in expanded nav */
+.badgeInline {
+  margin-left: auto;
+  white-space: nowrap;
+}
+
+/* overlay badge when nav is collapsed */
+.collapsedLinkWrapper {
+  position: relative;
+}
+
+.badgeCollapsed {
+  position: absolute;
+  /* top: -16px; */
+  right: -16px;
+}
+
+.sideNavContainer.collapsed .sideNavList > li[data-selected="true"] {
+  background-color: var(--color-primary-200);
+  color: var(--color-primary-800);
+  border-radius: var(--border-radius-sm);
+}

@@ -1,0 +1,204 @@
+{
+  "name": "@kofile/gds-foundations",
+  "version": "1.4.7",
+  "description": "",
+  "main": "build/css/index.css",
+  "exports": {
+    "./animations": {
+      "import": "./build/css/animations/index.css",
+      "require": "./build/css/animations/index.css"
+    },
+    ".": {
+      "import": "./build/css/themes/index.css",
+      "require": "./build/css/themes/index.css"
+    },
+    "./CHANGELOG.md": {
+      "import": "./CHANGELOG.md",
+      "require": "./CHANGELOG.md"
+    },
+    "./minified": {
+      "import": "./build/css/minified/index.css",
+      "require": "./build/css/minified/index.css"
+    },
+    "./normalize": {
+      "import": "./build/css/normalize.css",
+      "require": "./build/css/normalize.css"
+    },
+    "./reset": {
+      "import": "./build/css/reset.css",
+      "require": "./build/css/reset.css"
+    },
+    "./theme/all": {
+      "import": "./build/css/themes/index.css",
+      "require": "./build/css/themes/index.css"
+    },
+    "./themes": {
+      "import": "./build/css/themes/index.css",
+      "require": "./build/css/themes/index.css"
+    },
+    "./theme/light": {
+      "import": "./build/css/themes/light.css",
+      "require": "./build/css/themes/light.css"
+    },
+    "./theme/dark": {
+      "import": "./build/css/themes/dark.css",
+      "require": "./build/css/themes/dark.css"
+    },
+    "./theme/global": {
+      "import": "./build/css/themes/global.css",
+      "require": "./build/css/themes/global.css"
+    },
+    "./components/badge.module.css": {
+      "import": "./build/css/components/badge.module.css",
+      "require": "./build/css/components/badge.module.css"
+    },
+    "./build/css/components/button.module.css": {
+      "import": "./build/css/components/button.module.css",
+      "require": "./build/css/components/button.module.css"
+    },
+    "./components/banner.module.css": {
+      "import": "./build/css/components/banner.module.css",
+      "require": "./build/css/components/banner.module.css"
+    },
+    "./components/button.module.css": {
+      "import": "./build/css/components/button.module.css",
+      "require": "./build/css/components/button.module.css"
+    },
+    "./components/card.module.css": {
+      "import": "./build/css/components/card.module.css",
+      "require": "./build/css/components/card.module.css"
+    },
+    "./components/checkbox.module.css": {
+      "import": "./build/css/components/checkbox.module.css",
+      "require": "./build/css/components/checkbox.module.css"
+    },
+    "./components/dialog.module.css": {
+      "import": "./build/css/components/dialog.module.css",
+      "require": "./build/css/components/dialog.module.css"
+    },
+    "./components/divider.module.css": {
+      "import": "./build/css/components/divider.module.css",
+      "require": "./build/css/components/divider.module.css"
+    },
+    "./components/empty-state.module.css": {
+      "import": "./build/css/components/empty-state.module.css",
+      "require": "./build/css/components/empty-state.module.css"
+    },
+    "./components/field-message.module.css": {
+      "import": "./build/css/components/field-message.module.css",
+      "require": "./build/css/components/field-message.module.css"
+    },
+    "./components/form-label.module.css": {
+      "import": "./build/css/components/form-label.module.css",
+      "require": "./build/css/components/form-label.module.css"
+    },
+    "./components/icon-wrap.module.css": {
+      "import": "./build/css/components/icon-wrap.module.css",
+      "require": "./build/css/components/icon-wrap.module.css"
+    },
+    "./components/input.module.css": {
+      "import": "./build/css/components/input.module.css",
+      "require": "./build/css/components/input.module.css"
+    },
+    "./components/label.module.css": {
+      "import": "./build/css/components/label.module.css",
+      "require": "./build/css/components/label.module.css"
+    },
+    "./components/link.module.css": {
+      "import": "./build/css/components/link.module.css",
+      "require": "./build/css/components/link.module.css"
+    },
+    "./components/list-callout.module.css": {
+      "import": "./build/css/components/list-callout.module.css",
+      "require": "./build/css/components/list-callout.module.css"
+    },
+    "./components/list-callout-group.module.css": {
+      "import": "./build/css/components/list-callout-group.module.css",
+      "require": "./build/css/components/list-callout-group.module.css"
+    },
+    "./components/list-group.module.css": {
+      "import": "./build/css/components/list-group.module.css",
+      "require": "./build/css/components/list-group.module.css"
+    },
+    "./components/list-item.module.css": {
+      "import": "./build/css/components/list-item.module.css",
+      "require": "./build/css/components/list-item.module.css"
+    },
+    "./components/loader.module.css": {
+      "import": "./build/css/components/loader.module.css",
+      "require": "./build/css/components/loader.module.css"
+    },
+    "./components/logo.module.css": {
+      "import": "./build/css/components/logo.module.css",
+      "require": "./build/css/components/logo.module.css"
+    },
+    "./components/menu.module.css": {
+      "import": "./build/css/components/menu.module.css",
+      "require": "./build/css/components/menu.module.css"
+    },
+    "./components/modal.module.css": {
+      "import": "./build/css/components/modal.module.css",
+      "require": "./build/css/components/modal.module.css"
+    },
+    "./components/navigation.module.css": {
+      "import": "./build/css/components/navigation.module.css",
+      "require": "./build/css/components/navigation.module.css"
+    },
+    "./components/progress.module.css": {
+      "import": "./build/css/components/progress.module.css",
+      "require": "./build/css/components/progress.module.css"
+    },
+    "./components/radio-group.module.css": {
+      "import": "./build/css/components/radio-group.module.css",
+      "require": "./build/css/components/radio-group.module.css"
+    },
+    "./components/segmented-controller.module.css": {
+      "import": "./build/css/components/segmented-controller.module.css",
+      "require": "./build/css/components/segmented-controller.module.css"
+    },
+    "./components/switch.module.css": {
+      "import": "./build/css/components/switch.module.css",
+      "require": "./build/css/components/switch.module.css"
+    },
+    "./components/table.module.css": {
+      "import": "./build/css/components/table.module.css",
+      "require": "./build/css/components/table.module.css"
+    },
+    "./components/tabs.module.css": {
+      "import": "./build/css/components/tabs.module.css",
+      "require": "./build/css/components/tabs.module.css"
+    },
+    "./components/toast.module.css": {
+      "import": "./build/css/components/toast.module.css",
+      "require": "./build/css/components/toast.module.css"
+    },
+    "./components/tooltip.module.css": {
+      "import": "./build/css/components/tooltip.module.css",
+      "require": "./build/css/components/tooltip.module.css"
+    }
+  },
+  "scripts": {
+    "build": "npm run minify:themes && npm run minify:components",
+    "minify": "postcss ./build/css/*.css -d ./build/minified",
+    "minify:themes": "postcss build/css/themes/*.css -d ./build/minified",
+    "minify:components": "postcss build/css/components/*.css -d ./build/minified",
+    "pack": "mkdir -p dist && npm pack && mv *.tgz dist/ && cd dist",
+    "pre:release": "auto-changelog -p --prepend && git add CHANGELOG.md"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kofile/design-system/tree/main/packages/foundations"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {},
+  "auto-changelog": {
+    "output": "CHANGELOG.md",
+    "unreleased": true,
+    "template": "compact",
+    "commitLimit": false
+  },
+  "dependencies": {}
+}

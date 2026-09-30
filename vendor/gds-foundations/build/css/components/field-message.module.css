@@ -1,0 +1,31 @@
+.message {
+  display: block;
+  color: var(--color-neutral-700);
+  font-family: var(--font-families-default);
+  font-size: var(--font-size-2xs);
+  font-weight: var(--font-weights-regular);
+  letter-spacing: var(--letter-spacing-2xs);
+  line-height: var(--line-heights-2xs);
+}
+
+.message[data-size="sm"] {
+  font-size: var(--font-size-3xs);
+  letter-spacing: var(--letter-spacing-3xs);
+  line-height: var(--line-heights-3xs);
+}
+
+.message[data-error="true"] {
+  color: var(--color-danger-700);
+}
+
+.message[aria-disabled="true"] {
+  opacity: var(--opacity-disabled);
+}
+
+.message[data-mode="dark"] {
+  color: var(--color-neutral-400);
+}
+
+.message[data-error="true"][data-mode="dark"] {
+  color: var(--color-danger-400);
+}

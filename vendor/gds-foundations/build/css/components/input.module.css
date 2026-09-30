@@ -1,0 +1,181 @@
+.root {
+  width: 100%;
+  display: flex;
+}
+.root:focus-within {
+  border-radius: var(--border-radius-sm);
+  box-shadow: 0px 0px 0px 6px var(--shadow-primary);
+}
+.input {
+  background-color: var(--color-neutral-200);
+  border-radius: var(--border-radius-sm);
+  border-color: var(--color-neutral-500);
+  border-style: solid;
+  border-width: var(--border-width-sm);
+  box-sizing: border-box;
+  color: var(--color-neutral-darkest);
+  font-family: var(--font-families-default);
+  font-size: var(--font-size-md);
+  font-weight: var(--font-weights-regular);
+  letter-spacing: var(--letter-spacing-md);
+  line-height: var(--line-heights-md);
+  outline: none;
+  padding-inline-start: var(--spacing-md);
+  padding-block: var(--spacing-sm);
+  max-height: var(--spacing-3xl);
+  width: 100%;
+}
+.input:focus {
+  border-color: var(--color-primary-600);
+}
+
+.root:focus-within .icon {
+  border-color: var(--color-primary-400);
+}
+
+.root:focus-within .icon {
+  border-color: var(--color-primary-400);
+}
+
+.root:focus-within .input[data-error="true"],
+.root:focus-within .icon[data-error="true"] {
+  border-color: var(--color-danger-600);
+}
+
+.input[data-size="lg"] {
+  border-radius: var(--primitive-6);
+  padding-block: var(--spacing-xs);
+  padding-inline-start: var(--spacing-xs);
+  height: var(--spacing-2xl);
+  font-size: var(--font-size-xs);
+  letter-spacing: var(--letter-spacing-xs);
+  line-height: var(--line-heights-xs);
+}
+.input[data-size="lg"] + .icon {
+  height: var(--spacing-2xl);
+}
+.input[data-size="md"] {
+  border-radius: var(--border-radius-xs);
+  padding-block: var(--primitive-6);
+  padding-inline-start: var(--spacing-xs);
+  height: var(--spacing-xl);
+  font-size: var(--font-size-3xs);
+  letter-spacing: var(--letter-spacing-3xs);
+  line-height: var(--line-heights-3xs);
+}
+.input[data-size="md"] + .icon {
+  height: var(--spacing-xl);
+}
+.root[data-altbackground="true"] .input,
+.root[data-altbackground="true"] .icon {
+  background-color: var(--color-neutral-lightest);
+}
+.input::placeholder {
+  color: var(--color-neutral-darkest);
+}
+.input[data-error="true"]::placeholder {
+  color: var(--color-neutral-600);
+}
+.input[data-error="true"],
+.icon[data-error="true"] {
+  background-color: var(--color-danger-100);
+  border-color: var(--color-danger-600);
+}
+
+.root[data-error="true"]:focus-within {
+  border-radius: var(--border-radius-sm);
+  box-shadow: 0px 0px 0px 6px rgba(209, 40, 40, 0.24);
+}
+.input[data-disabled="true"],
+.icon[aria-disabled="true"] {
+  opacity: var(--opacity-disabled);
+  cursor: not-allowed;
+}
+.icon {
+  background-color: var(--color-neutral-200);
+  border-radius: var(--border-radius-md);
+  border-color: var(--color-neutral-500);
+  border-width: var(--border-width-sm);
+  border-style: solid;
+  box-sizing: border-box;
+  color: var(--color-neutral-500);
+  height: var(--spacing-3xl);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-inline-start: var(--spacing-md);
+  padding-inline-end: var(--spacing-4xs);
+}
+.icon[data-size="md"] {
+  padding-inline-start: var(--spacing-xs);
+  height: var(--spacing-xl);
+  border-radius: var(--border-radius-sm);
+}
+.icon[data-size="lg"] {
+  padding-inline-start: var(--spacing-xs);
+  height: var(--spacing-2xl);
+  border-radius: var(--border-radius-sm);
+}
+.addon {
+  background-color: var(--color-neutral-lightest);
+  border-color: var(--color-neutral-500);
+  border-width: var(--border-width-sm);
+  border-style: solid;
+  border-radius: var(--border-radius-sm);
+  color: var(--color-neutral-darkest);
+  height: var(--spacing-3xl);
+  display: flex;
+  align-items: center;
+  padding-inline: var(--spacing-md);
+  z-index: 10;
+}
+.addon[data-size="md"] {
+  border-radius: var(--border-radius-xs);
+  padding-inline: var(--spacing-xs);
+
+  height: var(--spacing-xl);
+}
+.addon[data-size="lg"] {
+  border-radius: var(--spacing-2xs);
+  padding-inline: var(--spacing-sm);
+
+  height: var(--spacing-2xl);
+}
+
+/* Dark Mode */
+.root[data-mode="dark"][data-altbackground="true"] .input,
+.root[data-mode="dark"][data-altbackground="true"] .icon {
+  background-color: var(--color-neutral-darkest);
+}
+.root[data-mode="dark"]:focus-within {
+  box-shadow: 0px 0px 0px 6px rgba(12, 87, 205, 0.24);
+}
+.root[data-mode="dark"][data-error="true"]:focus-within {
+  box-shadow: 0px 0px 0px 6px rgba(209, 40, 40, 0.24);
+}
+.input[data-mode="dark"][data-error="true"],
+.icon[data-mode="dark"][data-error="true"] {
+  background-color: var(--color-danger-1000);
+  border-color: var(--color-danger-500);
+}
+.input[data-mode="dark"],
+.input[data-mode="dark"] + .icon {
+  background-color: var(--color-neutral-1000);
+  border-color: var(--color-neutral-600);
+  color: var(--color-neutral-lightest);
+}
+.input[data-mode="dark"]::placeholder {
+  color: var(--color-neutral-400);
+}
+.icon[data-mode="dark"] {
+  background-color: var(--color-neutral-1000);
+  border-color: var(--color-neutral-600);
+  color: var(--color-neutral-400);
+}
+.addon[data-mode="dark"] {
+  background-color: var(--color-neutral-darkest);
+  border-color: var(--color-neutral-600);
+}
+.input:focus {
+  border-color: var(--color-primary-400);
+}

@@ -13,12 +13,13 @@
     "nuxt": "^4.3.1"
   },
   "dependencies": {
-    "@kofile/gds-foundations": "^1.4.7",
-    "@kofile/gds-styles": "^1.4.7",
+    "@kofile/gds-foundations": "file:vendor/gds-foundations",
+    "@kofile/gds-styles": "file:vendor/gds-styles",
     "@nuxt/a11y": "^1.0.0-alpha.1",
     "@phosphor-icons/vue": "^2.2.1",
     "better-sqlite3": "^12.6.2",
     "bootstrap": "^5.3.1",
     "sass": "^1.66.1"
-  }
+  },
+  "packageManager": "pnpm@11.24.0"
 }

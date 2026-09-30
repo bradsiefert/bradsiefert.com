@@ -1,0 +1,17 @@
+.loader {
+  border: var(--border-radius-md) solid var(--color-primary-300);
+  border-top: var(--border-radius-md) solid var(--color-primary-700);
+  border-radius: 100%;
+  width: var(--spacing-4xl);
+  height: var(--spacing-4xl);
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
