@@ -21,6 +21,18 @@ export default defineNuxtConfig({
     }
   },
   modules: ['@nuxt/content', '@nuxt/a11y', '@nuxt/hints'],
+  // Phosphor icon SFCs call Vue's renderSlot(). Nitro otherwise externalizes
+  // the package, so those calls use a second Vue copy whose render context is
+  // null after an async setup (portfolio list). That throws during SSR and the
+  // error page is shown as a 404. Bundle the icons with the app Vue.
+  build: {
+    transpile: ['@phosphor-icons/vue'],
+  },
+  nitro: {
+    externals: {
+      inline: ['@phosphor-icons/vue'],
+    },
+  },
   content: {
     // documentDriven removed in v3 - using catch-all routes instead
     renderer: {
